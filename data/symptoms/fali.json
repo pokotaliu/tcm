@@ -1,23 +1,19 @@
 {
   "id": "symptom_fali",
   "name": "乏力",
-  "alias": ["倦怠", "疲乏", "無力", "神疲"],
+  "alias": ["倦怠", "疲乏", "無力", "神疲", "神疲乏力"],
   "category": "全身症狀",
   "description": "身體疲倦無力，精神不振，活動後更甚。是氣虛證的主要表現之一。",
-  "severity_levels": [
-    {
-      "level": "輕",
-      "description": "輕度疲乏，勞累後加重，休息可緩解"
-    },
-    {
-      "level": "中",
-      "description": "明顯乏力，日常活動受影響，休息後難以完全恢復"
-    },
-    {
-      "level": "重",
-      "description": "嚴重乏力，無法進行日常活動，臥床不起"
-    }
+  "related_zhengsu": [
+    {"zhengsu_ids": ["qi_xu"], "weight": "高", "context": "伴氣短、自汗"},
+    {"zhengsu_ids": ["pi", "qi_xu"], "weight": "高", "context": "伴納少、腹脹、便溏"},
+    {"zhengsu_ids": ["xue_xu"], "weight": "中", "context": "伴面色萎黃、心悸"},
+    {"zhengsu_ids": ["yang_xu"], "weight": "中", "context": "伴畏寒肢冷"},
+    {"zhengsu_ids": ["shi"], "weight": "低", "context": "伴身重、頭重如裹"}
   ],
-  "related_zhengsu": ["qi_xu", "xue_xu", "yang_xu", "pi_qi_xu"],
-  "diagnostic_value": "乏力是氣虛證的必見症狀，若伴有自汗、氣短，多屬氣虛；若伴面色萎黃、心悸，多屬血虛；若伴畏寒肢冷，多屬陽虛。"
+  "severity_levels": [
+    {"level": "輕", "description": "輕度疲乏，勞累後加重，休息可緩解"},
+    {"level": "中", "description": "明顯乏力，日常活動受影響，休息後難以完全恢復"},
+    {"level": "重", "description": "嚴重乏力，無法進行日常活動，臥床不起"}
+  ]
 }

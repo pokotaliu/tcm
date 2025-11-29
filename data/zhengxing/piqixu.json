@@ -1,0 +1,22 @@
+{
+  "id": "pi_qi_xu",
+  "name": "脾氣虛證",
+  "alias": ["脾氣不足", "中氣不足"],
+  "zhengsu_composition": {
+    "location": ["pi"],
+    "nature": ["qi_xu"]
+  },
+  "symptoms": {
+    "main": ["symptom_fali", "symptom_nagu", "symptom_fuzhang"],
+    "secondary": ["symptom_bianxi", "面色萎黃", "肌肉消瘦"],
+    "tongue": "舌淡苔白",
+    "pulse": "脈緩弱"
+  },
+  "treatment_principle": ["健脾益氣"],
+  "recommended_formulas": ["sijunzi_tang", "shenling_baizhu_san"],
+  "recommended_herbs": ["ren_shen", "bai_zhu", "fu_ling", "huang_qi"],
+  "differentiate_from": ["pi_yang_xu", "pi_qi_xian"],
+  "can_evolve_to": ["pi_qi_xian", "pi_bu_tong_xue", "fei_pi_qi_xu", "pi_shen_yang_xu"],
+  "description": "脾氣虛證是指脾主運化的功能衰退，以致水穀精微不能輸布，生化之源被遏的病理狀態。表現以納谷少馨、神疲乏力、脘腹脹滿、大便溏泄為主。",
+  "source": "《中醫診斷學》"
+}

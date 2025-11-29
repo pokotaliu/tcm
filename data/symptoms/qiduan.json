@@ -1,0 +1,14 @@
+{
+  "id": "symptom_qiduan",
+  "name": "氣短",
+  "alias": ["呼吸氣短", "少氣", "短氣", "氣不足以息"],
+  "category": "全身症狀",
+  "description": "呼吸短促，深吸為快，氣息不足以息，動則尤甚。",
+  "related_zhengsu": [
+    {"zhengsu_ids": ["qi_xu"], "weight": "高", "context": "活動後加重，休息緩解"},
+    {"zhengsu_ids": ["fei", "qi_xu"], "weight": "高", "context": "伴咳嗽、咳聲不揚"},
+    {"zhengsu_ids": ["xin", "qi_xu"], "weight": "高", "context": "伴心悸、胸悶"},
+    {"zhengsu_ids": ["shen", "qi_xu"], "weight": "中", "context": "伴腰膝酸軟、動輒氣促"},
+    {"zhengsu_ids": ["qi_ni"], "weight": "中", "context": "伴胸悶、呼多吸少"}
+  ]
+}

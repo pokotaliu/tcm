@@ -1,0 +1,13 @@
+{
+  "id": "symptom_zihan",
+  "name": "自汗",
+  "alias": ["怕風自汗", "動則汗出", "衛表不固"],
+  "category": "全身症狀",
+  "description": "不因勞動、天熱、衣著過厚而自然汗出，動則尤甚，常伴惡風。",
+  "related_zhengsu": [
+    {"zhengsu_ids": ["qi_xu", "bu_gu"], "weight": "高", "context": "汗出惡風，動則尤甚"},
+    {"zhengsu_ids": ["biao", "bu_gu"], "weight": "高", "context": "易感冒，衛表不固"},
+    {"zhengsu_ids": ["fei", "qi_xu"], "weight": "高", "context": "伴咳嗽、氣短"},
+    {"zhengsu_ids": ["yang_xu"], "weight": "中", "context": "伴畏寒肢冷，汗冷"}
+  ]
+}

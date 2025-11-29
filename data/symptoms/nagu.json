@@ -1,0 +1,13 @@
+{
+  "id": "symptom_nagu",
+  "name": "納谷少馨",
+  "alias": ["食少", "納差", "不思飲食", "食慾不振"],
+  "category": "胸腹症狀",
+  "description": "食慾減退，進食量少，不思飲食。",
+  "related_zhengsu": [
+    {"zhengsu_ids": ["pi", "qi_xu"], "weight": "高", "context": "伴腹脹、便溏、乏力"},
+    {"zhengsu_ids": ["wei", "qi_xu"], "weight": "高", "context": "伴胃脘痞悶"},
+    {"zhengsu_ids": ["shi"], "weight": "中", "context": "伴口膩、身重"},
+    {"zhengsu_ids": ["shi_ji"], "weight": "中", "context": "伴噯腐吞酸"}
+  ]
+}

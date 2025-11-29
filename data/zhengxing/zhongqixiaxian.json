@@ -1,0 +1,22 @@
+{
+  "id": "zhong_qi_xia_xian",
+  "name": "中氣下陷證",
+  "alias": ["氣陷證", "脾氣下陷"],
+  "zhengsu_composition": {
+    "location": ["pi"],
+    "nature": ["qi_xu", "qi_xian"]
+  },
+  "symptoms": {
+    "main": ["脫肛", "子宮下垂", "胃下垂"],
+    "secondary": ["久瀉久痢", "乏力", "少腹墜脹", "氣短懶言"],
+    "tongue": "舌淡",
+    "pulse": "脈弱"
+  },
+  "treatment_principle": ["補氣升陽"],
+  "recommended_formulas": ["buzhongyiqi_tang"],
+  "recommended_herbs": ["huang_qi", "ren_shen", "sheng_ma", "chai_hu"],
+  "evolved_from": ["pi_qi_xu"],
+  "differentiate_from": ["qi_xu"],
+  "description": "中氣下陷證是氣虛證的進一步發展，由於脾氣虛弱，升舉無力，導致清陽下陷，臟器不能維持正常位置。主要表現為中氣下陷、內臟下垂等。",
+  "source": "《中醫診斷學》"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "symptom_fuzhang",
+  "name": "腹脹",
+  "alias": ["脘腹脹滿", "腹滿"],
+  "category": "胸腹症狀",
+  "description": "腹部脹滿不適，時輕時重。",
+  "related_zhengsu": [
+    {"zhengsu_ids": ["pi", "qi_xu"], "weight": "高", "context": "食後加重，喜按"},
+    {"zhengsu_ids": ["qi_zhi"], "weight": "高", "context": "脹痛走竄，噯氣則舒"},
+    {"zhengsu_ids": ["shi"], "weight": "中", "context": "伴身重、便溏"},
+    {"zhengsu_ids": ["shi_ji"], "weight": "中", "context": "伴噯腐、厭食"}
+  ]
+}

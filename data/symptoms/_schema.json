@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "症狀結構定義",
-  "description": "中醫症狀的標準化描述",
+  "description": "中醫症狀的標準化描述，通過證素建立關聯",
   "type": "object",
-  "required": ["id", "name", "category"],
+  "required": ["id", "name", "category", "related_zhengsu"],
   "properties": {
     "id": {
       "type": "string",
@@ -27,6 +27,30 @@
       "type": "string",
       "description": "症狀描述"
     },
+    "related_zhengsu": {
+      "type": "array",
+      "description": "相關證素組合，按可能性排序",
+      "items": {
+        "type": "object",
+        "required": ["zhengsu_ids", "weight"],
+        "properties": {
+          "zhengsu_ids": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "證素 ID 組合（病位 + 病性）"
+          },
+          "weight": {
+            "type": "string",
+            "enum": ["高", "中", "低"],
+            "description": "該證素組合導致此症狀的可能性"
+          },
+          "context": {
+            "type": "string",
+            "description": "鑑別條件或伴隨特徵"
+          }
+        }
+      }
+    },
     "severity_levels": {
       "type": "array",
       "items": {
@@ -37,15 +61,6 @@
         }
       },
       "description": "嚴重程度分級"
-    },
-    "related_zhengsu": {
-      "type": "array",
-      "items": { "type": "string" },
-      "description": "相關證素 ID 列表"
-    },
-    "diagnostic_value": {
-      "type": "string",
-      "description": "診斷價值說明"
     }
   }
 }

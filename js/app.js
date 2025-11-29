@@ -71,12 +71,21 @@ const HERB_FILES = [
 // 方劑文件列表
 const FORMULA_FILES = [
   'mahuangtang.json',
-  'buzhongyiqi_tang.json'
+  'buzhongyiqi_tang.json',
+  'sijunzi_tang.json',
+  'yupingfeng_san.json'
 ];
 
 // 證型文件列表
 const ZHENGXING_FILES = [
-  'feiqixu.json'
+  'feiqixu.json',
+  'piqixu.json',
+  'xinqixu.json',
+  'ganqixu.json',
+  'shenqixu.json',
+  'qixuelianxu.json',
+  'qixubuning.json',
+  'zhongqixiaxian.json'
 ];
 
 /**

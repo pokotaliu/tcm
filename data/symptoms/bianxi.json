@@ -1,0 +1,13 @@
+{
+  "id": "symptom_bianxi",
+  "name": "便溏",
+  "alias": ["大便溏薄", "便溏泄瀉", "大便稀溏"],
+  "category": "二便症狀",
+  "description": "大便稀薄不成形，次數可增多。",
+  "related_zhengsu": [
+    {"zhengsu_ids": ["pi", "qi_xu"], "weight": "高", "context": "伴乏力、納少"},
+    {"zhengsu_ids": ["pi", "yang_xu"], "weight": "高", "context": "伴畏寒、完穀不化"},
+    {"zhengsu_ids": ["shen", "yang_xu"], "weight": "中", "context": "五更泄瀉"},
+    {"zhengsu_ids": ["shi"], "weight": "中", "context": "伴身重、苔膩"}
+  ]
+}
