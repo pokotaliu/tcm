@@ -1,0 +1,13 @@
+{
+  "id": "symptom_erming",
+  "name": "耳鳴",
+  "alias": ["耳鳴如蟬", "耳中鳴響"],
+  "category": "頭面症狀",
+  "description": "耳中鳴響，如蟬鳴、如潮聲，時輕時重。",
+  "related_zhengsu": [
+    {"zhengsu_ids": ["shen", "qi_xu"], "weight": "高", "context": "鳴聲細弱，勞累加重"},
+    {"zhengsu_ids": ["shen", "jing_kui"], "weight": "高", "context": "伴腰膝酸軟、健忘"},
+    {"zhengsu_ids": ["gan", "yang_kang"], "weight": "中", "context": "鳴聲如潮，伴頭痛眩暈"},
+    {"zhengsu_ids": ["tan", "huo"], "weight": "低", "context": "伴耳悶、痰多"}
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "xin_qi_xu",
+  "name": "心氣虛證",
+  "alias": ["心氣不足"],
+  "zhengsu_composition": {
+    "location": ["xin"],
+    "nature": ["qi_xu"]
+  },
+  "symptoms": {
+    "main": ["symptom_xinji", "symptom_qiduan", "symptom_fali"],
+    "secondary": ["面色蒼白", "健忘", "自汗"],
+    "tongue": "舌淡",
+    "pulse": "脈虛或結代"
+  },
+  "treatment_principle": ["補益心氣"],
+  "recommended_formulas": ["yuanzhi_yinzi", "yangxin_tang"],
+  "recommended_herbs": ["ren_shen", "huang_qi", "fu_ling", "yuan_zhi"],
+  "differentiate_from": ["xin_yang_xu", "xin_xue_xu"],
+  "can_evolve_to": ["xin_yang_xu", "qi_xue_liang_xu"],
+  "description": "心氣虛證是指心主血脈、藏神的功能衰退，以致心氣不能鼓動血脈運行和收斂神氣的病理狀態。表現以面色蒼白、神疲氣短、健忘心悸為主。",
+  "source": "《中醫診斷學》"
+}

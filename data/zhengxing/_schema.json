@@ -42,12 +42,12 @@
         "main": {
           "type": "array",
           "items": { "type": "string" },
-          "description": "主症 ID 列表"
+          "description": "主症（症狀 ID 或文字描述）"
         },
         "secondary": {
           "type": "array",
           "items": { "type": "string" },
-          "description": "次症 ID 列表"
+          "description": "次症"
         },
         "tongue": {
           "type": "string",
@@ -75,6 +75,21 @@
       "items": { "type": "string" },
       "description": "推薦中藥 ID 列表"
     },
+    "differentiate_from": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "需鑑別的其他證型 ID"
+    },
+    "can_evolve_to": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "可能演變成的證型 ID"
+    },
+    "evolved_from": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "由哪些證型演變而來"
+    },
     "related_diseases": {
       "type": "array",
       "items": { "type": "string" },
@@ -83,6 +98,10 @@
     "description": {
       "type": "string",
       "description": "證型說明"
+    },
+    "source": {
+      "type": "string",
+      "description": "文獻出處"
     }
   }
 }

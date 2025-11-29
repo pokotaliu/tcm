@@ -1,0 +1,20 @@
+{
+  "id": "gan_qi_xu",
+  "name": "肝氣虛證",
+  "alias": ["肝氣不足"],
+  "zhengsu_composition": {
+    "location": ["gan"],
+    "nature": ["qi_xu"]
+  },
+  "symptoms": {
+    "main": ["symptom_qiduan", "驚惕不寧", "膽怯"],
+    "secondary": ["心煩", "口苦", "目眩"],
+    "tongue": "舌淡",
+    "pulse": "脈弦細無力"
+  },
+  "treatment_principle": ["補氣益志", "壯肝膽"],
+  "recommended_formulas": ["anshen_dingzhi_wan"],
+  "differentiate_from": ["gan_xue_xu", "gan_yin_xu"],
+  "description": "肝氣虛證是指肝主疏泄的功能衰退，影響了肝氣的生發。表現以氣短心煩、驚惕不寧、膽怯、口苦為主。",
+  "source": "《中醫診斷學》"
+}

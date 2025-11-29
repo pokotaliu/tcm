@@ -1,0 +1,13 @@
+{
+  "id": "symptom_yaoxisuanruan",
+  "name": "腰膝酸軟",
+  "alias": ["腰酸", "膝軟", "腰膝無力"],
+  "category": "四肢症狀",
+  "description": "腰部及膝部酸軟無力，甚則疼痛。",
+  "related_zhengsu": [
+    {"zhengsu_ids": ["shen", "qi_xu"], "weight": "高", "context": "伴耳鳴、氣短"},
+    {"zhengsu_ids": ["shen", "yang_xu"], "weight": "高", "context": "伴畏寒、肢冷"},
+    {"zhengsu_ids": ["shen", "yin_xu"], "weight": "高", "context": "伴潮熱、盜汗"},
+    {"zhengsu_ids": ["jing_kui"], "weight": "中", "context": "伴早衰、健忘"}
+  ]
+}

@@ -7,14 +7,17 @@
     "nature": ["qi_xu"]
   },
   "symptoms": {
-    "main": ["symptom_fali", "symptom_qiduan", "symptom_kesou"],
-    "secondary": ["symptom_zihan", "symptom_shengdiweiqie", "symptom_yidong"],
+    "main": ["symptom_qiduan", "symptom_zihan", "symptom_shengdiweiqie"],
+    "secondary": ["咳嗽無力", "痰白清稀", "易感冒"],
     "tongue": "舌淡苔白",
     "pulse": "脈虛弱"
   },
   "treatment_principle": ["補益肺氣"],
-  "recommended_formulas": ["formula_sijunzi", "formula_bufeiwan"],
-  "recommended_herbs": ["herb_huangqi", "herb_renshen", "herb_baizhu"],
-  "related_diseases": ["disease_ganmao", "disease_kesou"],
-  "description": "肺氣虛證是指肺的生理功能減弱，宗氣不足所表現的證候。多由久病咳喘耗傷肺氣，或因脾虛生化不足，或因年老體衰、元氣虧虛所致。"
+  "recommended_formulas": ["bufei_tang", "yupingfeng_san"],
+  "recommended_herbs": ["huang_qi", "ren_shen", "bai_zhu"],
+  "differentiate_from": ["fei_yin_xu", "fei_yang_xu"],
+  "can_evolve_to": ["fei_pi_qi_xu", "qi_xu_tan_sou", "biao_wei_bu_gu"],
+  "related_diseases": ["disease_ganmao", "disease_kesou", "disease_chuan"],
+  "description": "肺氣虛證是指肺的生理功能減弱，宗氣不足所表現的證候。多由久病咳喘耗傷肺氣，或因脾虛生化不足，或因年老體衰、元氣虧虛所致。",
+  "source": "《中醫診斷學》"
 }

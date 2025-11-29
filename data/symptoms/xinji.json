@@ -1,0 +1,14 @@
+{
+  "id": "symptom_xinji",
+  "name": "心悸",
+  "alias": ["心慌", "怔忡", "心跳"],
+  "category": "胸腹症狀",
+  "description": "自覺心跳心慌，時作時止，或持續不止。",
+  "related_zhengsu": [
+    {"zhengsu_ids": ["xin", "qi_xu"], "weight": "高", "context": "活動後加重，伴氣短"},
+    {"zhengsu_ids": ["xin", "xue_xu"], "weight": "高", "context": "伴失眠、面色淡白"},
+    {"zhengsu_ids": ["xin", "yin_xu"], "weight": "中", "context": "伴煩熱、盜汗"},
+    {"zhengsu_ids": ["tan"], "weight": "中", "context": "伴胸悶、痰多"},
+    {"zhengsu_ids": ["xue_yu"], "weight": "中", "context": "伴胸痛、唇舌紫暗"}
+  ]
+}

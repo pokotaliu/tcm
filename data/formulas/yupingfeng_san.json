@@ -1,0 +1,36 @@
+{
+  "id": "yupingfeng_san",
+  "name": "玉屏風散",
+  "pinyin": "Yu Ping Feng San",
+  "alias": [],
+  "source": "丹溪心法",
+  "category": "補益劑",
+  "composition": [
+    {"herb_id": "huang_qi", "name": "黃耆", "amount": "30g", "role": "君", "is_guide": false},
+    {"herb_id": "bai_zhu", "name": "白朮", "amount": "15g", "role": "臣", "is_guide": false},
+    {"herb_id": "fang_feng", "name": "防風", "amount": "15g", "role": "佐", "is_guide": false}
+  ],
+  "calculated_weights": {
+    "treatment": {
+      "補氣": 5.0,
+      "收攝": 4.0,
+      "祛風": 1.5
+    },
+    "location": {
+      "biao": 4.0,
+      "pi": 3.0,
+      "fei": 3.0
+    },
+    "nature": {
+      "qi_xu": 5.0,
+      "bu_gu": 4.0,
+      "feng": 1.5
+    }
+  },
+  "primary_zhengsu": ["biao", "qi_xu", "bu_gu"],
+  "primary_pattern": "表虛自汗證",
+  "effects": ["益氣固表", "止汗"],
+  "indications": "表虛自汗證。汗出惡風，面色㿠白，易感冒，舌淡苔白，脈浮虛。",
+  "contraindications": ["表實證", "外感風寒"],
+  "cautions": []
+}

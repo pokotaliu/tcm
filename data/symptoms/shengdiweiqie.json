@@ -1,0 +1,12 @@
+{
+  "id": "symptom_shengdiweiqie",
+  "name": "聲低懶言",
+  "alias": ["語聲低微", "少氣懶言", "不欲言語"],
+  "category": "全身症狀",
+  "description": "說話聲音低弱，不願多言，氣短乏力。",
+  "related_zhengsu": [
+    {"zhengsu_ids": ["qi_xu"], "weight": "高", "context": "伴乏力、氣短"},
+    {"zhengsu_ids": ["fei", "qi_xu"], "weight": "高", "context": "伴咳嗽無力"},
+    {"zhengsu_ids": ["xin", "qi_xu"], "weight": "中", "context": "伴心悸、神疲"}
+  ]
+}

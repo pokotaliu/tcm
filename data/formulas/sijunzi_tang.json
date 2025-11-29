@@ -1,0 +1,34 @@
+{
+  "id": "sijunzi_tang",
+  "name": "四君子湯",
+  "pinyin": "Si Jun Zi Tang",
+  "alias": [],
+  "source": "太平惠民和劑局方",
+  "category": "補益劑",
+  "composition": [
+    {"herb_id": "ren_shen", "name": "人參", "amount": "9g", "role": "君", "is_guide": false},
+    {"herb_id": "bai_zhu", "name": "白朮", "amount": "9g", "role": "臣", "is_guide": false},
+    {"herb_id": "fu_ling", "name": "茯苓", "amount": "9g", "role": "佐", "is_guide": false},
+    {"herb_id": "zhi_gan_cao", "name": "炙甘草", "amount": "6g", "role": "使", "is_guide": false}
+  ],
+  "calculated_weights": {
+    "treatment": {
+      "補氣": 6.0,
+      "化濕": 1.0
+    },
+    "location": {
+      "pi": 5.0,
+      "fei": 2.0
+    },
+    "nature": {
+      "qi_xu": 6.0,
+      "shi": 1.0
+    }
+  },
+  "primary_zhengsu": ["pi", "qi_xu"],
+  "primary_pattern": "脾胃氣虛證",
+  "effects": ["益氣健脾"],
+  "indications": "脾胃氣虛證。面色萎白，語聲低微，氣短乏力，食少便溏，舌淡苔白，脈虛弱。",
+  "contraindications": ["實證", "熱證"],
+  "cautions": ["陰虛內熱者慎用"]
+}

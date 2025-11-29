@@ -1,0 +1,20 @@
+{
+  "id": "qi_xu_bu_gu",
+  "name": "氣不固攝證",
+  "alias": ["氣不攝血", "氣虛不固"],
+  "zhengsu_composition": {
+    "location": [],
+    "nature": ["qi_xu", "bu_gu"]
+  },
+  "symptoms": {
+    "main": ["自汗", "出血", "遺尿遺精"],
+    "secondary": ["乏力", "氣短", "面色淡白"],
+    "tongue": "舌淡",
+    "pulse": "脈虛弱"
+  },
+  "treatment_principle": ["補氣固攝"],
+  "recommended_formulas": ["buzhongyiqi_tang", "guipi_tang"],
+  "evolved_from": ["qi_xu"],
+  "description": "氣虛不能統攝血液、津液、精氣的病理狀態。表現為各種出血、自汗、遺精、遺尿、滑胎等。",
+  "source": "《中醫診斷學》"
+}

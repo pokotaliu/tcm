@@ -1,0 +1,20 @@
+{
+  "id": "qi_xue_liang_xu",
+  "name": "氣血兩虛證",
+  "alias": ["氣血雙虧", "氣血不足"],
+  "zhengsu_composition": {
+    "location": [],
+    "nature": ["qi_xu", "xue_xu"]
+  },
+  "symptoms": {
+    "main": ["symptom_fali", "頭暈眼花", "symptom_xinji"],
+    "secondary": ["面色無華", "少氣懶言", "納谷少思"],
+    "tongue": "舌質淡胖",
+    "pulse": "脈細弱"
+  },
+  "treatment_principle": ["益氣養血"],
+  "recommended_formulas": ["bazhen_tang", "shiquan_dabu_tang"],
+  "evolved_from": ["qi_xu", "xue_xu"],
+  "description": "氣血兩虛證是指氣虛與血虛同時存在的病理狀態。因氣血同源，氣虛不能生化血液，血虛影響了血的滋養，故出現氣血兩虛。",
+  "source": "《中醫診斷學》"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "shen_qi_xu",
+  "name": "腎氣虛證",
+  "alias": ["腎氣不足"],
+  "zhengsu_composition": {
+    "location": ["shen"],
+    "nature": ["qi_xu"]
+  },
+  "symptoms": {
+    "main": ["symptom_yaoxisuanruan", "symptom_erming", "symptom_qiduan"],
+    "secondary": ["眩暈", "動輒氣促", "遺精遺尿", "小便清長"],
+    "tongue": "舌淡",
+    "pulse": "脈沉弱"
+  },
+  "treatment_principle": ["補益腎氣"],
+  "recommended_formulas": ["dabu_yuanjian", "shenha_san"],
+  "recommended_herbs": ["shu_di", "shan_yao", "shan_zhu_yu", "tu_si_zi"],
+  "differentiate_from": ["shen_yang_xu", "shen_yin_xu", "jing_kui"],
+  "can_evolve_to": ["shen_yang_xu", "shen_bu_na_qi"],
+  "description": "腎氣虛證是指腎藏精、納氣的功能衰退，腎精不能化氣以養身形的病理狀態。表現以腰膝酸軟、眩暈耳鳴、動輒氣促、遺精遺尿、小便清長為主。",
+  "source": "《中醫診斷學》"
+}
