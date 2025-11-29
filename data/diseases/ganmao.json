@@ -1,0 +1,48 @@
+{
+  "id": "disease_ganmao",
+  "name": "感冒",
+  "alias": ["傷風", "冒風"],
+  "category": "外感病",
+  "western_medicine_reference": ["普通感冒", "流行性感冒", "上呼吸道感染"],
+  "etiology": [
+    "外感六淫之邪，以風邪為主",
+    "時行疫毒",
+    "正氣不足，衛表不固"
+  ],
+  "pathogenesis": "風邪侵襲人體肌表，衛氣被遏，肺失宣降，出現惡寒發熱、鼻塞流涕、噴嚏、頭痛、咳嗽等症。病位主要在肺衛，病性有寒熱之分。",
+  "main_symptoms": ["symptom_ehan", "symptom_fare", "symptom_bitong", "symptom_kesou", "symptom_toutong"],
+  "zhengxing_patterns": [
+    {
+      "zhengxing_id": "feng_han_shu_biao",
+      "frequency": "常見",
+      "stage": "初期"
+    },
+    {
+      "zhengxing_id": "feng_re_fan_biao",
+      "frequency": "常見",
+      "stage": "初期"
+    },
+    {
+      "zhengxing_id": "shu_shi_shang_biao",
+      "frequency": "較常見",
+      "stage": "夏季"
+    },
+    {
+      "zhengxing_id": "fei_qi_xu",
+      "frequency": "較常見",
+      "stage": "恢復期或反覆感冒者"
+    }
+  ],
+  "treatment_principles": [
+    "解表達邪",
+    "宣肺利竅",
+    "因時因人制宜"
+  ],
+  "prevention": [
+    "起居有常，適時增減衣物",
+    "加強體育鍛煉，增強體質",
+    "流行季節避免到人多處",
+    "飲食清淡，忌食生冷油膩"
+  ],
+  "prognosis": "感冒一般病情較輕，病程短，預後良好。若素體虛弱或失治誤治，可傳變入裡，發為咳嗽、肺炎等病。"
+}

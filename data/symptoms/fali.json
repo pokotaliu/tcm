@@ -1,0 +1,23 @@
+{
+  "id": "symptom_fali",
+  "name": "乏力",
+  "alias": ["倦怠", "疲乏", "無力", "神疲"],
+  "category": "全身症狀",
+  "description": "身體疲倦無力，精神不振，活動後更甚。是氣虛證的主要表現之一。",
+  "severity_levels": [
+    {
+      "level": "輕",
+      "description": "輕度疲乏，勞累後加重，休息可緩解"
+    },
+    {
+      "level": "中",
+      "description": "明顯乏力，日常活動受影響，休息後難以完全恢復"
+    },
+    {
+      "level": "重",
+      "description": "嚴重乏力，無法進行日常活動，臥床不起"
+    }
+  ],
+  "related_zhengsu": ["qi_xu", "xue_xu", "yang_xu", "pi_qi_xu"],
+  "diagnostic_value": "乏力是氣虛證的必見症狀，若伴有自汗、氣短，多屬氣虛；若伴面色萎黃、心悸，多屬血虛；若伴畏寒肢冷，多屬陽虛。"
+}

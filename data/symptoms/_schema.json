@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "症狀結構定義",
+  "description": "中醫症狀的標準化描述",
+  "type": "object",
+  "required": ["id", "name", "category"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "唯一識別碼（symptom_ 前綴 + 拼音）"
+    },
+    "name": {
+      "type": "string",
+      "description": "症狀名稱"
+    },
+    "alias": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "別名列表"
+    },
+    "category": {
+      "type": "string",
+      "description": "症狀類別",
+      "enum": ["全身症狀", "頭面症狀", "胸腹症狀", "四肢症狀", "二便症狀", "舌象", "脈象", "其他"]
+    },
+    "description": {
+      "type": "string",
+      "description": "症狀描述"
+    },
+    "severity_levels": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "level": { "type": "string", "enum": ["輕", "中", "重"] },
+          "description": { "type": "string" }
+        }
+      },
+      "description": "嚴重程度分級"
+    },
+    "related_zhengsu": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "相關證素 ID 列表"
+    },
+    "diagnostic_value": {
+      "type": "string",
+      "description": "診斷價值說明"
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "證型結構定義",
+  "description": "證型是證素的組合，由病位證素和病性證素組合而成",
+  "type": "object",
+  "required": ["id", "name", "zhengsu_composition", "symptoms", "treatment_principle"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "唯一識別碼（拼音格式）"
+    },
+    "name": {
+      "type": "string",
+      "description": "證型名稱"
+    },
+    "alias": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "別名列表"
+    },
+    "zhengsu_composition": {
+      "type": "object",
+      "description": "證素組成",
+      "properties": {
+        "location": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "病位證素 ID 列表"
+        },
+        "nature": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "病性證素 ID 列表"
+        }
+      },
+      "required": ["location", "nature"]
+    },
+    "symptoms": {
+      "type": "object",
+      "description": "症狀表現",
+      "properties": {
+        "main": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "主症 ID 列表"
+        },
+        "secondary": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "次症 ID 列表"
+        },
+        "tongue": {
+          "type": "string",
+          "description": "舌象"
+        },
+        "pulse": {
+          "type": "string",
+          "description": "脈象"
+        }
+      },
+      "required": ["main"]
+    },
+    "treatment_principle": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "治則治法"
+    },
+    "recommended_formulas": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "推薦方劑 ID 列表"
+    },
+    "recommended_herbs": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "推薦中藥 ID 列表"
+    },
+    "related_diseases": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "相關疾病 ID 列表"
+    },
+    "description": {
+      "type": "string",
+      "description": "證型說明"
+    }
+  }
+}

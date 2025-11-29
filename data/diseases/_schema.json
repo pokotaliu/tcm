@@ -1,0 +1,73 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "疾病結構定義",
+  "description": "中醫疾病的標準化描述",
+  "type": "object",
+  "required": ["id", "name", "category", "zhengxing_patterns"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "唯一識別碼（disease_ 前綴 + 拼音）"
+    },
+    "name": {
+      "type": "string",
+      "description": "疾病名稱"
+    },
+    "alias": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "別名列表"
+    },
+    "category": {
+      "type": "string",
+      "description": "疾病類別",
+      "enum": ["外感病", "內傷病", "婦科病", "兒科病", "外科病", "皮膚病", "五官科病"]
+    },
+    "western_medicine_reference": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "西醫病名參考"
+    },
+    "etiology": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "病因"
+    },
+    "pathogenesis": {
+      "type": "string",
+      "description": "病機概述"
+    },
+    "main_symptoms": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "主要症狀 ID 列表"
+    },
+    "zhengxing_patterns": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "zhengxing_id": { "type": "string", "description": "證型 ID" },
+          "frequency": { "type": "string", "enum": ["常見", "較常見", "少見"], "description": "臨床常見度" },
+          "stage": { "type": "string", "description": "好發階段" }
+        },
+        "required": ["zhengxing_id"]
+      },
+      "description": "常見證型"
+    },
+    "treatment_principles": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "治療大法"
+    },
+    "prevention": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "預防調護"
+    },
+    "prognosis": {
+      "type": "string",
+      "description": "預後轉歸"
+    }
+  }
+}
