@@ -1,0 +1,10 @@
+{
+  "id": "dachang",
+  "name": "大腸",
+  "category": "病位",
+  "subcategory": "六腑",
+  "treatment": null,
+  "is_critical": false,
+  "alias": ["大腸腑"],
+  "description": "大腸為傳導之官，主傳化糟粕。大腸病多見便秘、腹瀉、腹痛、便血等症。"
+}

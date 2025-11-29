@@ -1,0 +1,10 @@
+{
+  "id": "huo",
+  "name": "火",
+  "category": "病性",
+  "subcategory": "外邪",
+  "treatment": "瀉火",
+  "is_critical": false,
+  "alias": ["火邪", "熱"],
+  "description": "火為陽邪，性炎上。火邪致病特點為燔灼、升騰，易傷津耗氣，生風動血，表現為高熱、煩渴、面紅目赤等症。"
+}

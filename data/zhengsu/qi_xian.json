@@ -1,0 +1,10 @@
+{
+  "id": "qi_xian",
+  "name": "氣陷",
+  "category": "病性",
+  "subcategory": "氣機病變",
+  "treatment": "升提",
+  "is_critical": false,
+  "alias": ["中氣下陷"],
+  "description": "氣陷是指氣虛無力升舉，清陽下陷的病理狀態。常見於脾氣虛弱，表現為內臟下垂、脫肛、久瀉久痢等症。"
+}

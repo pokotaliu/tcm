@@ -1,0 +1,10 @@
+{
+  "id": "du",
+  "name": "毒",
+  "category": "病性",
+  "subcategory": "外邪",
+  "treatment": "解毒",
+  "is_critical": false,
+  "alias": ["毒邪", "熱毒"],
+  "description": "毒為邪氣亢盛之極的病理狀態。毒邪致病特點為發病急驟、病情危重，表現為紅腫熱痛、潰爛化膿、疫癘傳染等症。"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "jin_kui",
+  "name": "津虧",
+  "category": "病性",
+  "subcategory": "精津病變",
+  "treatment": "生津",
+  "is_critical": false,
+  "alias": ["津液不足", "傷津"],
+  "description": "津虧是指津液耗損不足的病理狀態。表現為口乾咽燥、皮膚乾燥、小便短少、大便乾結、舌乾少津等症。"
+}

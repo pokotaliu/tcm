@@ -1,0 +1,10 @@
+{
+  "id": "xue_yu",
+  "name": "血瘀",
+  "category": "病性",
+  "subcategory": "血液病變",
+  "treatment": "活血",
+  "is_critical": false,
+  "alias": ["瘀血", "血滯"],
+  "description": "血瘀是指血液運行不暢或瘀滯不通的病理狀態。表現為刺痛、固定不移、拒按、腫塊、舌紫暗有瘀斑等症。"
+}

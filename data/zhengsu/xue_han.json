@@ -1,0 +1,10 @@
+{
+  "id": "xue_han",
+  "name": "血寒",
+  "category": "病性",
+  "subcategory": "血液病變",
+  "treatment": "溫經",
+  "is_critical": false,
+  "alias": ["血分寒"],
+  "description": "血寒是指寒邪客於血脈，血行凝滯的病理狀態。表現為肢體冷痛、面色青紫、經行不暢、經血紫暗有塊等症。"
+}

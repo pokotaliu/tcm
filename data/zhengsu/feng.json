@@ -1,0 +1,10 @@
+{
+  "id": "feng",
+  "name": "風",
+  "category": "病性",
+  "subcategory": "外邪",
+  "treatment": "祛風",
+  "is_critical": false,
+  "alias": ["風邪", "外風"],
+  "description": "風為百病之長，善行而數變。風邪致病特點為發病迅速、遊走不定、動搖不穩，表現為頭痛、鼻塞、瘙癢、抽搐等症。"
+}

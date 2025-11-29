@@ -1,0 +1,162 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "中藥結構定義",
+  "description": "以證素為核心的中藥資料結構，每個中藥的功效對應特定的證素組合",
+  "type": "object",
+  "required": ["id", "name", "pinyin", "category", "properties", "functions"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "唯一識別碼（拼音格式，如 ma_huang）"
+    },
+    "name": {
+      "type": "string",
+      "description": "中藥名稱"
+    },
+    "pinyin": {
+      "type": "string",
+      "description": "拼音"
+    },
+    "alias": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "別名列表"
+    },
+    "category": {
+      "type": "string",
+      "description": "藥物分類",
+      "enum": [
+        "解表藥", "清熱藥", "瀉下藥", "祛風濕藥", "化濕藥",
+        "利水滲濕藥", "溫裡藥", "理氣藥", "消食藥", "驅蟲藥",
+        "止血藥", "活血化瘀藥", "化痰止咳平喘藥", "安神藥",
+        "平肝熄風藥", "開竅藥", "補虛藥", "收澀藥", "涌吐藥",
+        "解毒殺蟲燥濕止癢藥", "拔毒化腐生肌藥"
+      ]
+    },
+    "properties": {
+      "type": "object",
+      "description": "藥物性味歸經",
+      "required": ["nature", "flavor", "meridians"],
+      "properties": {
+        "nature": {
+          "type": "string",
+          "description": "藥性",
+          "enum": ["寒", "涼", "平", "溫", "熱"]
+        },
+        "flavor": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["辛", "甘", "酸", "苦", "鹹", "淡", "澀", "微辛", "微甘", "微酸", "微苦", "微鹹"]
+          },
+          "description": "藥味"
+        },
+        "meridians": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["心", "肝", "脾", "肺", "腎", "胃", "膽", "小腸", "大腸", "膀胱", "三焦", "心包"]
+          },
+          "description": "歸經"
+        }
+      }
+    },
+    "functions": {
+      "type": "array",
+      "description": "功效列表，每個功效對應特定的證素組合",
+      "items": {
+        "type": "object",
+        "required": ["treatment", "zhengsu", "manifestations"],
+        "properties": {
+          "treatment": {
+            "type": "string",
+            "description": "治法，對應病性證素的標準治法"
+          },
+          "zhengsu": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "證素 ID 列表，包含病位和病性"
+          },
+          "prerequisite": {
+            "type": ["string", "null"],
+            "description": "前提條件（劑量、配伍等要求），無特殊要求時為 null"
+          },
+          "manifestations": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "主要表現症狀"
+          }
+        }
+      }
+    },
+    "contraindications": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "禁忌證素 ID 列表"
+    },
+    "dosage": {
+      "type": "string",
+      "description": "常用劑量範圍"
+    },
+    "cautions": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "使用注意事項"
+    }
+  },
+  "證素ID參考": {
+    "病位": {
+      "五臟": ["xin", "gan", "pi", "fei", "shen"],
+      "六腑": ["wei", "dan", "xiaochang", "dachang", "pangguang"],
+      "特殊": ["baogong", "jingshi"],
+      "部位": ["xiongge", "shaofu"],
+      "表裡": ["biao", "banbiaobanli"],
+      "形體": ["jifu", "jingluo", "jingu"]
+    },
+    "病性": {
+      "氣機病變": ["qi_xu", "qi_zhi", "qi_ni", "qi_xian", "qi_bi", "bu_gu", "qi_tuo"],
+      "血液病變": ["xue_xu", "xue_yu", "xue_re", "xue_han", "dong_xue"],
+      "陰陽病變": ["yin_xu", "yang_xu", "yang_kang", "yang_fu", "wang_yin", "wang_yang"],
+      "外邪": ["feng", "han", "shu", "shi", "zao", "huo", "du"],
+      "病理產物": ["tan", "yin", "shui_ting", "nong", "shi_ji", "chong_ji"],
+      "精津病變": ["jin_kui", "jing_kui"],
+      "內生病邪": ["dong_feng"]
+    }
+  },
+  "治法對應表": {
+    "feng": "祛風",
+    "han": "散寒",
+    "shu": "清暑",
+    "shi": "化濕",
+    "zao": "潤燥",
+    "huo": "瀉火",
+    "du": "解毒",
+    "tan": "化痰",
+    "yin": "化飲",
+    "shui_ting": "利水",
+    "nong": "排膿",
+    "shi_ji": "消食",
+    "chong_ji": "驅蟲",
+    "qi_xu": "補氣",
+    "qi_zhi": "行氣",
+    "qi_ni": "降氣",
+    "qi_xian": "升提",
+    "qi_bi": "開閉",
+    "bu_gu": "收攝",
+    "qi_tuo": "固脫",
+    "xue_xu": "補血",
+    "xue_yu": "活血",
+    "xue_re": "涼血",
+    "xue_han": "溫經",
+    "dong_xue": "止血",
+    "yin_xu": "滋陰",
+    "yang_xu": "溫陽",
+    "yang_kang": "平肝潛陽",
+    "yang_fu": "引火歸元",
+    "wang_yin": "救陰",
+    "wang_yang": "回陽",
+    "dong_feng": "熄風",
+    "jin_kui": "生津",
+    "jing_kui": "填精"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "biao",
+  "name": "表",
+  "category": "病位",
+  "subcategory": "表裡",
+  "treatment": null,
+  "is_critical": false,
+  "alias": ["肌表", "體表"],
+  "description": "表為人體外表，包括皮毛、肌腠。表證多見惡寒發熱、頭痛、身痛、鼻塞等症。"
+}

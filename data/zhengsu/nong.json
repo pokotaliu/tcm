@@ -1,0 +1,10 @@
+{
+  "id": "nong",
+  "name": "膿",
+  "category": "病性",
+  "subcategory": "病理產物",
+  "treatment": "排膿",
+  "is_critical": false,
+  "alias": ["膿毒"],
+  "description": "膿為熱毒壅盛、腐蝕血肉所形成的病理產物。表現為局部紅腫熱痛、潰爛化膿，伴發熱、疼痛等症。"
+}

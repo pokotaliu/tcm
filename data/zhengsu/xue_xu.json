@@ -1,0 +1,10 @@
+{
+  "id": "xue_xu",
+  "name": "血虛",
+  "category": "病性",
+  "subcategory": "血液病變",
+  "treatment": "補血",
+  "is_critical": false,
+  "alias": ["血弱", "血少"],
+  "description": "血虛是指血液不足，濡養功能減退的病理狀態。表現為面色萎黃、唇甲色淡、頭暈眼花、心悸失眠等症。"
+}

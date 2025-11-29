@@ -1,0 +1,10 @@
+{
+  "id": "qi_ni",
+  "name": "氣逆",
+  "category": "病性",
+  "subcategory": "氣機病變",
+  "treatment": "降氣",
+  "is_critical": false,
+  "alias": ["氣上逆"],
+  "description": "氣逆是指氣機升降失常，當降不降，上逆為患的病理狀態。常見於肺、胃，表現為咳嗽、喘息、嘔吐、呃逆等症。"
+}

@@ -1,4 +1,4 @@
-/* 中醫藥查詢系統樣式 */
+/* 中醫證素辨證資料庫樣式 */
 
 :root {
   --primary-color: #5d4e37;
@@ -14,6 +14,9 @@
   --cool: #4a90a4;
   --cold: #2e5a8c;
   --neutral: #6b705c;
+  --critical: #c41e3a;
+  --bingwei: #6b8e23;
+  --bingxing: #8b4513;
 }
 
 * {
@@ -55,6 +58,219 @@ header p {
   max-width: 1200px;
   margin: 0 auto;
   padding: 1.5rem;
+}
+
+/* 統計卡片 */
+.stats-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.stat-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.stat-card:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.stat-number {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-bottom: 0.3rem;
+}
+
+.stat-label {
+  font-size: 1.1rem;
+  color: var(--text-color);
+  margin-bottom: 0.3rem;
+}
+
+.stat-detail {
+  font-size: 0.8rem;
+  color: var(--text-light);
+}
+
+/* 區塊標題 */
+.section-title {
+  font-size: 1.4rem;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--border-color);
+}
+
+/* 證素速覽 */
+.zhengsu-section {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.zhengsu-tabs {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.zhengsu-tab {
+  padding: 0.6rem 1.2rem;
+  background: #fff;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.95rem;
+  transition: all 0.2s;
+}
+
+.zhengsu-tab:hover {
+  border-color: var(--secondary-color);
+}
+
+.zhengsu-tab.active {
+  background: var(--primary-color);
+  color: #fff;
+  border-color: var(--primary-color);
+}
+
+.zhengsu-content {
+  display: grid;
+  gap: 1rem;
+}
+
+.zhengsu-content.hidden {
+  display: none;
+}
+
+.zhengsu-group h4 {
+  font-size: 0.9rem;
+  color: var(--secondary-color);
+  margin-bottom: 0.5rem;
+}
+
+.zhengsu-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.zhengsu-tag {
+  padding: 0.4rem 0.8rem;
+  background: #fff;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.2s;
+}
+
+.zhengsu-tag:hover {
+  border-color: var(--secondary-color);
+  background: #faf8f5;
+}
+
+.zhengsu-tag.bingwei {
+  border-left: 3px solid var(--bingwei);
+}
+
+.zhengsu-tag.bingxing {
+  border-left: 3px solid var(--bingxing);
+}
+
+.zhengsu-tag.critical {
+  border-left: 3px solid var(--critical);
+  background: rgba(196, 30, 58, 0.05);
+}
+
+/* 彈窗 */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-overlay.hidden {
+  display: none;
+}
+
+.modal-content {
+  background: #fff;
+  border-radius: 8px;
+  padding: 2rem;
+  max-width: 500px;
+  width: 90%;
+  position: relative;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: var(--text-light);
+}
+
+.modal-close:hover {
+  color: var(--text-color);
+}
+
+.modal-content h3 {
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
+}
+
+.modal-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.modal-row {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.modal-label {
+  color: var(--secondary-color);
+  min-width: 4rem;
+}
+
+.critical-badge {
+  background: var(--critical);
+  color: #fff;
+  padding: 0.3rem 0.8rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+}
+
+/* 中藥區 */
+.herb-section {
+  margin-bottom: 2rem;
 }
 
 /* 搜尋區 */
@@ -158,6 +374,28 @@ header p {
 .filter-tag[data-nature="熱"] { border-left: 3px solid var(--hot); }
 .filter-tag[data-nature="平"] { border-left: 3px solid var(--neutral); }
 
+/* 篩選操作 */
+.filter-actions {
+  margin-top: 1rem;
+  text-align: right;
+}
+
+.btn-secondary {
+  padding: 0.5rem 1rem;
+  background: #fff;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.9rem;
+  transition: all 0.2s;
+}
+
+.btn-secondary:hover {
+  border-color: var(--secondary-color);
+  background: #faf8f5;
+}
+
 /* 統計資訊 */
 .stats {
   text-align: center;
@@ -235,6 +473,11 @@ header p {
   color: var(--text-light);
 }
 
+.herb-tag.zhengsu-tag-item {
+  background: rgba(139, 69, 19, 0.1);
+  color: var(--bingxing);
+}
+
 /* 展開詳情 */
 .herb-details {
   display: none;
@@ -283,6 +526,46 @@ header p {
   font-size: 0.85rem;
 }
 
+/* 功效列表 */
+.function-list {
+  list-style: none;
+}
+
+.function-item {
+  padding: 0.8rem;
+  background: var(--bg-color);
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+
+.function-item:last-child {
+  margin-bottom: 0;
+}
+
+.function-treatment {
+  font-weight: 500;
+  color: var(--primary-color);
+  margin-bottom: 0.3rem;
+}
+
+.function-zhengsu {
+  font-size: 0.85rem;
+  color: var(--bingxing);
+  margin-bottom: 0.3rem;
+}
+
+.function-manifestations {
+  font-size: 0.85rem;
+  color: var(--text-light);
+}
+
+.function-prerequisite {
+  font-size: 0.8rem;
+  color: var(--accent-color);
+  font-style: italic;
+  margin-top: 0.3rem;
+}
+
 /* 展開箭頭 */
 .expand-icon {
   float: right;
@@ -300,13 +583,6 @@ header p {
   padding: 3rem;
   color: var(--text-light);
   grid-column: 1 / -1;
-}
-
-.no-results::before {
-  content: "🍃";
-  display: block;
-  font-size: 3rem;
-  margin-bottom: 1rem;
 }
 
 /* 載入狀態 */
@@ -333,6 +609,11 @@ header p {
   to { transform: rotate(360deg); }
 }
 
+/* 隱藏 */
+.hidden {
+  display: none !important;
+}
+
 /* 頁尾 */
 footer {
   text-align: center;
@@ -344,6 +625,12 @@ footer {
 }
 
 /* 響應式設計 */
+@media (max-width: 1024px) {
+  .stats-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 @media (max-width: 768px) {
   header h1 {
     font-size: 1.6rem;
@@ -352,6 +639,23 @@ footer {
 
   .container {
     padding: 1rem;
+  }
+
+  .stats-cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+  }
+
+  .stat-card {
+    padding: 1rem;
+  }
+
+  .stat-number {
+    font-size: 1.8rem;
+  }
+
+  .zhengsu-tabs {
+    flex-direction: column;
   }
 
   .search-section {
@@ -385,6 +689,11 @@ footer {
   .herb-name {
     font-size: 1.1rem;
   }
+
+  .modal-content {
+    padding: 1.5rem;
+    width: 95%;
+  }
 }
 
 @media (max-width: 480px) {
@@ -394,6 +703,18 @@ footer {
 
   header h1 {
     font-size: 1.4rem;
+  }
+
+  .stats-cards {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .stat-number {
+    font-size: 1.5rem;
+  }
+
+  .stat-label {
+    font-size: 0.9rem;
   }
 
   .filter-tag {

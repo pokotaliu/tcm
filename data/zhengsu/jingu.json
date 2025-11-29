@@ -1,0 +1,10 @@
+{
+  "id": "jingu",
+  "name": "筋骨",
+  "category": "病位",
+  "subcategory": "形體",
+  "treatment": null,
+  "is_critical": false,
+  "alias": ["筋", "骨"],
+  "description": "筋骨為人體支撐運動之組織，筋主束骨利關節，骨主支撐藏髓。筋骨病多見關節疼痛、屈伸不利等症。"
+}

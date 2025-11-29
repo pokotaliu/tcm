@@ -1,5 +1,5 @@
 {
-  "id": "herb_001",
+  "id": "ma_huang",
   "name": "麻黃",
   "pinyin": "Ma Huang",
   "alias": ["龍沙", "狗骨"],
@@ -9,8 +9,33 @@
     "flavor": ["辛", "微苦"],
     "meridians": ["肺", "膀胱"]
   },
-  "effects": ["發汗解表", "宣肺平喘", "利水消腫"],
-  "indications": ["風寒感冒", "胸悶喘咳", "風水水腫"],
+  "functions": [
+    {
+      "treatment": "開閉",
+      "zhengsu": ["biao", "feng", "han"],
+      "prerequisite": null,
+      "manifestations": ["無汗", "惡寒發熱", "頭痛身痛", "脈浮緊"]
+    },
+    {
+      "treatment": "降氣",
+      "zhengsu": ["fei", "qi_ni", "han"],
+      "prerequisite": null,
+      "manifestations": ["喘息", "咳嗽", "胸悶"]
+    },
+    {
+      "treatment": "利水",
+      "zhengsu": ["jifu", "shui_ting", "feng"],
+      "prerequisite": null,
+      "manifestations": ["水腫", "皮癢", "小便不利"]
+    },
+    {
+      "treatment": "散寒",
+      "zhengsu": ["jingluo", "han"],
+      "prerequisite": "少量，配溫陽藥",
+      "manifestations": ["癥瘕", "陰疽", "寒凝經脈"]
+    }
+  ],
+  "contraindications": ["qi_xu", "yin_xu", "yang_xu"],
   "dosage": "2-9g",
-  "cautions": ["表虛自汗者慎用", "陰虛盜汗者慎用"]
+  "cautions": ["表虛自汗者慎用", "陰虛盜汗者慎用", "虛喘者慎用"]
 }

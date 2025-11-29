@@ -1,0 +1,10 @@
+{
+  "id": "jingshi",
+  "name": "精室",
+  "category": "病位",
+  "subcategory": "特殊",
+  "treatment": null,
+  "is_critical": false,
+  "alias": ["精房"],
+  "description": "精室為男子藏精之所，主生殖。精室病多見遺精、早泄、陽痿、不育等症。"
+}

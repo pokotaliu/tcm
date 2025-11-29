@@ -1,0 +1,10 @@
+{
+  "id": "xiaochang",
+  "name": "小腸",
+  "category": "病位",
+  "subcategory": "六腑",
+  "treatment": null,
+  "is_critical": false,
+  "alias": ["小腸腑"],
+  "description": "小腸為受盛之官，主受盛化物，分清別濁。小腸病多見腹痛、腹瀉、小便異常等症。"
+}

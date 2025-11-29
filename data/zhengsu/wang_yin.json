@@ -1,0 +1,10 @@
+{
+  "id": "wang_yin",
+  "name": "亡陰",
+  "category": "病性",
+  "subcategory": "陰陽病變",
+  "treatment": "救陰",
+  "is_critical": true,
+  "alias": ["陰竭"],
+  "description": "亡陰是指陰液大量耗損，陰氣欲竭的危重病理狀態。表現為身熱面赤、煩躁不安、汗出如油、脈細數疾等症。"
+}

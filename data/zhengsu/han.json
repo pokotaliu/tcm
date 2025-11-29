@@ -1,0 +1,10 @@
+{
+  "id": "han",
+  "name": "寒",
+  "category": "病性",
+  "subcategory": "外邪",
+  "treatment": "散寒",
+  "is_critical": false,
+  "alias": ["寒邪", "外寒"],
+  "description": "寒為陰邪，易傷陽氣。寒邪致病特點為收引、凝滯，表現為惡寒、肢冷、疼痛、拘急等症。"
+}

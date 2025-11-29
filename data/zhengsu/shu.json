@@ -1,0 +1,10 @@
+{
+  "id": "shu",
+  "name": "暑",
+  "category": "病性",
+  "subcategory": "外邪",
+  "treatment": "清暑",
+  "is_critical": false,
+  "alias": ["暑邪", "暑熱"],
+  "description": "暑為陽邪，性升散，易傷津耗氣。暑邪致病特點為發熱、汗出、口渴、煩躁，常挾濕，表現為身熱、胸悶、倦怠等症。"
+}

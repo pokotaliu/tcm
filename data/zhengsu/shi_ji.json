@@ -1,0 +1,10 @@
+{
+  "id": "shi_ji",
+  "name": "食積",
+  "category": "病性",
+  "subcategory": "病理產物",
+  "treatment": "消食",
+  "is_critical": false,
+  "alias": ["食滯", "宿食"],
+  "description": "食積是指飲食停滯不消的病理狀態。表現為脘腹脹滿、噯腐吞酸、厭食、嘔吐、大便酸臭或便秘等症。"
+}

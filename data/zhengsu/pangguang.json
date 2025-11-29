@@ -1,0 +1,10 @@
+{
+  "id": "pangguang",
+  "name": "膀胱",
+  "category": "病位",
+  "subcategory": "六腑",
+  "treatment": null,
+  "is_critical": false,
+  "alias": ["膀胱腑"],
+  "description": "膀胱為州都之官，主貯尿排尿。膀胱病多見小便不利、尿頻、尿急、尿痛等症。"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "yang_kang",
+  "name": "陽亢",
+  "category": "病性",
+  "subcategory": "陰陽病變",
+  "treatment": "平肝潛陽",
+  "is_critical": false,
+  "alias": ["肝陽上亢", "陽氣上亢"],
+  "description": "陽亢是指陽氣亢盛，上擾於上的病理狀態。表現為頭痛眩暈、面紅目赤、急躁易怒、耳鳴如潮等症。"
+}

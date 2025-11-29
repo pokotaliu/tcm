@@ -1,0 +1,10 @@
+{
+  "id": "xin",
+  "name": "心",
+  "category": "病位",
+  "subcategory": "五臟",
+  "treatment": null,
+  "is_critical": false,
+  "alias": ["心臟", "心系"],
+  "description": "心為君主之官，主血脈，藏神明。心病多見心悸、怔忡、失眠、多夢等症。"
+}

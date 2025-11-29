@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>中醫藥查詢系統</title>
+  <title>中醫證素辨證資料庫</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,46 +11,183 @@
 </head>
 <body>
   <header>
-    <h1>中醫藥查詢系統</h1>
-    <p>本草綱目 · 藥性歸經</p>
+    <h1>中醫證素辨證資料庫</h1>
+    <p>以證素為核心 · 從藥推證</p>
   </header>
 
   <main class="container">
-    <!-- 搜尋與篩選區 -->
-    <section class="search-section">
-      <div class="search-box">
-        <input type="text" id="search-input" placeholder="輸入中藥名稱、拼音或別名搜尋...">
-        <button id="search-btn">搜尋</button>
+    <!-- 統計卡片 -->
+    <section class="stats-cards" id="stats-cards">
+      <div class="stat-card">
+        <div class="stat-number" id="zhengsu-count">--</div>
+        <div class="stat-label">證素</div>
+        <div class="stat-detail" id="zhengsu-detail">病位 -- / 病性 --</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number" id="herbs-count">--</div>
+        <div class="stat-label">中藥</div>
+        <div class="stat-detail">收錄中藥</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number" id="formulas-count">--</div>
+        <div class="stat-label">方劑</div>
+        <div class="stat-detail">經典方劑</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number" id="zhengxing-count">--</div>
+        <div class="stat-label">證型</div>
+        <div class="stat-detail">辨證分型</div>
+      </div>
+    </section>
+
+    <!-- 證素速覽 -->
+    <section class="zhengsu-section">
+      <h2 class="section-title">證素速覽</h2>
+
+      <div class="zhengsu-tabs">
+        <button class="zhengsu-tab active" data-tab="bingwei">病位證素（19）</button>
+        <button class="zhengsu-tab" data-tab="bingxing">病性證素（34）</button>
       </div>
 
-      <div class="filter-section">
-        <div class="filter-group">
-          <h3>按歸經篩選</h3>
-          <div class="filter-tags" id="meridian-tags">
-            <!-- 由 JavaScript 動態生成 -->
-          </div>
+      <div class="zhengsu-content" id="zhengsu-bingwei">
+        <div class="zhengsu-group">
+          <h4>五臟</h4>
+          <div class="zhengsu-tags" id="tags-wuzang"></div>
         </div>
+        <div class="zhengsu-group">
+          <h4>六腑</h4>
+          <div class="zhengsu-tags" id="tags-liufu"></div>
+        </div>
+        <div class="zhengsu-group">
+          <h4>特殊</h4>
+          <div class="zhengsu-tags" id="tags-teshu"></div>
+        </div>
+        <div class="zhengsu-group">
+          <h4>部位</h4>
+          <div class="zhengsu-tags" id="tags-buwei"></div>
+        </div>
+        <div class="zhengsu-group">
+          <h4>表裡</h4>
+          <div class="zhengsu-tags" id="tags-biaoli"></div>
+        </div>
+        <div class="zhengsu-group">
+          <h4>形體</h4>
+          <div class="zhengsu-tags" id="tags-xingti"></div>
+        </div>
+      </div>
 
-        <div class="filter-group">
-          <h3>按藥性篩選</h3>
-          <div class="filter-tags" id="nature-tags">
-            <!-- 由 JavaScript 動態生成 -->
-          </div>
+      <div class="zhengsu-content hidden" id="zhengsu-bingxing">
+        <div class="zhengsu-group">
+          <h4>氣機病變</h4>
+          <div class="zhengsu-tags" id="tags-qiji"></div>
+        </div>
+        <div class="zhengsu-group">
+          <h4>血液病變</h4>
+          <div class="zhengsu-tags" id="tags-xueye"></div>
+        </div>
+        <div class="zhengsu-group">
+          <h4>陰陽病變</h4>
+          <div class="zhengsu-tags" id="tags-yinyang"></div>
+        </div>
+        <div class="zhengsu-group">
+          <h4>外邪</h4>
+          <div class="zhengsu-tags" id="tags-waixie"></div>
+        </div>
+        <div class="zhengsu-group">
+          <h4>病理產物</h4>
+          <div class="zhengsu-tags" id="tags-bingli"></div>
+        </div>
+        <div class="zhengsu-group">
+          <h4>精津病變</h4>
+          <div class="zhengsu-tags" id="tags-jingjin"></div>
+        </div>
+        <div class="zhengsu-group">
+          <h4>內生病邪</h4>
+          <div class="zhengsu-tags" id="tags-neisheng"></div>
         </div>
       </div>
     </section>
 
-    <!-- 統計資訊 -->
-    <div class="stats" id="stats">載入中...</div>
+    <!-- 證素詳情彈窗 -->
+    <div class="modal-overlay hidden" id="zhengsu-modal">
+      <div class="modal-content">
+        <button class="modal-close">&times;</button>
+        <h3 id="modal-zhengsu-name"></h3>
+        <div class="modal-body">
+          <div class="modal-row">
+            <span class="modal-label">類別：</span>
+            <span id="modal-zhengsu-category"></span>
+          </div>
+          <div class="modal-row">
+            <span class="modal-label">治法：</span>
+            <span id="modal-zhengsu-treatment"></span>
+          </div>
+          <div class="modal-row">
+            <span class="modal-label">別名：</span>
+            <span id="modal-zhengsu-alias"></span>
+          </div>
+          <div class="modal-row">
+            <span class="modal-label">說明：</span>
+            <span id="modal-zhengsu-desc"></span>
+          </div>
+          <div class="modal-row hidden" id="modal-zhengsu-critical-row">
+            <span class="critical-badge">危重證素</span>
+          </div>
+        </div>
+      </div>
+    </div>
 
-    <!-- 中藥列表 -->
-    <section class="herb-list" id="herb-list">
-      <div class="loading">載入中藥數據中</div>
+    <!-- 中藥查詢區 -->
+    <section class="herb-section">
+      <h2 class="section-title">中藥查詢</h2>
+
+      <!-- 搜尋與篩選區 -->
+      <div class="search-section">
+        <div class="search-box">
+          <input type="text" id="search-input" placeholder="輸入中藥名稱、拼音或別名搜尋...">
+          <button id="search-btn">搜尋</button>
+        </div>
+
+        <div class="filter-section">
+          <div class="filter-group">
+            <h3>按證素篩選</h3>
+            <div class="filter-tags" id="zhengsu-filter-tags">
+              <!-- 由 JavaScript 動態生成 -->
+            </div>
+          </div>
+
+          <div class="filter-group">
+            <h3>按歸經篩選</h3>
+            <div class="filter-tags" id="meridian-tags">
+              <!-- 由 JavaScript 動態生成 -->
+            </div>
+          </div>
+
+          <div class="filter-group">
+            <h3>按藥性篩選</h3>
+            <div class="filter-tags" id="nature-tags">
+              <!-- 由 JavaScript 動態生成 -->
+            </div>
+          </div>
+        </div>
+
+        <div class="filter-actions">
+          <button id="clear-filters" class="btn-secondary">清除篩選</button>
+        </div>
+      </div>
+
+      <!-- 統計資訊 -->
+      <div class="stats" id="stats">載入中...</div>
+
+      <!-- 中藥列表 -->
+      <div class="herb-list" id="herb-list">
+        <div class="loading">載入中藥數據中</div>
+      </div>
     </section>
   </main>
 
   <footer>
-    <p>中醫藥查詢系統 · 僅供學習參考，不作為醫療診斷依據</p>
+    <p>中醫證素辨證資料庫 · 僅供學習參考，不作為醫療診斷依據</p>
   </footer>
 
   <script src="js/app.js"></script>

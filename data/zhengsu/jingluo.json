@@ -1,0 +1,10 @@
+{
+  "id": "jingluo",
+  "name": "經絡",
+  "category": "病位",
+  "subcategory": "形體",
+  "treatment": null,
+  "is_critical": false,
+  "alias": ["經脈", "絡脈"],
+  "description": "經絡為氣血運行之通道，聯繫臟腑肢節。經絡病多見疼痛、麻木、痿痹等症。"
+}

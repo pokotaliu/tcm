@@ -1,0 +1,10 @@
+{
+  "id": "gan",
+  "name": "肝",
+  "category": "病位",
+  "subcategory": "五臟",
+  "treatment": null,
+  "is_critical": false,
+  "alias": ["肝臟", "肝系"],
+  "description": "肝為將軍之官，主疏泄，藏血，主筋。肝病多見脅痛、目赤、頭暈、易怒等症。"
+}

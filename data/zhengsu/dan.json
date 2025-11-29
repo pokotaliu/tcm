@@ -1,0 +1,10 @@
+{
+  "id": "dan",
+  "name": "膽",
+  "category": "病位",
+  "subcategory": "六腑",
+  "treatment": null,
+  "is_critical": false,
+  "alias": ["膽腑"],
+  "description": "膽為中正之官，藏膽汁，主決斷。膽病多見口苦、脅痛、膽怯易驚等症。"
+}

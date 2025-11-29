@@ -1,0 +1,10 @@
+{
+  "id": "chong_ji",
+  "name": "蟲積",
+  "category": "病性",
+  "subcategory": "病理產物",
+  "treatment": "驅蟲",
+  "is_critical": false,
+  "alias": ["蟲證"],
+  "description": "蟲積是指寄生蟲寄居體內的病理狀態。表現為腹痛、嗜食異物、消瘦、面黃、肛門瘙癢等症。"
+}

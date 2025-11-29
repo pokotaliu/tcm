@@ -1,0 +1,41 @@
+{
+  "id": "sheng_ma",
+  "name": "升麻",
+  "pinyin": "Sheng Ma",
+  "alias": ["周升麻", "綠升麻"],
+  "category": "解表藥",
+  "properties": {
+    "nature": "涼",
+    "flavor": ["辛", "甘"],
+    "meridians": ["肺", "脾", "胃", "大腸"]
+  },
+  "functions": [
+    {
+      "treatment": "祛風",
+      "zhengsu": ["biao", "feng", "huo"],
+      "prerequisite": null,
+      "manifestations": ["頭痛", "咽喉腫痛", "麻疹初起透發不暢"]
+    },
+    {
+      "treatment": "瀉火",
+      "zhengsu": ["wei", "huo", "du"],
+      "prerequisite": "重用，配清熱藥",
+      "manifestations": ["口瘡", "牙齦腫痛", "咽喉潰爛"]
+    },
+    {
+      "treatment": "升提",
+      "zhengsu": ["pi", "qi_xian"],
+      "prerequisite": "小量，配補氣藥如黃耆、人參",
+      "manifestations": ["久瀉脫肛", "子宮下垂", "胃下垂", "久痢"]
+    },
+    {
+      "treatment": "解毒",
+      "zhengsu": ["jifu", "du", "huo"],
+      "prerequisite": null,
+      "manifestations": ["丹毒", "瘡瘍腫毒", "斑疹"]
+    }
+  ],
+  "contraindications": ["yin_xu", "yang_kang"],
+  "dosage": "3-9g",
+  "cautions": ["陰虛火旺者慎用", "肝陽上亢者慎用", "麻疹已透者禁用"]
+}

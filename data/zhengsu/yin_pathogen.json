@@ -1,0 +1,10 @@
+{
+  "id": "yin",
+  "name": "飲",
+  "category": "病性",
+  "subcategory": "病理產物",
+  "treatment": "化飲",
+  "is_critical": false,
+  "alias": ["水飲", "留飲"],
+  "description": "飲為水液代謝障礙所形成的病理產物，質地較痰清稀。飲邪致病表現為咳喘、心悸、水聲漉漉、胸脅滿悶等症。"
+}
