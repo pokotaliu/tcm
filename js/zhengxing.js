@@ -12,9 +12,9 @@ const state = {
 
 // 常用病性證素（用於選擇器）
 const COMMON_NATURE_ZHENGSU = [
-  'qi_xu', 'qi_zhi', 'qi_ni', 'qi_xian', 'bu_gu',
+  'qi_xu', 'qi_zhi', 'qi_ni', 'qi_xian', 'qi_tuo', 'qi_jue', 'bu_gu',
   'xue_xu', 'xue_yu', 'xue_re',
-  'yin_xu', 'yang_xu',
+  'yin_xu', 'yang_xu', 'wang_yin', 'wang_yang',
   'feng', 'han', 'shi', 'huo', 'tan'
 ];
 
@@ -34,7 +34,14 @@ const ZHENGXING_FILES = [
   'shenqixu.json',
   'qixuelianxu.json',
   'qixubuning.json',
-  'zhongqixiaxian.json'
+  'zhongqixiaxian.json',
+  'qixuzheng.json',
+  'qituozheng.json',
+  'shenqibugu.json',
+  'qingyangbusheng.json',
+  'wangyinzheng.json',
+  'wangyangzheng.json',
+  'qijuezheng.json'
 ];
 
 /**
@@ -85,8 +92,10 @@ function renderSelectors() {
   const natureSelector = document.getElementById('nature-selector');
   natureSelector.innerHTML = COMMON_NATURE_ZHENGSU.map(id => {
     const name = getZhengsuName(id);
-    return `<span class="selector-tag" data-id="${id}" data-type="nature">${name}</span>`;
-  }).join('');
+    const z = state.zhengsu.find(zs => zs.id === id);
+    const criticalClass = z?.is_critical ? 'critical' : '';
+    return `<span class="selector-tag ${criticalClass}" data-id="${id}" data-type="nature">${name}</span>`;
+  }).join(' ');
 
   // 病位選擇器
   const locationSelector = document.getElementById('location-selector');
@@ -254,7 +263,7 @@ function renderPatternDetail(pattern) {
         <span class="comp-label">病位：</span>
         <span class="comp-tags">${(pattern.zhengsu_composition?.location || []).map(id =>
           `<span class="comp-tag location">${getZhengsuName(id)}</span>`
-        ).join('') || '全身性'}</span>
+        ).join('') || '<span class="comp-tag location">全身性</span>'}</span>
         <span class="comp-label">病性：</span>
         <span class="comp-tags">${(pattern.zhengsu_composition?.nature || []).map(id =>
           `<span class="comp-tag nature">${getZhengsuName(id)}</span>`
@@ -296,6 +305,27 @@ function renderPatternDetail(pattern) {
         <h4>推薦方劑</h4>
         <div class="formula-tags">
           ${pattern.recommended_formulas.map(f => `<span class="formula-tag">${f}</span>`).join('')}
+        </div>
+      </div>
+    ` : ''}
+
+    ${(pattern.evolved_from?.length > 0 || pattern.can_evolve_to?.length > 0) ? `
+      <div class="detail-card">
+        <h4>演變關係</h4>
+        <div class="evolution">
+          ${pattern.evolved_from?.length > 0 ? `
+            <div class="evo-line">
+              <span>來源：</span>
+              ${pattern.evolved_from.map(id => `<span class="evo-tag from">${id}</span>`).join(' → ')}
+              <span> → 本證</span>
+            </div>
+          ` : ''}
+          ${pattern.can_evolve_to?.length > 0 ? `
+            <div class="evo-line">
+              <span>本證可演變為：</span>
+              ${pattern.can_evolve_to.map(id => `<span class="evo-tag to">${id}</span>`).join('、')}
+            </div>
+          ` : ''}
         </div>
       </div>
     ` : ''}
@@ -361,13 +391,10 @@ function renderPatternDetail(pattern) {
       </div>
     ` : ''}
 
-    ${pattern.can_evolve_to?.length > 0 ? `
+    ${pattern.common_in?.length > 0 ? `
       <div class="detail-card">
-        <h4>演變趨勢</h4>
-        <div class="evolution">
-          <span>本證可演變為：</span>
-          ${pattern.can_evolve_to.map(id => `<span class="evo-tag">${id}</span>`).join('')}
-        </div>
+        <h4>常見人群</h4>
+        <p>${pattern.common_in.join('、')}</p>
       </div>
     ` : ''}
   `;
@@ -387,9 +414,10 @@ function renderZhengxingList() {
   listContainer.innerHTML = state.zhengxing.map(zx => {
     const locations = (zx.zhengsu_composition?.location || []).map(id => getZhengsuName(id));
     const natures = (zx.zhengsu_composition?.nature || []).map(id => getZhengsuName(id));
+    const isCritical = natures.some(n => ['氣脫', '亡陰', '亡陽', '氣厥'].includes(n));
 
     return `
-      <div class="zhengxing-card" data-id="${zx.id}">
+      <div class="zhengxing-card ${isCritical ? 'critical' : ''}" data-id="${zx.id}">
         <div class="zx-name">${zx.name}</div>
         <div class="zx-composition">
           ${locations.length > 0 ? locations.join(' + ') + ' + ' : ''}${natures.join(' + ')}

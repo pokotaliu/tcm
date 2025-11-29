@@ -1,0 +1,11 @@
+{
+  "id": "qingyang_busheng",
+  "name": "清陽不升",
+  "category": "病性",
+  "subcategory": "氣機病變",
+  "treatment": "升清降濁",
+  "is_critical": false,
+  "alias": ["清陽下陷", "濁陰不降"],
+  "description": "清陽不升是指脾胃升清功能減退，清陽之氣不能上達頭目的病理狀態。主要表現為頭暈眼花、耳鳴、神疲乏力等上焦見症，常見虛實夾雜。",
+  "related_symptoms": []
+}

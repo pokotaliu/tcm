@@ -1,0 +1,11 @@
+{
+  "id": "qi_jue",
+  "name": "氣厥",
+  "category": "病性",
+  "subcategory": "氣機病變",
+  "treatment": "開鬱醒神",
+  "is_critical": true,
+  "alias": ["厥證", "氣閉"],
+  "description": "氣厥是指因情志刺激，氣機逆亂，上壅心胸，閉塞清竅的實證。表現為突然昏倒、不省人事、肢冷抽搐等，與氣脫證（虛證）相鑑別。",
+  "related_symptoms": []
+}

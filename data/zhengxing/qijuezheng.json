@@ -1,0 +1,29 @@
+{
+  "id": "qi_jue_zheng",
+  "name": "氣厥證",
+  "alias": ["厥證", "氣閉證"],
+  "zhengsu_composition": {
+    "location": [],
+    "nature": ["qi_jue"]
+  },
+  "pathogenesis": "氣厥證是指因情志刺激，氣機逆亂，上壅心胸，閉塞清竅的實證。多因七情所傷，惱怒驚駭，肝鬱不達，怒則氣上，造成氣機逆亂，填塞胸臆，擾亂神明所致。",
+  "symptoms": {
+    "main": ["突然昏倒", "不省人事", "牙關緊閉", "兩手握固"],
+    "secondary": ["肢冷抽搐", "呼吸氣粗", "四肢強直"],
+    "tongue": "舌苔薄白",
+    "pulse": "脈沉弦"
+  },
+  "treatment_principle": ["開鬱醒神", "理氣降逆"],
+  "recommended_formulas": ["wuyao_shunqi_san"],
+  "recommended_herbs": ["wu_yao", "mu_xiang", "chen_xiang", "su_he_xiang"],
+  "evolved_from": [],
+  "can_evolve_to": [],
+  "differentiate_from": ["qi_tuo_zheng"],
+  "common_in": ["情志不遂者", "肝氣鬱結者"],
+  "clinical_variants": [],
+  "differentiation": [],
+  "literature": [],
+  "related_diseases": [],
+  "description": "氣厥證屬實證，與氣脫證（虛證）相鑑別。氣厥證多因情志刺激，氣機逆亂所致，表現為突然昏倒、不省人事、牙關緊閉、兩手握固、脈沉弦。氣脫證是元氣外脫，大汗淋漓、精神萎靡、脈微欲絕。病因、病機、症狀、虛實性質各不相同。",
+  "source": "《中醫診斷學》"
+}

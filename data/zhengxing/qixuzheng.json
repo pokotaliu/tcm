@@ -1,0 +1,38 @@
+{
+  "id": "qi_xu_zheng",
+  "name": "氣虛證",
+  "alias": ["元氣虧虛證", "氣弱證"],
+  "zhengsu_composition": {
+    "location": [],
+    "nature": ["qi_xu"]
+  },
+  "pathogenesis": "氣虛證是指人體元氣不足，臟腑功能活動減退的病理狀態。多因先天不足、後天失調、勞倦過度、久病耗氣所致。",
+  "symptoms": {
+    "main": ["氣短乏力", "神疲懶言", "動則尤甚"],
+    "secondary": ["自汗", "頭暈", "面色淡白或萎黃"],
+    "tongue": "舌淡",
+    "pulse": "脈虛弱"
+  },
+  "treatment_principle": ["補氣"],
+  "recommended_formulas": ["sijunzi_tang"],
+  "recommended_herbs": ["ren_shen", "huang_qi", "bai_zhu", "fu_ling"],
+  "evolved_from": [],
+  "can_evolve_to": ["zhong_qi_xia_xian", "qi_tuo_zheng", "qi_xue_liang_xu"],
+  "differentiate_from": ["yang_xu_zheng"],
+  "differentiation": [
+    {
+      "compare_with": "yang_xu_zheng",
+      "compare_name": "陽虛證",
+      "similarities": ["皆為虛證", "可見神疲乏力"],
+      "differences": {
+        "this_pattern": "以氣短乏力、動則尤甚為主，無明顯畏寒肢冷",
+        "other_pattern": "除氣虛表現外，更突出畏寒肢冷、喜暖、脈沉遲等陽氣不足的表現"
+      },
+      "key_points": ["氣虛證無畏寒肢冷", "陽虛證為氣虛證進一步發展"]
+    }
+  ],
+  "common_in": ["久病體虛者", "年老體弱者", "勞倦過度者"],
+  "related_diseases": [],
+  "description": "氣虛證是氣病的基礎證型，可因病位不同而表現各異（如肺氣虛、脾氣虛、心氣虛、腎氣虛等）。本證為諸多氣病的根源，若不及時治療，可進一步發展為氣陷、氣脫等證。",
+  "source": "《中醫診斷學》"
+}

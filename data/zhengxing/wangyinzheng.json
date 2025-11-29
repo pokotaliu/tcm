@@ -1,0 +1,29 @@
+{
+  "id": "wang_yin_zheng",
+  "name": "亡陰證",
+  "alias": ["陰竭證", "陰脫證"],
+  "zhengsu_composition": {
+    "location": [],
+    "nature": ["wang_yin"]
+  },
+  "pathogenesis": "亡陰證是指陰液大量耗損，陰氣欲竭的危重證候。多因邪熱內陷，真陰消爍，或汗出過多、下利不止、大出血等造成陰液耗竭，陰不制陽，陰陽離決。",
+  "symptoms": {
+    "main": ["身熱面赤", "煩躁不安", "汗出如油", "口渴欲飲"],
+    "secondary": ["手足溫", "神志昏迷", "顴紅升火", "咽干"],
+    "tongue": "舌紅絳少苔或光剝",
+    "pulse": "脈虛細數疾"
+  },
+  "treatment_principle": ["救陰斂液"],
+  "recommended_formulas": ["shengmai_san", "zengye_tang"],
+  "recommended_herbs": ["ren_shen", "mai_dong", "wu_wei_zi", "sheng_di", "xuan_shen"],
+  "evolved_from": ["qi_tuo_zheng", "yin_xu"],
+  "can_evolve_to": [],
+  "differentiate_from": ["qi_tuo_zheng", "wang_yang_zheng"],
+  "common_in": ["熱病後期", "大汗大瀉後", "大出血後"],
+  "clinical_variants": [],
+  "differentiation": [],
+  "literature": [],
+  "related_diseases": [],
+  "description": "亡陰證是陰液耗竭的極危重證候。與氣脫證比較，氣脫證可為亡陰證的前奏；亡陰證已見神志昏迷、汗出如油、舌紅絳等陰虛內熱表現，病情更為危重。與亡陽證比較，亡陰證身熱面赤、手足溫，亡陽證面色蒼白、四肢厥冷。",
+  "source": "《中醫診斷學》"
+}
