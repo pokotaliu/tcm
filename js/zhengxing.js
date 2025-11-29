@@ -6,6 +6,7 @@ const state = {
   zhengsu: [],
   zhengxing: [],
   symptoms: [],  // 症狀資料
+  formulas: [],  // 方劑資料
   selectedNature: [],  // 已選病性證素
   selectedLocation: [], // 已選病位證素
   matchedPattern: null
@@ -38,6 +39,14 @@ const LOCATION_ZHENGSU = [
   'xin', 'gan', 'pi', 'fei', 'shen',
   'wei', 'dachang', 'pangguang',
   'biao'
+];
+
+// 方劑文件列表
+const FORMULA_FILES = [
+  'buzhongyiqi_tang.json',
+  'mahuangtang.json',
+  'yupingfeng_san.json',
+  'sijunzi_tang.json'
 ];
 
 // 證型文件列表
@@ -106,6 +115,20 @@ async function loadSymptoms() {
 }
 
 /**
+ * 載入方劑數據
+ */
+async function loadFormulas() {
+  const promises = FORMULA_FILES.map(file =>
+    fetch(`data/formulas/${file}`)
+      .then(res => res.ok ? res.json() : null)
+      .catch(() => null)
+  );
+
+  const results = await Promise.all(promises);
+  state.formulas = results.filter(Boolean);
+}
+
+/**
  * 獲取證素名稱
  */
 function getZhengsuName(id) {
@@ -126,6 +149,24 @@ function getSymptomName(idOrName) {
   }
   // 否則直接返回原文字（已經是中文名稱）
   return idOrName;
+}
+
+/**
+ * 獲取方劑名稱
+ * 將方劑ID（如 buzhongyiqi_tang）轉換為中文名稱（如 補中益氣湯）
+ */
+function getFormulaName(id) {
+  const f = state.formulas.find(formula => formula.id === id);
+  return f ? f.name : id;
+}
+
+/**
+ * 獲取證型名稱
+ * 將證型ID（如 qi_xu_zheng）轉換為中文名稱（如 氣虛證）
+ */
+function getZhengxingName(id) {
+  const zx = state.zhengxing.find(z => z.id === id);
+  return zx ? zx.name : id;
 }
 
 /**
@@ -348,7 +389,7 @@ function renderPatternDetail(pattern) {
       <div class="detail-card">
         <h4>推薦方劑</h4>
         <div class="formula-tags">
-          ${pattern.recommended_formulas.map(f => `<span class="formula-tag">${f}</span>`).join('')}
+          ${pattern.recommended_formulas.map(f => `<span class="formula-tag">${getFormulaName(f)}</span>`).join('')}
         </div>
       </div>
     ` : ''}
@@ -360,14 +401,14 @@ function renderPatternDetail(pattern) {
           ${pattern.evolved_from?.length > 0 ? `
             <div class="evo-line">
               <span>來源：</span>
-              ${pattern.evolved_from.map(id => `<span class="evo-tag from">${id}</span>`).join(' → ')}
+              ${pattern.evolved_from.map(id => `<span class="evo-tag from">${getZhengxingName(id)}</span>`).join(' → ')}
               <span> → 本證</span>
             </div>
           ` : ''}
           ${pattern.can_evolve_to?.length > 0 ? `
             <div class="evo-line">
               <span>本證可演變為：</span>
-              ${pattern.can_evolve_to.map(id => `<span class="evo-tag to">${id}</span>`).join('、')}
+              ${pattern.can_evolve_to.map(id => `<span class="evo-tag to">${getZhengxingName(id)}</span>`).join('、')}
             </div>
           ` : ''}
         </div>
@@ -530,6 +571,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   await loadZhengsu();
   await loadZhengxing();
   await loadSymptoms();
+  await loadFormulas();
 
   // 渲染選擇器
   renderSelectors();
