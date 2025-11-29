@@ -1,0 +1,63 @@
+{
+  "id": "huang_qi",
+  "name": "黃耆",
+  "pinyin": "Huang Qi",
+  "alias": ["黃芪", "綿耆", "北耆"],
+  "category": "補虛藥",
+  "properties": {
+    "nature": "溫",
+    "flavor": ["甘"],
+    "meridians": ["肺", "脾"]
+  },
+  "intensity": "中",
+  "dosage_type": "常規",
+  "standard_dosage": "9-30g",
+  "optimal_dosage": null,
+  "functions": [
+    {
+      "treatment": "補氣",
+      "zhengsu": ["pi", "qi_xu"],
+      "prerequisite": null,
+      "manifestations": ["乏力", "食少", "便溏", "氣短懶言", "面色萎黃"]
+    },
+    {
+      "treatment": "補氣",
+      "zhengsu": ["fei", "qi_xu"],
+      "prerequisite": null,
+      "manifestations": ["氣短", "聲低", "自汗", "易感冒"]
+    },
+    {
+      "treatment": "升提",
+      "zhengsu": ["pi", "qi_xian"],
+      "prerequisite": "重用，配升麻、柴胡",
+      "manifestations": ["久瀉脫肛", "子宮下垂", "胃下垂", "內臟下垂"]
+    },
+    {
+      "treatment": "收攝",
+      "zhengsu": ["biao", "bu_gu"],
+      "prerequisite": null,
+      "manifestations": ["自汗", "盜汗", "表虛易感"]
+    },
+    {
+      "treatment": "利水",
+      "zhengsu": ["jifu", "shui_ting", "qi_xu"],
+      "prerequisite": "配利水藥",
+      "manifestations": ["水腫", "小便不利", "氣虛浮腫"]
+    },
+    {
+      "treatment": "活血",
+      "zhengsu": ["jingluo", "xue_yu", "qi_xu"],
+      "prerequisite": "配活血藥",
+      "manifestations": ["半身不遂", "肢體麻木", "痿痹"]
+    },
+    {
+      "treatment": "排膿",
+      "zhengsu": ["jifu", "nong", "qi_xu"],
+      "prerequisite": "配解毒藥",
+      "manifestations": ["瘡瘍久不收口", "癰疽潰後難斂"]
+    }
+  ],
+  "contraindications": ["yin_xu", "yang_kang", "shi", "huo"],
+  "dosage": "9-30g",
+  "cautions": ["表實邪盛者慎用", "陰虛陽亢者慎用", "濕熱內蘊者慎用", "食積內停者慎用"]
+}

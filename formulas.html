@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>方劑分析 - 中醫證素辨證資料庫</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>中醫證素辨證資料庫</h1>
+    <p>以證素為核心 · 從藥推證</p>
+    <nav class="main-nav">
+      <a href="index.html" class="nav-link">首頁</a>
+      <a href="zhengsu.html" class="nav-link">證素總覽</a>
+      <a href="herbs.html" class="nav-link">中藥查詢</a>
+      <a href="formulas.html" class="nav-link active">方劑分析</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="page-header">
+      <h2 class="page-title">方劑分析</h2>
+      <p class="page-desc">查看經典方劑的證素權重分布，了解方劑的治療特性</p>
+    </section>
+
+    <!-- 方劑列表 -->
+    <section class="formula-section">
+      <h3 class="section-title">經典方劑</h3>
+      <div class="formula-list" id="formula-list">
+        <div class="loading">載入方劑數據中</div>
+      </div>
+    </section>
+
+    <!-- 方劑詳情彈窗 -->
+    <div class="modal-overlay hidden" id="formula-modal">
+      <div class="modal-content formula-modal-content">
+        <button class="modal-close">&times;</button>
+        <h3 id="modal-formula-name"></h3>
+        <div class="modal-body">
+          <div class="modal-row">
+            <span class="modal-label">出處：</span>
+            <span id="modal-formula-source"></span>
+          </div>
+          <div class="modal-row">
+            <span class="modal-label">分類：</span>
+            <span id="modal-formula-category"></span>
+          </div>
+          <div class="modal-row">
+            <span class="modal-label">功效：</span>
+            <span id="modal-formula-effects"></span>
+          </div>
+          <div class="modal-row">
+            <span class="modal-label">主治：</span>
+            <span id="modal-formula-indications"></span>
+          </div>
+
+          <h4 class="modal-subtitle">組成</h4>
+          <div class="composition-table" id="modal-composition"></div>
+
+          <h4 class="modal-subtitle">證素權重分析</h4>
+          <div class="weight-analysis" id="modal-weights">
+            <div class="weight-section">
+              <h5>治法權重</h5>
+              <div class="weight-bars" id="treatment-weights"></div>
+            </div>
+            <div class="weight-section">
+              <h5>病位權重</h5>
+              <div class="weight-bars" id="location-weights"></div>
+            </div>
+            <div class="weight-section">
+              <h5>病性權重</h5>
+              <div class="weight-bars" id="nature-weights"></div>
+            </div>
+          </div>
+
+          <div class="modal-row">
+            <span class="modal-label">主要證素：</span>
+            <div class="zhengsu-tags-inline" id="modal-primary-zhengsu"></div>
+          </div>
+
+          <div class="modal-row">
+            <span class="modal-label">用法：</span>
+            <span id="modal-formula-usage"></span>
+          </div>
+
+          <div class="modal-row">
+            <span class="modal-label">禁忌：</span>
+            <span id="modal-formula-contraindications"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>中醫證素辨證資料庫 · 僅供學習參考，不作為醫療診斷依據</p>
+  </footer>
+
+  <script src="js/formulas.js"></script>
+</body>
+</html>

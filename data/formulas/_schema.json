@@ -1,0 +1,170 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "方劑結構定義",
+  "description": "以證素為核心的方劑資料結構，包含權重計算系統",
+  "type": "object",
+  "required": ["id", "name", "pinyin", "source", "category", "composition"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "唯一識別碼"
+    },
+    "name": {
+      "type": "string",
+      "description": "方劑名稱"
+    },
+    "pinyin": {
+      "type": "string",
+      "description": "拼音"
+    },
+    "alias": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "別名列表"
+    },
+    "source": {
+      "type": "string",
+      "description": "出處典籍"
+    },
+    "category": {
+      "type": "string",
+      "description": "方劑分類",
+      "enum": [
+        "解表劑", "瀉下劑", "和解劑", "清熱劑", "溫裡劑",
+        "補益劑", "固澀劑", "安神劑", "開竅劑", "理氣劑",
+        "理血劑", "治風劑", "治燥劑", "祛濕劑", "祛痰劑",
+        "消食劑", "驅蟲劑", "治癰瘍劑"
+      ]
+    },
+    "composition": {
+      "type": "array",
+      "description": "組成藥物",
+      "items": {
+        "type": "object",
+        "required": ["herb_id", "name", "amount", "role"],
+        "properties": {
+          "herb_id": {
+            "type": "string",
+            "description": "中藥 ID"
+          },
+          "name": {
+            "type": "string",
+            "description": "中藥名稱"
+          },
+          "amount": {
+            "type": "string",
+            "description": "用量"
+          },
+          "role": {
+            "type": "string",
+            "enum": ["君", "臣", "佐", "使"],
+            "description": "君臣佐使角色"
+          },
+          "is_guide": {
+            "type": "boolean",
+            "description": "是否為引經藥",
+            "default": false
+          }
+        }
+      }
+    },
+    "preparation": {
+      "type": "string",
+      "description": "製備方法"
+    },
+    "usage": {
+      "type": "string",
+      "description": "用法"
+    },
+    "calculated_weights": {
+      "type": "object",
+      "description": "計算後的證素權重",
+      "properties": {
+        "treatment": {
+          "type": "object",
+          "description": "治法權重分布"
+        },
+        "location": {
+          "type": "object",
+          "description": "病位權重分布"
+        },
+        "nature": {
+          "type": "object",
+          "description": "病性權重分布"
+        }
+      }
+    },
+    "primary_zhengsu": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "主要證素 ID 列表"
+    },
+    "primary_pattern": {
+      "type": "string",
+      "description": "主治證型"
+    },
+    "effects": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "功效列表"
+    },
+    "indications": {
+      "type": "string",
+      "description": "主治描述"
+    },
+    "contraindications": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "禁忌證"
+    },
+    "cautions": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "使用注意事項"
+    }
+  },
+  "權重計算說明": {
+    "公式": "藥物貢獻 = 強度係數 × 角色係數 × 劑量係數",
+    "強度係數": {
+      "強": 1.5,
+      "中": 1.0,
+      "弱": 0.5
+    },
+    "角色係數": {
+      "君": 2.0,
+      "臣": 1.5,
+      "佐": 1.0,
+      "使": 0.5
+    },
+    "劑量係數_常規藥": {
+      "小於常用量×0.5": 0.5,
+      "常用量": 1.0,
+      "大於常用量×1.5": 1.5,
+      "大於常用量×2": 2.0
+    },
+    "劑量係數_引經藥": {
+      "等於最佳劑量": 1.0,
+      "大於最佳劑量×2": 0.7,
+      "小於最佳劑量×0.5": 0.5
+    }
+  },
+  "證素ID參考": {
+    "病位": {
+      "五臟": ["xin", "gan", "pi", "fei", "shen"],
+      "六腑": ["wei", "dan", "xiaochang", "dachang", "pangguang"],
+      "特殊": ["baogong", "jingshi"],
+      "部位": ["xiongge", "shaofu"],
+      "表裡": ["biao", "banbiaobanli"],
+      "形體": ["jifu", "jingluo", "jingu"]
+    },
+    "病性": {
+      "氣機病變": ["qi_xu", "qi_zhi", "qi_ni", "qi_xian", "qi_bi", "bu_gu", "qi_tuo"],
+      "血液病變": ["xue_xu", "xue_yu", "xue_re", "xue_han", "dong_xue"],
+      "陰陽病變": ["yin_xu", "yang_xu", "yang_kang", "yang_fu", "wang_yin", "wang_yang"],
+      "外邪": ["feng", "han", "shu", "shi", "zao", "huo", "du"],
+      "病理產物": ["tan", "yin", "shui_ting", "nong", "shi_ji", "chong_ji"],
+      "精津病變": ["jin_kui", "jing_kui"],
+      "內生病邪": ["dong_feng"]
+    }
+  }
+}

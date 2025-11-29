@@ -102,6 +102,24 @@
       "type": "array",
       "items": { "type": "string" },
       "description": "使用注意事項"
+    },
+    "intensity": {
+      "type": "string",
+      "enum": ["強", "中", "弱"],
+      "description": "藥物強度，影響權重計算。強=1.5，中=1.0，弱=0.5"
+    },
+    "dosage_type": {
+      "type": "string",
+      "enum": ["常規", "引經", "峻猛"],
+      "description": "劑量類型。常規：量大效強；引經：量少力專；峻猛：量小即猛"
+    },
+    "standard_dosage": {
+      "type": "string",
+      "description": "標準常用劑量範圍"
+    },
+    "optimal_dosage": {
+      "type": ["string", "null"],
+      "description": "最佳劑量（引經藥適用），非引經藥為 null"
     }
   },
   "證素ID參考": {

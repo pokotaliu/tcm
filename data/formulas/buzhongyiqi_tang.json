@@ -1,0 +1,97 @@
+{
+  "id": "buzhongyiqi_tang",
+  "name": "補中益氣湯",
+  "pinyin": "Bu Zhong Yi Qi Tang",
+  "alias": [],
+  "source": "脾胃論",
+  "category": "補益劑",
+  "composition": [
+    {
+      "herb_id": "huang_qi",
+      "name": "黃耆",
+      "amount": "18g",
+      "role": "君",
+      "is_guide": false
+    },
+    {
+      "herb_id": "ren_shen",
+      "name": "人參",
+      "amount": "9g",
+      "role": "臣",
+      "is_guide": false
+    },
+    {
+      "herb_id": "bai_zhu",
+      "name": "白朮",
+      "amount": "9g",
+      "role": "臣",
+      "is_guide": false
+    },
+    {
+      "herb_id": "zhi_gan_cao",
+      "name": "炙甘草",
+      "amount": "9g",
+      "role": "佐",
+      "is_guide": false
+    },
+    {
+      "herb_id": "dang_gui",
+      "name": "當歸",
+      "amount": "3g",
+      "role": "佐",
+      "is_guide": false
+    },
+    {
+      "herb_id": "chen_pi",
+      "name": "陳皮",
+      "amount": "6g",
+      "role": "佐",
+      "is_guide": false
+    },
+    {
+      "herb_id": "sheng_ma",
+      "name": "升麻",
+      "amount": "3g",
+      "role": "使",
+      "is_guide": true
+    },
+    {
+      "herb_id": "chai_hu",
+      "name": "柴胡",
+      "amount": "3g",
+      "role": "使",
+      "is_guide": true
+    }
+  ],
+  "preparation": "水煎服",
+  "usage": "水煎服，每日一劑",
+  "calculated_weights": {
+    "treatment": {
+      "補氣": 7.5,
+      "升提": 2.0,
+      "收攝": 4.0,
+      "行氣": 1.0,
+      "補血": 0.5,
+      "化濕": 1.5
+    },
+    "location": {
+      "pi": 8.75,
+      "fei": 5.5,
+      "gan": 0.25,
+      "biao": 4.0
+    },
+    "nature": {
+      "qi_xu": 7.5,
+      "qi_xian": 2.0,
+      "bu_gu": 4.0,
+      "xue_xu": 0.5,
+      "shi": 1.5
+    }
+  },
+  "primary_zhengsu": ["pi", "qi_xu", "qi_xian"],
+  "primary_pattern": "脾氣虛證、氣虛下陷",
+  "effects": ["補中益氣", "升陽舉陷"],
+  "indications": "脾胃氣虛、氣虛下陷。食少體倦，少氣懶言，面色萎黃，大便稀溏；氣虛發熱，身熱自汗；久瀉脫肛，子宮下垂等。",
+  "contraindications": ["陰虛發熱", "實熱證"],
+  "cautions": ["陰虛內熱者慎用", "邪實正虛者先祛邪"]
+}
