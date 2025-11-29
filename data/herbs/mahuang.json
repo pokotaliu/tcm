@@ -9,6 +9,10 @@
     "flavor": ["辛", "微苦"],
     "meridians": ["肺", "膀胱"]
   },
+  "intensity": "強",
+  "dosage_type": "常規",
+  "standard_dosage": "2-9g",
+  "optimal_dosage": null,
   "functions": [
     {
       "treatment": "開閉",

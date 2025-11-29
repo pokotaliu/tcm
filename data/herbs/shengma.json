@@ -9,6 +9,10 @@
     "flavor": ["辛", "甘"],
     "meridians": ["肺", "脾", "胃", "大腸"]
   },
+  "intensity": "中",
+  "dosage_type": "引經",
+  "standard_dosage": "3-9g",
+  "optimal_dosage": "3g",
   "functions": [
     {
       "treatment": "祛風",

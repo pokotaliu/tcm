@@ -614,6 +614,515 @@ header p {
   display: none !important;
 }
 
+/* 導航 */
+.main-nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.nav-link {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: all 0.2s;
+}
+
+.nav-link:hover {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.nav-link.active {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* 統計卡片連結 */
+.stat-card.clickable {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.stat-card.clickable:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* 快速入口 */
+.quick-links {
+  margin-bottom: 2rem;
+}
+
+.quick-links-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.quick-link-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.2s;
+}
+
+.quick-link-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-color: var(--secondary-color);
+}
+
+.quick-link-icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.quick-link-title {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--primary-color);
+  margin-bottom: 0.3rem;
+}
+
+.quick-link-desc {
+  font-size: 0.85rem;
+  color: var(--text-light);
+}
+
+/* 頁面標題 */
+.page-header {
+  margin-bottom: 2rem;
+}
+
+.page-title {
+  font-size: 1.8rem;
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
+
+.page-desc {
+  color: var(--text-light);
+  font-size: 0.95rem;
+}
+
+/* 篩選欄 */
+.filter-bar {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.filter-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.filter-tab {
+  padding: 0.5rem 1rem;
+  background: #fff;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.9rem;
+  transition: all 0.2s;
+}
+
+.filter-tab:hover {
+  border-color: var(--secondary-color);
+}
+
+.filter-tab.active {
+  background: var(--primary-color);
+  color: #fff;
+  border-color: var(--primary-color);
+}
+
+/* 證素完整頁面 */
+.zhengsu-full-section {
+  margin-bottom: 2rem;
+}
+
+.zhengsu-category {
+  margin-bottom: 1.5rem;
+}
+
+.category-title {
+  font-size: 1rem;
+  color: var(--secondary-color);
+  margin-bottom: 0.8rem;
+  padding-left: 0.5rem;
+  border-left: 3px solid var(--secondary-color);
+}
+
+.zhengsu-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 0.8rem;
+}
+
+.zhengsu-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.zhengsu-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.zhengsu-card.bingwei {
+  border-left: 3px solid var(--bingwei);
+}
+
+.zhengsu-card.bingxing {
+  border-left: 3px solid var(--bingxing);
+}
+
+.zhengsu-card.critical {
+  border-left: 3px solid var(--critical);
+  background: rgba(196, 30, 58, 0.03);
+}
+
+.zhengsu-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.zhengsu-card-name {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--primary-color);
+}
+
+.critical-indicator {
+  font-size: 0.7rem;
+  color: var(--critical);
+  background: rgba(196, 30, 58, 0.1);
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
+}
+
+.zhengsu-card-treatment {
+  font-size: 0.85rem;
+  color: var(--secondary-color);
+  margin-bottom: 0.5rem;
+}
+
+.zhengsu-card-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  color: var(--text-light);
+}
+
+.zhengsu-card-herbs {
+  color: var(--accent-color);
+}
+
+/* 方劑卡片 */
+.formula-section {
+  margin-bottom: 2rem;
+}
+
+.formula-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 1rem;
+}
+
+.formula-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 1.2rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.formula-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.formula-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.formula-name {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: var(--primary-color);
+}
+
+.formula-source {
+  font-size: 0.85rem;
+  color: var(--text-light);
+}
+
+.formula-category {
+  font-size: 0.85rem;
+  color: var(--secondary-color);
+  margin-bottom: 0.8rem;
+}
+
+.formula-effects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 0.8rem;
+}
+
+.effect-tag {
+  background: rgba(93, 78, 55, 0.1);
+  padding: 0.2rem 0.6rem;
+  border-radius: 3px;
+  font-size: 0.85rem;
+}
+
+.formula-composition-preview {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin-bottom: 0.8rem;
+}
+
+.herb-preview {
+  background: #fff;
+  border: 1px solid var(--border-color);
+  padding: 0.2rem 0.5rem;
+  border-radius: 3px;
+  font-size: 0.8rem;
+}
+
+.herb-preview.more {
+  background: var(--bg-color);
+  color: var(--text-light);
+}
+
+.formula-weights-preview {
+  margin-bottom: 0.8rem;
+}
+
+.weight-preview-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.3rem;
+}
+
+.weight-label {
+  font-size: 0.8rem;
+  min-width: 3rem;
+}
+
+.weight-bar-mini {
+  flex: 1;
+  height: 8px;
+  background: #eee;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.weight-fill {
+  height: 100%;
+  background: var(--secondary-color);
+  border-radius: 4px;
+}
+
+.weight-value {
+  font-size: 0.75rem;
+  color: var(--text-light);
+  min-width: 2rem;
+  text-align: right;
+}
+
+.formula-zhengsu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.zhengsu-tag-small {
+  background: rgba(139, 69, 19, 0.1);
+  color: var(--bingxing);
+  padding: 0.2rem 0.5rem;
+  border-radius: 3px;
+  font-size: 0.8rem;
+}
+
+/* 方劑彈窗 */
+.formula-modal-content {
+  max-width: 700px;
+}
+
+.modal-subtitle {
+  font-size: 1rem;
+  color: var(--primary-color);
+  margin: 1.5rem 0 0.8rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.composition-table {
+  margin-bottom: 1rem;
+}
+
+.composition-table-inner {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.composition-table-inner th,
+.composition-table-inner td {
+  padding: 0.6rem;
+  text-align: left;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.composition-table-inner th {
+  background: var(--bg-color);
+  color: var(--secondary-color);
+}
+
+.role-badge {
+  display: inline-block;
+  padding: 0.2rem 0.5rem;
+  border-radius: 3px;
+  font-size: 0.8rem;
+}
+
+.role-badge.role-君 { background: rgba(196, 30, 58, 0.15); color: var(--critical); }
+.role-badge.role-臣 { background: rgba(139, 115, 85, 0.15); color: var(--secondary-color); }
+.role-badge.role-佐 { background: rgba(107, 112, 92, 0.15); color: var(--neutral); }
+.role-badge.role-使 { background: rgba(74, 144, 164, 0.15); color: var(--cool); }
+
+.weight-analysis {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.weight-section h5 {
+  font-size: 0.9rem;
+  color: var(--secondary-color);
+  margin-bottom: 0.5rem;
+}
+
+.weight-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.weight-bar-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.weight-name {
+  font-size: 0.8rem;
+  min-width: 4rem;
+}
+
+.weight-bar {
+  flex: 1;
+  height: 12px;
+  background: #eee;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.weight-number {
+  font-size: 0.75rem;
+  color: var(--text-light);
+  min-width: 2rem;
+  text-align: right;
+}
+
+.zhengsu-tags-inline {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.zhengsu-tag-inline {
+  background: rgba(139, 69, 19, 0.1);
+  color: var(--bingxing);
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+}
+
+/* 中藥標籤新樣式 */
+.intensity-tag {
+  background: rgba(196, 30, 58, 0.1);
+  color: var(--critical);
+}
+
+.dosage-type-tag {
+  background: rgba(74, 144, 164, 0.1);
+  color: var(--cool);
+}
+
+.treatment-tag {
+  background: rgba(107, 142, 35, 0.1);
+  color: var(--bingwei);
+}
+
+/* 相關中藥連結 */
+.related-herbs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.related-herb-tag {
+  background: var(--bg-color);
+  color: var(--primary-color);
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.related-herb-tag:hover {
+  background: var(--primary-color);
+  color: #fff;
+}
+
+.no-data {
+  color: var(--text-light);
+  font-size: 0.9rem;
+}
+
+.loading-text {
+  color: var(--text-light);
+}
+
 /* 頁尾 */
 footer {
   text-align: center;
@@ -629,12 +1138,30 @@ footer {
   .stats-cards {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .quick-links-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .weight-analysis {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 768px) {
   header h1 {
     font-size: 1.6rem;
     letter-spacing: 0.1rem;
+  }
+
+  .main-nav {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .nav-link {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
   }
 
   .container {
@@ -654,8 +1181,20 @@ footer {
     font-size: 1.8rem;
   }
 
+  .quick-links-grid {
+    grid-template-columns: 1fr;
+  }
+
   .zhengsu-tabs {
     flex-direction: column;
+  }
+
+  .zhengsu-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .formula-list {
+    grid-template-columns: 1fr;
   }
 
   .search-section {
@@ -693,6 +1232,10 @@ footer {
   .modal-content {
     padding: 1.5rem;
     width: 95%;
+  }
+
+  .formula-modal-content {
+    max-width: 95%;
   }
 }
 

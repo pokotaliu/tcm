@@ -1,5 +1,5 @@
 {
-  "id": "formula_001",
+  "id": "mahuang_tang",
   "name": "麻黃湯",
   "pinyin": "Ma Huang Tang",
   "alias": ["還魂湯"],
@@ -7,30 +7,58 @@
   "category": "解表劑",
   "composition": [
     {
-      "herb": "麻黃",
+      "herb_id": "ma_huang",
+      "name": "麻黃",
       "amount": "9g",
-      "role": "君藥"
+      "role": "君",
+      "is_guide": false
     },
     {
-      "herb": "桂枝",
+      "herb_id": "gui_zhi",
+      "name": "桂枝",
       "amount": "6g",
-      "role": "臣藥"
+      "role": "臣",
+      "is_guide": false
     },
     {
-      "herb": "杏仁",
+      "herb_id": "xing_ren",
+      "name": "杏仁",
       "amount": "6g",
-      "role": "佐藥"
+      "role": "佐",
+      "is_guide": false
     },
     {
-      "herb": "炙甘草",
+      "herb_id": "zhi_gan_cao",
+      "name": "炙甘草",
       "amount": "3g",
-      "role": "使藥"
+      "role": "使",
+      "is_guide": false
     }
   ],
   "preparation": "以水九升，先煮麻黃減二升，去上沫，內諸藥，煮取二升半，去滓，溫服八合。覆取微似汗，不須啜粥。",
   "usage": "水煎服，溫覆取微汗",
+  "calculated_weights": {
+    "treatment": {
+      "開閉": 4.5,
+      "散寒": 3.75,
+      "降氣": 1.5,
+      "補氣": 0.25
+    },
+    "location": {
+      "biao": 5.0,
+      "fei": 4.0,
+      "jingluo": 2.0
+    },
+    "nature": {
+      "feng": 4.5,
+      "han": 5.5,
+      "qi_ni": 1.5
+    }
+  },
+  "primary_zhengsu": ["biao", "feng", "han"],
+  "primary_pattern": "外感風寒表實證",
   "effects": ["發汗解表", "宣肺平喘"],
-  "indications": ["外感風寒表實證", "惡寒發熱", "頭身疼痛", "無汗而喘", "舌苔薄白", "脈浮緊"],
+  "indications": "外感風寒表實證。惡寒發熱，頭身疼痛，無汗而喘，舌苔薄白，脈浮緊。",
   "contraindications": ["表虛自汗", "體虛外感", "瘡瘍初起"],
   "cautions": ["發汗不宜太過", "中病即止"]
 }

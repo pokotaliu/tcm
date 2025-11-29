@@ -13,26 +13,32 @@
   <header>
     <h1>中醫證素辨證資料庫</h1>
     <p>以證素為核心 · 從藥推證</p>
+    <nav class="main-nav">
+      <a href="index.html" class="nav-link active">首頁</a>
+      <a href="zhengsu.html" class="nav-link">證素總覽</a>
+      <a href="herbs.html" class="nav-link">中藥查詢</a>
+      <a href="formulas.html" class="nav-link">方劑分析</a>
+    </nav>
   </header>
 
   <main class="container">
     <!-- 統計卡片 -->
     <section class="stats-cards" id="stats-cards">
-      <div class="stat-card">
+      <a href="zhengsu.html" class="stat-card clickable">
         <div class="stat-number" id="zhengsu-count">--</div>
         <div class="stat-label">證素</div>
         <div class="stat-detail" id="zhengsu-detail">病位 -- / 病性 --</div>
-      </div>
-      <div class="stat-card">
+      </a>
+      <a href="herbs.html" class="stat-card clickable">
         <div class="stat-number" id="herbs-count">--</div>
         <div class="stat-label">中藥</div>
         <div class="stat-detail">收錄中藥</div>
-      </div>
-      <div class="stat-card">
+      </a>
+      <a href="formulas.html" class="stat-card clickable">
         <div class="stat-number" id="formulas-count">--</div>
         <div class="stat-label">方劑</div>
         <div class="stat-detail">經典方劑</div>
-      </div>
+      </a>
       <div class="stat-card">
         <div class="stat-number" id="zhengxing-count">--</div>
         <div class="stat-label">證型</div>
@@ -137,51 +143,25 @@
       </div>
     </div>
 
-    <!-- 中藥查詢區 -->
-    <section class="herb-section">
-      <h2 class="section-title">中藥查詢</h2>
-
-      <!-- 搜尋與篩選區 -->
-      <div class="search-section">
-        <div class="search-box">
-          <input type="text" id="search-input" placeholder="輸入中藥名稱、拼音或別名搜尋...">
-          <button id="search-btn">搜尋</button>
-        </div>
-
-        <div class="filter-section">
-          <div class="filter-group">
-            <h3>按證素篩選</h3>
-            <div class="filter-tags" id="zhengsu-filter-tags">
-              <!-- 由 JavaScript 動態生成 -->
-            </div>
-          </div>
-
-          <div class="filter-group">
-            <h3>按歸經篩選</h3>
-            <div class="filter-tags" id="meridian-tags">
-              <!-- 由 JavaScript 動態生成 -->
-            </div>
-          </div>
-
-          <div class="filter-group">
-            <h3>按藥性篩選</h3>
-            <div class="filter-tags" id="nature-tags">
-              <!-- 由 JavaScript 動態生成 -->
-            </div>
-          </div>
-        </div>
-
-        <div class="filter-actions">
-          <button id="clear-filters" class="btn-secondary">清除篩選</button>
-        </div>
-      </div>
-
-      <!-- 統計資訊 -->
-      <div class="stats" id="stats">載入中...</div>
-
-      <!-- 中藥列表 -->
-      <div class="herb-list" id="herb-list">
-        <div class="loading">載入中藥數據中</div>
+    <!-- 快速入口 -->
+    <section class="quick-links">
+      <h2 class="section-title">快速入口</h2>
+      <div class="quick-links-grid">
+        <a href="herbs.html" class="quick-link-card">
+          <div class="quick-link-icon">🌿</div>
+          <div class="quick-link-title">中藥查詢</div>
+          <div class="quick-link-desc">按證素、歸經、藥性搜尋中藥</div>
+        </a>
+        <a href="formulas.html" class="quick-link-card">
+          <div class="quick-link-icon">📜</div>
+          <div class="quick-link-title">方劑分析</div>
+          <div class="quick-link-desc">查看方劑的證素權重分析</div>
+        </a>
+        <a href="zhengsu.html" class="quick-link-card">
+          <div class="quick-link-icon">🔬</div>
+          <div class="quick-link-title">證素總覽</div>
+          <div class="quick-link-desc">瀏覽所有 53 項證素</div>
+        </a>
       </div>
     </section>
   </main>
