@@ -7,8 +7,37 @@ const state = {
   zhengsu: [],
   herbs: [],
   formulas: [],
-  zhengxing: []
+  zhengxing: [],
+  loadError: false
 };
+
+/**
+ * 檢測是否使用 file:// 協議開啟
+ */
+function isFileProtocol() {
+  return window.location.protocol === 'file:';
+}
+
+/**
+ * 顯示錯誤提示
+ */
+function showLoadError() {
+  const container = document.querySelector('.stats-cards');
+  if (!container) return;
+
+  const errorDiv = document.createElement('div');
+  errorDiv.className = 'load-error-banner';
+  errorDiv.innerHTML = `
+    <div class="error-icon">⚠️</div>
+    <div class="error-content">
+      <strong>數據載入失敗</strong>
+      <p>請使用本地伺服器開啟此頁面。在終端機執行：</p>
+      <code>python -m http.server 8000</code>
+      <p>然後訪問 <a href="http://localhost:8000">http://localhost:8000</a></p>
+    </div>
+  `;
+  container.parentNode.insertBefore(errorDiv, container);
+}
 
 // 證素分類配置
 const ZHENGSU_CONFIG = {
@@ -276,6 +305,12 @@ document.addEventListener('DOMContentLoaded', async () => {
   initZhengsuTabs();
   initModal();
 
+  // 檢測 file:// 協議
+  if (isFileProtocol()) {
+    showLoadError();
+    return;
+  }
+
   // 載入數據
   await Promise.all([
     loadZhengsu(),
@@ -283,6 +318,12 @@ document.addEventListener('DOMContentLoaded', async () => {
     loadFormulas(),
     loadZhengxing()
   ]);
+
+  // 檢查數據載入是否成功
+  if (state.zhengsu.length === 0) {
+    state.loadError = true;
+    showLoadError();
+  }
 
   // 渲染證素速覽
   renderZhengsuOverview();
