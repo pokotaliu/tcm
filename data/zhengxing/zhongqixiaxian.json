@@ -16,9 +16,9 @@
   "treatment_principle": ["補氣升陽", "升舉中氣"],
   "recommended_formulas": ["buzhongyiqi_tang"],
   "recommended_herbs": ["huang_qi", "ren_shen", "sheng_ma", "chai_hu", "bai_zhu"],
-  "evolved_from": ["pi_qi_xu"],
-  "differentiate_from": ["qi_tuo", "qingyang_busheng", "qi_xu", "shen_qi_bu_gu"],
-  "can_evolve_to": ["qi_tuo", "shen_qi_bu_gu"],
+  "evolved_from": ["qi_xu_zheng", "pi_qi_xu"],
+  "differentiate_from": ["qi_tuo_zheng", "qingyang_busheng_zheng", "qi_xu_zheng", "shen_qi_bu_gu"],
+  "can_evolve_to": ["qi_tuo_zheng", "shen_qi_bu_gu"],
   "common_in": ["素體稟賦不足者", "形體瘦長之人", "平時飲食不節者", "房勞過度者", "胎次過多者", "中老年"],
   "clinical_variants": [
     {

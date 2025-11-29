@@ -6,5 +6,6 @@
   "treatment": "補氣",
   "is_critical": false,
   "alias": ["氣弱", "中氣不足", "元氣虧虛"],
-  "description": "氣虛是指人體元氣不足，臟腑功能活動減退的病理狀態。可發生於各個臟腑，表現為該臟腑功能低下的症狀。"
+  "description": "氣虛是指人體元氣不足，臟腑功能活動減退的病理狀態。可發生於各個臟腑，表現為該臟腑功能低下的症狀。氣虛為諸多氣病的基礎，可進一步發展為氣陷、氣脫等危重證候。",
+  "related_symptoms": ["symptom_fali", "symptom_qiduan", "symptom_shengdiweiqie", "symptom_zihan"]
 }

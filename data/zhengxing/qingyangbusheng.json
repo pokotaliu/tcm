@@ -1,0 +1,29 @@
+{
+  "id": "qingyang_busheng_zheng",
+  "name": "清陽不升證",
+  "alias": ["濁陰不降證"],
+  "zhengsu_composition": {
+    "location": ["pi"],
+    "nature": ["qi_xu", "qingyang_busheng"]
+  },
+  "pathogenesis": "清陽不升證是指脾胃升清功能減退，清陽之氣不能上達頭目的證候。常見虛實夾雜，可兼有痰濁中阻。",
+  "symptoms": {
+    "main": ["頭暈眼花", "耳鳴", "頭重如裹"],
+    "secondary": ["神疲乏力", "納呆", "便溏"],
+    "tongue": "舌淡苔膩",
+    "pulse": "脈緩弱"
+  },
+  "treatment_principle": ["升清降濁", "健脾化濕"],
+  "recommended_formulas": ["yiqi_congming_tang"],
+  "recommended_herbs": ["huang_qi", "sheng_ma", "ge_gen", "bai_zhu"],
+  "evolved_from": ["pi_qi_xu"],
+  "can_evolve_to": [],
+  "differentiate_from": ["zhong_qi_xia_xian"],
+  "common_in": ["脾胃虛弱者", "痰濕體質者"],
+  "clinical_variants": [],
+  "differentiation": [],
+  "literature": [],
+  "related_diseases": [],
+  "description": "清陽不升證主要針對濁陰不降而言，以上焦見症為主（頭暈眼花、耳鳴），臨床多見虛實夾雜證，亦可因痰濁中阻而見實證表現。與中氣下陷證相鑑別，後者以中下焦症狀為主，純屬虛證。",
+  "source": "《中醫診斷學》"
+}

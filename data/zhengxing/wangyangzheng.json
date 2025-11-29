@@ -1,0 +1,29 @@
+{
+  "id": "wang_yang_zheng",
+  "name": "亡陽證",
+  "alias": ["陽脫證", "陽竭證"],
+  "zhengsu_composition": {
+    "location": [],
+    "nature": ["wang_yang"]
+  },
+  "pathogenesis": "亡陽證是指陽氣大量耗損，陽氣欲脫的危重證候。多為真陽衰微，或汗出過多、下利不止等造成陽氣衰竭，陽不戀陰，陰陽離決。",
+  "symptoms": {
+    "main": ["面色蒼白", "四肢厥冷", "冷汗淋漓", "脈微欲絕"],
+    "secondary": ["昏迷不醒", "目合口張", "手撒肢厥", "二便自遺", "鼻息低微"],
+    "tongue": "舌質淡",
+    "pulse": "脈微細欲絕"
+  },
+  "treatment_principle": ["回陽救逆"],
+  "recommended_formulas": ["sini_tang", "shenfu_tang"],
+  "recommended_herbs": ["fu_zi", "gan_jiang", "ren_shen", "zhi_gan_cao"],
+  "evolved_from": ["qi_tuo_zheng", "yang_xu"],
+  "can_evolve_to": [],
+  "differentiate_from": ["qi_tuo_zheng", "wang_yin_zheng"],
+  "common_in": ["陽虛體質者", "久病陽衰者", "大汗大瀉後"],
+  "clinical_variants": [],
+  "differentiation": [],
+  "literature": [],
+  "related_diseases": [],
+  "description": "亡陽證是陽氣衰竭的極危重證候。與氣脫證比較，氣脫證可為亡陽證的先驅證候；亡陽證已見昏迷不醒、脈微細欲絕，病情更為危重。與亡陰證比較，亡陽證面色蒼白、四肢厥冷、冷汗淋漓，亡陰證身熱面赤、汗出如油、手足溫。",
+  "source": "《中醫診斷學》"
+}

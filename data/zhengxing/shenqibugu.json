@@ -1,0 +1,29 @@
+{
+  "id": "shen_qi_bu_gu",
+  "name": "腎氣不固證",
+  "alias": ["腎氣虛不固", "下元不固"],
+  "zhengsu_composition": {
+    "location": ["shen"],
+    "nature": ["qi_xu", "bu_gu"]
+  },
+  "pathogenesis": "腎氣不固證是指腎氣虧虛，封藏固攝功能失職的證候。多因先天稟賦不足，或後天失養，或久病耗損，或老年腎虧所致。",
+  "symptoms": {
+    "main": ["腰膝酸軟", "小便頻數而清", "夜尿多", "遺精滑精", "女子帶下清稀"],
+    "secondary": ["神疲乏力", "面色淡白", "聽力減退"],
+    "tongue": "舌淡苔白",
+    "pulse": "脈沉弱"
+  },
+  "treatment_principle": ["補腎固攝"],
+  "recommended_formulas": ["jinguo_gujing_wan", "sangpiaoxiao_san"],
+  "recommended_herbs": ["tu_si_zi", "wu_wei_zi", "long_gu", "mu_li", "sang_piao_xiao"],
+  "evolved_from": ["shen_qi_xu", "zhong_qi_xia_xian"],
+  "can_evolve_to": [],
+  "differentiate_from": ["zhong_qi_xia_xian"],
+  "common_in": ["老年人", "久病體虛者", "先天不足者"],
+  "clinical_variants": [],
+  "differentiation": [],
+  "literature": [],
+  "related_diseases": [],
+  "description": "腎氣不固證以腎失封藏、下關不固為主要特點。可見五更泄瀉、遺精、滑精、淋濁、小便失禁等腎關不固之症，每每伴有腰膝酸軟。與中氣下陷證相鑑別，腎氣不固證病位在腎，中氣下陷證病位在脾。",
+  "source": "《中醫診斷學》"
+}
