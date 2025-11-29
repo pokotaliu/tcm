@@ -1,0 +1,10 @@
+{
+  "id": "dong_feng",
+  "name": "動風",
+  "category": "病性",
+  "subcategory": "內生病邪",
+  "treatment": "熄風",
+  "is_critical": false,
+  "alias": ["內風", "肝風內動"],
+  "description": "動風是指肝風內動的病理狀態。表現為眩暈、震顫、抽搐、角弓反張、口眼歪斜等動搖不定之症。"
+}

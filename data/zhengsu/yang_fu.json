@@ -1,0 +1,10 @@
+{
+  "id": "yang_fu",
+  "name": "陽浮",
+  "category": "病性",
+  "subcategory": "陰陽病變",
+  "treatment": "引火歸元",
+  "is_critical": false,
+  "alias": ["虛陽上浮", "龍雷之火"],
+  "description": "陽浮是指腎陽虧虛，虛陽上浮的病理狀態。表現為面紅如妝、咽痛口瘡、足冷膝寒、脈沉細等上熱下寒之症。"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "wang_yang",
+  "name": "亡陽",
+  "category": "病性",
+  "subcategory": "陰陽病變",
+  "treatment": "回陽",
+  "is_critical": true,
+  "alias": ["陽脫"],
+  "description": "亡陽是指陽氣大量耗損，陽氣欲脫的危重病理狀態。表現為面色蒼白、四肢厥冷、冷汗淋漓、脈微欲絕等症。"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "shaofu",
+  "name": "少腹",
+  "category": "病位",
+  "subcategory": "部位",
+  "treatment": null,
+  "is_critical": false,
+  "alias": ["小腹"],
+  "description": "少腹位於臍下，為肝經所過、膀胱、胞宮所居之處。少腹病多見小腹脹痛、疝氣等症。"
+}

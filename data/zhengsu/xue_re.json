@@ -1,0 +1,10 @@
+{
+  "id": "xue_re",
+  "name": "血熱",
+  "category": "病性",
+  "subcategory": "血液病變",
+  "treatment": "涼血",
+  "is_critical": false,
+  "alias": ["血分熱"],
+  "description": "血熱是指熱邪侵入血分，血行加速的病理狀態。表現為身熱夜甚、煩躁不安、斑疹、出血、舌紅絳等症。"
+}

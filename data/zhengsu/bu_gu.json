@@ -1,0 +1,10 @@
+{
+  "id": "bu_gu",
+  "name": "不固",
+  "category": "病性",
+  "subcategory": "氣機病變",
+  "treatment": "收攝",
+  "is_critical": false,
+  "alias": ["氣不固攝", "失攝"],
+  "description": "不固是指氣虛不能固攝的病理狀態。表現為自汗、遺精、滑精、遺尿、崩漏、胎動不安等症。"
+}

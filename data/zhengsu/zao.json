@@ -1,0 +1,10 @@
+{
+  "id": "zao",
+  "name": "燥",
+  "category": "病性",
+  "subcategory": "外邪",
+  "treatment": "潤燥",
+  "is_critical": false,
+  "alias": ["燥邪"],
+  "description": "燥為陽邪，易傷津液。燥邪致病特點為乾燥，表現為口乾、鼻燥、咽乾、皮膚乾燥、大便乾結等症。"
+}

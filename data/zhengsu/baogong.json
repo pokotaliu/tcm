@@ -1,0 +1,10 @@
+{
+  "id": "baogong",
+  "name": "胞宮",
+  "category": "病位",
+  "subcategory": "特殊",
+  "treatment": null,
+  "is_critical": false,
+  "alias": ["子宮", "女子胞"],
+  "description": "胞宮為女子奇恆之腑，主月經、孕育胎兒。胞宮病多見月經不調、帶下、不孕等症。"
+}

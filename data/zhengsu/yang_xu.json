@@ -1,0 +1,10 @@
+{
+  "id": "yang_xu",
+  "name": "陽虛",
+  "category": "病性",
+  "subcategory": "陰陽病變",
+  "treatment": "溫陽",
+  "is_critical": false,
+  "alias": ["陽氣不足", "陽虧"],
+  "description": "陽虛是指體內陽氣虧虛，溫煦功能減退的病理狀態。表現為畏寒肢冷、面色㿠白、神疲乏力、小便清長、舌淡苔白等症。"
+}

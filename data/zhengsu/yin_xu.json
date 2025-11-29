@@ -1,0 +1,10 @@
+{
+  "id": "yin_xu",
+  "name": "陰虛",
+  "category": "病性",
+  "subcategory": "陰陽病變",
+  "treatment": "滋陰",
+  "is_critical": false,
+  "alias": ["陰液不足", "陰虧"],
+  "description": "陰虛是指體內陰液虧少，陰不制陽的病理狀態。表現為形體消瘦、口燥咽乾、五心煩熱、潮熱盜汗、舌紅少苔等症。"
+}

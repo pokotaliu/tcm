@@ -1,0 +1,10 @@
+{
+  "id": "jifu",
+  "name": "肌膚",
+  "category": "病位",
+  "subcategory": "形體",
+  "treatment": null,
+  "is_critical": false,
+  "alias": ["皮膚", "肌表"],
+  "description": "肌膚為人體外層組織，具有衛外功能。肌膚病多見皮疹、瘙癢、麻木、水腫等症。"
+}

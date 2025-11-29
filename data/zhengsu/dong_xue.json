@@ -1,0 +1,10 @@
+{
+  "id": "dong_xue",
+  "name": "動血",
+  "category": "病性",
+  "subcategory": "血液病變",
+  "treatment": "止血",
+  "is_critical": false,
+  "alias": ["血不循經", "出血"],
+  "description": "動血是指血液離經妄行的病理狀態。表現為各種出血症狀，如吐血、衄血、咯血、便血、尿血、崩漏等。"
+}

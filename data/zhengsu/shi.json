@@ -1,0 +1,10 @@
+{
+  "id": "shi",
+  "name": "濕",
+  "category": "病性",
+  "subcategory": "外邪",
+  "treatment": "化濕",
+  "is_critical": false,
+  "alias": ["濕邪"],
+  "description": "濕為陰邪，重濁黏滯，易阻氣機，損傷陽氣。濕邪致病特點為纏綿難愈，表現為頭重如裹、肢體困重、納呆、便溏等症。"
+}

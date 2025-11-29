@@ -1,0 +1,10 @@
+{
+  "id": "jing_kui",
+  "name": "精虧",
+  "category": "病性",
+  "subcategory": "精津病變",
+  "treatment": "填精",
+  "is_critical": false,
+  "alias": ["腎精不足", "精血虧虛"],
+  "description": "精虧是指腎精虧損不足的病理狀態。表現為發育遲緩、早衰、腰膝酸軟、耳鳴耳聾、健忘、生殖功能減退等症。"
+}

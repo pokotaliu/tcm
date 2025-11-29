@@ -1,0 +1,10 @@
+{
+  "id": "tan",
+  "name": "痰",
+  "category": "病性",
+  "subcategory": "病理產物",
+  "treatment": "化痰",
+  "is_critical": false,
+  "alias": ["痰濁", "痰飲"],
+  "description": "痰為津液代謝障礙所形成的病理產物。痰無處不到，致病廣泛，表現為咳嗽咯痰、眩暈、癲癇、痰核、腫塊等症。"
+}

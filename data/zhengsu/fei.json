@@ -1,0 +1,10 @@
+{
+  "id": "fei",
+  "name": "肺",
+  "category": "病位",
+  "subcategory": "五臟",
+  "treatment": null,
+  "is_critical": false,
+  "alias": ["肺臟", "肺系"],
+  "description": "肺為相傅之官，主氣司呼吸，主宣發肅降，通調水道。肺病多見咳嗽、喘息、胸悶等症。"
+}

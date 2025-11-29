@@ -1,0 +1,10 @@
+{
+  "id": "xiongge",
+  "name": "胸膈",
+  "category": "病位",
+  "subcategory": "部位",
+  "treatment": null,
+  "is_critical": false,
+  "alias": ["胸中", "膈上"],
+  "description": "胸膈位於心肺之下、胃之上，為氣機升降之要道。胸膈病多見胸悶、心煩、痞滿等症。"
+}

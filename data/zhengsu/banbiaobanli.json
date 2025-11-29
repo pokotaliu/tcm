@@ -1,0 +1,10 @@
+{
+  "id": "banbiaobanli",
+  "name": "半表半裡",
+  "category": "病位",
+  "subcategory": "表裡",
+  "treatment": null,
+  "is_critical": false,
+  "alias": ["少陽"],
+  "description": "半表半裡位於表裡之間，為邪正交爭之所。病多見寒熱往來、胸脅苦滿、口苦咽乾等症。"
+}

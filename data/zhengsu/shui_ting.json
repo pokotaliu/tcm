@@ -1,0 +1,10 @@
+{
+  "id": "shui_ting",
+  "name": "水停",
+  "category": "病性",
+  "subcategory": "病理產物",
+  "treatment": "利水",
+  "is_critical": true,
+  "alias": ["水腫", "水飲內停"],
+  "description": "水停是指水液停聚體內的病理狀態。表現為全身或局部水腫、小便不利、胸水腹水等症，嚴重者可危及生命。"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "pi",
+  "name": "脾",
+  "category": "病位",
+  "subcategory": "五臟",
+  "treatment": null,
+  "is_critical": false,
+  "alias": ["脾臟", "脾系"],
+  "description": "脾為後天之本，主運化，統血，主肌肉四肢。脾病多見納差、腹脹、便溏、乏力等症。"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "shen",
+  "name": "腎",
+  "category": "病位",
+  "subcategory": "五臟",
+  "treatment": null,
+  "is_critical": false,
+  "alias": ["腎臟", "腎系"],
+  "description": "腎為先天之本，藏精，主水，主骨生髓。腎病多見腰膝酸軟、耳鳴、遺精、水腫等症。"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "wei",
+  "name": "胃",
+  "category": "病位",
+  "subcategory": "六腑",
+  "treatment": null,
+  "is_critical": false,
+  "alias": ["胃腑", "胃脘"],
+  "description": "胃為水穀之海，主受納腐熟水穀，以降為順。胃病多見胃脘痛、嘔吐、噯氣、呃逆等症。"
+}

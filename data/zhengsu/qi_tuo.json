@@ -1,0 +1,10 @@
+{
+  "id": "qi_tuo",
+  "name": "氣脫",
+  "category": "病性",
+  "subcategory": "氣機病變",
+  "treatment": "固脫",
+  "is_critical": true,
+  "alias": ["脫證", "氣隨血脫"],
+  "description": "氣脫是指氣虛至極，元氣外脫的危重病理狀態。表現為面色蒼白、大汗淋漓、四肢厥冷、脈微欲絕等症。"
+}
