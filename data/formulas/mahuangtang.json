@@ -1,0 +1,36 @@
+{
+  "id": "formula_001",
+  "name": "麻黃湯",
+  "pinyin": "Ma Huang Tang",
+  "alias": ["還魂湯"],
+  "source": "傷寒論",
+  "category": "解表劑",
+  "composition": [
+    {
+      "herb": "麻黃",
+      "amount": "9g",
+      "role": "君藥"
+    },
+    {
+      "herb": "桂枝",
+      "amount": "6g",
+      "role": "臣藥"
+    },
+    {
+      "herb": "杏仁",
+      "amount": "6g",
+      "role": "佐藥"
+    },
+    {
+      "herb": "炙甘草",
+      "amount": "3g",
+      "role": "使藥"
+    }
+  ],
+  "preparation": "以水九升，先煮麻黃減二升，去上沫，內諸藥，煮取二升半，去滓，溫服八合。覆取微似汗，不須啜粥。",
+  "usage": "水煎服，溫覆取微汗",
+  "effects": ["發汗解表", "宣肺平喘"],
+  "indications": ["外感風寒表實證", "惡寒發熱", "頭身疼痛", "無汗而喘", "舌苔薄白", "脈浮緊"],
+  "contraindications": ["表虛自汗", "體虛外感", "瘡瘍初起"],
+  "cautions": ["發汗不宜太過", "中病即止"]
+}
