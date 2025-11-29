@@ -5,10 +5,25 @@
 const state = {
   zhengsu: [],
   zhengxing: [],
+  symptoms: [],  // 症狀資料
   selectedNature: [],  // 已選病性證素
   selectedLocation: [], // 已選病位證素
   matchedPattern: null
 };
+
+// 症狀文件列表
+const SYMPTOM_FILES = [
+  'qiduan.json',
+  'zihan.json',
+  'shengdiweiqie.json',
+  'yaoxisuanruan.json',
+  'erming.json',
+  'fali.json',
+  'nagu.json',
+  'fuzhang.json',
+  'bianxi.json',
+  'xinji.json'
+];
 
 // 常用病性證素（用於選擇器）
 const COMMON_NATURE_ZHENGSU = [
@@ -77,11 +92,40 @@ async function loadZhengxing() {
 }
 
 /**
+ * 載入症狀數據
+ */
+async function loadSymptoms() {
+  const promises = SYMPTOM_FILES.map(file =>
+    fetch(`data/symptoms/${file}`)
+      .then(res => res.ok ? res.json() : null)
+      .catch(() => null)
+  );
+
+  const results = await Promise.all(promises);
+  state.symptoms = results.filter(Boolean);
+}
+
+/**
  * 獲取證素名稱
  */
 function getZhengsuName(id) {
   const z = state.zhengsu.find(zs => zs.id === id);
   return z ? z.name : id;
+}
+
+/**
+ * 獲取症狀名稱
+ * 將症狀ID（如 symptom_qiduan）轉換為中文名稱（如 氣短）
+ * 如果不是ID格式則直接返回原文字
+ */
+function getSymptomName(idOrName) {
+  // 如果是症狀ID格式（以 symptom_ 開頭）
+  if (typeof idOrName === 'string' && idOrName.startsWith('symptom_')) {
+    const symptom = state.symptoms.find(s => s.id === idOrName);
+    return symptom ? symptom.name : idOrName;
+  }
+  // 否則直接返回原文字（已經是中文名稱）
+  return idOrName;
 }
 
 /**
@@ -236,9 +280,9 @@ function inferPatternName() {
 function renderPatternDetail(pattern) {
   const detailSection = document.getElementById('zhengxing-detail');
 
-  // 症狀
-  const mainSymptoms = pattern.symptoms?.main || [];
-  const secondarySymptoms = pattern.symptoms?.secondary || [];
+  // 症狀（將ID轉換為中文名稱）
+  const mainSymptoms = (pattern.symptoms?.main || []).map(s => getSymptomName(s));
+  const secondarySymptoms = (pattern.symptoms?.secondary || []).map(s => getSymptomName(s));
 
   // 臨床變型
   const variants = pattern.clinical_variants || [];
@@ -338,7 +382,7 @@ function renderPatternDetail(pattern) {
             <div class="variant-item">
               <div class="variant-name">${v.name}</div>
               <div class="variant-cause"><strong>病因：</strong>${v.cause || ''}</div>
-              <div class="variant-symptoms"><strong>症狀：</strong>${(v.symptoms || []).join('、')}</div>
+              <div class="variant-symptoms"><strong>症狀：</strong>${(v.symptoms || []).map(s => getSymptomName(s)).join('、')}</div>
               <div class="variant-treatment"><strong>治法：</strong>${v.treatment || ''}</div>
               <div class="variant-formula"><strong>方劑：</strong>${v.formula || ''}${v.formula_source ? `（${v.formula_source}）` : ''}</div>
             </div>
@@ -485,6 +529,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   // 載入數據
   await loadZhengsu();
   await loadZhengxing();
+  await loadSymptoms();
 
   // 渲染選擇器
   renderSelectors();
