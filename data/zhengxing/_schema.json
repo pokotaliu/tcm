@@ -102,6 +102,61 @@
     "source": {
       "type": "string",
       "description": "文獻出處"
+    },
+    "clinical_variants": {
+      "type": "array",
+      "description": "臨床變型（同一證型的不同表現形式）",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string", "description": "變型名稱" },
+          "cause": { "type": "string", "description": "病因" },
+          "symptoms": { "type": "array", "items": { "type": "string" } },
+          "treatment": { "type": "string", "description": "治法" },
+          "formula": { "type": "string", "description": "方劑" },
+          "formula_source": { "type": "string", "description": "方劑出處" }
+        }
+      }
+    },
+    "differentiation": {
+      "type": "array",
+      "description": "類證鑑別（詳細比較）",
+      "items": {
+        "type": "object",
+        "properties": {
+          "compare_with": { "type": "string", "description": "比較證型 ID" },
+          "compare_name": { "type": "string", "description": "比較證型名稱" },
+          "similarities": { "type": "array", "items": { "type": "string" }, "description": "相同點" },
+          "differences": {
+            "type": "object",
+            "properties": {
+              "this_pattern": { "type": "string", "description": "本證特點" },
+              "other_pattern": { "type": "string", "description": "彼證特點" }
+            }
+          },
+          "key_points": { "type": "array", "items": { "type": "string" }, "description": "鑑別要點" }
+        }
+      }
+    },
+    "literature": {
+      "type": "array",
+      "description": "文獻選錄",
+      "items": {
+        "type": "object",
+        "properties": {
+          "source": { "type": "string", "description": "出處" },
+          "quote": { "type": "string", "description": "原文" }
+        }
+      }
+    },
+    "pathogenesis": {
+      "type": "string",
+      "description": "病機概述"
+    },
+    "common_in": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "常見於哪類人群"
     }
   }
 }
