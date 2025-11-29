@@ -1,0 +1,403 @@
+/* 中醫藥查詢系統樣式 */
+
+:root {
+  --primary-color: #5d4e37;
+  --secondary-color: #8b7355;
+  --accent-color: #a0522d;
+  --bg-color: #f5f0e8;
+  --card-bg: #faf8f5;
+  --border-color: #d4c4a8;
+  --text-color: #3d3d3d;
+  --text-light: #666;
+  --warm: #c94c4c;
+  --hot: #8b0000;
+  --cool: #4a90a4;
+  --cold: #2e5a8c;
+  --neutral: #6b705c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Serif TC", "Microsoft JhengHei", serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+/* 頁首 */
+header {
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  color: #f5f0e8;
+  padding: 2rem 1rem;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 2.2rem;
+  font-weight: 400;
+  letter-spacing: 0.3rem;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+/* 主容器 */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+/* 搜尋區 */
+.search-section {
+  background: var(--card-bg);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid var(--border-color);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.search-box {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.search-box input {
+  flex: 1;
+  padding: 0.8rem 1rem;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  font-size: 1rem;
+  font-family: inherit;
+  background: #fff;
+}
+
+.search-box input:focus {
+  outline: none;
+  border-color: var(--secondary-color);
+  box-shadow: 0 0 0 2px rgba(139, 115, 85, 0.2);
+}
+
+.search-box button {
+  padding: 0.8rem 1.5rem;
+  background: var(--primary-color);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1rem;
+  transition: background 0.2s;
+}
+
+.search-box button:hover {
+  background: var(--secondary-color);
+}
+
+/* 篩選區 */
+.filter-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.filter-group {
+  flex: 1;
+  min-width: 200px;
+}
+
+.filter-group h3 {
+  font-size: 0.95rem;
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.filter-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.filter-tag {
+  padding: 0.4rem 0.8rem;
+  background: #fff;
+  border: 1px solid var(--border-color);
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.2s;
+}
+
+.filter-tag:hover {
+  border-color: var(--secondary-color);
+  background: #faf8f5;
+}
+
+.filter-tag.active {
+  background: var(--primary-color);
+  color: #fff;
+  border-color: var(--primary-color);
+}
+
+/* 性味標籤顏色 */
+.filter-tag[data-nature="寒"] { border-left: 3px solid var(--cold); }
+.filter-tag[data-nature="涼"] { border-left: 3px solid var(--cool); }
+.filter-tag[data-nature="溫"] { border-left: 3px solid var(--warm); }
+.filter-tag[data-nature="熱"] { border-left: 3px solid var(--hot); }
+.filter-tag[data-nature="平"] { border-left: 3px solid var(--neutral); }
+
+/* 統計資訊 */
+.stats {
+  text-align: center;
+  padding: 1rem;
+  color: var(--text-light);
+  font-size: 0.9rem;
+}
+
+/* 中藥列表 */
+.herb-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1rem;
+}
+
+/* 中藥卡片 */
+.herb-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.herb-card:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.herb-card-header {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.herb-name {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: var(--primary-color);
+}
+
+.herb-pinyin {
+  font-size: 0.85rem;
+  color: var(--text-light);
+  margin-top: 0.2rem;
+}
+
+.herb-nature {
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.nature-寒 { background: rgba(46, 90, 140, 0.15); color: var(--cold); }
+.nature-涼 { background: rgba(74, 144, 164, 0.15); color: var(--cool); }
+.nature-溫 { background: rgba(201, 76, 76, 0.15); color: var(--warm); }
+.nature-熱 { background: rgba(139, 0, 0, 0.15); color: var(--hot); }
+.nature-平 { background: rgba(107, 112, 92, 0.15); color: var(--neutral); }
+
+.herb-tags {
+  padding: 0 1rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.herb-tag {
+  padding: 0.2rem 0.5rem;
+  background: rgba(93, 78, 55, 0.1);
+  border-radius: 3px;
+  font-size: 0.8rem;
+  color: var(--text-light);
+}
+
+/* 展開詳情 */
+.herb-details {
+  display: none;
+  padding: 1rem;
+  background: #fff;
+  border-top: 1px solid var(--border-color);
+}
+
+.herb-card.expanded .herb-details {
+  display: block;
+}
+
+.herb-card.expanded {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.detail-row {
+  margin-bottom: 0.8rem;
+}
+
+.detail-row:last-child {
+  margin-bottom: 0;
+}
+
+.detail-label {
+  font-size: 0.85rem;
+  color: var(--secondary-color);
+  margin-bottom: 0.2rem;
+}
+
+.detail-content {
+  font-size: 0.95rem;
+}
+
+.detail-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.detail-list li {
+  padding: 0.2rem 0.5rem;
+  background: var(--bg-color);
+  border-radius: 3px;
+  font-size: 0.85rem;
+}
+
+/* 展開箭頭 */
+.expand-icon {
+  float: right;
+  color: var(--text-light);
+  transition: transform 0.2s;
+}
+
+.herb-card.expanded .expand-icon {
+  transform: rotate(180deg);
+}
+
+/* 無結果提示 */
+.no-results {
+  text-align: center;
+  padding: 3rem;
+  color: var(--text-light);
+  grid-column: 1 / -1;
+}
+
+.no-results::before {
+  content: "🍃";
+  display: block;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+/* 載入狀態 */
+.loading {
+  text-align: center;
+  padding: 3rem;
+  color: var(--text-light);
+}
+
+.loading::after {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid var(--border-color);
+  border-top-color: var(--primary-color);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+  margin-left: 0.5rem;
+  vertical-align: middle;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* 頁尾 */
+footer {
+  text-align: center;
+  padding: 2rem;
+  color: var(--text-light);
+  font-size: 0.85rem;
+  border-top: 1px solid var(--border-color);
+  margin-top: 2rem;
+}
+
+/* 響應式設計 */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.6rem;
+    letter-spacing: 0.1rem;
+  }
+
+  .container {
+    padding: 1rem;
+  }
+
+  .search-section {
+    padding: 1rem;
+  }
+
+  .search-box {
+    flex-direction: column;
+  }
+
+  .search-box button {
+    width: 100%;
+  }
+
+  .filter-section {
+    gap: 1rem;
+  }
+
+  .filter-group {
+    min-width: 100%;
+  }
+
+  .herb-list {
+    grid-template-columns: 1fr;
+  }
+
+  .herb-card-header {
+    padding: 0.8rem;
+  }
+
+  .herb-name {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    padding: 1.5rem 1rem;
+  }
+
+  header h1 {
+    font-size: 1.4rem;
+  }
+
+  .filter-tag {
+    padding: 0.3rem 0.6rem;
+    font-size: 0.85rem;
+  }
+}
