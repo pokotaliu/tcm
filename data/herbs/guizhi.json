@@ -1,0 +1,16 @@
+{
+  "id": "herb_002",
+  "name": "桂枝",
+  "pinyin": "Gui Zhi",
+  "alias": ["柳桂", "桂枝尖"],
+  "category": "解表藥",
+  "properties": {
+    "nature": "溫",
+    "flavor": ["辛", "甘"],
+    "meridians": ["心", "肺", "膀胱"]
+  },
+  "effects": ["發汗解肌", "溫通經脈", "助陽化氣"],
+  "indications": ["風寒感冒", "寒凝血滯", "心悸"],
+  "dosage": "3-10g",
+  "cautions": ["溫熱病及陰虛火旺者忌用", "孕婦慎用"]
+}
