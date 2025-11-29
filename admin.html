@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>資料管理 - 中醫證素辨證資料庫</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>資料管理</h1>
+    <p>新增、編輯、匯出資料</p>
+    <nav class="main-nav">
+      <a href="index.html" class="nav-link">首頁</a>
+      <a href="zhengsu.html" class="nav-link">證素總覽</a>
+      <a href="herbs.html" class="nav-link">中藥查詢</a>
+      <a href="formulas.html" class="nav-link">方劑分析</a>
+      <a href="admin.html" class="nav-link active">資料管理</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <!-- 資料類別選擇 -->
+    <section class="admin-section">
+      <h2 class="section-title">選擇資料類別</h2>
+      <div class="data-type-tabs">
+        <button class="data-type-tab active" data-type="herbs">中藥</button>
+        <button class="data-type-tab" data-type="formulas">方劑</button>
+        <button class="data-type-tab" data-type="zhengsu">證素</button>
+        <button class="data-type-tab" data-type="symptoms">症狀</button>
+        <button class="data-type-tab" data-type="zhengxing">證型</button>
+        <button class="data-type-tab" data-type="diseases">疾病</button>
+      </div>
+    </section>
+
+    <!-- 操作區域 -->
+    <section class="admin-section">
+      <div class="admin-actions">
+        <button class="btn-primary" id="btn-new">+ 新增資料</button>
+        <button class="btn-secondary" id="btn-import">匯入 JSON</button>
+        <button class="btn-secondary" id="btn-export-all">匯出全部</button>
+        <input type="file" id="import-file" accept=".json" style="display: none;">
+      </div>
+    </section>
+
+    <!-- 現有資料列表 -->
+    <section class="admin-section">
+      <div class="list-header">
+        <h2 class="section-title" id="list-title">現有中藥資料</h2>
+        <div class="search-box-mini">
+          <input type="text" id="admin-search" placeholder="搜尋...">
+        </div>
+      </div>
+      <div class="data-list" id="data-list">
+        <div class="loading">載入中...</div>
+      </div>
+    </section>
+
+    <!-- 編輯表單區域 -->
+    <section class="admin-section hidden" id="form-section">
+      <div class="form-header">
+        <h2 class="section-title" id="form-title">新增中藥</h2>
+        <button class="btn-close" id="btn-close-form">&times;</button>
+      </div>
+      <form id="data-form">
+        <!-- 動態生成的表單內容 -->
+      </form>
+      <div class="form-actions">
+        <button type="button" class="btn-secondary" id="btn-preview">預覽 JSON</button>
+        <button type="button" class="btn-primary" id="btn-save">儲存</button>
+        <button type="button" class="btn-secondary" id="btn-cancel">取消</button>
+      </div>
+    </section>
+
+    <!-- JSON 預覽彈窗 -->
+    <div class="modal-overlay hidden" id="json-modal">
+      <div class="modal-content modal-large">
+        <button class="modal-close" id="modal-close">&times;</button>
+        <h3>JSON 預覽</h3>
+        <div class="json-preview-container">
+          <pre id="json-preview"></pre>
+        </div>
+        <div class="modal-actions">
+          <button class="btn-secondary" id="btn-copy-json">複製 JSON</button>
+          <button class="btn-secondary" id="btn-download-json">下載檔案</button>
+          <button class="btn-primary" id="btn-save-local">儲存到本地</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 刪除確認彈窗 -->
+    <div class="modal-overlay hidden" id="delete-modal">
+      <div class="modal-content">
+        <h3>確認刪除</h3>
+        <p id="delete-message">確定要刪除此資料嗎？</p>
+        <div class="modal-actions">
+          <button class="btn-secondary" id="btn-cancel-delete">取消</button>
+          <button class="btn-danger" id="btn-confirm-delete">確認刪除</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 提示訊息 -->
+    <div class="toast hidden" id="toast"></div>
+  </main>
+
+  <footer>
+    <p>中醫證素辨證資料庫 · 資料管理介面</p>
+  </footer>
+
+  <script src="js/admin.js"></script>
+</body>
+</html>

@@ -1315,3 +1315,590 @@ footer {
   color: #0066cc;
   text-decoration: underline;
 }
+
+/* ==================== 資料管理介面樣式 ==================== */
+
+/* 資料類別選項卡 */
+.data-type-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.data-type-tab {
+  padding: 0.7rem 1.2rem;
+  background: #fff;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.95rem;
+  transition: all 0.2s;
+}
+
+.data-type-tab:hover {
+  border-color: var(--secondary-color);
+  background: #faf8f5;
+}
+
+.data-type-tab.active {
+  background: var(--primary-color);
+  color: #fff;
+  border-color: var(--primary-color);
+}
+
+/* 管理區塊 */
+.admin-section {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* 操作按鈕區 */
+.admin-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+
+.btn-primary {
+  padding: 0.7rem 1.2rem;
+  background: var(--primary-color);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.95rem;
+  transition: background 0.2s;
+}
+
+.btn-primary:hover {
+  background: var(--secondary-color);
+}
+
+.btn-danger {
+  padding: 0.7rem 1.2rem;
+  background: var(--critical);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.95rem;
+  transition: background 0.2s;
+}
+
+.btn-danger:hover {
+  background: #a01830;
+}
+
+/* 列表標題區 */
+.list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.list-header .section-title {
+  margin-bottom: 0;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.search-box-mini {
+  display: flex;
+}
+
+.search-box-mini input {
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 0.9rem;
+  min-width: 200px;
+}
+
+.search-box-mini input:focus {
+  outline: none;
+  border-color: var(--secondary-color);
+}
+
+/* 資料表格 */
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.data-table th,
+.data-table td {
+  padding: 0.8rem;
+  text-align: left;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.data-table th {
+  background: var(--bg-color);
+  color: var(--secondary-color);
+  font-weight: 500;
+}
+
+.data-table tr:hover {
+  background: rgba(93, 78, 55, 0.03);
+}
+
+.action-cell {
+  white-space: nowrap;
+}
+
+.btn-edit,
+.btn-delete {
+  padding: 0.3rem 0.6rem;
+  font-size: 0.8rem;
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: inherit;
+  margin-right: 0.3rem;
+  transition: all 0.2s;
+}
+
+.btn-edit {
+  background: var(--bg-color);
+  border: 1px solid var(--border-color);
+  color: var(--primary-color);
+}
+
+.btn-edit:hover {
+  background: var(--primary-color);
+  color: #fff;
+}
+
+.btn-delete {
+  background: rgba(196, 30, 58, 0.1);
+  border: 1px solid rgba(196, 30, 58, 0.3);
+  color: var(--critical);
+}
+
+.btn-delete:hover {
+  background: var(--critical);
+  color: #fff;
+}
+
+/* 表單區 */
+.form-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.form-header .section-title {
+  margin-bottom: 0;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.btn-close {
+  background: none;
+  border: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: var(--text-light);
+  line-height: 1;
+}
+
+.btn-close:hover {
+  color: var(--text-color);
+}
+
+.form-actions {
+  display: flex;
+  gap: 0.8rem;
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border-color);
+}
+
+/* 表單群組 */
+.form-group {
+  margin-bottom: 2rem;
+}
+
+.form-section-title {
+  font-size: 1.1rem;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.form-row {
+  margin-bottom: 1rem;
+}
+
+.form-row label {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--secondary-color);
+  margin-bottom: 0.3rem;
+}
+
+.form-row input[type="text"],
+.form-row input[type="number"],
+.form-row select,
+.form-row textarea {
+  width: 100%;
+  padding: 0.6rem 0.8rem;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 0.95rem;
+  background: #fff;
+}
+
+.form-row input:focus,
+.form-row select:focus,
+.form-row textarea:focus {
+  outline: none;
+  border-color: var(--secondary-color);
+  box-shadow: 0 0 0 2px rgba(139, 115, 85, 0.2);
+}
+
+.form-row input[readonly] {
+  background: var(--bg-color);
+  color: var(--text-light);
+}
+
+.form-row small {
+  display: block;
+  margin-top: 0.3rem;
+  font-size: 0.8rem;
+  color: var(--text-light);
+}
+
+/* 單選/多選群組 */
+.radio-group,
+.checkbox-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  padding: 0.5rem 0;
+}
+
+.radio-label,
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.radio-label input,
+.checkbox-label input {
+  width: auto;
+  margin: 0;
+}
+
+/* 陣列輸入 */
+.array-input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.array-item {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.array-item input {
+  flex: 1;
+  padding: 0.5rem 0.8rem;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 0.9rem;
+}
+
+.array-item input:focus {
+  outline: none;
+  border-color: var(--secondary-color);
+}
+
+.btn-remove {
+  padding: 0.5rem 0.8rem;
+  background: rgba(196, 30, 58, 0.1);
+  border: 1px solid rgba(196, 30, 58, 0.3);
+  border-radius: 4px;
+  cursor: pointer;
+  color: var(--critical);
+  font-size: 0.9rem;
+  transition: all 0.2s;
+}
+
+.btn-remove:hover {
+  background: var(--critical);
+  color: #fff;
+}
+
+.btn-add-item {
+  align-self: flex-start;
+  padding: 0.5rem 1rem;
+  background: var(--bg-color);
+  border: 1px dashed var(--border-color);
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.85rem;
+  color: var(--secondary-color);
+  transition: all 0.2s;
+}
+
+.btn-add-item:hover {
+  border-color: var(--secondary-color);
+  background: #fff;
+}
+
+/* 功效項目表單 */
+.function-item-form,
+.composition-item-form,
+.pattern-item-form {
+  background: var(--bg-color);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.function-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.function-header span {
+  font-weight: 500;
+  color: var(--primary-color);
+}
+
+.btn-remove-function,
+.btn-remove-composition,
+.btn-remove-pattern {
+  padding: 0.3rem 0.6rem;
+  background: rgba(196, 30, 58, 0.1);
+  border: 1px solid rgba(196, 30, 58, 0.3);
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  color: var(--critical);
+  transition: all 0.2s;
+}
+
+.btn-remove-function:hover,
+.btn-remove-composition:hover,
+.btn-remove-pattern:hover {
+  background: var(--critical);
+  color: #fff;
+}
+
+.btn-add-function,
+.btn-add-composition,
+.btn-add-pattern {
+  padding: 0.6rem 1rem;
+  background: var(--bg-color);
+  border: 1px dashed var(--border-color);
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.9rem;
+  color: var(--secondary-color);
+  transition: all 0.2s;
+}
+
+.btn-add-function:hover,
+.btn-add-composition:hover,
+.btn-add-pattern:hover {
+  border-color: var(--secondary-color);
+  background: #fff;
+}
+
+/* 組成項目行 */
+.composition-row,
+.pattern-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr auto auto;
+  gap: 0.8rem;
+  align-items: end;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.form-field label {
+  font-size: 0.8rem;
+  color: var(--text-light);
+}
+
+.form-field input,
+.form-field select {
+  padding: 0.5rem;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 0.9rem;
+}
+
+.form-field input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  margin: 0.3rem 0;
+}
+
+/* JSON 預覽 */
+.modal-large {
+  max-width: 800px;
+}
+
+.json-preview-container {
+  background: #2d2d2d;
+  border-radius: 4px;
+  padding: 1rem;
+  max-height: 400px;
+  overflow: auto;
+  margin: 1rem 0;
+}
+
+.json-preview-container pre {
+  color: #f8f8f2;
+  font-family: "Consolas", "Monaco", monospace;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  margin: 0;
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+
+.modal-actions {
+  display: flex;
+  gap: 0.8rem;
+  justify-content: flex-end;
+  margin-top: 1rem;
+}
+
+/* Toast 提示 */
+.toast {
+  position: fixed;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0.8rem 1.5rem;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  z-index: 2000;
+  animation: slideUp 0.3s ease-out;
+}
+
+.toast.success {
+  background: var(--bingwei);
+  color: #fff;
+}
+
+.toast.error {
+  background: var(--critical);
+  color: #fff;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+/* 響應式調整 */
+@media (max-width: 768px) {
+  .data-type-tabs {
+    gap: 0.3rem;
+  }
+
+  .data-type-tab {
+    padding: 0.5rem 0.8rem;
+    font-size: 0.85rem;
+  }
+
+  .admin-actions {
+    flex-direction: column;
+  }
+
+  .admin-actions button {
+    width: 100%;
+  }
+
+  .list-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .search-box-mini {
+    width: 100%;
+  }
+
+  .search-box-mini input {
+    width: 100%;
+    min-width: auto;
+  }
+
+  .data-table {
+    font-size: 0.8rem;
+  }
+
+  .data-table th,
+  .data-table td {
+    padding: 0.5rem;
+  }
+
+  .composition-row,
+  .pattern-row {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+
+  .btn-remove-composition,
+  .btn-remove-pattern {
+    justify-self: start;
+  }
+
+  .form-actions {
+    flex-direction: column;
+  }
+
+  .form-actions button {
+    width: 100%;
+  }
+
+  .modal-actions {
+    flex-direction: column;
+  }
+
+  .modal-actions button {
+    width: 100%;
+  }
+}
