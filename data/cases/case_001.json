@@ -1,0 +1,74 @@
+{
+  "id": "case_001",
+  "source": {
+    "book": "示範醫案",
+    "author": "範例",
+    "dynasty": "現代"
+  },
+  "patient_info": {
+    "gender": "男",
+    "age": "35歲",
+    "occupation": "辦公室職員",
+    "constitution": "平素體弱，易感冒"
+  },
+  "chief_complaint": "反覆感冒三月餘，現乏力氣短一週",
+  "history": {
+    "present_illness": "患者三月來反覆感冒，每月發作1-2次，服西藥後症狀可緩解但易復發。一週前再次受涼後出現惡寒發熱，服藥後熱退，但遺留乏力氣短，活動後加重，伴自汗，聲音低怯，食慾不振。",
+    "past_history": "既往體健，無慢性病史"
+  },
+  "examination": {
+    "inspection": "面色少華，精神疲憊，舌淡苔薄白",
+    "auscultation": "語聲低微，呼吸稍促",
+    "inquiry": "乏力氣短，動則尤甚，自汗出，易感冒，食慾減退，大便正常，小便調",
+    "palpation": "脈虛弱無力"
+  },
+  "symptoms_collected": [
+    "symptom_fali",
+    "symptom_qiduan",
+    "symptom_zihan",
+    "symptom_shengdiweiqie"
+  ],
+  "diagnosis": {
+    "disease_id": "disease_ganmao",
+    "zhengxing_id": "fei_qi_xu",
+    "zhengsu_analysis": ["fei", "qi_xu"]
+  },
+  "treatment": {
+    "principle": ["補益肺氣", "固表止汗"],
+    "formula_id": "formula_yupingfengsan",
+    "formula_modification": [
+      {
+        "action": "加",
+        "herb": "黨參",
+        "reason": "加強補氣之力"
+      },
+      {
+        "action": "加",
+        "herb": "五味子",
+        "reason": "斂肺止汗"
+      }
+    ],
+    "prescription": [
+      { "herb_id": "herb_huangqi", "herb_name": "黃芪", "amount": "30g" },
+      { "herb_id": "herb_baizhu", "herb_name": "白朮", "amount": "15g" },
+      { "herb_id": "herb_fangfeng", "herb_name": "防風", "amount": "10g" },
+      { "herb_id": "herb_dangshen", "herb_name": "黨參", "amount": "15g" },
+      { "herb_id": "herb_wuweizi", "herb_name": "五味子", "amount": "6g" }
+    ],
+    "administration": "水煎服，每日一劑，分兩次溫服"
+  },
+  "follow_up": [
+    {
+      "date": "二診（一週後）",
+      "progress": "乏力明顯減輕，汗出減少，食慾改善，仍有輕度氣短",
+      "adjustment": "原方繼服，黃芪加至45g"
+    },
+    {
+      "date": "三診（兩週後）",
+      "progress": "諸症悉減，精神好轉",
+      "adjustment": "改服玉屏風顆粒鞏固療效"
+    }
+  ],
+  "outcome": "治療三週後症狀消失，隨訪三月未再感冒",
+  "notes": "本案為肺氣虛證的典型表現。患者反覆感冒導致肺氣耗傷，衛外不固，故易感外邪。治以補益肺氣、固表止汗為法，方選玉屏風散加減。黃芪補肺氣而固表，白朮健脾益氣，防風走表而祛風，三藥合用，補中有疏，散中有補。加黨參增強補氣之力，五味子斂肺止汗。全方標本兼顧，扶正固表，療效顯著。"
+}

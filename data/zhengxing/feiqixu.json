@@ -1,0 +1,20 @@
+{
+  "id": "fei_qi_xu",
+  "name": "肺氣虛證",
+  "alias": ["肺氣不足", "肺虛"],
+  "zhengsu_composition": {
+    "location": ["fei"],
+    "nature": ["qi_xu"]
+  },
+  "symptoms": {
+    "main": ["symptom_fali", "symptom_qiduan", "symptom_kesou"],
+    "secondary": ["symptom_zihan", "symptom_shengdiweiqie", "symptom_yidong"],
+    "tongue": "舌淡苔白",
+    "pulse": "脈虛弱"
+  },
+  "treatment_principle": ["補益肺氣"],
+  "recommended_formulas": ["formula_sijunzi", "formula_bufeiwan"],
+  "recommended_herbs": ["herb_huangqi", "herb_renshen", "herb_baizhu"],
+  "related_diseases": ["disease_ganmao", "disease_kesou"],
+  "description": "肺氣虛證是指肺的生理功能減弱，宗氣不足所表現的證候。多由久病咳喘耗傷肺氣，或因脾虛生化不足，或因年老體衰、元氣虧虛所致。"
+}
