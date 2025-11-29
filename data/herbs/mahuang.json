@@ -1,0 +1,16 @@
+{
+  "id": "herb_001",
+  "name": "麻黃",
+  "pinyin": "Ma Huang",
+  "alias": ["龍沙", "狗骨"],
+  "category": "解表藥",
+  "properties": {
+    "nature": "溫",
+    "flavor": ["辛", "微苦"],
+    "meridians": ["肺", "膀胱"]
+  },
+  "effects": ["發汗解表", "宣肺平喘", "利水消腫"],
+  "indications": ["風寒感冒", "胸悶喘咳", "風水水腫"],
+  "dosage": "2-9g",
+  "cautions": ["表虛自汗者慎用", "陰虛盜汗者慎用"]
+}
