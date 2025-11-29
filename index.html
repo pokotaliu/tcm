@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>中醫藥查詢系統</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>中醫藥查詢系統</h1>
+    <p>本草綱目 · 藥性歸經</p>
+  </header>
+
+  <main class="container">
+    <!-- 搜尋與篩選區 -->
+    <section class="search-section">
+      <div class="search-box">
+        <input type="text" id="search-input" placeholder="輸入中藥名稱、拼音或別名搜尋...">
+        <button id="search-btn">搜尋</button>
+      </div>
+
+      <div class="filter-section">
+        <div class="filter-group">
+          <h3>按歸經篩選</h3>
+          <div class="filter-tags" id="meridian-tags">
+            <!-- 由 JavaScript 動態生成 -->
+          </div>
+        </div>
+
+        <div class="filter-group">
+          <h3>按藥性篩選</h3>
+          <div class="filter-tags" id="nature-tags">
+            <!-- 由 JavaScript 動態生成 -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 統計資訊 -->
+    <div class="stats" id="stats">載入中...</div>
+
+    <!-- 中藥列表 -->
+    <section class="herb-list" id="herb-list">
+      <div class="loading">載入中藥數據中</div>
+    </section>
+  </main>
+
+  <footer>
+    <p>中醫藥查詢系統 · 僅供學習參考，不作為醫療診斷依據</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
