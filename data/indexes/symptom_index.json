@@ -1,0 +1,7738 @@
+{
+  "version": "1.0",
+  "generated_at": "2025-12-05",
+  "description": "症狀到證型的反向索引，支援症狀反查功能",
+  "symptoms": {
+    "symptom_qiduan": {
+      "display_name": "symptom_qiduan",
+      "related_syndromes": [
+        {
+          "id": "xin_qi_xu",
+          "name": "心氣虛證",
+          "relevance": "主症",
+          "differentiation_hint": "舌淡、脈虛或結代、symptom_xinji、symptom_qiduan"
+        },
+        {
+          "id": "gan_qi_xu",
+          "name": "肝氣虛證",
+          "relevance": "主症",
+          "differentiation_hint": "舌淡、脈弦細無力、symptom_qiduan、驚惕不寧"
+        },
+        {
+          "id": "fei_qi_xu",
+          "name": "肺氣虛證",
+          "relevance": "主症",
+          "differentiation_hint": "舌淡苔白、脈虛弱、symptom_qiduan、symptom_zihan"
+        },
+        {
+          "id": "shen_qi_xu",
+          "name": "腎氣虛證",
+          "relevance": "主症",
+          "differentiation_hint": "舌淡、脈沉弱、symptom_yaoxisuanruan、symptom_erming"
+        }
+      ],
+      "category": "其他"
+    },
+    "驚惕不寧": {
+      "display_name": "驚惕不寧",
+      "related_syndromes": [
+        {
+          "id": "gan_qi_xu",
+          "name": "肝氣虛證",
+          "relevance": "主症",
+          "differentiation_hint": "舌淡、脈弦細無力、symptom_qiduan、驚惕不寧"
+        }
+      ],
+      "category": "其他"
+    },
+    "膽怯": {
+      "display_name": "膽怯",
+      "related_syndromes": [
+        {
+          "id": "gan_qi_xu",
+          "name": "肝氣虛證",
+          "relevance": "主症",
+          "differentiation_hint": "舌淡、脈弦細無力、symptom_qiduan、驚惕不寧"
+        }
+      ],
+      "category": "其他"
+    },
+    "心煩": {
+      "display_name": "心煩",
+      "related_syndromes": [
+        {
+          "id": "qiyu_huahuo",
+          "name": "氣鬱化火證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "gan_qi_xu",
+          "name": "肝氣虛證",
+          "relevance": "次症",
+          "differentiation_hint": "舌淡、脈弦細無力、symptom_qiduan、驚惕不寧"
+        },
+        {
+          "id": "xuere_dongfeng",
+          "name": "血熱動風證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "xuere",
+          "name": "血熱證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "口苦": {
+      "display_name": "口苦",
+      "related_syndromes": [
+        {
+          "id": "shao_yang_zheng",
+          "name": "少陽證",
+          "relevance": "主症",
+          "differentiation_hint": "脈弦、口苦、咽乾、目眩"
+        },
+        {
+          "id": "shaoyang",
+          "name": "少陽證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "gan_qi_xu",
+          "name": "肝氣虛證",
+          "relevance": "次症",
+          "differentiation_hint": "舌淡、脈弦細無力、symptom_qiduan、驚惕不寧"
+        }
+      ],
+      "category": "其他"
+    },
+    "目眩": {
+      "display_name": "目眩",
+      "related_syndromes": [
+        {
+          "id": "shao_yang_zheng",
+          "name": "少陽證",
+          "relevance": "主症",
+          "differentiation_hint": "脈弦、口苦、咽乾、目眩"
+        },
+        {
+          "id": "shaoyang",
+          "name": "少陽證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "gan_qi_xu",
+          "name": "肝氣虛證",
+          "relevance": "次症",
+          "differentiation_hint": "舌淡、脈弦細無力、symptom_qiduan、驚惕不寧"
+        }
+      ],
+      "category": "其他"
+    },
+    "腰膝酸軟": {
+      "display_name": "腰膝酸軟",
+      "related_syndromes": [
+        {
+          "id": "shen_qi_bu_gu",
+          "name": "腎氣不固證",
+          "relevance": "主症",
+          "differentiation_hint": "舌淡苔白、脈沉弱、腰膝酸軟、小便頻數而清"
+        }
+      ],
+      "category": "其他"
+    },
+    "小便頻數而清": {
+      "display_name": "小便頻數而清",
+      "related_syndromes": [
+        {
+          "id": "shen_qi_bu_gu",
+          "name": "腎氣不固證",
+          "relevance": "主症",
+          "differentiation_hint": "舌淡苔白、脈沉弱、腰膝酸軟、小便頻數而清"
+        }
+      ],
+      "category": "其他"
+    },
+    "夜尿多": {
+      "display_name": "夜尿多",
+      "related_syndromes": [
+        {
+          "id": "shen_qi_bu_gu",
+          "name": "腎氣不固證",
+          "relevance": "主症",
+          "differentiation_hint": "舌淡苔白、脈沉弱、腰膝酸軟、小便頻數而清"
+        }
+      ],
+      "category": "其他"
+    },
+    "遺精滑精": {
+      "display_name": "遺精滑精",
+      "related_syndromes": [
+        {
+          "id": "shen_qi_bu_gu",
+          "name": "腎氣不固證",
+          "relevance": "主症",
+          "differentiation_hint": "舌淡苔白、脈沉弱、腰膝酸軟、小便頻數而清"
+        }
+      ],
+      "category": "其他"
+    },
+    "女子帶下清稀": {
+      "display_name": "女子帶下清稀",
+      "related_syndromes": [
+        {
+          "id": "shen_qi_bu_gu",
+          "name": "腎氣不固證",
+          "relevance": "主症",
+          "differentiation_hint": "舌淡苔白、脈沉弱、腰膝酸軟、小便頻數而清"
+        }
+      ],
+      "category": "其他"
+    },
+    "神疲乏力": {
+      "display_name": "神疲乏力",
+      "related_syndromes": [
+        {
+          "id": "qixu",
+          "name": "氣虛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "qingyang_busheng_zheng",
+          "name": "清陽不升證",
+          "relevance": "次症",
+          "differentiation_hint": "舌淡苔膩、脈緩弱、頭暈眼花、耳鳴"
+        },
+        {
+          "id": "shen_qi_bu_gu",
+          "name": "腎氣不固證",
+          "relevance": "次症",
+          "differentiation_hint": "舌淡苔白、脈沉弱、腰膝酸軟、小便頻數而清"
+        }
+      ],
+      "category": "虛損類"
+    },
+    "面色淡白": {
+      "display_name": "面色淡白",
+      "related_syndromes": [
+        {
+          "id": "qi_xu_bu_gu",
+          "name": "氣不固攝證",
+          "relevance": "次症",
+          "differentiation_hint": "舌淡、脈虛弱、自汗、出血"
+        },
+        {
+          "id": "qixu_waigan",
+          "name": "氣虛外感證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "shen_qi_bu_gu",
+          "name": "腎氣不固證",
+          "relevance": "次症",
+          "differentiation_hint": "舌淡苔白、脈沉弱、腰膝酸軟、小便頻數而清"
+        }
+      ],
+      "category": "其他"
+    },
+    "聽力減退": {
+      "display_name": "聽力減退",
+      "related_syndromes": [
+        {
+          "id": "shen_qi_bu_gu",
+          "name": "腎氣不固證",
+          "relevance": "次症",
+          "differentiation_hint": "舌淡苔白、脈沉弱、腰膝酸軟、小便頻數而清"
+        }
+      ],
+      "category": "其他"
+    },
+    "頭暈眼花": {
+      "display_name": "頭暈眼花",
+      "related_syndromes": [
+        {
+          "id": "qi_xue_liang_xu",
+          "name": "氣血兩虛證",
+          "relevance": "主症",
+          "differentiation_hint": "舌質淡胖、脈細弱、symptom_fali、頭暈眼花"
+        },
+        {
+          "id": "qingyang_busheng_zheng",
+          "name": "清陽不升證",
+          "relevance": "主症",
+          "differentiation_hint": "舌淡苔膩、脈緩弱、頭暈眼花、耳鳴"
+        },
+        {
+          "id": "zhong_qi_xia_xian",
+          "name": "中氣下陷證",
+          "relevance": "次症",
+          "differentiation_hint": "舌質淡胖、脈細緩無力、氣短乏力、神疲懶言"
+        },
+        {
+          "id": "xuetuo",
+          "name": "血脫證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "虛損類"
+    },
+    "耳鳴": {
+      "display_name": "耳鳴",
+      "related_syndromes": [
+        {
+          "id": "qingyang_busheng_zheng",
+          "name": "清陽不升證",
+          "relevance": "主症",
+          "differentiation_hint": "舌淡苔膩、脈緩弱、頭暈眼花、耳鳴"
+        }
+      ],
+      "category": "其他"
+    },
+    "頭重如裹": {
+      "display_name": "頭重如裹",
+      "related_syndromes": [
+        {
+          "id": "qingyang_busheng_zheng",
+          "name": "清陽不升證",
+          "relevance": "主症",
+          "differentiation_hint": "舌淡苔膩、脈緩弱、頭暈眼花、耳鳴"
+        }
+      ],
+      "category": "其他"
+    },
+    "納呆": {
+      "display_name": "納呆",
+      "related_syndromes": [
+        {
+          "id": "qingyang_busheng_zheng",
+          "name": "清陽不升證",
+          "relevance": "次症",
+          "differentiation_hint": "舌淡苔膩、脈緩弱、頭暈眼花、耳鳴"
+        },
+        {
+          "id": "shi",
+          "name": "濕證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "消化類"
+    },
+    "便溏": {
+      "display_name": "便溏",
+      "related_syndromes": [
+        {
+          "id": "qingyang_busheng_zheng",
+          "name": "清陽不升證",
+          "relevance": "次症",
+          "differentiation_hint": "舌淡苔膩、脈緩弱、頭暈眼花、耳鳴"
+        },
+        {
+          "id": "shi",
+          "name": "濕證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "二便類"
+    },
+    "symptom_fali": {
+      "display_name": "symptom_fali",
+      "related_syndromes": [
+        {
+          "id": "xin_qi_xu",
+          "name": "心氣虛證",
+          "relevance": "主症",
+          "differentiation_hint": "舌淡、脈虛或結代、symptom_xinji、symptom_qiduan"
+        },
+        {
+          "id": "qi_xue_liang_xu",
+          "name": "氣血兩虛證",
+          "relevance": "主症",
+          "differentiation_hint": "舌質淡胖、脈細弱、symptom_fali、頭暈眼花"
+        },
+        {
+          "id": "pi_qi_xu",
+          "name": "脾氣虛證",
+          "relevance": "主症",
+          "differentiation_hint": "舌淡苔白、脈緩弱、symptom_fali、symptom_nagu"
+        }
+      ],
+      "category": "其他"
+    },
+    "symptom_nagu": {
+      "display_name": "symptom_nagu",
+      "related_syndromes": [
+        {
+          "id": "pi_qi_xu",
+          "name": "脾氣虛證",
+          "relevance": "主症",
+          "differentiation_hint": "舌淡苔白、脈緩弱、symptom_fali、symptom_nagu"
+        }
+      ],
+      "category": "其他"
+    },
+    "symptom_fuzhang": {
+      "display_name": "symptom_fuzhang",
+      "related_syndromes": [
+        {
+          "id": "pi_qi_xu",
+          "name": "脾氣虛證",
+          "relevance": "主症",
+          "differentiation_hint": "舌淡苔白、脈緩弱、symptom_fali、symptom_nagu"
+        }
+      ],
+      "category": "其他"
+    },
+    "symptom_bianxi": {
+      "display_name": "symptom_bianxi",
+      "related_syndromes": [
+        {
+          "id": "pi_qi_xu",
+          "name": "脾氣虛證",
+          "relevance": "次症",
+          "differentiation_hint": "舌淡苔白、脈緩弱、symptom_fali、symptom_nagu"
+        }
+      ],
+      "category": "其他"
+    },
+    "面色萎黃": {
+      "display_name": "面色萎黃",
+      "related_syndromes": [
+        {
+          "id": "pi_qi_xu",
+          "name": "脾氣虛證",
+          "relevance": "次症",
+          "differentiation_hint": "舌淡苔白、脈緩弱、symptom_fali、symptom_nagu"
+        }
+      ],
+      "category": "其他"
+    },
+    "肌肉消瘦": {
+      "display_name": "肌肉消瘦",
+      "related_syndromes": [
+        {
+          "id": "zao",
+          "name": "燥證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "pi_qi_xu",
+          "name": "脾氣虛證",
+          "relevance": "次症",
+          "differentiation_hint": "舌淡苔白、脈緩弱、symptom_fali、symptom_nagu"
+        }
+      ],
+      "category": "其他"
+    },
+    "頭項強痛": {
+      "display_name": "頭項強痛",
+      "related_syndromes": [
+        {
+          "id": "tai_yang_zheng",
+          "name": "太陽證",
+          "relevance": "主症",
+          "differentiation_hint": "脈浮、頭項強痛、惡寒、脈浮"
+        },
+        {
+          "id": "taiyang",
+          "name": "太陽證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "惡寒": {
+      "display_name": "惡寒",
+      "related_syndromes": [
+        {
+          "id": "tai_yang_zheng",
+          "name": "太陽證",
+          "relevance": "主症",
+          "differentiation_hint": "脈浮、頭項強痛、惡寒、脈浮"
+        },
+        {
+          "id": "taiyang",
+          "name": "太陽證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "xuehan",
+          "name": "血寒證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "發熱類"
+    },
+    "脈浮": {
+      "display_name": "脈浮",
+      "related_syndromes": [
+        {
+          "id": "tai_yang_zheng",
+          "name": "太陽證",
+          "relevance": "主症",
+          "differentiation_hint": "脈浮、頭項強痛、惡寒、脈浮"
+        },
+        {
+          "id": "taiyang",
+          "name": "太陽證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "但欲寐": {
+      "display_name": "但欲寐",
+      "related_syndromes": [
+        {
+          "id": "shao_yin_zheng",
+          "name": "少陰證",
+          "relevance": "主症",
+          "differentiation_hint": "脈微細、但欲寐、脈微細"
+        },
+        {
+          "id": "shaoyin",
+          "name": "少陰證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "脈微細": {
+      "display_name": "脈微細",
+      "related_syndromes": [
+        {
+          "id": "shao_yin_zheng",
+          "name": "少陰證",
+          "relevance": "主症",
+          "differentiation_hint": "脈微細、但欲寐、脈微細"
+        },
+        {
+          "id": "shaoyin",
+          "name": "少陰證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "自汗": {
+      "display_name": "自汗",
+      "related_syndromes": [
+        {
+          "id": "qi_xu_bu_gu",
+          "name": "氣不固攝證",
+          "relevance": "主症",
+          "differentiation_hint": "舌淡、脈虛弱、自汗、出血"
+        },
+        {
+          "id": "xin_qi_xu",
+          "name": "心氣虛證",
+          "relevance": "次症",
+          "differentiation_hint": "舌淡、脈虛或結代、symptom_xinji、symptom_qiduan"
+        },
+        {
+          "id": "qixu_fare",
+          "name": "氣虛發熱證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "qi_xu_zheng",
+          "name": "氣虛證",
+          "relevance": "次症",
+          "differentiation_hint": "舌淡、脈虛弱、氣短乏力、神疲懶言"
+        },
+        {
+          "id": "yangxu",
+          "name": "陽虛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "虛損類"
+    },
+    "出血": {
+      "display_name": "出血",
+      "related_syndromes": [
+        {
+          "id": "qi_xu_bu_gu",
+          "name": "氣不固攝證",
+          "relevance": "主症",
+          "differentiation_hint": "舌淡、脈虛弱、自汗、出血"
+        }
+      ],
+      "category": "其他"
+    },
+    "遺尿遺精": {
+      "display_name": "遺尿遺精",
+      "related_syndromes": [
+        {
+          "id": "qi_xu_bu_gu",
+          "name": "氣不固攝證",
+          "relevance": "主症",
+          "differentiation_hint": "舌淡、脈虛弱、自汗、出血"
+        }
+      ],
+      "category": "二便類"
+    },
+    "乏力": {
+      "display_name": "乏力",
+      "related_syndromes": [
+        {
+          "id": "qi_xu_bu_gu",
+          "name": "氣不固攝證",
+          "relevance": "次症",
+          "differentiation_hint": "舌淡、脈虛弱、自汗、出血"
+        }
+      ],
+      "category": "虛損類"
+    },
+    "氣短": {
+      "display_name": "氣短",
+      "related_syndromes": [
+        {
+          "id": "qi_xu_bu_gu",
+          "name": "氣不固攝證",
+          "relevance": "次症",
+          "differentiation_hint": "舌淡、脈虛弱、自汗、出血"
+        }
+      ],
+      "category": "虛損類"
+    },
+    "腹滿而吐": {
+      "display_name": "腹滿而吐",
+      "related_syndromes": [
+        {
+          "id": "tai_yin_zheng",
+          "name": "太陰證",
+          "relevance": "主症",
+          "differentiation_hint": "舌淡苔薄白、脈緩弱、腹滿而吐、食不下"
+        },
+        {
+          "id": "taiyin",
+          "name": "太陰證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "食不下": {
+      "display_name": "食不下",
+      "related_syndromes": [
+        {
+          "id": "tai_yin_zheng",
+          "name": "太陰證",
+          "relevance": "主症",
+          "differentiation_hint": "舌淡苔薄白、脈緩弱、腹滿而吐、食不下"
+        },
+        {
+          "id": "taiyin",
+          "name": "太陰證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "自利益甚": {
+      "display_name": "自利益甚",
+      "related_syndromes": [
+        {
+          "id": "tai_yin_zheng",
+          "name": "太陰證",
+          "relevance": "主症",
+          "differentiation_hint": "舌淡苔薄白、脈緩弱、腹滿而吐、食不下"
+        },
+        {
+          "id": "taiyin",
+          "name": "太陰證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "時腹自痛": {
+      "display_name": "時腹自痛",
+      "related_syndromes": [
+        {
+          "id": "tai_yin_zheng",
+          "name": "太陰證",
+          "relevance": "主症",
+          "differentiation_hint": "舌淡苔薄白、脈緩弱、腹滿而吐、食不下"
+        },
+        {
+          "id": "taiyin",
+          "name": "太陰證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "喜溫喜按": {
+      "display_name": "喜溫喜按",
+      "related_syndromes": [
+        {
+          "id": "tai_yin_zheng",
+          "name": "太陰證",
+          "relevance": "次症",
+          "differentiation_hint": "舌淡苔薄白、脈緩弱、腹滿而吐、食不下"
+        },
+        {
+          "id": "taiyin",
+          "name": "太陰證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "口不渴": {
+      "display_name": "口不渴",
+      "related_syndromes": [
+        {
+          "id": "tai_yin_zheng",
+          "name": "太陰證",
+          "relevance": "次症",
+          "differentiation_hint": "舌淡苔薄白、脈緩弱、腹滿而吐、食不下"
+        },
+        {
+          "id": "taiyin",
+          "name": "太陰證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "手足自溫": {
+      "display_name": "手足自溫",
+      "related_syndromes": [
+        {
+          "id": "tai_yin_zheng",
+          "name": "太陰證",
+          "relevance": "次症",
+          "differentiation_hint": "舌淡苔薄白、脈緩弱、腹滿而吐、食不下"
+        },
+        {
+          "id": "taiyin",
+          "name": "太陰證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "symptom_zihan": {
+      "display_name": "symptom_zihan",
+      "related_syndromes": [
+        {
+          "id": "fei_qi_xu",
+          "name": "肺氣虛證",
+          "relevance": "主症",
+          "differentiation_hint": "舌淡苔白、脈虛弱、symptom_qiduan、symptom_zihan"
+        }
+      ],
+      "category": "其他"
+    },
+    "symptom_shengdiweiqie": {
+      "display_name": "symptom_shengdiweiqie",
+      "related_syndromes": [
+        {
+          "id": "fei_qi_xu",
+          "name": "肺氣虛證",
+          "relevance": "主症",
+          "differentiation_hint": "舌淡苔白、脈虛弱、symptom_qiduan、symptom_zihan"
+        }
+      ],
+      "category": "其他"
+    },
+    "咳嗽無力": {
+      "display_name": "咳嗽無力",
+      "related_syndromes": [
+        {
+          "id": "fei_qi_xu",
+          "name": "肺氣虛證",
+          "relevance": "次症",
+          "differentiation_hint": "舌淡苔白、脈虛弱、symptom_qiduan、symptom_zihan"
+        }
+      ],
+      "category": "呼吸類"
+    },
+    "痰白清稀": {
+      "display_name": "痰白清稀",
+      "related_syndromes": [
+        {
+          "id": "fei_qi_xu",
+          "name": "肺氣虛證",
+          "relevance": "次症",
+          "differentiation_hint": "舌淡苔白、脈虛弱、symptom_qiduan、symptom_zihan"
+        }
+      ],
+      "category": "其他"
+    },
+    "易感冒": {
+      "display_name": "易感冒",
+      "related_syndromes": [
+        {
+          "id": "fei_qi_xu",
+          "name": "肺氣虛證",
+          "relevance": "次症",
+          "differentiation_hint": "舌淡苔白、脈虛弱、symptom_qiduan、symptom_zihan"
+        }
+      ],
+      "category": "其他"
+    },
+    "突然昏倒": {
+      "display_name": "突然昏倒",
+      "related_syndromes": [
+        {
+          "id": "qi_jue_zheng",
+          "name": "氣厥證",
+          "relevance": "主症",
+          "differentiation_hint": "舌苔薄白、脈沉弦、突然昏倒、不省人事"
+        }
+      ],
+      "category": "其他"
+    },
+    "不省人事": {
+      "display_name": "不省人事",
+      "related_syndromes": [
+        {
+          "id": "qi_jue_zheng",
+          "name": "氣厥證",
+          "relevance": "主症",
+          "differentiation_hint": "舌苔薄白、脈沉弦、突然昏倒、不省人事"
+        },
+        {
+          "id": "shu",
+          "name": "暑證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "feng",
+          "name": "風證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "牙關緊閉": {
+      "display_name": "牙關緊閉",
+      "related_syndromes": [
+        {
+          "id": "qi_jue_zheng",
+          "name": "氣厥證",
+          "relevance": "主症",
+          "differentiation_hint": "舌苔薄白、脈沉弦、突然昏倒、不省人事"
+        },
+        {
+          "id": "xiedu_chisheng",
+          "name": "邪毒熾盛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "feng",
+          "name": "風證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "兩手握固": {
+      "display_name": "兩手握固",
+      "related_syndromes": [
+        {
+          "id": "qi_jue_zheng",
+          "name": "氣厥證",
+          "relevance": "主症",
+          "differentiation_hint": "舌苔薄白、脈沉弦、突然昏倒、不省人事"
+        }
+      ],
+      "category": "其他"
+    },
+    "肢冷抽搐": {
+      "display_name": "肢冷抽搐",
+      "related_syndromes": [
+        {
+          "id": "qi_jue_zheng",
+          "name": "氣厥證",
+          "relevance": "次症",
+          "differentiation_hint": "舌苔薄白、脈沉弦、突然昏倒、不省人事"
+        }
+      ],
+      "category": "其他"
+    },
+    "呼吸氣粗": {
+      "display_name": "呼吸氣粗",
+      "related_syndromes": [
+        {
+          "id": "qifen",
+          "name": "氣分證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "qi_jue_zheng",
+          "name": "氣厥證",
+          "relevance": "次症",
+          "differentiation_hint": "舌苔薄白、脈沉弦、突然昏倒、不省人事"
+        }
+      ],
+      "category": "其他"
+    },
+    "四肢強直": {
+      "display_name": "四肢強直",
+      "related_syndromes": [
+        {
+          "id": "qi_jue_zheng",
+          "name": "氣厥證",
+          "relevance": "次症",
+          "differentiation_hint": "舌苔薄白、脈沉弦、突然昏倒、不省人事"
+        }
+      ],
+      "category": "其他"
+    },
+    "咽乾": {
+      "display_name": "咽乾",
+      "related_syndromes": [
+        {
+          "id": "shao_yang_zheng",
+          "name": "少陽證",
+          "relevance": "主症",
+          "differentiation_hint": "脈弦、口苦、咽乾、目眩"
+        },
+        {
+          "id": "shaoyang",
+          "name": "少陽證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "寒熱往來": {
+      "display_name": "寒熱往來",
+      "related_syndromes": [
+        {
+          "id": "shao_yang_zheng",
+          "name": "少陽證",
+          "relevance": "主症",
+          "differentiation_hint": "脈弦、口苦、咽乾、目眩"
+        },
+        {
+          "id": "shaoyang",
+          "name": "少陽證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "發熱類"
+    },
+    "胸脅苦滿": {
+      "display_name": "胸脅苦滿",
+      "related_syndromes": [
+        {
+          "id": "shao_yang_zheng",
+          "name": "少陽證",
+          "relevance": "主症",
+          "differentiation_hint": "脈弦、口苦、咽乾、目眩"
+        },
+        {
+          "id": "shaoyang",
+          "name": "少陽證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "默默不欲飲食": {
+      "display_name": "默默不欲飲食",
+      "related_syndromes": [
+        {
+          "id": "shao_yang_zheng",
+          "name": "少陽證",
+          "relevance": "主症",
+          "differentiation_hint": "脈弦、口苦、咽乾、目眩"
+        },
+        {
+          "id": "shaoyang",
+          "name": "少陽證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "心煩喜嘔": {
+      "display_name": "心煩喜嘔",
+      "related_syndromes": [
+        {
+          "id": "shao_yang_zheng",
+          "name": "少陽證",
+          "relevance": "主症",
+          "differentiation_hint": "脈弦、口苦、咽乾、目眩"
+        },
+        {
+          "id": "shaoyang",
+          "name": "少陽證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "symptom_xinji": {
+      "display_name": "symptom_xinji",
+      "related_syndromes": [
+        {
+          "id": "xin_qi_xu",
+          "name": "心氣虛證",
+          "relevance": "主症",
+          "differentiation_hint": "舌淡、脈虛或結代、symptom_xinji、symptom_qiduan"
+        },
+        {
+          "id": "qi_xue_liang_xu",
+          "name": "氣血兩虛證",
+          "relevance": "主症",
+          "differentiation_hint": "舌質淡胖、脈細弱、symptom_fali、頭暈眼花"
+        }
+      ],
+      "category": "其他"
+    },
+    "面色無華": {
+      "display_name": "面色無華",
+      "related_syndromes": [
+        {
+          "id": "qi_xue_liang_xu",
+          "name": "氣血兩虛證",
+          "relevance": "次症",
+          "differentiation_hint": "舌質淡胖、脈細弱、symptom_fali、頭暈眼花"
+        },
+        {
+          "id": "xuexu_shengfeng",
+          "name": "血虛生風證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "少氣懶言": {
+      "display_name": "少氣懶言",
+      "related_syndromes": [
+        {
+          "id": "qixu",
+          "name": "氣虛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "qi_xue_liang_xu",
+          "name": "氣血兩虛證",
+          "relevance": "次症",
+          "differentiation_hint": "舌質淡胖、脈細弱、symptom_fali、頭暈眼花"
+        },
+        {
+          "id": "yangxu",
+          "name": "陽虛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "虛損類"
+    },
+    "納谷少思": {
+      "display_name": "納谷少思",
+      "related_syndromes": [
+        {
+          "id": "qi_xue_liang_xu",
+          "name": "氣血兩虛證",
+          "relevance": "次症",
+          "differentiation_hint": "舌質淡胖、脈細弱、symptom_fali、頭暈眼花"
+        }
+      ],
+      "category": "其他"
+    },
+    "肌肉乾癟": {
+      "display_name": "肌肉乾癟",
+      "related_syndromes": [
+        {
+          "id": "wang_yin_zheng",
+          "name": "亡陰證",
+          "relevance": "主症",
+          "differentiation_hint": "舌質乾紅、脈虛數或細數無力、肌肉乾癟、皮膚皺摺"
+        },
+        {
+          "id": "wangyin",
+          "name": "亡陰證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "皮膚皺摺": {
+      "display_name": "皮膚皺摺",
+      "related_syndromes": [
+        {
+          "id": "wang_yin_zheng",
+          "name": "亡陰證",
+          "relevance": "主症",
+          "differentiation_hint": "舌質乾紅、脈虛數或細數無力、肌肉乾癟、皮膚皺摺"
+        },
+        {
+          "id": "wangyin",
+          "name": "亡陰證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "眼眶深陷": {
+      "display_name": "眼眶深陷",
+      "related_syndromes": [
+        {
+          "id": "wang_yin_zheng",
+          "name": "亡陰證",
+          "relevance": "主症",
+          "differentiation_hint": "舌質乾紅、脈虛數或細數無力、肌肉乾癟、皮膚皺摺"
+        },
+        {
+          "id": "wangyin",
+          "name": "亡陰證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "唇乾齒燥": {
+      "display_name": "唇乾齒燥",
+      "related_syndromes": [
+        {
+          "id": "wang_yin_zheng",
+          "name": "亡陰證",
+          "relevance": "主症",
+          "differentiation_hint": "舌質乾紅、脈虛數或細數無力、肌肉乾癟、皮膚皺摺"
+        },
+        {
+          "id": "wangyin",
+          "name": "亡陰證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "面色潮紅": {
+      "display_name": "面色潮紅",
+      "related_syndromes": [
+        {
+          "id": "wang_yin_zheng",
+          "name": "亡陰證",
+          "relevance": "主症",
+          "differentiation_hint": "舌質乾紅、脈虛數或細數無力、肌肉乾癟、皮膚皺摺"
+        },
+        {
+          "id": "wangyin",
+          "name": "亡陰證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "精神煩躁": {
+      "display_name": "精神煩躁",
+      "related_syndromes": [
+        {
+          "id": "wang_yin_zheng",
+          "name": "亡陰證",
+          "relevance": "主症",
+          "differentiation_hint": "舌質乾紅、脈虛數或細數無力、肌肉乾癟、皮膚皺摺"
+        },
+        {
+          "id": "wangyin",
+          "name": "亡陰證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "神志類"
+    },
+    "汗出身熱": {
+      "display_name": "汗出身熱",
+      "related_syndromes": [
+        {
+          "id": "wang_yin_zheng",
+          "name": "亡陰證",
+          "relevance": "主症",
+          "differentiation_hint": "舌質乾紅、脈虛數或細數無力、肌肉乾癟、皮膚皺摺"
+        },
+        {
+          "id": "wangyin",
+          "name": "亡陰證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "發熱類"
+    },
+    "口渴喜冷飲": {
+      "display_name": "口渴喜冷飲",
+      "related_syndromes": [
+        {
+          "id": "wang_yin_zheng",
+          "name": "亡陰證",
+          "relevance": "主症",
+          "differentiation_hint": "舌質乾紅、脈虛數或細數無力、肌肉乾癟、皮膚皺摺"
+        },
+        {
+          "id": "wangyin",
+          "name": "亡陰證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "呼吸氣短": {
+      "display_name": "呼吸氣短",
+      "related_syndromes": [
+        {
+          "id": "wang_yin_zheng",
+          "name": "亡陰證",
+          "relevance": "次症",
+          "differentiation_hint": "舌質乾紅、脈虛數或細數無力、肌肉乾癟、皮膚皺摺"
+        },
+        {
+          "id": "wangyin",
+          "name": "亡陰證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "qixu",
+          "name": "氣虛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "虛損類"
+    },
+    "昏迷譫妄": {
+      "display_name": "昏迷譫妄",
+      "related_syndromes": [
+        {
+          "id": "wang_yin_zheng",
+          "name": "亡陰證",
+          "relevance": "次症",
+          "differentiation_hint": "舌質乾紅、脈虛數或細數無力、肌肉乾癟、皮膚皺摺"
+        }
+      ],
+      "category": "其他"
+    },
+    "面色蒼白": {
+      "display_name": "面色蒼白",
+      "related_syndromes": [
+        {
+          "id": "wang_yang_zheng",
+          "name": "亡陽證",
+          "relevance": "主症",
+          "differentiation_hint": "舌質淡潤、脈微欲絕，或浮數而空、大汗淋漓、汗出如珠"
+        },
+        {
+          "id": "qi_tuo_zheng",
+          "name": "氣脫證",
+          "relevance": "主症",
+          "differentiation_hint": "舌淡胖、脈細微，或扎大、突然大汗淋漓、精神萎靡"
+        },
+        {
+          "id": "wangyang",
+          "name": "亡陽證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "han",
+          "name": "寒證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "xin_qi_xu",
+          "name": "心氣虛證",
+          "relevance": "次症",
+          "differentiation_hint": "舌淡、脈虛或結代、symptom_xinji、symptom_qiduan"
+        },
+        {
+          "id": "qituo",
+          "name": "氣脫證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "健忘": {
+      "display_name": "健忘",
+      "related_syndromes": [
+        {
+          "id": "xin_qi_xu",
+          "name": "心氣虛證",
+          "relevance": "次症",
+          "differentiation_hint": "舌淡、脈虛或結代、symptom_xinji、symptom_qiduan"
+        }
+      ],
+      "category": "神志類"
+    },
+    "氣短乏力": {
+      "display_name": "氣短乏力",
+      "related_syndromes": [
+        {
+          "id": "zhong_qi_xia_xian",
+          "name": "中氣下陷證",
+          "relevance": "主症",
+          "differentiation_hint": "舌質淡胖、脈細緩無力、氣短乏力、神疲懶言"
+        },
+        {
+          "id": "qi_xu_zheng",
+          "name": "氣虛證",
+          "relevance": "主症",
+          "differentiation_hint": "舌淡、脈虛弱、氣短乏力、神疲懶言"
+        },
+        {
+          "id": "qixian",
+          "name": "氣陷證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "虛損類"
+    },
+    "神疲懶言": {
+      "display_name": "神疲懶言",
+      "related_syndromes": [
+        {
+          "id": "zhong_qi_xia_xian",
+          "name": "中氣下陷證",
+          "relevance": "主症",
+          "differentiation_hint": "舌質淡胖、脈細緩無力、氣短乏力、神疲懶言"
+        },
+        {
+          "id": "qi_xu_zheng",
+          "name": "氣虛證",
+          "relevance": "主症",
+          "differentiation_hint": "舌淡、脈虛弱、氣短乏力、神疲懶言"
+        },
+        {
+          "id": "qixian",
+          "name": "氣陷證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "虛損類"
+    },
+    "脘腹脹墜": {
+      "display_name": "脘腹脹墜",
+      "related_syndromes": [
+        {
+          "id": "zhong_qi_xia_xian",
+          "name": "中氣下陷證",
+          "relevance": "主症",
+          "differentiation_hint": "舌質淡胖、脈細緩無力、氣短乏力、神疲懶言"
+        },
+        {
+          "id": "qixian",
+          "name": "氣陷證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "消化類"
+    },
+    "久泄脫肛": {
+      "display_name": "久泄脫肛",
+      "related_syndromes": [
+        {
+          "id": "zhong_qi_xia_xian",
+          "name": "中氣下陷證",
+          "relevance": "主症",
+          "differentiation_hint": "舌質淡胖、脈細緩無力、氣短乏力、神疲懶言"
+        }
+      ],
+      "category": "其他"
+    },
+    "陰挺": {
+      "display_name": "陰挺",
+      "related_syndromes": [
+        {
+          "id": "zhong_qi_xia_xian",
+          "name": "中氣下陷證",
+          "relevance": "主症",
+          "differentiation_hint": "舌質淡胖、脈細緩無力、氣短乏力、神疲懶言"
+        },
+        {
+          "id": "qixian",
+          "name": "氣陷證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "帶下": {
+      "display_name": "帶下",
+      "related_syndromes": [
+        {
+          "id": "zhong_qi_xia_xian",
+          "name": "中氣下陷證",
+          "relevance": "主症",
+          "differentiation_hint": "舌質淡胖、脈細緩無力、氣短乏力、神疲懶言"
+        },
+        {
+          "id": "qixian",
+          "name": "氣陷證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "少腹墜脹": {
+      "display_name": "少腹墜脹",
+      "related_syndromes": [
+        {
+          "id": "zhong_qi_xia_xian",
+          "name": "中氣下陷證",
+          "relevance": "次症",
+          "differentiation_hint": "舌質淡胖、脈細緩無力、氣短乏力、神疲懶言"
+        }
+      ],
+      "category": "其他"
+    },
+    "內臟下垂感": {
+      "display_name": "內臟下垂感",
+      "related_syndromes": [
+        {
+          "id": "zhong_qi_xia_xian",
+          "name": "中氣下陷證",
+          "relevance": "次症",
+          "differentiation_hint": "舌質淡胖、脈細緩無力、氣短乏力、神疲懶言"
+        }
+      ],
+      "category": "其他"
+    },
+    "突然大汗淋漓": {
+      "display_name": "突然大汗淋漓",
+      "related_syndromes": [
+        {
+          "id": "qi_tuo_zheng",
+          "name": "氣脫證",
+          "relevance": "主症",
+          "differentiation_hint": "舌淡胖、脈細微，或扎大、突然大汗淋漓、精神萎靡"
+        },
+        {
+          "id": "qituo",
+          "name": "氣脫證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "精神萎靡": {
+      "display_name": "精神萎靡",
+      "related_syndromes": [
+        {
+          "id": "qi_tuo_zheng",
+          "name": "氣脫證",
+          "relevance": "主症",
+          "differentiation_hint": "舌淡胖、脈細微，或扎大、突然大汗淋漓、精神萎靡"
+        },
+        {
+          "id": "qituo",
+          "name": "氣脫證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "目合口張": {
+      "display_name": "目合口張",
+      "related_syndromes": [
+        {
+          "id": "qi_tuo_zheng",
+          "name": "氣脫證",
+          "relevance": "主症",
+          "differentiation_hint": "舌淡胖、脈細微，或扎大、突然大汗淋漓、精神萎靡"
+        },
+        {
+          "id": "qituo",
+          "name": "氣脫證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "氣短不續": {
+      "display_name": "氣短不續",
+      "related_syndromes": [
+        {
+          "id": "qi_tuo_zheng",
+          "name": "氣脫證",
+          "relevance": "主症",
+          "differentiation_hint": "舌淡胖、脈細微，或扎大、突然大汗淋漓、精神萎靡"
+        },
+        {
+          "id": "qituo",
+          "name": "氣脫證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "虛損類"
+    },
+    "二便自遺": {
+      "display_name": "二便自遺",
+      "related_syndromes": [
+        {
+          "id": "qi_tuo_zheng",
+          "name": "氣脫證",
+          "relevance": "主症",
+          "differentiation_hint": "舌淡胖、脈細微，或扎大、突然大汗淋漓、精神萎靡"
+        },
+        {
+          "id": "qituo",
+          "name": "氣脫證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "手撒肢冷": {
+      "display_name": "手撒肢冷",
+      "related_syndromes": [
+        {
+          "id": "qi_tuo_zheng",
+          "name": "氣脫證",
+          "relevance": "次症",
+          "differentiation_hint": "舌淡胖、脈細微，或扎大、突然大汗淋漓、精神萎靡"
+        }
+      ],
+      "category": "其他"
+    },
+    "神志恍惚": {
+      "display_name": "神志恍惚",
+      "related_syndromes": [
+        {
+          "id": "qi_tuo_zheng",
+          "name": "氣脫證",
+          "relevance": "次症",
+          "differentiation_hint": "舌淡胖、脈細微，或扎大、突然大汗淋漓、精神萎靡"
+        }
+      ],
+      "category": "神志類"
+    },
+    "大汗淋漓": {
+      "display_name": "大汗淋漓",
+      "related_syndromes": [
+        {
+          "id": "wang_yang_zheng",
+          "name": "亡陽證",
+          "relevance": "主症",
+          "differentiation_hint": "舌質淡潤、脈微欲絕，或浮數而空、大汗淋漓、汗出如珠"
+        },
+        {
+          "id": "wangyang",
+          "name": "亡陽證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "汗出如珠": {
+      "display_name": "汗出如珠",
+      "related_syndromes": [
+        {
+          "id": "wang_yang_zheng",
+          "name": "亡陽證",
+          "relevance": "主症",
+          "differentiation_hint": "舌質淡潤、脈微欲絕，或浮數而空、大汗淋漓、汗出如珠"
+        }
+      ],
+      "category": "其他"
+    },
+    "畏寒蜷臥": {
+      "display_name": "畏寒蜷臥",
+      "related_syndromes": [
+        {
+          "id": "wang_yang_zheng",
+          "name": "亡陽證",
+          "relevance": "主症",
+          "differentiation_hint": "舌質淡潤、脈微欲絕，或浮數而空、大汗淋漓、汗出如珠"
+        }
+      ],
+      "category": "其他"
+    },
+    "四肢厥冷": {
+      "display_name": "四肢厥冷",
+      "related_syndromes": [
+        {
+          "id": "wang_yang_zheng",
+          "name": "亡陽證",
+          "relevance": "主症",
+          "differentiation_hint": "舌質淡潤、脈微欲絕，或浮數而空、大汗淋漓、汗出如珠"
+        },
+        {
+          "id": "wangyang",
+          "name": "亡陽證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "精神恍惚": {
+      "display_name": "精神恍惚",
+      "related_syndromes": [
+        {
+          "id": "wang_yang_zheng",
+          "name": "亡陽證",
+          "relevance": "主症",
+          "differentiation_hint": "舌質淡潤、脈微欲絕，或浮數而空、大汗淋漓、汗出如珠"
+        },
+        {
+          "id": "wangyang",
+          "name": "亡陽證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "神志類"
+    },
+    "呼吸微弱": {
+      "display_name": "呼吸微弱",
+      "related_syndromes": [
+        {
+          "id": "wang_yang_zheng",
+          "name": "亡陽證",
+          "relevance": "主症",
+          "differentiation_hint": "舌質淡潤、脈微欲絕，或浮數而空、大汗淋漓、汗出如珠"
+        },
+        {
+          "id": "wangyang",
+          "name": "亡陽證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "動則尤甚": {
+      "display_name": "動則尤甚",
+      "related_syndromes": [
+        {
+          "id": "qi_xu_zheng",
+          "name": "氣虛證",
+          "relevance": "主症",
+          "differentiation_hint": "舌淡、脈虛弱、氣短乏力、神疲懶言"
+        }
+      ],
+      "category": "其他"
+    },
+    "頭暈": {
+      "display_name": "頭暈",
+      "related_syndromes": [
+        {
+          "id": "qi_xu_zheng",
+          "name": "氣虛證",
+          "relevance": "次症",
+          "differentiation_hint": "舌淡、脈虛弱、氣短乏力、神疲懶言"
+        }
+      ],
+      "category": "虛損類"
+    },
+    "面色淡白或萎黃": {
+      "display_name": "面色淡白或萎黃",
+      "related_syndromes": [
+        {
+          "id": "qi_xu_zheng",
+          "name": "氣虛證",
+          "relevance": "次症",
+          "differentiation_hint": "舌淡、脈虛弱、氣短乏力、神疲懶言"
+        }
+      ],
+      "category": "其他"
+    },
+    "symptom_yaoxisuanruan": {
+      "display_name": "symptom_yaoxisuanruan",
+      "related_syndromes": [
+        {
+          "id": "shen_qi_xu",
+          "name": "腎氣虛證",
+          "relevance": "主症",
+          "differentiation_hint": "舌淡、脈沉弱、symptom_yaoxisuanruan、symptom_erming"
+        }
+      ],
+      "category": "其他"
+    },
+    "symptom_erming": {
+      "display_name": "symptom_erming",
+      "related_syndromes": [
+        {
+          "id": "shen_qi_xu",
+          "name": "腎氣虛證",
+          "relevance": "主症",
+          "differentiation_hint": "舌淡、脈沉弱、symptom_yaoxisuanruan、symptom_erming"
+        }
+      ],
+      "category": "其他"
+    },
+    "眩暈": {
+      "display_name": "眩暈",
+      "related_syndromes": [
+        {
+          "id": "qini",
+          "name": "氣逆證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "shen_qi_xu",
+          "name": "腎氣虛證",
+          "relevance": "次症",
+          "differentiation_hint": "舌淡、脈沉弱、symptom_yaoxisuanruan、symptom_erming"
+        }
+      ],
+      "category": "虛損類"
+    },
+    "動輒氣促": {
+      "display_name": "動輒氣促",
+      "related_syndromes": [
+        {
+          "id": "shen_qi_xu",
+          "name": "腎氣虛證",
+          "relevance": "次症",
+          "differentiation_hint": "舌淡、脈沉弱、symptom_yaoxisuanruan、symptom_erming"
+        }
+      ],
+      "category": "其他"
+    },
+    "遺精遺尿": {
+      "display_name": "遺精遺尿",
+      "related_syndromes": [
+        {
+          "id": "shen_qi_xu",
+          "name": "腎氣虛證",
+          "relevance": "次症",
+          "differentiation_hint": "舌淡、脈沉弱、symptom_yaoxisuanruan、symptom_erming"
+        }
+      ],
+      "category": "二便類"
+    },
+    "小便清長": {
+      "display_name": "小便清長",
+      "related_syndromes": [
+        {
+          "id": "shen_qi_xu",
+          "name": "腎氣虛證",
+          "relevance": "次症",
+          "differentiation_hint": "舌淡、脈沉弱、symptom_yaoxisuanruan、symptom_erming"
+        },
+        {
+          "id": "yangxu",
+          "name": "陽虛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "男子滑洩": {
+      "display_name": "男子滑洩",
+      "related_syndromes": [
+        {
+          "id": "jingtuo",
+          "name": "精脫證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "陽痿": {
+      "display_name": "陽痿",
+      "related_syndromes": [
+        {
+          "id": "jingtuo",
+          "name": "精脫證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "精少不育": {
+      "display_name": "精少不育",
+      "related_syndromes": [
+        {
+          "id": "jingtuo",
+          "name": "精脫證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "女子經閉不孕": {
+      "display_name": "女子經閉不孕",
+      "related_syndromes": [
+        {
+          "id": "jingtuo",
+          "name": "精脫證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "性欲冷淡": {
+      "display_name": "性欲冷淡",
+      "related_syndromes": [
+        {
+          "id": "jingtuo",
+          "name": "精脫證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "性機能低下": {
+      "display_name": "性機能低下",
+      "related_syndromes": [
+        {
+          "id": "jingtuo",
+          "name": "精脫證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "成人早衰": {
+      "display_name": "成人早衰",
+      "related_syndromes": [
+        {
+          "id": "jingtuo",
+          "name": "精脫證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "發脫齒搖": {
+      "display_name": "發脫齒搖",
+      "related_syndromes": [
+        {
+          "id": "jingtuo",
+          "name": "精脫證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "耳鳴耳聾": {
+      "display_name": "耳鳴耳聾",
+      "related_syndromes": [
+        {
+          "id": "jingtuo",
+          "name": "精脫證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "頭暈目眩": {
+      "display_name": "頭暈目眩",
+      "related_syndromes": [
+        {
+          "id": "qixu",
+          "name": "氣虛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "jingtuo",
+          "name": "精脫證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "xuexu",
+          "name": "血虛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "xuexu_fengzao",
+          "name": "血虛風燥證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "虛損類"
+    },
+    "腰膝痠軟": {
+      "display_name": "腰膝痠軟",
+      "related_syndromes": [
+        {
+          "id": "zao",
+          "name": "燥證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "jingtuo",
+          "name": "精脫證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "智力減退": {
+      "display_name": "智力減退",
+      "related_syndromes": [
+        {
+          "id": "jingtuo",
+          "name": "精脫證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "健忘恍惚": {
+      "display_name": "健忘恍惚",
+      "related_syndromes": [
+        {
+          "id": "jingtuo",
+          "name": "精脫證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "神志類"
+    },
+    "動作遲緩": {
+      "display_name": "動作遲緩",
+      "related_syndromes": [
+        {
+          "id": "jingtuo",
+          "name": "精脫證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "足痿無力": {
+      "display_name": "足痿無力",
+      "related_syndromes": [
+        {
+          "id": "jingtuo",
+          "name": "精脫證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "精神呆鈍等": {
+      "display_name": "精神呆鈍等",
+      "related_syndromes": [
+        {
+          "id": "jingtuo",
+          "name": "精脫證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "或昏迷谵妄": {
+      "display_name": "或昏迷谵妄",
+      "related_syndromes": [
+        {
+          "id": "wangyin",
+          "name": "亡陰證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "舌質乾紅": {
+      "display_name": "舌質乾紅",
+      "related_syndromes": [
+        {
+          "id": "wangyin",
+          "name": "亡陰證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "脈虛數或細數無力": {
+      "display_name": "脈虛數或細數無力",
+      "related_syndromes": [
+        {
+          "id": "wangyin",
+          "name": "亡陰證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "面白": {
+      "display_name": "面白",
+      "related_syndromes": [
+        {
+          "id": "xuetuo",
+          "name": "血脫證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "天然不澤": {
+      "display_name": "天然不澤",
+      "related_syndromes": [
+        {
+          "id": "xuetuo",
+          "name": "血脫證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "心悸怔忡": {
+      "display_name": "心悸怔忡",
+      "related_syndromes": [
+        {
+          "id": "xuetuo",
+          "name": "血脫證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "虛損類"
+    },
+    "氣微而短": {
+      "display_name": "氣微而短",
+      "related_syndromes": [
+        {
+          "id": "xuetuo",
+          "name": "血脫證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "肢冷汗出": {
+      "display_name": "肢冷汗出",
+      "related_syndromes": [
+        {
+          "id": "xuetuo",
+          "name": "血脫證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "舌淡白": {
+      "display_name": "舌淡白",
+      "related_syndromes": [
+        {
+          "id": "xuetuo",
+          "name": "血脫證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "脈空虛或芤": {
+      "display_name": "脈空虛或芤",
+      "related_syndromes": [
+        {
+          "id": "xuetuo",
+          "name": "血脫證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "或微細欲絕": {
+      "display_name": "或微細欲絕",
+      "related_syndromes": [
+        {
+          "id": "xuetuo",
+          "name": "血脫證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "情志抑郁": {
+      "display_name": "情志抑郁",
+      "related_syndromes": [
+        {
+          "id": "qizhi_tanning",
+          "name": "氣滯痰凝證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "急躁易怒": {
+      "display_name": "急躁易怒",
+      "related_syndromes": [
+        {
+          "id": "qizhi_tanning",
+          "name": "氣滯痰凝證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "qiyu_huahuo",
+          "name": "氣鬱化火證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "胸脅滿悶": {
+      "display_name": "胸脅滿悶",
+      "related_syndromes": [
+        {
+          "id": "qizhi_tanning",
+          "name": "氣滯痰凝證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "善太息": {
+      "display_name": "善太息",
+      "related_syndromes": [
+        {
+          "id": "qizhi_tanning",
+          "name": "氣滯痰凝證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "或吞嚥梗阻": {
+      "display_name": "或吞嚥梗阻",
+      "related_syndromes": [
+        {
+          "id": "qizhi_tanning",
+          "name": "氣滯痰凝證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "或神志痴呆": {
+      "display_name": "或神志痴呆",
+      "related_syndromes": [
+        {
+          "id": "qizhi_tanning",
+          "name": "氣滯痰凝證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "或發瘿瘤瘰癧": {
+      "display_name": "或發瘿瘤瘰癧",
+      "related_syndromes": [
+        {
+          "id": "qizhi_tanning",
+          "name": "氣滯痰凝證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "舌苔薄膩": {
+      "display_name": "舌苔薄膩",
+      "related_syndromes": [
+        {
+          "id": "qizhi_tanning",
+          "name": "氣滯痰凝證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "脈弦細而滑": {
+      "display_name": "脈弦細而滑",
+      "related_syndromes": [
+        {
+          "id": "qizhi_tanning",
+          "name": "氣滯痰凝證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "肢體麻木": {
+      "display_name": "肢體麻木",
+      "related_syndromes": [
+        {
+          "id": "tan",
+          "name": "痰證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "xuehan",
+          "name": "血寒證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "xuexu_hanning",
+          "name": "血虛寒凝證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "xuexu_shengfeng",
+          "name": "血虛生風證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "xuexu_fengzao",
+          "name": "血虛風燥證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "feng",
+          "name": "風證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "皮膚不澤": {
+      "display_name": "皮膚不澤",
+      "related_syndromes": [
+        {
+          "id": "xuehan",
+          "name": "血寒證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "手足清冷": {
+      "display_name": "手足清冷",
+      "related_syndromes": [
+        {
+          "id": "xuehan",
+          "name": "血寒證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "xuexu_hanning",
+          "name": "血虛寒凝證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "心腹冷痛": {
+      "display_name": "心腹冷痛",
+      "related_syndromes": [
+        {
+          "id": "xuehan",
+          "name": "血寒證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "xuexu_hanning",
+          "name": "血虛寒凝證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "得熱痛減": {
+      "display_name": "得熱痛減",
+      "related_syndromes": [
+        {
+          "id": "xuehan",
+          "name": "血寒證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "月經錯後": {
+      "display_name": "月經錯後",
+      "related_syndromes": [
+        {
+          "id": "xuehan",
+          "name": "血寒證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "痛經": {
+      "display_name": "痛經",
+      "related_syndromes": [
+        {
+          "id": "xuehan",
+          "name": "血寒證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "xueyu",
+          "name": "血瘀證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "脈細而緩等": {
+      "display_name": "脈細而緩等",
+      "related_syndromes": [
+        {
+          "id": "xuehan",
+          "name": "血寒證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "外風為發熱惡風": {
+      "display_name": "外風為發熱惡風",
+      "related_syndromes": [
+        {
+          "id": "feng",
+          "name": "風證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "發熱類"
+    },
+    "頭痛": {
+      "display_name": "頭痛",
+      "related_syndromes": [
+        {
+          "id": "han",
+          "name": "寒證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "xiedu_chisheng",
+          "name": "邪毒熾盛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "feng",
+          "name": "風證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "疼痛類"
+    },
+    "汗出": {
+      "display_name": "汗出",
+      "related_syndromes": [
+        {
+          "id": "feng",
+          "name": "風證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "咳嗽": {
+      "display_name": "咳嗽",
+      "related_syndromes": [
+        {
+          "id": "qixu_waigan",
+          "name": "氣虛外感證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "weifen",
+          "name": "衛分證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "feng",
+          "name": "風證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "呼吸類"
+    },
+    "鼻塞流涕": {
+      "display_name": "鼻塞流涕",
+      "related_syndromes": [
+        {
+          "id": "xuexu_waigan",
+          "name": "血虛外感證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "feng",
+          "name": "風證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "呼吸類"
+    },
+    "苔薄白": {
+      "display_name": "苔薄白",
+      "related_syndromes": [
+        {
+          "id": "han",
+          "name": "寒證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "qixu_fare",
+          "name": "氣虛發熱證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "xuexu_waigan",
+          "name": "血虛外感證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "weifen",
+          "name": "衛分證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "feng",
+          "name": "風證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "脈浮緩": {
+      "display_name": "脈浮緩",
+      "related_syndromes": [
+        {
+          "id": "feng",
+          "name": "風證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "或皮膚粗糙起鱗屑": {
+      "display_name": "或皮膚粗糙起鱗屑",
+      "related_syndromes": [
+        {
+          "id": "feng",
+          "name": "風證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "瘙癢": {
+      "display_name": "瘙癢",
+      "related_syndromes": [
+        {
+          "id": "feng",
+          "name": "風證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "皮膚類"
+    },
+    "內風見眩暈欲仆": {
+      "display_name": "內風見眩暈欲仆",
+      "related_syndromes": [
+        {
+          "id": "feng",
+          "name": "風證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "虛損類"
+    },
+    "頭搖而痛": {
+      "display_name": "頭搖而痛",
+      "related_syndromes": [
+        {
+          "id": "feng",
+          "name": "風證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "項強肢顫": {
+      "display_name": "項強肢顫",
+      "related_syndromes": [
+        {
+          "id": "feng",
+          "name": "風證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "語言謇澀": {
+      "display_name": "語言謇澀",
+      "related_syndromes": [
+        {
+          "id": "feng",
+          "name": "風證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "手足麻木": {
+      "display_name": "手足麻木",
+      "related_syndromes": [
+        {
+          "id": "feng",
+          "name": "風證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "肢體活動不利": {
+      "display_name": "肢體活動不利",
+      "related_syndromes": [
+        {
+          "id": "feng",
+          "name": "風證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "或卒然昏倒": {
+      "display_name": "或卒然昏倒",
+      "related_syndromes": [
+        {
+          "id": "feng",
+          "name": "風證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "口眼喎斜": {
+      "display_name": "口眼喎斜",
+      "related_syndromes": [
+        {
+          "id": "feng",
+          "name": "風證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "半身不遂": {
+      "display_name": "半身不遂",
+      "related_syndromes": [
+        {
+          "id": "feng",
+          "name": "風證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "舌強不語": {
+      "display_name": "舌強不語",
+      "related_syndromes": [
+        {
+          "id": "feng",
+          "name": "風證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "喉中痰鳴": {
+      "display_name": "喉中痰鳴",
+      "related_syndromes": [
+        {
+          "id": "feng",
+          "name": "風證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "或高熱神昏": {
+      "display_name": "或高熱神昏",
+      "related_syndromes": [
+        {
+          "id": "feng",
+          "name": "風證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "神志類"
+    },
+    "躁擾如狂": {
+      "display_name": "躁擾如狂",
+      "related_syndromes": [
+        {
+          "id": "feng",
+          "name": "風證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "手足抽搐": {
+      "display_name": "手足抽搐",
+      "related_syndromes": [
+        {
+          "id": "xuere_dongfeng",
+          "name": "血熱動風證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "feng",
+          "name": "風證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "頸項強直": {
+      "display_name": "頸項強直",
+      "related_syndromes": [
+        {
+          "id": "xuere_dongfeng",
+          "name": "血熱動風證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "feng",
+          "name": "風證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "角弓反張": {
+      "display_name": "角弓反張",
+      "related_syndromes": [
+        {
+          "id": "xuere_dongfeng",
+          "name": "血熱動風證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "feng",
+          "name": "風證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "兩目上視": {
+      "display_name": "兩目上視",
+      "related_syndromes": [
+        {
+          "id": "feng",
+          "name": "風證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "或手足蠕動": {
+      "display_name": "或手足蠕動",
+      "related_syndromes": [
+        {
+          "id": "feng",
+          "name": "風證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "肌肉搐動": {
+      "display_name": "肌肉搐動",
+      "related_syndromes": [
+        {
+          "id": "feng",
+          "name": "風證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "關節拘急不利": {
+      "display_name": "關節拘急不利",
+      "related_syndromes": [
+        {
+          "id": "feng",
+          "name": "風證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "舌紅或淡": {
+      "display_name": "舌紅或淡",
+      "related_syndromes": [
+        {
+          "id": "feng",
+          "name": "風證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "脈弦而有力或細": {
+      "display_name": "脈弦而有力或細",
+      "related_syndromes": [
+        {
+          "id": "feng",
+          "name": "風證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "以出血為主": {
+      "display_name": "以出血為主",
+      "related_syndromes": [
+        {
+          "id": "xueyu_dongxue",
+          "name": "血瘀動血證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "包括鼻衄": {
+      "display_name": "包括鼻衄",
+      "related_syndromes": [
+        {
+          "id": "xueyu_dongxue",
+          "name": "血瘀動血證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "齒衄": {
+      "display_name": "齒衄",
+      "related_syndromes": [
+        {
+          "id": "xueyu_dongxue",
+          "name": "血瘀動血證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "咳血": {
+      "display_name": "咳血",
+      "related_syndromes": [
+        {
+          "id": "xueyu_dongxue",
+          "name": "血瘀動血證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "吐血": {
+      "display_name": "吐血",
+      "related_syndromes": [
+        {
+          "id": "xueyu_dongxue",
+          "name": "血瘀動血證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "xiedu_chisheng",
+          "name": "邪毒熾盛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "便血": {
+      "display_name": "便血",
+      "related_syndromes": [
+        {
+          "id": "xueyu_dongxue",
+          "name": "血瘀動血證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "xueyu",
+          "name": "血瘀證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "尿血等": {
+      "display_name": "尿血等",
+      "related_syndromes": [
+        {
+          "id": "xueyu_dongxue",
+          "name": "血瘀動血證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "血色紫暗": {
+      "display_name": "血色紫暗",
+      "related_syndromes": [
+        {
+          "id": "xueyu_dongxue",
+          "name": "血瘀動血證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "或夾有血塊": {
+      "display_name": "或夾有血塊",
+      "related_syndromes": [
+        {
+          "id": "xueyu_dongxue",
+          "name": "血瘀動血證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "局部體表有腫塊": {
+      "display_name": "局部體表有腫塊",
+      "related_syndromes": [
+        {
+          "id": "xueyu_dongxue",
+          "name": "血瘀動血證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "或腹中癥積": {
+      "display_name": "或腹中癥積",
+      "related_syndromes": [
+        {
+          "id": "xueyu_dongxue",
+          "name": "血瘀動血證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "面色晦暗無華": {
+      "display_name": "面色晦暗無華",
+      "related_syndromes": [
+        {
+          "id": "xueyu_dongxue",
+          "name": "血瘀動血證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "唇甲青紫": {
+      "display_name": "唇甲青紫",
+      "related_syndromes": [
+        {
+          "id": "xueyu_dongxue",
+          "name": "血瘀動血證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "煩熱": {
+      "display_name": "煩熱",
+      "related_syndromes": [
+        {
+          "id": "xueyu_dongxue",
+          "name": "血瘀動血證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "口乾": {
+      "display_name": "口乾",
+      "related_syndromes": [
+        {
+          "id": "xueyu_dongxue",
+          "name": "血瘀動血證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "舌質紫暗或見紫斑": {
+      "display_name": "舌質紫暗或見紫斑",
+      "related_syndromes": [
+        {
+          "id": "xueyu_dongxue",
+          "name": "血瘀動血證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "紫點": {
+      "display_name": "紫點",
+      "related_syndromes": [
+        {
+          "id": "xueyu_dongxue",
+          "name": "血瘀動血證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "或舌下脈絡曲張": {
+      "display_name": "或舌下脈絡曲張",
+      "related_syndromes": [
+        {
+          "id": "xueyu_dongxue",
+          "name": "血瘀動血證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "脈細數": {
+      "display_name": "脈細數",
+      "related_syndromes": [
+        {
+          "id": "xuere_dongfeng",
+          "name": "血熱動風證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "xueyu_dongxue",
+          "name": "血瘀動血證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "yinxu",
+          "name": "陰虛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "身熱": {
+      "display_name": "身熱",
+      "related_syndromes": [
+        {
+          "id": "yangming",
+          "name": "陽明證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "發熱類"
+    },
+    "汗自出": {
+      "display_name": "汗自出",
+      "related_syndromes": [
+        {
+          "id": "yangming",
+          "name": "陽明證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "不惡寒反惡熱": {
+      "display_name": "不惡寒反惡熱",
+      "related_syndromes": [
+        {
+          "id": "yangming",
+          "name": "陽明證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "發熱類"
+    },
+    "脈大": {
+      "display_name": "脈大",
+      "related_syndromes": [
+        {
+          "id": "yangming",
+          "name": "陽明證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "壯熱頭痛": {
+      "display_name": "壯熱頭痛",
+      "related_syndromes": [
+        {
+          "id": "shu",
+          "name": "暑證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "發熱類"
+    },
+    "心煩口渴": {
+      "display_name": "心煩口渴",
+      "related_syndromes": [
+        {
+          "id": "shu",
+          "name": "暑證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "面赤汗出": {
+      "display_name": "面赤汗出",
+      "related_syndromes": [
+        {
+          "id": "shu",
+          "name": "暑證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "尿赤短少": {
+      "display_name": "尿赤短少",
+      "related_syndromes": [
+        {
+          "id": "shu",
+          "name": "暑證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "脈洪數": {
+      "display_name": "脈洪數",
+      "related_syndromes": [
+        {
+          "id": "shu",
+          "name": "暑證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "或伴氣短乏力": {
+      "display_name": "或伴氣短乏力",
+      "related_syndromes": [
+        {
+          "id": "shu",
+          "name": "暑證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "虛損類"
+    },
+    "甚則突然昏倒": {
+      "display_name": "甚則突然昏倒",
+      "related_syndromes": [
+        {
+          "id": "shu",
+          "name": "暑證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "或伴四肢困倦": {
+      "display_name": "或伴四肢困倦",
+      "related_syndromes": [
+        {
+          "id": "shu",
+          "name": "暑證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "胸悶嘔惡": {
+      "display_name": "胸悶嘔惡",
+      "related_syndromes": [
+        {
+          "id": "shu",
+          "name": "暑證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "shi",
+          "name": "濕證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "呼吸類"
+    },
+    "頭脹而痛": {
+      "display_name": "頭脹而痛",
+      "related_syndromes": [
+        {
+          "id": "shi",
+          "name": "濕證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "首如裹": {
+      "display_name": "首如裹",
+      "related_syndromes": [
+        {
+          "id": "shi",
+          "name": "濕證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "脘腹脹滿": {
+      "display_name": "脘腹脹滿",
+      "related_syndromes": [
+        {
+          "id": "shi",
+          "name": "濕證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "消化類"
+    },
+    "口不作渴": {
+      "display_name": "口不作渴",
+      "related_syndromes": [
+        {
+          "id": "shi",
+          "name": "濕證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "四肢懈怠": {
+      "display_name": "四肢懈怠",
+      "related_syndromes": [
+        {
+          "id": "shi",
+          "name": "濕證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "身重不舒": {
+      "display_name": "身重不舒",
+      "related_syndromes": [
+        {
+          "id": "shi",
+          "name": "濕證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "或關節痠痛重著": {
+      "display_name": "或關節痠痛重著",
+      "related_syndromes": [
+        {
+          "id": "shi",
+          "name": "濕證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "疼痛類"
+    },
+    "屈伸不利": {
+      "display_name": "屈伸不利",
+      "related_syndromes": [
+        {
+          "id": "shi",
+          "name": "濕證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "苔膩": {
+      "display_name": "苔膩",
+      "related_syndromes": [
+        {
+          "id": "shi",
+          "name": "濕證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "tan",
+          "name": "痰證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "脈濡": {
+      "display_name": "脈濡",
+      "related_syndromes": [
+        {
+          "id": "shi",
+          "name": "濕證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "血瘀局部疼痛": {
+      "display_name": "血瘀局部疼痛",
+      "related_syndromes": [
+        {
+          "id": "xueyu_huare",
+          "name": "血瘀化熱證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "狀如針刺": {
+      "display_name": "狀如針刺",
+      "related_syndromes": [
+        {
+          "id": "xueyu_huare",
+          "name": "血瘀化熱證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "痛處不移": {
+      "display_name": "痛處不移",
+      "related_syndromes": [
+        {
+          "id": "xueyu_huare",
+          "name": "血瘀化熱證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "夜間加重": {
+      "display_name": "夜間加重",
+      "related_syndromes": [
+        {
+          "id": "xueyu_huare",
+          "name": "血瘀化熱證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "局部可有腫塊": {
+      "display_name": "局部可有腫塊",
+      "related_syndromes": [
+        {
+          "id": "xueyu_huare",
+          "name": "血瘀化熱證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "面色黧黑": {
+      "display_name": "面色黧黑",
+      "related_syndromes": [
+        {
+          "id": "xueyu_huare",
+          "name": "血瘀化熱證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "xueyu_shuiting",
+          "name": "血瘀水停證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "xueyu",
+          "name": "血瘀證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "或唇甲青紫": {
+      "display_name": "或唇甲青紫",
+      "related_syndromes": [
+        {
+          "id": "xueyu_huare",
+          "name": "血瘀化熱證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "xueyu_qizhi",
+          "name": "血瘀氣滯證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "或皮下紫斑": {
+      "display_name": "或皮下紫斑",
+      "related_syndromes": [
+        {
+          "id": "xueyu_huare",
+          "name": "血瘀化熱證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "或肌膚甲錯": {
+      "display_name": "或肌膚甲錯",
+      "related_syndromes": [
+        {
+          "id": "xueyu_huare",
+          "name": "血瘀化熱證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "或青筋顯露": {
+      "display_name": "或青筋顯露",
+      "related_syndromes": [
+        {
+          "id": "xueyu_huare",
+          "name": "血瘀化熱證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "伴低熱或自覺烘熱": {
+      "display_name": "伴低熱或自覺烘熱",
+      "related_syndromes": [
+        {
+          "id": "xueyu_huare",
+          "name": "血瘀化熱證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "發熱類"
+    },
+    "口乾不欲飲": {
+      "display_name": "口乾不欲飲",
+      "related_syndromes": [
+        {
+          "id": "xueyu_huare",
+          "name": "血瘀化熱證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "xueyu_shuiting",
+          "name": "血瘀水停證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "小便短赤": {
+      "display_name": "小便短赤",
+      "related_syndromes": [
+        {
+          "id": "huore",
+          "name": "火熱證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "xueyu_huare",
+          "name": "血瘀化熱證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "舌質暗紅": {
+      "display_name": "舌質暗紅",
+      "related_syndromes": [
+        {
+          "id": "xueyu_huare",
+          "name": "血瘀化熱證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "邊有瘀點": {
+      "display_name": "邊有瘀點",
+      "related_syndromes": [
+        {
+          "id": "xueyu_huare",
+          "name": "血瘀化熱證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "瘀斑": {
+      "display_name": "瘀斑",
+      "related_syndromes": [
+        {
+          "id": "yuxue_bizu",
+          "name": "瘀血痺阻證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "xueyu_huare",
+          "name": "血瘀化熱證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "或為血崩": {
+      "display_name": "或為血崩",
+      "related_syndromes": [
+        {
+          "id": "xueyu_huare",
+          "name": "血瘀化熱證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "漏下": {
+      "display_name": "漏下",
+      "related_syndromes": [
+        {
+          "id": "xueyu_huare",
+          "name": "血瘀化熱證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "舌淡胖": {
+      "display_name": "舌淡胖",
+      "related_syndromes": [
+        {
+          "id": "qituo",
+          "name": "氣脫證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "脈細微": {
+      "display_name": "脈細微",
+      "related_syndromes": [
+        {
+          "id": "qituo",
+          "name": "氣脫證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "或芤大等症狀": {
+      "display_name": "或芤大等症狀",
+      "related_syndromes": [
+        {
+          "id": "qituo",
+          "name": "氣脫證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "胸脅脹悶": {
+      "display_name": "胸脅脹悶",
+      "related_syndromes": [
+        {
+          "id": "qizhi_xueyu",
+          "name": "氣滯血瘀證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "走竄疼痛": {
+      "display_name": "走竄疼痛",
+      "related_syndromes": [
+        {
+          "id": "qizhi_xueyu",
+          "name": "氣滯血瘀證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "性情急躁易怒": {
+      "display_name": "性情急躁易怒",
+      "related_syndromes": [
+        {
+          "id": "qizhi_xueyu",
+          "name": "氣滯血瘀證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "或脅下痞塊": {
+      "display_name": "或脅下痞塊",
+      "related_syndromes": [
+        {
+          "id": "qizhi_xueyu",
+          "name": "氣滯血瘀證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "刺痛拒按": {
+      "display_name": "刺痛拒按",
+      "related_syndromes": [
+        {
+          "id": "qizhi_xueyu",
+          "name": "氣滯血瘀證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "疼痛類"
+    },
+    "經色紫暗": {
+      "display_name": "經色紫暗",
+      "related_syndromes": [
+        {
+          "id": "qizhi_xueyu",
+          "name": "氣滯血瘀證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "夾有血塊": {
+      "display_name": "夾有血塊",
+      "related_syndromes": [
+        {
+          "id": "qizhi_xueyu",
+          "name": "氣滯血瘀證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "乳房脹痛等": {
+      "display_name": "乳房脹痛等",
+      "related_syndromes": [
+        {
+          "id": "qizhi_xueyu",
+          "name": "氣滯血瘀證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "疼痛類"
+    },
+    "脈澀": {
+      "display_name": "脈澀",
+      "related_syndromes": [
+        {
+          "id": "qizhi_xueyu",
+          "name": "氣滯血瘀證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "yuxue_bizu",
+          "name": "瘀血痺阻證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "喘咳咯痰": {
+      "display_name": "喘咳咯痰",
+      "related_syndromes": [
+        {
+          "id": "tan",
+          "name": "痰證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "胸悶心悸": {
+      "display_name": "胸悶心悸",
+      "related_syndromes": [
+        {
+          "id": "tan",
+          "name": "痰證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "虛損類"
+    },
+    "神昏痴呆": {
+      "display_name": "神昏痴呆",
+      "related_syndromes": [
+        {
+          "id": "tan",
+          "name": "痰證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "神志類"
+    },
+    "或癲狂": {
+      "display_name": "或癲狂",
+      "related_syndromes": [
+        {
+          "id": "tan",
+          "name": "痰證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "噁心嘔吐": {
+      "display_name": "噁心嘔吐",
+      "related_syndromes": [
+        {
+          "id": "qini",
+          "name": "氣逆證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "tan",
+          "name": "痰證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "消化類"
+    },
+    "胃脘痞滿": {
+      "display_name": "胃脘痞滿",
+      "related_syndromes": [
+        {
+          "id": "tan",
+          "name": "痰證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "瘰癧痰核": {
+      "display_name": "瘰癧痰核",
+      "related_syndromes": [
+        {
+          "id": "tan",
+          "name": "痰證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "眩暈頭痛": {
+      "display_name": "眩暈頭痛",
+      "related_syndromes": [
+        {
+          "id": "tan",
+          "name": "痰證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "疼痛類"
+    },
+    "咽中如有物梗阻": {
+      "display_name": "咽中如有物梗阻",
+      "related_syndromes": [
+        {
+          "id": "tan",
+          "name": "痰證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "吞之不下": {
+      "display_name": "吞之不下",
+      "related_syndromes": [
+        {
+          "id": "tan",
+          "name": "痰證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "吐之不出": {
+      "display_name": "吐之不出",
+      "related_syndromes": [
+        {
+          "id": "tan",
+          "name": "痰證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "脈滑或弦": {
+      "display_name": "脈滑或弦",
+      "related_syndromes": [
+        {
+          "id": "tan",
+          "name": "痰證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "局部刺痛": {
+      "display_name": "局部刺痛",
+      "related_syndromes": [
+        {
+          "id": "yuxue_bizu",
+          "name": "瘀血痺阻證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "疼痛類"
+    },
+    "痛處固定": {
+      "display_name": "痛處固定",
+      "related_syndromes": [
+        {
+          "id": "yuxue_bizu",
+          "name": "瘀血痺阻證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "拒按": {
+      "display_name": "拒按",
+      "related_syndromes": [
+        {
+          "id": "yuxue_bizu",
+          "name": "瘀血痺阻證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "xueyu_qizhi",
+          "name": "血瘀氣滯證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "日輕夜重": {
+      "display_name": "日輕夜重",
+      "related_syndromes": [
+        {
+          "id": "yuxue_bizu",
+          "name": "瘀血痺阻證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "伴面色黧黑": {
+      "display_name": "伴面色黧黑",
+      "related_syndromes": [
+        {
+          "id": "yuxue_bizu",
+          "name": "瘀血痺阻證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "肌膚甲錯": {
+      "display_name": "肌膚甲錯",
+      "related_syndromes": [
+        {
+          "id": "yuxue_bizu",
+          "name": "瘀血痺阻證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "唇青舌紫": {
+      "display_name": "唇青舌紫",
+      "related_syndromes": [
+        {
+          "id": "yuxue_bizu",
+          "name": "瘀血痺阻證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "皮膚乾燥皸裂": {
+      "display_name": "皮膚乾燥皸裂",
+      "related_syndromes": [
+        {
+          "id": "zao",
+          "name": "燥證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "口鼻乾燥": {
+      "display_name": "口鼻乾燥",
+      "related_syndromes": [
+        {
+          "id": "zao",
+          "name": "燥證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "咽乾口渴": {
+      "display_name": "咽乾口渴",
+      "related_syndromes": [
+        {
+          "id": "zao",
+          "name": "燥證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "乾咳少痰": {
+      "display_name": "乾咳少痰",
+      "related_syndromes": [
+        {
+          "id": "zao",
+          "name": "燥證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "xuexu_waigan",
+          "name": "血虛外感證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "或痰中帶血": {
+      "display_name": "或痰中帶血",
+      "related_syndromes": [
+        {
+          "id": "zao",
+          "name": "燥證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "大便乾結": {
+      "display_name": "大便乾結",
+      "related_syndromes": [
+        {
+          "id": "zao",
+          "name": "燥證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "yinxu",
+          "name": "陰虛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "小便短少": {
+      "display_name": "小便短少",
+      "related_syndromes": [
+        {
+          "id": "zao",
+          "name": "燥證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "唇焦": {
+      "display_name": "唇焦",
+      "related_syndromes": [
+        {
+          "id": "zao",
+          "name": "燥證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "舌乾無津": {
+      "display_name": "舌乾無津",
+      "related_syndromes": [
+        {
+          "id": "zao",
+          "name": "燥證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "甚則潮熱心煩": {
+      "display_name": "甚則潮熱心煩",
+      "related_syndromes": [
+        {
+          "id": "zao",
+          "name": "燥證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "發熱類"
+    },
+    "皮膚乾澀粗糙": {
+      "display_name": "皮膚乾澀粗糙",
+      "related_syndromes": [
+        {
+          "id": "zao",
+          "name": "燥證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "xuexu_fengzao",
+          "name": "血虛風燥證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "毛髮乾枯不榮": {
+      "display_name": "毛髮乾枯不榮",
+      "related_syndromes": [
+        {
+          "id": "zao",
+          "name": "燥證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "xuexu_fengzao",
+          "name": "血虛風燥證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "遺精盜汗": {
+      "display_name": "遺精盜汗",
+      "related_syndromes": [
+        {
+          "id": "zao",
+          "name": "燥證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "虛損類"
+    },
+    "舌乾紅無苔": {
+      "display_name": "舌乾紅無苔",
+      "related_syndromes": [
+        {
+          "id": "zao",
+          "name": "燥證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "脈細數而弱": {
+      "display_name": "脈細數而弱",
+      "related_syndromes": [
+        {
+          "id": "zao",
+          "name": "燥證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "久洩脫肛": {
+      "display_name": "久洩脫肛",
+      "related_syndromes": [
+        {
+          "id": "qixian",
+          "name": "氣陷證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "舌質淡胖": {
+      "display_name": "舌質淡胖",
+      "related_syndromes": [
+        {
+          "id": "qixian",
+          "name": "氣陷證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "脈細緩無力等症": {
+      "display_name": "脈細緩無力等症",
+      "related_syndromes": [
+        {
+          "id": "qixian",
+          "name": "氣陷證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "壯熱煩躁": {
+      "display_name": "壯熱煩躁",
+      "related_syndromes": [
+        {
+          "id": "xiedu_chisheng",
+          "name": "邪毒熾盛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "發熱類"
+    },
+    "神昏譫語": {
+      "display_name": "神昏譫語",
+      "related_syndromes": [
+        {
+          "id": "xiedu_chisheng",
+          "name": "邪毒熾盛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "神志類"
+    },
+    "衄血": {
+      "display_name": "衄血",
+      "related_syndromes": [
+        {
+          "id": "xiedu_chisheng",
+          "name": "邪毒熾盛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "肌膚發斑": {
+      "display_name": "肌膚發斑",
+      "related_syndromes": [
+        {
+          "id": "xiedu_chisheng",
+          "name": "邪毒熾盛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "身黃如金": {
+      "display_name": "身黃如金",
+      "related_syndromes": [
+        {
+          "id": "xiedu_chisheng",
+          "name": "邪毒熾盛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "小便黃赤": {
+      "display_name": "小便黃赤",
+      "related_syndromes": [
+        {
+          "id": "xiedu_chisheng",
+          "name": "邪毒熾盛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "大便下血": {
+      "display_name": "大便下血",
+      "related_syndromes": [
+        {
+          "id": "xiedu_chisheng",
+          "name": "邪毒熾盛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "血色不鮮": {
+      "display_name": "血色不鮮",
+      "related_syndromes": [
+        {
+          "id": "xiedu_chisheng",
+          "name": "邪毒熾盛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "或下痢膿血": {
+      "display_name": "或下痢膿血",
+      "related_syndromes": [
+        {
+          "id": "xiedu_chisheng",
+          "name": "邪毒熾盛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "或五色雜下": {
+      "display_name": "或五色雜下",
+      "related_syndromes": [
+        {
+          "id": "xiedu_chisheng",
+          "name": "邪毒熾盛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "味臭穢": {
+      "display_name": "味臭穢",
+      "related_syndromes": [
+        {
+          "id": "xiedu_chisheng",
+          "name": "邪毒熾盛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "癰疽疔瘡紅腫高突": {
+      "display_name": "癰疽疔瘡紅腫高突",
+      "related_syndromes": [
+        {
+          "id": "xiedu_chisheng",
+          "name": "邪毒熾盛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "或瘡形平塌": {
+      "display_name": "或瘡形平塌",
+      "related_syndromes": [
+        {
+          "id": "xiedu_chisheng",
+          "name": "邪毒熾盛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "根腳漫腫": {
+      "display_name": "根腳漫腫",
+      "related_syndromes": [
+        {
+          "id": "xiedu_chisheng",
+          "name": "邪毒熾盛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "色紫黑": {
+      "display_name": "色紫黑",
+      "related_syndromes": [
+        {
+          "id": "xiedu_chisheng",
+          "name": "邪毒熾盛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "潰爛久不收口": {
+      "display_name": "潰爛久不收口",
+      "related_syndromes": [
+        {
+          "id": "xiedu_chisheng",
+          "name": "邪毒熾盛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "甚則四肢抽搐": {
+      "display_name": "甚則四肢抽搐",
+      "related_syndromes": [
+        {
+          "id": "xiedu_chisheng",
+          "name": "邪毒熾盛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "角弓反張等": {
+      "display_name": "角弓反張等",
+      "related_syndromes": [
+        {
+          "id": "xiedu_chisheng",
+          "name": "邪毒熾盛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "神志昏迷": {
+      "display_name": "神志昏迷",
+      "related_syndromes": [
+        {
+          "id": "shishen",
+          "name": "失神證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "或言語失倫": {
+      "display_name": "或言語失倫",
+      "related_syndromes": [
+        {
+          "id": "shishen",
+          "name": "失神證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "或循衣摸床": {
+      "display_name": "或循衣摸床",
+      "related_syndromes": [
+        {
+          "id": "shishen",
+          "name": "失神證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "撮空理線": {
+      "display_name": "撮空理線",
+      "related_syndromes": [
+        {
+          "id": "shishen",
+          "name": "失神證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "目暗睛迷": {
+      "display_name": "目暗睛迷",
+      "related_syndromes": [
+        {
+          "id": "shishen",
+          "name": "失神證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "瞳神呆滯": {
+      "display_name": "瞳神呆滯",
+      "related_syndromes": [
+        {
+          "id": "shishen",
+          "name": "失神證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "面色晦暗": {
+      "display_name": "面色晦暗",
+      "related_syndromes": [
+        {
+          "id": "shishen",
+          "name": "失神證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "表情淡漠呆板": {
+      "display_name": "表情淡漠呆板",
+      "related_syndromes": [
+        {
+          "id": "shishen",
+          "name": "失神證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "反應遲鈍": {
+      "display_name": "反應遲鈍",
+      "related_syndromes": [
+        {
+          "id": "shishen",
+          "name": "失神證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "動作失靈": {
+      "display_name": "動作失靈",
+      "related_syndromes": [
+        {
+          "id": "shishen",
+          "name": "失神證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "強迫體位": {
+      "display_name": "強迫體位",
+      "related_syndromes": [
+        {
+          "id": "shishen",
+          "name": "失神證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "呼吸異常": {
+      "display_name": "呼吸異常",
+      "related_syndromes": [
+        {
+          "id": "shishen",
+          "name": "失神證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "大肉已脫等症狀": {
+      "display_name": "大肉已脫等症狀",
+      "related_syndromes": [
+        {
+          "id": "shishen",
+          "name": "失神證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "形體消瘦": {
+      "display_name": "形體消瘦",
+      "related_syndromes": [
+        {
+          "id": "xuexu_jinkui",
+          "name": "血虛津虧證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "yinxu",
+          "name": "陰虛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "頭暈耳鳴": {
+      "display_name": "頭暈耳鳴",
+      "related_syndromes": [
+        {
+          "id": "huore",
+          "name": "火熱證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "xuexu_hanning",
+          "name": "血虛寒凝證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "xuexu_jinkui",
+          "name": "血虛津虧證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "虛損類"
+    },
+    "心悸健忘": {
+      "display_name": "心悸健忘",
+      "related_syndromes": [
+        {
+          "id": "xuexu_waigan",
+          "name": "血虛外感證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "xuexu_jinkui",
+          "name": "血虛津虧證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "虛損類"
+    },
+    "失眠多夢": {
+      "display_name": "失眠多夢",
+      "related_syndromes": [
+        {
+          "id": "xuexu_jinkui",
+          "name": "血虛津虧證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "虛損類"
+    },
+    "口乾咽燥": {
+      "display_name": "口乾咽燥",
+      "related_syndromes": [
+        {
+          "id": "xuexu_jinkui",
+          "name": "血虛津虧證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "鼻唇燥裂": {
+      "display_name": "鼻唇燥裂",
+      "related_syndromes": [
+        {
+          "id": "xuexu_jinkui",
+          "name": "血虛津虧證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "乾咳失音": {
+      "display_name": "乾咳失音",
+      "related_syndromes": [
+        {
+          "id": "xuexu_jinkui",
+          "name": "血虛津虧證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "皮膚乾燥": {
+      "display_name": "皮膚乾燥",
+      "related_syndromes": [
+        {
+          "id": "xuexu_jinkui",
+          "name": "血虛津虧證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "目澀少淚": {
+      "display_name": "目澀少淚",
+      "related_syndromes": [
+        {
+          "id": "xuexu_jinkui",
+          "name": "血虛津虧證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "尿少便結": {
+      "display_name": "尿少便結",
+      "related_syndromes": [
+        {
+          "id": "xuexu_jinkui",
+          "name": "血虛津虧證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "舌淡少津": {
+      "display_name": "舌淡少津",
+      "related_syndromes": [
+        {
+          "id": "xuexu_jinkui",
+          "name": "血虛津虧證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "苔少或剝": {
+      "display_name": "苔少或剝",
+      "related_syndromes": [
+        {
+          "id": "xuexu_jinkui",
+          "name": "血虛津虧證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "脈細小": {
+      "display_name": "脈細小",
+      "related_syndromes": [
+        {
+          "id": "xuexu_jinkui",
+          "name": "血虛津虧證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "不惡寒而惡熱": {
+      "display_name": "不惡寒而惡熱",
+      "related_syndromes": [
+        {
+          "id": "qifen",
+          "name": "氣分證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "發熱類"
+    },
+    "口苦口渴": {
+      "display_name": "口苦口渴",
+      "related_syndromes": [
+        {
+          "id": "qifen",
+          "name": "氣分證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "汗出心煩": {
+      "display_name": "汗出心煩",
+      "related_syndromes": [
+        {
+          "id": "qifen",
+          "name": "氣分證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "舌苔或白": {
+      "display_name": "舌苔或白",
+      "related_syndromes": [
+        {
+          "id": "qifen",
+          "name": "氣分證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "或黃": {
+      "display_name": "或黃",
+      "related_syndromes": [
+        {
+          "id": "qifen",
+          "name": "氣分證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "或厚": {
+      "display_name": "或厚",
+      "related_syndromes": [
+        {
+          "id": "qifen",
+          "name": "氣分證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "或膩": {
+      "display_name": "或膩",
+      "related_syndromes": [
+        {
+          "id": "qifen",
+          "name": "氣分證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "或燥而少津": {
+      "display_name": "或燥而少津",
+      "related_syndromes": [
+        {
+          "id": "qifen",
+          "name": "氣分證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "脈象洪大等": {
+      "display_name": "脈象洪大等",
+      "related_syndromes": [
+        {
+          "id": "qifen",
+          "name": "氣分證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "頭面": {
+      "display_name": "頭面",
+      "related_syndromes": [
+        {
+          "id": "qizhi_shuiting",
+          "name": "氣滯水停證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "四肢": {
+      "display_name": "四肢",
+      "related_syndromes": [
+        {
+          "id": "qizhi_shuiting",
+          "name": "氣滯水停證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "甚至全身水腫": {
+      "display_name": "甚至全身水腫",
+      "related_syndromes": [
+        {
+          "id": "qizhi_shuiting",
+          "name": "氣滯水停證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "皮膚類"
+    },
+    "或為胸水而見胸悶": {
+      "display_name": "或為胸水而見胸悶",
+      "related_syndromes": [
+        {
+          "id": "qizhi_shuiting",
+          "name": "氣滯水停證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "呼吸類"
+    },
+    "嘔惡等症": {
+      "display_name": "嘔惡等症",
+      "related_syndromes": [
+        {
+          "id": "qizhi_shuiting",
+          "name": "氣滯水停證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "小便短少不利": {
+      "display_name": "小便短少不利",
+      "related_syndromes": [
+        {
+          "id": "qizhi_shuiting",
+          "name": "氣滯水停證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "身重": {
+      "display_name": "身重",
+      "related_syndromes": [
+        {
+          "id": "qizhi_shuiting",
+          "name": "氣滯水停證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "胸脅脹滿": {
+      "display_name": "胸脅脹滿",
+      "related_syndromes": [
+        {
+          "id": "qizhi_shuiting",
+          "name": "氣滯水停證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "苔滑": {
+      "display_name": "苔滑",
+      "related_syndromes": [
+        {
+          "id": "qizhi_shuiting",
+          "name": "氣滯水停證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "脈弦滑等": {
+      "display_name": "脈弦滑等",
+      "related_syndromes": [
+        {
+          "id": "qizhi_shuiting",
+          "name": "氣滯水停證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "或躁擾發狂": {
+      "display_name": "或躁擾發狂",
+      "related_syndromes": [
+        {
+          "id": "xuere_dongfeng",
+          "name": "血熱動風證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "xuere",
+          "name": "血熱證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "口渴不喜飲": {
+      "display_name": "口渴不喜飲",
+      "related_syndromes": [
+        {
+          "id": "xuere",
+          "name": "血熱證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "身熱夜甚": {
+      "display_name": "身熱夜甚",
+      "related_syndromes": [
+        {
+          "id": "yingfen",
+          "name": "營分證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "xuere",
+          "name": "血熱證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "發熱類"
+    },
+    "及發斑吐衄": {
+      "display_name": "及發斑吐衄",
+      "related_syndromes": [
+        {
+          "id": "xuere",
+          "name": "血熱證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "尿血便血": {
+      "display_name": "尿血便血",
+      "related_syndromes": [
+        {
+          "id": "xuere",
+          "name": "血熱證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "舌質紅絳": {
+      "display_name": "舌質紅絳",
+      "related_syndromes": [
+        {
+          "id": "xuere",
+          "name": "血熱證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "脈細數等": {
+      "display_name": "脈細數等",
+      "related_syndromes": [
+        {
+          "id": "xuere",
+          "name": "血熱證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "局部的脹": {
+      "display_name": "局部的脹",
+      "related_syndromes": [
+        {
+          "id": "qizhi",
+          "name": "氣滯證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "痛。其脹悶": {
+      "display_name": "痛。其脹悶",
+      "related_syndromes": [
+        {
+          "id": "qizhi",
+          "name": "氣滯證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "疼痛時輕時重": {
+      "display_name": "疼痛時輕時重",
+      "related_syndromes": [
+        {
+          "id": "qizhi",
+          "name": "氣滯證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "部位多不固定": {
+      "display_name": "部位多不固定",
+      "related_syndromes": [
+        {
+          "id": "qizhi",
+          "name": "氣滯證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "常見攻痛或竄痛": {
+      "display_name": "常見攻痛或竄痛",
+      "related_syndromes": [
+        {
+          "id": "qizhi",
+          "name": "氣滯證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "痞脹時沒時現": {
+      "display_name": "痞脹時沒時現",
+      "related_syndromes": [
+        {
+          "id": "qizhi",
+          "name": "氣滯證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "時聚時散": {
+      "display_name": "時聚時散",
+      "related_syndromes": [
+        {
+          "id": "qizhi",
+          "name": "氣滯證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "脹悶而滿": {
+      "display_name": "脹悶而滿",
+      "related_syndromes": [
+        {
+          "id": "qizhi",
+          "name": "氣滯證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "且與精神因素有關": {
+      "display_name": "且與精神因素有關",
+      "related_syndromes": [
+        {
+          "id": "qizhi",
+          "name": "氣滯證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "苔薄": {
+      "display_name": "苔薄",
+      "related_syndromes": [
+        {
+          "id": "qizhi",
+          "name": "氣滯證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "脈弦等": {
+      "display_name": "脈弦等",
+      "related_syndromes": [
+        {
+          "id": "qizhi",
+          "name": "氣滯證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "情緒抑郁": {
+      "display_name": "情緒抑郁",
+      "related_syndromes": [
+        {
+          "id": "qiyu_huahuo",
+          "name": "氣鬱化火證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "胸脅脹痛": {
+      "display_name": "胸脅脹痛",
+      "related_syndromes": [
+        {
+          "id": "qiyu_huahuo",
+          "name": "氣鬱化火證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "疼痛類"
+    },
+    "善嘆息": {
+      "display_name": "善嘆息",
+      "related_syndromes": [
+        {
+          "id": "qiyu_huahuo",
+          "name": "氣鬱化火證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "口乾口苦": {
+      "display_name": "口乾口苦",
+      "related_syndromes": [
+        {
+          "id": "qiyu_huahuo",
+          "name": "氣鬱化火證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "舌紅": {
+      "display_name": "舌紅",
+      "related_syndromes": [
+        {
+          "id": "qiyu_huahuo",
+          "name": "氣鬱化火證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "huore",
+          "name": "火熱證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "苔黃": {
+      "display_name": "苔黃",
+      "related_syndromes": [
+        {
+          "id": "qiyu_huahuo",
+          "name": "氣鬱化火證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "脈弦數": {
+      "display_name": "脈弦數",
+      "related_syndromes": [
+        {
+          "id": "qiyu_huahuo",
+          "name": "氣鬱化火證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "面白無華或萎黃": {
+      "display_name": "面白無華或萎黃",
+      "related_syndromes": [
+        {
+          "id": "xuexu",
+          "name": "血虛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "唇色淡": {
+      "display_name": "唇色淡",
+      "related_syndromes": [
+        {
+          "id": "xuexu",
+          "name": "血虛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "心悸": {
+      "display_name": "心悸",
+      "related_syndromes": [
+        {
+          "id": "xuexu",
+          "name": "血虛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "虛損類"
+    },
+    "失眠": {
+      "display_name": "失眠",
+      "related_syndromes": [
+        {
+          "id": "xuexu",
+          "name": "血虛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "虛損類"
+    },
+    "手足發麻": {
+      "display_name": "手足發麻",
+      "related_syndromes": [
+        {
+          "id": "xuexu_waigan",
+          "name": "血虛外感證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "xuexu",
+          "name": "血虛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "女子月經量少": {
+      "display_name": "女子月經量少",
+      "related_syndromes": [
+        {
+          "id": "xuexu_waigan",
+          "name": "血虛外感證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "xuexu",
+          "name": "血虛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "衍期": {
+      "display_name": "衍期",
+      "related_syndromes": [
+        {
+          "id": "xuexu",
+          "name": "血虛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "甚則經閉": {
+      "display_name": "甚則經閉",
+      "related_syndromes": [
+        {
+          "id": "xuexu",
+          "name": "血虛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "舌質淡": {
+      "display_name": "舌質淡",
+      "related_syndromes": [
+        {
+          "id": "qixu_fare",
+          "name": "氣虛發熱證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "xuexu",
+          "name": "血虛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "脈沉細無力等症": {
+      "display_name": "脈沉細無力等症",
+      "related_syndromes": [
+        {
+          "id": "xuexu",
+          "name": "血虛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "口渴不止": {
+      "display_name": "口渴不止",
+      "related_syndromes": [
+        {
+          "id": "jueyin",
+          "name": "厥陰證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "氣上衝心": {
+      "display_name": "氣上衝心",
+      "related_syndromes": [
+        {
+          "id": "jueyin",
+          "name": "厥陰證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "心中疼熱": {
+      "display_name": "心中疼熱",
+      "related_syndromes": [
+        {
+          "id": "jueyin",
+          "name": "厥陰證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "飢而不欲食": {
+      "display_name": "飢而不欲食",
+      "related_syndromes": [
+        {
+          "id": "jueyin",
+          "name": "厥陰證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "嘔吐或吐出蛔蟲等": {
+      "display_name": "嘔吐或吐出蛔蟲等",
+      "related_syndromes": [
+        {
+          "id": "jueyin",
+          "name": "厥陰證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "消化類"
+    },
+    "眩暈耳鳴": {
+      "display_name": "眩暈耳鳴",
+      "related_syndromes": [
+        {
+          "id": "xuexu_shengfeng",
+          "name": "血虛生風證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "虛損類"
+    },
+    "視物模糊": {
+      "display_name": "視物模糊",
+      "related_syndromes": [
+        {
+          "id": "xuexu_shengfeng",
+          "name": "血虛生風證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "手足震顫": {
+      "display_name": "手足震顫",
+      "related_syndromes": [
+        {
+          "id": "xuexu_shengfeng",
+          "name": "血虛生風證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "xuexu_fengzao",
+          "name": "血虛風燥證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "或肌肉瞤動": {
+      "display_name": "或肌肉瞤動",
+      "related_syndromes": [
+        {
+          "id": "xuexu_shengfeng",
+          "name": "血虛生風證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "關節不利": {
+      "display_name": "關節不利",
+      "related_syndromes": [
+        {
+          "id": "xuexu_shengfeng",
+          "name": "血虛生風證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "爪甲不榮": {
+      "display_name": "爪甲不榮",
+      "related_syndromes": [
+        {
+          "id": "xuexu_shengfeng",
+          "name": "血虛生風證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "舌質淡白": {
+      "display_name": "舌質淡白",
+      "related_syndromes": [
+        {
+          "id": "xuexu_shengfeng",
+          "name": "血虛生風證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "yangxu",
+          "name": "陽虛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "脈細弱": {
+      "display_name": "脈細弱",
+      "related_syndromes": [
+        {
+          "id": "xuexu_shengfeng",
+          "name": "血虛生風證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "發熱": {
+      "display_name": "發熱",
+      "related_syndromes": [
+        {
+          "id": "qixu_waigan",
+          "name": "氣虛外感證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "qixu_fare",
+          "name": "氣虛發熱證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "發熱類"
+    },
+    "熱勢或低或高": {
+      "display_name": "熱勢或低或高",
+      "related_syndromes": [
+        {
+          "id": "qixu_fare",
+          "name": "氣虛發熱證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "倦怠乏力": {
+      "display_name": "倦怠乏力",
+      "related_syndromes": [
+        {
+          "id": "qixu_fare",
+          "name": "氣虛發熱證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "yangxu",
+          "name": "陽虛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "虛損類"
+    },
+    "短氣懶言": {
+      "display_name": "短氣懶言",
+      "related_syndromes": [
+        {
+          "id": "qixu_fare",
+          "name": "氣虛發熱證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "虛損類"
+    },
+    "食少便溏": {
+      "display_name": "食少便溏",
+      "related_syndromes": [
+        {
+          "id": "qixu_fare",
+          "name": "氣虛發熱證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "二便類"
+    },
+    "易於感冒": {
+      "display_name": "易於感冒",
+      "related_syndromes": [
+        {
+          "id": "qixu_fare",
+          "name": "氣虛發熱證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "脈弱": {
+      "display_name": "脈弱",
+      "related_syndromes": [
+        {
+          "id": "qixu_fare",
+          "name": "氣虛發熱證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "畏寒肢冷": {
+      "display_name": "畏寒肢冷",
+      "related_syndromes": [
+        {
+          "id": "han",
+          "name": "寒證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "yangxu",
+          "name": "陽虛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "面色晄白": {
+      "display_name": "面色晄白",
+      "related_syndromes": [
+        {
+          "id": "yangxu",
+          "name": "陽虛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "口淡不渴": {
+      "display_name": "口淡不渴",
+      "related_syndromes": [
+        {
+          "id": "yangxu",
+          "name": "陽虛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "大便溏薄": {
+      "display_name": "大便溏薄",
+      "related_syndromes": [
+        {
+          "id": "yangxu",
+          "name": "陽虛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "二便類"
+    },
+    "脈虛遲或沉弱": {
+      "display_name": "脈虛遲或沉弱",
+      "related_syndromes": [
+        {
+          "id": "yangxu",
+          "name": "陽虛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "高熱": {
+      "display_name": "高熱",
+      "related_syndromes": [
+        {
+          "id": "huore",
+          "name": "火熱證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "惡熱": {
+      "display_name": "惡熱",
+      "related_syndromes": [
+        {
+          "id": "huore",
+          "name": "火熱證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "煩渴": {
+      "display_name": "煩渴",
+      "related_syndromes": [
+        {
+          "id": "huore",
+          "name": "火熱證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "躁狂": {
+      "display_name": "躁狂",
+      "related_syndromes": [
+        {
+          "id": "huore",
+          "name": "火熱證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "面紅耳赤": {
+      "display_name": "面紅耳赤",
+      "related_syndromes": [
+        {
+          "id": "huore",
+          "name": "火熱證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "口舌糜爛": {
+      "display_name": "口舌糜爛",
+      "related_syndromes": [
+        {
+          "id": "huore",
+          "name": "火熱證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "咽乾口苦": {
+      "display_name": "咽乾口苦",
+      "related_syndromes": [
+        {
+          "id": "huore",
+          "name": "火熱證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "齒齦腫痛": {
+      "display_name": "齒齦腫痛",
+      "related_syndromes": [
+        {
+          "id": "huore",
+          "name": "火熱證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "大便秘結": {
+      "display_name": "大便秘結",
+      "related_syndromes": [
+        {
+          "id": "huore",
+          "name": "火熱證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "二便類"
+    },
+    "苔黃燥": {
+      "display_name": "苔黃燥",
+      "related_syndromes": [
+        {
+          "id": "huore",
+          "name": "火熱證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "脈數有力": {
+      "display_name": "脈數有力",
+      "related_syndromes": [
+        {
+          "id": "huore",
+          "name": "火熱證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "或煩躁失眠": {
+      "display_name": "或煩躁失眠",
+      "related_syndromes": [
+        {
+          "id": "huore",
+          "name": "火熱證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "虛損類"
+    },
+    "夢遺失精": {
+      "display_name": "夢遺失精",
+      "related_syndromes": [
+        {
+          "id": "huore",
+          "name": "火熱證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "五心煩熱": {
+      "display_name": "五心煩熱",
+      "related_syndromes": [
+        {
+          "id": "huore",
+          "name": "火熱證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "yinxu",
+          "name": "陰虛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "發熱類"
+    },
+    "兩顴潮紅": {
+      "display_name": "兩顴潮紅",
+      "related_syndromes": [
+        {
+          "id": "huore",
+          "name": "火熱證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "低熱盗汗": {
+      "display_name": "低熱盗汗",
+      "related_syndromes": [
+        {
+          "id": "huore",
+          "name": "火熱證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "發熱類"
+    },
+    "咽乾目澀": {
+      "display_name": "咽乾目澀",
+      "related_syndromes": [
+        {
+          "id": "huore",
+          "name": "火熱證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "咳嗽痰血": {
+      "display_name": "咳嗽痰血",
+      "related_syndromes": [
+        {
+          "id": "huore",
+          "name": "火熱證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "呼吸類"
+    },
+    "舌紅絳": {
+      "display_name": "舌紅絳",
+      "related_syndromes": [
+        {
+          "id": "huore",
+          "name": "火熱證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "苔少": {
+      "display_name": "苔少",
+      "related_syndromes": [
+        {
+          "id": "huore",
+          "name": "火熱證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "脈細數或虛數等": {
+      "display_name": "脈細數或虛數等",
+      "related_syndromes": [
+        {
+          "id": "huore",
+          "name": "火熱證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "舌淡苔薄白": {
+      "display_name": "舌淡苔薄白",
+      "related_syndromes": [
+        {
+          "id": "taiyin",
+          "name": "太陰證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "脈緩弱": {
+      "display_name": "脈緩弱",
+      "related_syndromes": [
+        {
+          "id": "taiyin",
+          "name": "太陰證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "發熱頭痛": {
+      "display_name": "發熱頭痛",
+      "related_syndromes": [
+        {
+          "id": "weifen",
+          "name": "衛分證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "發熱類"
+    },
+    "微惡風寒": {
+      "display_name": "微惡風寒",
+      "related_syndromes": [
+        {
+          "id": "xuexu_waigan",
+          "name": "血虛外感證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "weifen",
+          "name": "衛分證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "發熱類"
+    },
+    "有少許汗或無汗": {
+      "display_name": "有少許汗或無汗",
+      "related_syndromes": [
+        {
+          "id": "weifen",
+          "name": "衛分證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "口微渴": {
+      "display_name": "口微渴",
+      "related_syndromes": [
+        {
+          "id": "weifen",
+          "name": "衛分證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "咽痛": {
+      "display_name": "咽痛",
+      "related_syndromes": [
+        {
+          "id": "weifen",
+          "name": "衛分證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "脈浮數": {
+      "display_name": "脈浮數",
+      "related_syndromes": [
+        {
+          "id": "weifen",
+          "name": "衛分證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "頭痛身熱": {
+      "display_name": "頭痛身熱",
+      "related_syndromes": [
+        {
+          "id": "xuexu_waigan",
+          "name": "血虛外感證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "發熱類"
+    },
+    "少汗或無汗": {
+      "display_name": "少汗或無汗",
+      "related_syndromes": [
+        {
+          "id": "xuexu_waigan",
+          "name": "血虛外感證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "頭暈目花": {
+      "display_name": "頭暈目花",
+      "related_syndromes": [
+        {
+          "id": "xuexu_waigan",
+          "name": "血虛外感證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "虛損類"
+    },
+    "面白無華": {
+      "display_name": "面白無華",
+      "related_syndromes": [
+        {
+          "id": "xuexu_waigan",
+          "name": "血虛外感證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "xuexu_fengzao",
+          "name": "血虛風燥證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "指甲蒼白": {
+      "display_name": "指甲蒼白",
+      "related_syndromes": [
+        {
+          "id": "xuexu_waigan",
+          "name": "血虛外感證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "唇舌淡": {
+      "display_name": "唇舌淡",
+      "related_syndromes": [
+        {
+          "id": "xuexu_waigan",
+          "name": "血虛外感證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "脈細或浮而無力": {
+      "display_name": "脈細或浮而無力",
+      "related_syndromes": [
+        {
+          "id": "xuexu_waigan",
+          "name": "血虛外感證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "可見胸悶心痛": {
+      "display_name": "可見胸悶心痛",
+      "related_syndromes": [
+        {
+          "id": "xueyu_qizhi",
+          "name": "血瘀氣滯證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "xueyu",
+          "name": "血瘀證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "呼吸類"
+    },
+    "口唇青紫": {
+      "display_name": "口唇青紫",
+      "related_syndromes": [
+        {
+          "id": "xueyu_qizhi",
+          "name": "血瘀氣滯證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "xueyu",
+          "name": "血瘀證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "瘀阻胃腸": {
+      "display_name": "瘀阻胃腸",
+      "related_syndromes": [
+        {
+          "id": "xueyu_qizhi",
+          "name": "血瘀氣滯證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "可見脘腹疼痛": {
+      "display_name": "可見脘腹疼痛",
+      "related_syndromes": [
+        {
+          "id": "xueyu_qizhi",
+          "name": "血瘀氣滯證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "瘀阻於肢體局部": {
+      "display_name": "瘀阻於肢體局部",
+      "related_syndromes": [
+        {
+          "id": "xueyu_qizhi",
+          "name": "血瘀氣滯證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "xueyu",
+          "name": "血瘀證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "婦女可見痛經": {
+      "display_name": "婦女可見痛經",
+      "related_syndromes": [
+        {
+          "id": "xueyu_qizhi",
+          "name": "血瘀氣滯證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "閉經": {
+      "display_name": "閉經",
+      "related_syndromes": [
+        {
+          "id": "xueyu_qizhi",
+          "name": "血瘀氣滯證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "舌質暗": {
+      "display_name": "舌質暗",
+      "related_syndromes": [
+        {
+          "id": "xueyu_qizhi",
+          "name": "血瘀氣滯證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "有瘀斑": {
+      "display_name": "有瘀斑",
+      "related_syndromes": [
+        {
+          "id": "xueyu_qizhi",
+          "name": "血瘀氣滯證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "xueyu_shuiting",
+          "name": "血瘀水停證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "舌下脈絡紆曲": {
+      "display_name": "舌下脈絡紆曲",
+      "related_syndromes": [
+        {
+          "id": "xueyu_qizhi",
+          "name": "血瘀氣滯證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "苔白": {
+      "display_name": "苔白",
+      "related_syndromes": [
+        {
+          "id": "xueyu_qizhi",
+          "name": "血瘀氣滯證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "脈弦澀": {
+      "display_name": "脈弦澀",
+      "related_syndromes": [
+        {
+          "id": "xueyu_qizhi",
+          "name": "血瘀氣滯證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "惡寒較甚": {
+      "display_name": "惡寒較甚",
+      "related_syndromes": [
+        {
+          "id": "qixu_waigan",
+          "name": "氣虛外感證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "發熱類"
+    },
+    "無汗或自汗出": {
+      "display_name": "無汗或自汗出",
+      "related_syndromes": [
+        {
+          "id": "qixu_waigan",
+          "name": "氣虛外感證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "虛損類"
+    },
+    "身楚倦怠": {
+      "display_name": "身楚倦怠",
+      "related_syndromes": [
+        {
+          "id": "qixu_waigan",
+          "name": "氣虛外感證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "虛損類"
+    },
+    "咯痰無力": {
+      "display_name": "咯痰無力",
+      "related_syndromes": [
+        {
+          "id": "qixu_waigan",
+          "name": "氣虛外感證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "甚則氣少不足以息": {
+      "display_name": "甚則氣少不足以息",
+      "related_syndromes": [
+        {
+          "id": "qixu_waigan",
+          "name": "氣虛外感證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "聲音低怯": {
+      "display_name": "聲音低怯",
+      "related_syndromes": [
+        {
+          "id": "qixu_waigan",
+          "name": "氣虛外感證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "舌淡苔白": {
+      "display_name": "舌淡苔白",
+      "related_syndromes": [
+        {
+          "id": "han",
+          "name": "寒證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "qixu_waigan",
+          "name": "氣虛外感證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "脈浮無力": {
+      "display_name": "脈浮無力",
+      "related_syndromes": [
+        {
+          "id": "qixu_waigan",
+          "name": "氣虛外感證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "心煩不寐": {
+      "display_name": "心煩不寐",
+      "related_syndromes": [
+        {
+          "id": "yingfen",
+          "name": "營分證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "神志類"
+    },
+    "時有譫語": {
+      "display_name": "時有譫語",
+      "related_syndromes": [
+        {
+          "id": "yingfen",
+          "name": "營分證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "神志類"
+    },
+    "斑疹隱隱": {
+      "display_name": "斑疹隱隱",
+      "related_syndromes": [
+        {
+          "id": "yingfen",
+          "name": "營分證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "皮膚類"
+    },
+    "口不甚渴": {
+      "display_name": "口不甚渴",
+      "related_syndromes": [
+        {
+          "id": "yingfen",
+          "name": "營分證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "或有神昏驚厥": {
+      "display_name": "或有神昏驚厥",
+      "related_syndromes": [
+        {
+          "id": "yingfen",
+          "name": "營分證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "神志類"
+    },
+    "脈象細數": {
+      "display_name": "脈象細數",
+      "related_syndromes": [
+        {
+          "id": "yingfen",
+          "name": "營分證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "舌絳。以舌絳": {
+      "display_name": "舌絳。以舌絳",
+      "related_syndromes": [
+        {
+          "id": "yingfen",
+          "name": "營分證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "身熱為主要特徵": {
+      "display_name": "身熱為主要特徵",
+      "related_syndromes": [
+        {
+          "id": "yingfen",
+          "name": "營分證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "發熱類"
+    },
+    "脈弦": {
+      "display_name": "脈弦",
+      "related_syndromes": [
+        {
+          "id": "shaoyang",
+          "name": "少陽證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "語聲低微": {
+      "display_name": "語聲低微",
+      "related_syndromes": [
+        {
+          "id": "qixu",
+          "name": "氣虛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "納谷少馨": {
+      "display_name": "納谷少馨",
+      "related_syndromes": [
+        {
+          "id": "qixu",
+          "name": "氣虛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "或見面色晄白": {
+      "display_name": "或見面色晄白",
+      "related_syndromes": [
+        {
+          "id": "qixu",
+          "name": "氣虛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "心悸自汗": {
+      "display_name": "心悸自汗",
+      "related_syndromes": [
+        {
+          "id": "qixu",
+          "name": "氣虛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "虛損類"
+    },
+    "舌淡": {
+      "display_name": "舌淡",
+      "related_syndromes": [
+        {
+          "id": "qixu",
+          "name": "氣虛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "脈虛細無力等症": {
+      "display_name": "脈虛細無力等症",
+      "related_syndromes": [
+        {
+          "id": "qixu",
+          "name": "氣虛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "咳嗽上氣": {
+      "display_name": "咳嗽上氣",
+      "related_syndromes": [
+        {
+          "id": "qini",
+          "name": "氣逆證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "呼吸類"
+    },
+    "氣促喘息": {
+      "display_name": "氣促喘息",
+      "related_syndromes": [
+        {
+          "id": "qini",
+          "name": "氣逆證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "呼吸類"
+    },
+    "或呃逆連聲": {
+      "display_name": "或呃逆連聲",
+      "related_syndromes": [
+        {
+          "id": "qini",
+          "name": "氣逆證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "消化類"
+    },
+    "噯氣不除": {
+      "display_name": "噯氣不除",
+      "related_syndromes": [
+        {
+          "id": "qini",
+          "name": "氣逆證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "消化類"
+    },
+    "翻胃吐血": {
+      "display_name": "翻胃吐血",
+      "related_syndromes": [
+        {
+          "id": "qini",
+          "name": "氣逆證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "或頭痛": {
+      "display_name": "或頭痛",
+      "related_syndromes": [
+        {
+          "id": "qini",
+          "name": "氣逆證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "疼痛類"
+    },
+    "舌苔薄膩或黃膩": {
+      "display_name": "舌苔薄膩或黃膩",
+      "related_syndromes": [
+        {
+          "id": "qini",
+          "name": "氣逆證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "質紅": {
+      "display_name": "質紅",
+      "related_syndromes": [
+        {
+          "id": "qini",
+          "name": "氣逆證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "脈滑數或弦數等症": {
+      "display_name": "脈滑數或弦數等症",
+      "related_syndromes": [
+        {
+          "id": "qini",
+          "name": "氣逆證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "血瘀證": {
+      "display_name": "血瘀證",
+      "related_syndromes": [
+        {
+          "id": "xueyu",
+          "name": "血瘀證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "由於瘀阻部位不同": {
+      "display_name": "由於瘀阻部位不同",
+      "related_syndromes": [
+        {
+          "id": "xueyu",
+          "name": "血瘀證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "瘀阻於肺": {
+      "display_name": "瘀阻於肺",
+      "related_syndromes": [
+        {
+          "id": "xueyu",
+          "name": "血瘀證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "可見胸痛咳血": {
+      "display_name": "可見胸痛咳血",
+      "related_syndromes": [
+        {
+          "id": "xueyu",
+          "name": "血瘀證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "疼痛類"
+    },
+    "瘀阻腸胃": {
+      "display_name": "瘀阻腸胃",
+      "related_syndromes": [
+        {
+          "id": "xueyu",
+          "name": "血瘀證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "可見嘔血": {
+      "display_name": "可見嘔血",
+      "related_syndromes": [
+        {
+          "id": "xueyu",
+          "name": "血瘀證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "脘腹疼痛": {
+      "display_name": "脘腹疼痛",
+      "related_syndromes": [
+        {
+          "id": "xueyu",
+          "name": "血瘀證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "瘀阻於肝": {
+      "display_name": "瘀阻於肝",
+      "related_syndromes": [
+        {
+          "id": "xueyu",
+          "name": "血瘀證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "可見脅痛痞塊": {
+      "display_name": "可見脅痛痞塊",
+      "related_syndromes": [
+        {
+          "id": "xueyu",
+          "name": "血瘀證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "瘀熱乘心": {
+      "display_name": "瘀熱乘心",
+      "related_syndromes": [
+        {
+          "id": "xueyu",
+          "name": "血瘀證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "可致發狂": {
+      "display_name": "可致發狂",
+      "related_syndromes": [
+        {
+          "id": "xueyu",
+          "name": "血瘀證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "瘀阻於胞宮": {
+      "display_name": "瘀阻於胞宮",
+      "related_syndromes": [
+        {
+          "id": "xueyu",
+          "name": "血瘀證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "可見少腹疼痛": {
+      "display_name": "可見少腹疼痛",
+      "related_syndromes": [
+        {
+          "id": "xueyu",
+          "name": "血瘀證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "月經不調": {
+      "display_name": "月經不調",
+      "related_syndromes": [
+        {
+          "id": "xueyu",
+          "name": "血瘀證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "經閉": {
+      "display_name": "經閉",
+      "related_syndromes": [
+        {
+          "id": "xueyu",
+          "name": "血瘀證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "經色紫黑有塊": {
+      "display_name": "經色紫黑有塊",
+      "related_syndromes": [
+        {
+          "id": "xueyu",
+          "name": "血瘀證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "xueyu",
+          "name": "血瘀證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "或見崩漏": {
+      "display_name": "或見崩漏",
+      "related_syndromes": [
+        {
+          "id": "xueyu",
+          "name": "血瘀證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "如刺痛": {
+      "display_name": "如刺痛",
+      "related_syndromes": [
+        {
+          "id": "xueyu",
+          "name": "血瘀證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "疼痛類"
+    },
+    "癥積包塊": {
+      "display_name": "癥積包塊",
+      "related_syndromes": [
+        {
+          "id": "xueyu",
+          "name": "血瘀證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "出血發斑": {
+      "display_name": "出血發斑",
+      "related_syndromes": [
+        {
+          "id": "xueyu",
+          "name": "血瘀證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "青筋顯露": {
+      "display_name": "青筋顯露",
+      "related_syndromes": [
+        {
+          "id": "xueyu",
+          "name": "血瘀證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "蟹爪縷紋": {
+      "display_name": "蟹爪縷紋",
+      "related_syndromes": [
+        {
+          "id": "xueyu",
+          "name": "血瘀證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "唇舌青紫": {
+      "display_name": "唇舌青紫",
+      "related_syndromes": [
+        {
+          "id": "xueyu",
+          "name": "血瘀證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "脈細澀或結代": {
+      "display_name": "脈細澀或結代",
+      "related_syndromes": [
+        {
+          "id": "xueyu",
+          "name": "血瘀證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "女子痛經": {
+      "display_name": "女子痛經",
+      "related_syndromes": [
+        {
+          "id": "xueyu",
+          "name": "血瘀證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "惡寒發熱": {
+      "display_name": "惡寒發熱",
+      "related_syndromes": [
+        {
+          "id": "han",
+          "name": "寒證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "發熱類"
+    },
+    "無汗": {
+      "display_name": "無汗",
+      "related_syndromes": [
+        {
+          "id": "han",
+          "name": "寒證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "身痛": {
+      "display_name": "身痛",
+      "related_syndromes": [
+        {
+          "id": "han",
+          "name": "寒證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "喘咳": {
+      "display_name": "喘咳",
+      "related_syndromes": [
+        {
+          "id": "han",
+          "name": "寒證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "脈浮緊": {
+      "display_name": "脈浮緊",
+      "related_syndromes": [
+        {
+          "id": "han",
+          "name": "寒證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "嘔吐清水": {
+      "display_name": "嘔吐清水",
+      "related_syndromes": [
+        {
+          "id": "han",
+          "name": "寒證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "消化類"
+    },
+    "下利清谷": {
+      "display_name": "下利清谷",
+      "related_syndromes": [
+        {
+          "id": "han",
+          "name": "寒證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "二便類"
+    },
+    "腹痛腸鳴": {
+      "display_name": "腹痛腸鳴",
+      "related_syndromes": [
+        {
+          "id": "han",
+          "name": "寒證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "疼痛類"
+    },
+    "倦怠喜臥": {
+      "display_name": "倦怠喜臥",
+      "related_syndromes": [
+        {
+          "id": "han",
+          "name": "寒證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "虛損類"
+    },
+    "筋脈拘急": {
+      "display_name": "筋脈拘急",
+      "related_syndromes": [
+        {
+          "id": "han",
+          "name": "寒證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "局部冷痛": {
+      "display_name": "局部冷痛",
+      "related_syndromes": [
+        {
+          "id": "han",
+          "name": "寒證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "脈沉或沉弱無力": {
+      "display_name": "脈沉或沉弱無力",
+      "related_syndromes": [
+        {
+          "id": "han",
+          "name": "寒證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "或脈微欲絕等": {
+      "display_name": "或脈微欲絕等",
+      "related_syndromes": [
+        {
+          "id": "han",
+          "name": "寒證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "口燥咽乾": {
+      "display_name": "口燥咽乾",
+      "related_syndromes": [
+        {
+          "id": "xuexu_fengzao",
+          "name": "血虛風燥證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "yinxu",
+          "name": "陰虛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "眩暈失眠": {
+      "display_name": "眩暈失眠",
+      "related_syndromes": [
+        {
+          "id": "yinxu",
+          "name": "陰虛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "虛損類"
+    },
+    "潮熱盜汗": {
+      "display_name": "潮熱盜汗",
+      "related_syndromes": [
+        {
+          "id": "yinxu",
+          "name": "陰虛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "發熱類"
+    },
+    "午後顴紅": {
+      "display_name": "午後顴紅",
+      "related_syndromes": [
+        {
+          "id": "yinxu",
+          "name": "陰虛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "尿少色黃": {
+      "display_name": "尿少色黃",
+      "related_syndromes": [
+        {
+          "id": "yinxu",
+          "name": "陰虛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "舌紅少苔": {
+      "display_name": "舌紅少苔",
+      "related_syndromes": [
+        {
+          "id": "yinxu",
+          "name": "陰虛證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "畏寒": {
+      "display_name": "畏寒",
+      "related_syndromes": [
+        {
+          "id": "xuexu_hanning",
+          "name": "血虛寒凝證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "得熱則舒": {
+      "display_name": "得熱則舒",
+      "related_syndromes": [
+        {
+          "id": "xuexu_hanning",
+          "name": "血虛寒凝證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "心悸失眠": {
+      "display_name": "心悸失眠",
+      "related_syndromes": [
+        {
+          "id": "xuexu_hanning",
+          "name": "血虛寒凝證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        },
+        {
+          "id": "xuexu_fengzao",
+          "name": "血虛風燥證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "虛損類"
+    },
+    "面色暗淡無華": {
+      "display_name": "面色暗淡無華",
+      "related_syndromes": [
+        {
+          "id": "xuexu_hanning",
+          "name": "血虛寒凝證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "舌淡暗苔白": {
+      "display_name": "舌淡暗苔白",
+      "related_syndromes": [
+        {
+          "id": "xuexu_hanning",
+          "name": "血虛寒凝證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "脈細澀": {
+      "display_name": "脈細澀",
+      "related_syndromes": [
+        {
+          "id": "xuexu_hanning",
+          "name": "血虛寒凝證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "肌肉瞤動": {
+      "display_name": "肌肉瞤動",
+      "related_syndromes": [
+        {
+          "id": "xuexu_fengzao",
+          "name": "血虛風燥證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "聲音嘶啞": {
+      "display_name": "聲音嘶啞",
+      "related_syndromes": [
+        {
+          "id": "xuexu_fengzao",
+          "name": "血虛風燥證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "或皮膚瘙癢": {
+      "display_name": "或皮膚瘙癢",
+      "related_syndromes": [
+        {
+          "id": "xuexu_fengzao",
+          "name": "血虛風燥證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "皮膚類"
+    },
+    "尿少": {
+      "display_name": "尿少",
+      "related_syndromes": [
+        {
+          "id": "xuexu_fengzao",
+          "name": "血虛風燥證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "便秘": {
+      "display_name": "便秘",
+      "related_syndromes": [
+        {
+          "id": "xuexu_fengzao",
+          "name": "血虛風燥證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "二便類"
+    },
+    "舌淡紅苔乾": {
+      "display_name": "舌淡紅苔乾",
+      "related_syndromes": [
+        {
+          "id": "xuexu_fengzao",
+          "name": "血虛風燥證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "脈細或細數": {
+      "display_name": "脈細或細數",
+      "related_syndromes": [
+        {
+          "id": "xuexu_fengzao",
+          "name": "血虛風燥證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "舌質淡潤": {
+      "display_name": "舌質淡潤",
+      "related_syndromes": [
+        {
+          "id": "wangyang",
+          "name": "亡陽證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "脈微欲絕": {
+      "display_name": "脈微欲絕",
+      "related_syndromes": [
+        {
+          "id": "wangyang",
+          "name": "亡陽證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "或浮數而空": {
+      "display_name": "或浮數而空",
+      "related_syndromes": [
+        {
+          "id": "wangyang",
+          "name": "亡陽證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "水腫": {
+      "display_name": "水腫",
+      "related_syndromes": [
+        {
+          "id": "xueyu_shuiting",
+          "name": "血瘀水停證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "皮膚類"
+    },
+    "或見於下肢": {
+      "display_name": "或見於下肢",
+      "related_syndromes": [
+        {
+          "id": "xueyu_shuiting",
+          "name": "血瘀水停證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "或見於眼瞼": {
+      "display_name": "或見於眼瞼",
+      "related_syndromes": [
+        {
+          "id": "xueyu_shuiting",
+          "name": "血瘀水停證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "甚或全身皆腫": {
+      "display_name": "甚或全身皆腫",
+      "related_syndromes": [
+        {
+          "id": "xueyu_shuiting",
+          "name": "血瘀水停證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "叩之聲濁": {
+      "display_name": "叩之聲濁",
+      "related_syndromes": [
+        {
+          "id": "xueyu_shuiting",
+          "name": "血瘀水停證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "小便不利": {
+      "display_name": "小便不利",
+      "related_syndromes": [
+        {
+          "id": "xueyu_shuiting",
+          "name": "血瘀水停證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "二便類"
+    },
+    "舌質紫": {
+      "display_name": "舌質紫",
+      "related_syndromes": [
+        {
+          "id": "xueyu_shuiting",
+          "name": "血瘀水停證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "脈沉細而澀或沉弦": {
+      "display_name": "脈沉細而澀或沉弦",
+      "related_syndromes": [
+        {
+          "id": "xueyu_shuiting",
+          "name": "血瘀水停證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "壯熱神昏": {
+      "display_name": "壯熱神昏",
+      "related_syndromes": [
+        {
+          "id": "xuere_dongfeng",
+          "name": "血熱動風證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "發熱類"
+    },
+    "頭暈脹痛": {
+      "display_name": "頭暈脹痛",
+      "related_syndromes": [
+        {
+          "id": "xuere_dongfeng",
+          "name": "血熱動風證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "疼痛類"
+    },
+    "甚則痙厥互見": {
+      "display_name": "甚則痙厥互見",
+      "related_syndromes": [
+        {
+          "id": "xuere_dongfeng",
+          "name": "血熱動風證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "發斑吐衄": {
+      "display_name": "發斑吐衄",
+      "related_syndromes": [
+        {
+          "id": "xuere_dongfeng",
+          "name": "血熱動風證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    },
+    "舌質紅或紅絳": {
+      "display_name": "舌質紅或紅絳",
+      "related_syndromes": [
+        {
+          "id": "xuere_dongfeng",
+          "name": "血熱動風證",
+          "relevance": "相關",
+          "differentiation_hint": ""
+        }
+      ],
+      "category": "其他"
+    }
+  },
+  "categories": [
+    "二便類",
+    "其他",
+    "呼吸類",
+    "消化類",
+    "疼痛類",
+    "發熱類",
+    "皮膚類",
+    "神志類",
+    "虛損類"
+  ],
+  "statistics": {
+    "total_symptoms": 565,
+    "symptoms_with_main_relevance": 69
+  }
+}
