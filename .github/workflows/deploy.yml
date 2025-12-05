@@ -1,0 +1,45 @@
+# GitHub Pages 自動部署
+# 當 main 分支有更新時，自動部署靜態網站到 GitHub Pages
+
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  # 允許手動觸發部署
+  workflow_dispatch:
+
+# 設定 GITHUB_TOKEN 權限
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 只允許一個部署同時執行
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # 上傳整個倉庫
+          path: '.'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
