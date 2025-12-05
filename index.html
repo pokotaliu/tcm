@@ -25,13 +25,109 @@
       <div id="search-results" class="hidden"></div>
     </section>
 
+    <!-- 檢索系統 - 按病位病性分類 -->
+    <section class="filter-section-wrapper" id="filter-section">
+      <h2 class="section-title">檢索分類</h2>
+      <div class="filter-tabs-container">
+        <div class="filter-tab-buttons">
+          <button class="filter-tab-btn active" data-tab="location">按病位</button>
+          <button class="filter-tab-btn" data-tab="nature">按病性</button>
+          <button class="filter-tab-btn" data-tab="severity">按輕重</button>
+        </div>
+
+        <!-- 病位檢索 -->
+        <div class="filter-content active" id="filter-location">
+          <div class="filter-tags-grid">
+            <span class="filter-pill" data-location="全身">全身</span>
+            <span class="filter-pill" data-location="表">表</span>
+            <span class="filter-pill" data-location="半表半里">半表半里</span>
+            <span class="filter-pill" data-location="里">里</span>
+            <span class="filter-pill" data-location="脾">脾</span>
+            <span class="filter-pill" data-location="胃">胃</span>
+            <span class="filter-pill" data-location="心">心</span>
+            <span class="filter-pill" data-location="腎">腎</span>
+            <span class="filter-pill" data-location="膽">膽</span>
+            <span class="filter-pill" data-location="肝">肝</span>
+          </div>
+        </div>
+
+        <!-- 病性檢索 -->
+        <div class="filter-content" id="filter-nature">
+          <div class="filter-group-section">
+            <h4 class="filter-group-title">虛證</h4>
+            <div class="filter-tags-grid">
+              <span class="filter-pill nature-xu" data-nature="氣虛">氣虛</span>
+              <span class="filter-pill nature-xu" data-nature="血虛">血虛</span>
+              <span class="filter-pill nature-xu" data-nature="陰虛">陰虛</span>
+              <span class="filter-pill nature-xu" data-nature="陽虛">陽虛</span>
+            </div>
+          </div>
+          <div class="filter-group-section">
+            <h4 class="filter-group-title">實證</h4>
+            <div class="filter-tags-grid">
+              <span class="filter-pill nature-shi" data-nature="氣滯">氣滯</span>
+              <span class="filter-pill nature-shi" data-nature="血瘀">血瘀</span>
+              <span class="filter-pill nature-shi" data-nature="痰">痰</span>
+              <span class="filter-pill nature-shi" data-nature="濕">濕</span>
+            </div>
+          </div>
+          <div class="filter-group-section">
+            <h4 class="filter-group-title">寒熱</h4>
+            <div class="filter-tags-grid">
+              <span class="filter-pill nature-han" data-nature="寒">寒</span>
+              <span class="filter-pill nature-re" data-nature="熱">熱</span>
+              <span class="filter-pill nature-feng" data-nature="風">風</span>
+              <span class="filter-pill nature-zao" data-nature="燥">燥</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 輕重檢索 -->
+        <div class="filter-content" id="filter-severity">
+          <div class="filter-tags-grid">
+            <span class="filter-pill severity-light" data-severity="輕證">輕證</span>
+            <span class="filter-pill severity-medium" data-severity="中證">中證</span>
+            <span class="filter-pill severity-severe" data-severity="重證">重證</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 篩選結果展示 -->
+      <div id="filter-results" class="hidden">
+        <div class="filter-results-header">
+          <span class="filter-results-title">篩選結果</span>
+          <button class="btn-clear-filter">清除篩選</button>
+        </div>
+        <div class="filter-results-grid" id="filter-results-grid"></div>
+      </div>
+    </section>
+
     <!-- 統計資訊 -->
     <section class="stats-bar">
       <span id="stats-text">載入中...</span>
     </section>
 
+    <!-- 證候演變圖譜 -->
+    <section class="evolution-section" id="evolution-section">
+      <h2 class="section-title">證候演變圖譜</h2>
+      <p class="section-desc">展示證型之間的演變遞進關係，幫助理解病機發展規律</p>
+      <div id="evolution-groups" class="evolution-groups">
+        <!-- 動態載入 -->
+      </div>
+    </section>
+
+    <!-- 類證對照 -->
+    <section class="comparison-section" id="comparison-section">
+      <h2 class="section-title">類證對照</h2>
+      <p class="section-desc">將類似或對立的證候放在一起，便於臨床鑑別診斷</p>
+      <div id="comparison-pairs" class="comparison-pairs">
+        <!-- 動態載入 -->
+      </div>
+    </section>
+
     <!-- 證候分類瀏覽 -->
     <section class="zhenghou-browser" id="zhenghou-browser">
+      <h2 class="section-title">證候分類瀏覽</h2>
       <div id="zhenghou-categories" class="loading">載入中...</div>
     </section>
   </main>

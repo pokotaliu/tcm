@@ -131,34 +131,217 @@
     }
   ],
   "total_syndromes": 56,
-  "differentiation_systems": {
-    "description": "中醫辨證體系",
-    "systems": [
+  "syndrome_evolution_groups": {
+    "description": "證候演變關係分組 - 展示證型之間的演變遞進關係",
+    "groups": [
       {
-        "name": "六經辨證",
-        "source": "《傷寒論》",
-        "applicable_to": "外感風寒病",
-        "categories": ["傷寒六經證候"]
+        "id": "qi_evolution",
+        "name": "氣證演變系列",
+        "description": "氣的虛損演變過程",
+        "evolution_chains": [
+          {
+            "name": "氣虛演變鏈",
+            "syndromes": ["qixu", "qixian", "qituo"],
+            "description": "氣虛 → 氣陷 → 氣脫：由輕到重的虛損過程"
+          },
+          {
+            "name": "氣虛轉陽虛鏈",
+            "syndromes": ["qixu", "yangxu", "wangyang"],
+            "description": "氣虛 → 陽虛 → 亡陽：氣屬陽，氣虛日久損及陽氣"
+          },
+          {
+            "name": "氣滯演變鏈",
+            "syndromes": ["qizhi", "qini", "qibi"],
+            "description": "氣滯 → 氣逆 → 氣閉：由輕到重的氣機失調"
+          }
+        ]
       },
       {
-        "name": "衛氣營血辨證",
-        "source": "《溫熱論》",
-        "applicable_to": "外感溫熱病",
-        "categories": ["溫病衛氣營血證候"]
+        "id": "blood_evolution",
+        "name": "血證演變系列",
+        "description": "血的病變演變過程",
+        "evolution_chains": [
+          {
+            "name": "血虛演變鏈",
+            "syndromes": ["xuexu", "xuetuo"],
+            "description": "血虛 → 血脫：血虛日久或急性失血導致血脫"
+          },
+          {
+            "name": "血瘀化熱鏈",
+            "syndromes": ["xueyu", "xuere"],
+            "description": "血瘀 → 血熱：瘀血日久化熱"
+          }
+        ]
       },
       {
-        "name": "臟腑辨證",
-        "source": "歷代醫家",
-        "applicable_to": "內傷雜病",
-        "categories": ["臟腑證候"]
+        "id": "yin_yang_evolution",
+        "name": "陰陽演變系列",
+        "description": "陰陽虛損及危證演變",
+        "evolution_chains": [
+          {
+            "name": "陰虛演變鏈",
+            "syndromes": ["yinxu", "wangyin", "wangyang"],
+            "description": "陰虛 → 亡陰 → 亡陽：陰陽互根，陰竭則陽無所附"
+          },
+          {
+            "name": "陽虛演變鏈",
+            "syndromes": ["yangxu", "wangyang"],
+            "description": "陽虛 → 亡陽：陽氣虛損加重"
+          }
+        ]
       },
       {
-        "name": "氣血津液辨證",
-        "source": "歷代醫家",
-        "applicable_to": "氣血津液病變",
-        "categories": ["基礎證候"]
+        "id": "liu_jing_evolution",
+        "name": "六經傳變系列",
+        "description": "傷寒六經證候傳變規律",
+        "evolution_chains": [
+          {
+            "name": "三陽傳變",
+            "syndromes": ["taiyang", "yangming", "shaoyang"],
+            "description": "太陽 → 陽明 / 少陽：邪由表入里的傳變"
+          },
+          {
+            "name": "三陰傳變",
+            "syndromes": ["taiyin", "shaoyin", "jueyin"],
+            "description": "太陰 → 少陰 → 厥陰：正虛邪深的傳變"
+          },
+          {
+            "name": "陽入陰傳變",
+            "syndromes": ["yangming", "taiyin"],
+            "description": "陽明 → 太陰：誤治傷脾，由實轉虛"
+          }
+        ]
+      },
+      {
+        "id": "weiqi_yingxue_evolution",
+        "name": "衛氣營血傳變系列",
+        "description": "溫病衛氣營血傳變規律",
+        "evolution_chains": [
+          {
+            "name": "順傳",
+            "syndromes": ["weifen", "qifen", "yingfen", "xuefen"],
+            "description": "衛 → 氣 → 營 → 血：由淺入深，病情加重"
+          }
+        ]
       }
     ]
+  },
+  "syndrome_comparison_pairs": {
+    "description": "類似或對立證候對照 - 便於臨床鑑別",
+    "pairs": [
+      {
+        "id": "wangyin_wangyang",
+        "syndromes": ["wangyin", "wangyang"],
+        "relationship": "對立",
+        "comparison_key": "一熱一寒",
+        "description": "亡陰證（虛熱象）vs 亡陽證（虛寒象）：同為危重脫證，但寒熱性質相反"
+      },
+      {
+        "id": "yangxu_qixu",
+        "syndromes": ["qixu", "yangxu"],
+        "relationship": "遞進",
+        "comparison_key": "氣虛為陽虛之基",
+        "description": "氣虛證 vs 陽虛證：均為虛證，但陽虛更有寒象"
+      },
+      {
+        "id": "yinxu_yangxu",
+        "syndromes": ["yinxu", "yangxu"],
+        "relationship": "對立",
+        "comparison_key": "一熱一寒",
+        "description": "陰虛證（虛熱）vs 陽虛證（虛寒）：虛證中寒熱性質相反"
+      },
+      {
+        "id": "taiyang_shaoyin",
+        "syndromes": ["taiyang", "shaoyin"],
+        "relationship": "表里對立",
+        "comparison_key": "表實vs里虛",
+        "description": "太陽證（表、實）vs 少陰證（里、虛）：六經中表里相對"
+      },
+      {
+        "id": "yangming_taiyin",
+        "syndromes": ["yangming", "taiyin"],
+        "relationship": "表里對立",
+        "comparison_key": "實熱燥vs虛寒濕",
+        "description": "陽明證（里實熱燥）vs 太陰證（里虛寒濕）：互為表里，可互相轉化"
+      },
+      {
+        "id": "shaoyang_jueyin",
+        "syndromes": ["shaoyang", "jueyin"],
+        "relationship": "表里對立",
+        "comparison_key": "半表半里vs陰盡陽生",
+        "description": "少陽證（半表半里）vs 厥陰證（寒熱錯雜）"
+      },
+      {
+        "id": "xuere_xuehan",
+        "syndromes": ["xuere", "xuehan"],
+        "relationship": "對立",
+        "comparison_key": "血熱vs血寒",
+        "description": "血熱證 vs 血寒證：血病中寒熱性質相反"
+      },
+      {
+        "id": "han_huore",
+        "syndromes": ["han", "huore"],
+        "relationship": "對立",
+        "comparison_key": "寒vs熱",
+        "description": "寒證 vs 火熱證：六淫中寒熱對立"
+      },
+      {
+        "id": "shi_zao",
+        "syndromes": ["shi", "zao"],
+        "relationship": "對立",
+        "comparison_key": "濕vs燥",
+        "description": "濕證 vs 燥證：六淫中燥濕對立"
+      },
+      {
+        "id": "weifen_qifen",
+        "syndromes": ["weifen", "qifen"],
+        "relationship": "遞進",
+        "comparison_key": "表淺vs里實",
+        "description": "衛分證 vs 氣分證：溫病由淺入深"
+      }
+    ]
+  },
+  "search_indexes": {
+    "description": "檢索分類索引 - 按病位、病性等分類便於查詢",
+    "by_location": {
+      "description": "按病位分類",
+      "全身": ["qixu", "qixian", "qituo", "qizhi", "qini", "qibi", "xuexu", "xuetuo", "xueyu", "xuere", "xuezao", "xuehan", "yinxu", "yangxu", "wangyin", "wangyang", "shishen"],
+      "表": ["taiyang", "weifen", "feng"],
+      "半表半里": ["shaoyang"],
+      "里": ["yangming", "taiyin", "shaoyin", "jueyin", "qifen", "yingfen", "xuefen"],
+      "脾": ["taiyin"],
+      "胃": ["yangming"],
+      "心": ["shaoyin"],
+      "腎": ["shaoyin"],
+      "膽": ["shaoyang"],
+      "肝": ["jueyin"]
+    },
+    "by_nature": {
+      "description": "按病性分類",
+      "虛": {
+        "氣虛": ["qixu", "qixian", "qituo", "qixu_fare", "qixu_waigan", "qixu_xueyu"],
+        "血虛": ["xuexu", "xuetuo", "xuexu_shengfeng", "xuexu_fengzao", "xuexu_jinkui", "xuexu_hanning", "xuexu_waigan"],
+        "陰虛": ["yinxu", "yinxu_jinkui", "wangyin"],
+        "陽虛": ["yangxu", "wangyang", "taiyin", "shaoyin"]
+      },
+      "實": {
+        "氣滯": ["qizhi", "qini", "qibi", "qizhi_xueyu", "qizhi_tanning", "qizhi_shizu", "qiyu_huahuo", "qizhi_shuiting"],
+        "血瘀": ["xueyu", "qixu_xueyu", "qizhi_xueyu", "xueyu_qizhi", "xueyu_huare", "xueyu_shuiting", "xueyu_dongxue", "yuxue_bizu"],
+        "痰": ["tan", "qizhi_tanning"],
+        "濕": ["shi", "qizhi_shizu"],
+        "邪毒": ["xiedu_chisheng"]
+      },
+      "寒": ["han", "xuehan", "yangxu", "wangyang", "taiyin", "xuexu_hanning"],
+      "熱": ["huore", "xuere", "shu", "xuere_dongfeng", "xueyu_huare", "qiyu_huahuo"],
+      "風": ["feng", "xuexu_shengfeng", "xuere_dongfeng"],
+      "燥": ["zao", "xuezao", "xuexu_fengzao"]
+    },
+    "by_severity": {
+      "description": "按病情輕重分類",
+      "輕證": ["qixu", "qizhi", "xuexu", "yinxu", "yangxu", "weifen"],
+      "中證": ["qixian", "qini", "xueyu", "xuere", "taiyang", "yangming", "shaoyang", "qifen"],
+      "重證": ["qituo", "qibi", "xuetuo", "wangyin", "wangyang", "shaoyin", "jueyin", "yingfen", "xuefen", "shishen"]
+    }
   },
   "liu_jing_comparison": {
     "description": "六經證候對比速查表",
@@ -207,6 +390,35 @@
         "taiyin": "溫中祛寒",
         "shaoyin": "回陽救逆/滋陰清熱",
         "jueyin": "溫清並用"
+      }
+    ]
+  },
+  "differentiation_systems": {
+    "description": "中醫辨證體系",
+    "systems": [
+      {
+        "name": "六經辨證",
+        "source": "《傷寒論》",
+        "applicable_to": "外感風寒病",
+        "categories": ["傷寒六經證候"]
+      },
+      {
+        "name": "衛氣營血辨證",
+        "source": "《溫熱論》",
+        "applicable_to": "外感溫熱病",
+        "categories": ["溫病衛氣營血證候"]
+      },
+      {
+        "name": "臟腑辨證",
+        "source": "歷代醫家",
+        "applicable_to": "內傷雜病",
+        "categories": ["臟腑證候"]
+      },
+      {
+        "name": "氣血津液辨證",
+        "source": "歷代醫家",
+        "applicable_to": "氣血津液病變",
+        "categories": ["基礎證候"]
       }
     ]
   }
