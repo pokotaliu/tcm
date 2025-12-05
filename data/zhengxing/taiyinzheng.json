@@ -1,0 +1,214 @@
+{
+  "id": "tai_yin_zheng",
+  "name": "太陰證",
+  "alias": ["太陰病", "太陰經證"],
+  "classification": {
+    "category": "傷寒證候",
+    "liu_jing": "太陰"
+  },
+  "zhengsu_composition": {
+    "location": ["pi"],
+    "nature": ["yang_xu", "han", "shi"]
+  },
+  "definition": "傷寒誤治傳里，或素體虛弱，傷寒直中太陰而致的脾陽虛弱，寒濕內停的證候，屬里虛寒證。三陰為病，太陰先受，故太陰病為三陰病的首發階段。",
+  "etiology": [
+    "三陽失治、誤治損傷脾陽而發病",
+    "脾陽素虛，外感風寒，或內傷生冷，飲食不節，寒邪直中太陰而發病"
+  ],
+  "pathogenesis": "太陰證為脾陽虛弱，寒濕困滯，運化失常，氣機阻結所致。脾司大腹，諸濕腫滿皆屬於脾，脾虛則氣血不運，寒濕不化，濕阻氣滯而見腹滿。脾與胃互為表里，脾不升則胃不降，脾病及胃，濁陰上犯，則嘔吐而食不得下。",
+  "pathogenesis_analysis": [
+    { "symptom": "腹滿", "mechanism": "「脾司大腹」，「諸濕腫滿，皆屬於脾」，脾虛則氣血不運，寒濕不化，濕阻氣滯" },
+    { "symptom": "嘔吐食不下", "mechanism": "脾與胃互為表里，脾不升則胃不降，脾病及胃，濁陰上犯" },
+    { "symptom": "自利益甚", "mechanism": "脾陽虛弱，清陽不升反而下陷，因進食少理應大便亦少，不應下利而反見下利" },
+    { "symptom": "時腹自痛", "mechanism": "陽氣虛衰，氣運不暢，不通則痛" },
+    { "symptom": "手足自溫", "mechanism": "太陰為病乃三陰病之初起，陽虛尚輕，脾陽尚能布於四末" },
+    { "symptom": "喜溫喜按、口淡不渴", "mechanism": "太陰證脾胃虛寒" }
+  ],
+  "symptoms": {
+    "main": ["腹滿而吐", "食不下", "自利益甚", "時腹自痛"],
+    "secondary": ["喜溫喜按", "口不渴", "手足自溫"],
+    "tongue": "舌淡苔薄白",
+    "pulse": "脈緩弱"
+  },
+  "symptoms_table": [
+    { "category": "主症", "manifestations": ["腹滿而吐", "食不下", "自利益甚", "時腹自痛"] },
+    { "category": "兼症", "manifestations": ["喜溫喜按", "口不渴", "手足自溫"] },
+    { "category": "舌象", "manifestations": ["舌淡苔薄白"] },
+    { "category": "脈象", "manifestations": ["脈緩弱"] }
+  ],
+  "related_diseases": ["脾虛泄瀉", "胃脘痛"],
+  "self_analysis": {
+    "overview": "太陰證為脾陽虛弱，寒濕困滯，運化失常，氣機阻結所致，以「腹滿而吐，食不下，自利益甚，時腹自痛」為主症。",
+    "key_points": ["腹滿而吐", "食不下", "自利益甚", "時腹自痛", "手足自溫"],
+    "severity_levels": [
+      {
+        "level": "輕證",
+        "treatment": "溫中祛寒",
+        "formula": "理中湯",
+        "formula_source": "《傷寒論》"
+      },
+      {
+        "level": "重證",
+        "treatment": "補火生土",
+        "formula": "四逆湯",
+        "formula_source": "《傷寒論》"
+      }
+    ]
+  },
+  "compound_patterns": [
+    {
+      "id": "tai_yin_jian_biao_zheng",
+      "name": "太陰外兼表證",
+      "pathogenesis": "太陰證兼有脈浮，說明在表之邪未盡",
+      "symptoms": ["太陰證主要表現", "脈浮"],
+      "treatment": "表證為主虛寒不甚者先表後里，解表為主；里虛寒較甚者先里後表，溫里為主兼以和表",
+      "formula": "桂枝湯（表證為主）或桂枝人參湯（里虛寒較甚）",
+      "formula_source": "《傷寒論》"
+    },
+    {
+      "id": "tai_yin_fu_tong_zheng_qing",
+      "name": "太陰腹痛證（輕證）",
+      "pathogenesis": "太陽病誤下傷脾，邪陷太陰，脾傷氣滯，脈絡瘀阻",
+      "symptoms": ["腹滿時痛"],
+      "treatment": "溫陽和絡",
+      "formula": "桂枝加芍藥湯",
+      "formula_source": "《傷寒論》"
+    },
+    {
+      "id": "tai_yin_fu_tong_zheng_zhong",
+      "name": "太陰腹痛證（重證）",
+      "pathogenesis": "太陽病誤下傷脾，邪陷太陰，脾傷氣滯，脈絡瘀阻，大實痛",
+      "symptoms": ["腹部大實痛"],
+      "treatment": "溫陽益脾，活血和絡，佐以瀉實導滯",
+      "formula": "桂枝加大黃湯",
+      "formula_source": "《傷寒論》"
+    }
+  ],
+  "prognosis": {
+    "favorable_signs": [
+      "脈象：脈陽微陰澀而長",
+      "症狀：暴煩下利（脾陽來復，驅邪外出，胃熱不甚之兆）",
+      "表現：手足溫和，精神轉佳，苔膩漸化"
+    ],
+    "unfavorable_signs": [
+      "病中出現手足厥冷，精神萎靡，苔膩不化，且下利者為病情惡化的徵象",
+      "進一步發展可以演變為脾腎虛寒，亦可形成少陰虛寒之證"
+    ],
+    "possible_transformations": [
+      {
+        "condition": "病中出現大便硬",
+        "transforms_to": "yang_ming_zheng",
+        "description": "濕邪化燥，胃熱較甚，病亦由太陰轉入陽明"
+      },
+      {
+        "condition": "手足厥冷，精神萎靡，苔膩不化，且下利",
+        "transforms_to": "shao_yin_zheng",
+        "description": "病情惡化，可演變為脾腎虛寒或少陰虛寒之證"
+      }
+    ]
+  },
+  "differentiation": [
+    {
+      "compare_with": "shao_yin_zheng",
+      "compare_name": "少陰證",
+      "similarities": ["均屬三陰證", "病位同在于里", "多為虛證、寒證", "均可見下利清谷、時腹痛、舌淡苔白、脈沉弱"],
+      "comparison_table": [
+        { "aspect": "病位", "this_pattern": "脾臟受損", "other_pattern": "心腎虛衰" },
+        { "aspect": "病機", "this_pattern": "脾弱不運，運化失司", "other_pattern": "心腎兩虛，氣血不行，陰寒內盛" },
+        { "aspect": "嘔吐", "this_pattern": "腹滿而吐", "other_pattern": "欲吐不吐" },
+        { "aspect": "神志", "this_pattern": "—", "other_pattern": "心煩但欲寐" },
+        { "aspect": "下利", "this_pattern": "自下利", "other_pattern": "自利而渴" },
+        { "aspect": "口渴", "this_pattern": "口不渴", "other_pattern": "口渴（腎陽虛不能蒸化津液上達）" },
+        { "aspect": "小便", "this_pattern": "—", "other_pattern": "小便白" },
+        { "aspect": "四肢", "this_pattern": "手足自溫（陽虛程度較輕）", "other_pattern": "手足逆冷（陽虛較甚）" }
+      ],
+      "key_points": [
+        "下利後口渴與不渴：太陰病多從寒濕化生，寒濕瀰漫故口不渴；少陰證下利，腎陽虛不能蒸化津液上達，故多口渴",
+        "手足是否溫和：太陰病陽虛程度較輕，可見手足溫和；少陰病陽虛較甚，故大多手足厥冷"
+      ]
+    },
+    {
+      "compare_with": "yang_ming_zheng",
+      "compare_name": "陽明證",
+      "similarities": ["太陰與陽明同居中焦", "同主胃腸", "互為表里", "關係密切"],
+      "comparison_table": [
+        { "aspect": "臟腑", "this_pattern": "脾（主土主濕）", "other_pattern": "胃（屬陽主燥）" },
+        { "aspect": "證候性質", "this_pattern": "里虛寒濕證", "other_pattern": "里實熱燥證" },
+        { "aspect": "虛實", "this_pattern": "虛", "other_pattern": "實" },
+        { "aspect": "寒熱", "this_pattern": "寒", "other_pattern": "熱" },
+        { "aspect": "燥濕", "this_pattern": "濕", "other_pattern": "燥" },
+        { "aspect": "腹滿性質", "this_pattern": "虛寒，「腹滿時減，復如故」，雖下利而腹滿仍不除", "other_pattern": "實熱（腸中有燥屎相結），「腹滿不減，減不足言」，得大便通利則腹滿可除" }
+      ],
+      "key_points": [
+        "太陰里虛寒濕，陽明里實熱燥，性質截然不同",
+        "有「實則陽明，虛則太陰」之說",
+        "陽明病因誤下太過可轉入太陰；太陰證過用溫燥之品可演變為陽明證"
+      ]
+    }
+  ],
+  "treatment_principle": ["溫中祛寒", "健脾燥濕"],
+  "formulas": [
+    {
+      "id": "lizhong_tang",
+      "name": "理中湯",
+      "source": "《傷寒論》",
+      "function": "溫中祛寒",
+      "indication": "輕證"
+    },
+    {
+      "id": "sini_tang",
+      "name": "四逆湯",
+      "source": "《傷寒論》",
+      "function": "補火生土",
+      "indication": "重證"
+    },
+    {
+      "id": "guizhi_tang",
+      "name": "桂枝湯",
+      "source": "《傷寒論》",
+      "function": "解表",
+      "indication": "外兼表證，表證為主"
+    },
+    {
+      "id": "guizhi_renshen_tang",
+      "name": "桂枝人參湯",
+      "source": "《傷寒論》",
+      "function": "溫里為主兼以和表",
+      "indication": "外兼表證，里虛寒較甚"
+    },
+    {
+      "id": "guizhi_jia_shaoyao_tang",
+      "name": "桂枝加芍藥湯",
+      "source": "《傷寒論》",
+      "function": "溫陽和絡",
+      "indication": "太陰腹痛輕證"
+    },
+    {
+      "id": "guizhi_jia_dahuang_tang",
+      "name": "桂枝加大黃湯",
+      "source": "《傷寒論》",
+      "function": "溫陽益脾，活血和絡，佐以瀉實導滯",
+      "indication": "太陰腹痛重證"
+    }
+  ],
+  "recommended_formulas": ["lizhong_tang", "sini_tang", "guizhi_tang", "guizhi_renshen_tang", "guizhi_jia_shaoyao_tang", "guizhi_jia_dahuang_tang"],
+  "related_patterns": ["shao_yin_zheng", "yang_ming_zheng", "pi_yang_xu_zheng", "han_shi_kun_pi_zheng"],
+  "evolved_from": ["tai_yang_zheng"],
+  "can_evolve_to": ["shao_yin_zheng", "yang_ming_zheng"],
+  "literature": [
+    {
+      "source": "《傷寒準繩·太陰病》",
+      "quote": "病自陽經發者，為外感風寒，邪從表入，故太陽先受之也，病自陰經起者，為內傷生冷，飲食過多，故從太陰入也。夫太陰者脾也，以飲食生冷則傷脾，故腹滿而吐，食不下，自利不渴，手足自溫等證也。"
+    },
+    {
+      "source": "《傷寒貫珠集·太陰篇》",
+      "quote": "然太陰為病，不特傳經如是，即直中亦如是，且不特傷寒如是，即雜病亦如是，但有屬陰屬陽，為盛為虛之分耳。而太陰者臟也，滿而不實，法不可下，若下之，則胸下結硬，中氣傷者，邪氣必結也。"
+    },
+    {
+      "source": "《註解傷寒論·辨太陰病脈證並治》",
+      "quote": "自利而渴者，屬少陰，為寒在下焦；自利不渴者，屬太陰，為寒在中焦，與四逆等湯以溫其臟。"
+    }
+  ],
+  "references": ["《中醫證候鑑別診斷學》"],
+  "common_in": ["脾陽素虛者", "外感風寒或內傷生冷者"]
+}

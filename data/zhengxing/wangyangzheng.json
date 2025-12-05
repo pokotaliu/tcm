@@ -1,29 +1,143 @@
 {
   "id": "wang_yang_zheng",
   "name": "亡陽證",
-  "alias": ["陽脫證", "陽竭證"],
+  "alias": ["亡陽"],
+  "classification": {
+    "category": "基礎證候"
+  },
   "zhengsu_composition": {
     "location": [],
     "nature": ["wang_yang"]
   },
-  "pathogenesis": "亡陽證是指陽氣大量耗損，陽氣欲脫的危重證候。多為真陽衰微，或汗出過多、下利不止等造成陽氣衰竭，陽不戀陰，陰陽離決。",
+  "definition": "陽氣突然衰竭而出現的陽氣欲脫表現的證候。本證多因大汗不止，劇烈吐瀉，導致陽氣突然衰竭所致，亦可由亡陰證發展而來。",
+  "pathogenesis": "任何疾病若大汗不止，或吐瀉過劇，均可導致陽氣突然衰竭。此外，由於陰陽互根，陰液過度耗竭，陽氣無所依附而散越，亡陰證不及時養陰固液，也必發展為亡陽證。亡陽證易見於陽虛之體或寒盛傷陽之時。不論何種疾病，一旦出現亡陽證就應把搶救欲脫之陽放在首位，全力進行搶救。",
   "symptoms": {
-    "main": ["面色蒼白", "四肢厥冷", "冷汗淋漓", "脈微欲絕"],
-    "secondary": ["昏迷不醒", "目合口張", "手撒肢厥", "二便自遺", "鼻息低微"],
-    "tongue": "舌質淡",
-    "pulse": "脈微細欲絕"
+    "main": ["大汗淋漓", "汗出如珠", "畏寒蜷臥", "四肢厥冷", "精神恍惚", "面色蒼白", "呼吸微弱"],
+    "secondary": [],
+    "tongue": "舌質淡潤",
+    "pulse": "脈微欲絕，或浮數而空"
   },
-  "treatment_principle": ["回陽救逆"],
-  "recommended_formulas": ["sini_tang", "shenfu_tang"],
-  "recommended_herbs": ["fu_zi", "gan_jiang", "ren_shen", "zhi_gan_cao"],
-  "evolved_from": ["qi_tuo_zheng", "yang_xu"],
+  "symptoms_table": [
+    { "category": "汗出", "manifestations": ["大汗淋漓", "汗出如珠"] },
+    { "category": "寒象", "manifestations": ["畏寒蜷臥", "四肢厥冷"] },
+    { "category": "神志", "manifestations": ["精神恍惚"] },
+    { "category": "面色", "manifestations": ["面色蒼白"] },
+    { "category": "呼吸", "manifestations": ["呼吸微弱"] },
+    { "category": "舌象", "manifestations": ["舌質淡潤"] },
+    { "category": "脈象", "manifestations": ["脈微欲絕", "浮數而空"] }
+  ],
+  "related_diseases": ["中風", "霍亂", "血證"],
+  "self_analysis": {
+    "overview": "任何疾病若大汗不止，或吐瀉過劇，均可導致陽氣突然衰竭。此外，由於陰陽互根，陰液過度耗竭，陽氣無所依附而散越，亡陰證不及時養陰固液，也必發展為亡陽證。",
+    "key_points": ["陽氣突然衰竭", "虛寒現象明顯", "需全力搶救欲脫之陽"]
+  },
+  "clinical_variants": [
+    {
+      "name": "中風病中的亡陽證",
+      "cause": "元氣衰微已極，陰陽有離決之勢，陽氣將脫",
+      "symptoms": ["突然昏倒", "不省人事", "大汗不止", "目合口開", "四肢厥冷", "肢體癱瘓", "二便失禁", "舌痿", "脈微欲絕"],
+      "treatment": "益氣回陽，扶正固脫",
+      "formula": "參附湯",
+      "formula_source": "《婦人良方》"
+    },
+    {
+      "name": "霍亂病中的亡陽證",
+      "cause": "吐瀉過劇，陰津枯竭，陽氣欲脫",
+      "symptoms": ["大汗淋漓", "四肢冰冷", "聲音嘶啞", "拘攣轉筋", "眼眶深凹", "面色蒼白", "脈沉細欲絕"],
+      "treatment": "反佐從治之法，辛苦相濟，調和陰陽",
+      "formula": "通脈四逆加豬膽汁湯",
+      "formula_source": "《傷寒論》"
+    },
+    {
+      "name": "血證病中的亡陽證",
+      "cause": "氣隨血脫，陽氣將絕",
+      "symptoms": ["吐、咯、衄、便諸般血湧不止", "汗出如珠", "四肢厥冷", "精神恍惚", "面色慘淡", "唇白無華", "舌淡白", "脈微欲絕或芤大而空"],
+      "treatment": "益氣固脫，回陽救逆",
+      "formula": "獨參湯或回陽返本湯加減",
+      "formula_source": "《十藥神書》《傷寒六書》"
+    }
+  ],
+  "differentiation": [
+    {
+      "compare_with": "yang_xu_zheng",
+      "compare_name": "陽虛證",
+      "similarities": ["均有一派寒象", "如畏寒蜷臥、面白肢冷、自汗出等"],
+      "comparison_table": [
+        { "aspect": "病因", "this_pattern": "汗、吐、下過度，或由亡陰證發展而來", "other_pattern": "先天稟賦不足，久病體虛，或寒邪傷陽" },
+        { "aspect": "病程", "this_pattern": "病程一般較短，病情較急", "other_pattern": "病程較長，病情較緩" },
+        { "aspect": "損傷程度", "this_pattern": "陽氣虧損程度遠較陽虛證為甚，有欲脫竭絕之勢", "other_pattern": "陽氣虧損較輕" },
+        { "aspect": "神志", "this_pattern": "精神恍惚", "other_pattern": "倦怠乏力、少氣懶言" },
+        { "aspect": "汗出", "this_pattern": "大汗淋漓、汗出如珠", "other_pattern": "自汗" },
+        { "aspect": "寒象", "this_pattern": "畏寒蜷臥、四肢厥冷", "other_pattern": "畏寒肢冷" },
+        { "aspect": "面色", "this_pattern": "面色蒼白", "other_pattern": "面色㿠白" },
+        { "aspect": "口渴", "this_pattern": "—", "other_pattern": "口淡不渴" },
+        { "aspect": "二便", "this_pattern": "—", "other_pattern": "小便清長、大便溏薄" },
+        { "aspect": "呼吸", "this_pattern": "呼吸微弱", "other_pattern": "—" },
+        { "aspect": "舌象", "this_pattern": "舌質淡潤", "other_pattern": "舌質淡白" },
+        { "aspect": "脈象", "this_pattern": "脈微欲絕", "other_pattern": "脈虛弱或沉弱" }
+      ],
+      "key_points": ["陽虛證病程長病情緩，亡陽證病程短病情急", "亡陽證陽氣虧損程度遠較陽虛證為甚"]
+    },
+    {
+      "compare_with": "wang_yin_zheng",
+      "compare_name": "亡陰證",
+      "similarities": ["均是疾病的危重證候", "都可以由汗、吐、下過劇發展而來", "亡陰證往往可以很快發展為亡陽證"],
+      "comparison_table": [
+        { "aspect": "核心特點", "this_pattern": "有虛寒之象", "other_pattern": "有虛熱之象" },
+        { "aspect": "汗出", "this_pattern": "大汗淋漓", "other_pattern": "汗出身熱" },
+        { "aspect": "寒熱", "this_pattern": "四肢厥冷", "other_pattern": "身熱" },
+        { "aspect": "口渴", "this_pattern": "—", "other_pattern": "口渴喜冷飲" },
+        { "aspect": "呼吸", "this_pattern": "呼吸微弱", "other_pattern": "呼吸氣短難續" },
+        { "aspect": "神志", "this_pattern": "神情恍惚", "other_pattern": "煩躁不安，甚或神昏搐搦" },
+        { "aspect": "面色", "this_pattern": "面色蒼白", "other_pattern": "面色潮紅" },
+        { "aspect": "舌象", "this_pattern": "舌質淡潤", "other_pattern": "舌紅而乾" },
+        { "aspect": "脈象", "this_pattern": "脈微欲絕", "other_pattern": "脈虛數或細數" },
+        { "aspect": "治法", "this_pattern": "溫陽固脫", "other_pattern": "滋陰固脫" }
+      ],
+      "key_points": ["亡陽證虛寒，亡陰證虛熱", "二者治法迥異，必須鑑別", "亡陰證可發展為亡陽證"]
+    }
+  ],
+  "treatment_principle": ["溫陽固脫", "回陽救逆"],
+  "formulas": [
+    {
+      "id": "shenfu_tang",
+      "name": "參附湯",
+      "source": "《婦人良方》",
+      "function": "益氣回陽，扶正固脫",
+      "indication": "中風病中的亡陽證"
+    },
+    {
+      "id": "tongmai_sini_jia_zhu_dan_zhi_tang",
+      "name": "通脈四逆加豬膽汁湯",
+      "source": "《傷寒論》",
+      "function": "反佐從治，調和陰陽",
+      "indication": "霍亂病中的亡陽證"
+    },
+    {
+      "id": "dushen_tang",
+      "name": "獨參湯",
+      "source": "《十藥神書》",
+      "function": "益氣固脫",
+      "indication": "血證病中的亡陽證"
+    },
+    {
+      "id": "huiyang_fanben_tang",
+      "name": "回陽返本湯",
+      "source": "《傷寒六書》",
+      "function": "回陽救逆",
+      "indication": "血證病中的亡陽證"
+    }
+  ],
+  "recommended_formulas": ["shenfu_tang", "sini_tang", "tongmai_sini_jia_zhu_dan_zhi_tang", "dushen_tang"],
+  "related_patterns": ["yang_xu_zheng", "wang_yin_zheng"],
+  "evolved_from": ["yang_xu_zheng", "wang_yin_zheng"],
   "can_evolve_to": [],
-  "differentiate_from": ["qi_tuo_zheng", "wang_yin_zheng"],
-  "common_in": ["陽虛體質者", "久病陽衰者", "大汗大瀉後"],
-  "clinical_variants": [],
-  "differentiation": [],
-  "literature": [],
-  "related_diseases": [],
-  "description": "亡陽證是陽氣衰竭的極危重證候。與氣脫證比較，氣脫證可為亡陽證的先驅證候；亡陽證已見昏迷不醒、脈微細欲絕，病情更為危重。與亡陰證比較，亡陽證面色蒼白、四肢厥冷、冷汗淋漓，亡陰證身熱面赤、汗出如油、手足溫。",
-  "source": "《中醫診斷學》"
+  "literature": [
+    {
+      "source": "《諸病源候論·虛勞病諸候》",
+      "quote": "大病後虛汗候：大病之後，復為風邪所乘，則陽氣發洩，故令虛汗。汗多亡陽，則津液竭，令人枯瘦也。"
+    }
+  ],
+  "references": ["《中醫證候鑑別診斷學》"],
+  "common_in": ["陽虛之體", "寒盛傷陽之時", "大汗不止者", "吐瀉過劇者"]
 }

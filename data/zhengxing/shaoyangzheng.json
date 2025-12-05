@@ -1,0 +1,239 @@
+{
+  "id": "shao_yang_zheng",
+  "name": "少陽證",
+  "alias": ["少陽病", "少陽經證"],
+  "classification": {
+    "category": "傷寒證候",
+    "liu_jing": "少陽"
+  },
+  "zhengsu_composition": {
+    "location": ["dan", "banbiaobanli"],
+    "nature": ["huo"]
+  },
+  "definition": "傷寒病邪既不在表，又未入里，而在半表半里之間所表現出來的證候。它的發生，既可由它經傳來，亦可由本經受邪而發病。",
+  "pathogenesis": "少陽主相火，亦主樞機，內應於膽及三焦，膽腑疏泄正常，則相火得以出入正常，遊行於肌膚分肉之間，溫暖身體，維持生理功能。若邪氣內侵，無論他經傳來或本經自受，均鬱於膽腑及三焦，樞機不利。",
+  "pathogenesis_analysis": [
+    { "symptom": "寒熱往來", "mechanism": "正邪分爭於半表半里之間" },
+    { "symptom": "口苦、咽乾", "mechanism": "相火鬱而上炎，灼傷津液" },
+    { "symptom": "目眩", "mechanism": "足少陽脈起於目銳眦，且肝膽互為表里，肝開竅於目，故膽火上擾，邪犯清竅" },
+    { "symptom": "胸脅苦滿、脈弦", "mechanism": "足少陽之脈下胸中貫膈，絡肝屬膽，循脅里，此為胸脅之分，故邪鬱少陽，經氣不利" },
+    { "symptom": "默默不欲飲食、喜嘔", "mechanism": "「邪在膽，逆在胃」，膽火內鬱，影響脾胃功能，胃失和降" }
+  ],
+  "symptoms": {
+    "main": ["口苦", "咽乾", "目眩", "寒熱往來", "胸脅苦滿", "默默不欲飲食", "心煩喜嘔"],
+    "secondary": [],
+    "tongue": "",
+    "pulse": "脈弦"
+  },
+  "symptoms_table": [
+    { "category": "提綱", "manifestations": ["口苦", "咽乾", "目眩"] },
+    { "category": "主症", "manifestations": ["寒熱往來", "胸脅苦滿", "默默不欲飲食", "心煩喜嘔"] },
+    { "category": "脈象", "manifestations": ["脈弦"] }
+  ],
+  "related_diseases": ["外感病", "膽病"],
+  "self_analysis": {
+    "overview": "少陽為半表半里之證，其相對於「太陽證」來說可謂里證，而相對於「陽明證」來說可謂表證，故表里之說乃相對而言。少陽證以「口苦、咽乾、目眩」為綱。此方的特色在於「但見一證便是，不必悉具」，提示少陽乃半表半里之樞機，見是證即應用是方，否則會延誤治療時機，病邪入里而難治。",
+    "key_points": ["口苦、咽乾、目眩為提綱", "寒熱往來為特徵", "但見一證便是，不必悉具"]
+  },
+  "compound_patterns": [
+    {
+      "id": "shao_yang_jian_tai_yang",
+      "name": "少陽兼太陽證",
+      "pathogenesis": "太陽病傳入少陽，少陽為病可兼未盡之太陽邪氣",
+      "symptoms": ["發熱", "微惡寒", "支節煩疼", "微嘔", "心下支結"],
+      "treatment": "和解少陽兼以表散",
+      "formula": "柴胡桂枝湯",
+      "formula_source": "《傷寒論》"
+    },
+    {
+      "id": "shao_yang_jian_yang_ming",
+      "name": "少陽兼陽明證（里實證）",
+      "pathogenesis": "少陽病未盡而傳入陽明",
+      "symptoms": ["嘔不止", "心下急", "鬱鬱微煩", "心中痞硬", "嘔吐而下利"],
+      "treatment": "和解少陽，通下里實",
+      "formula": "大柴胡湯",
+      "formula_source": "《傷寒論》"
+    },
+    {
+      "id": "shao_yang_li_shi_wu_xia",
+      "name": "少陽兼里實證誤下後",
+      "pathogenesis": "少陽兼里實證誤下後",
+      "symptoms": ["下利", "潮熱"],
+      "treatment": "和解少陽兼以瀉熱潤燥",
+      "formula": "柴胡加芒硝湯",
+      "formula_source": "《傷寒論》"
+    },
+    {
+      "id": "shao_yang_han_xia_shang_yin",
+      "name": "少陽汗下後傷陰津證",
+      "pathogenesis": "少陽不可發汗或攻下，若汗、下後劫傷陰津，虛火上炎",
+      "symptoms": ["譫語", "胸滿煩驚", "小便不利", "一身盡重不能轉側"],
+      "treatment": "和解少陽，通陽泄熱，重鎮安神",
+      "formula": "柴胡加龍骨牡蠣湯",
+      "formula_source": "《傷寒論》"
+    },
+    {
+      "id": "shao_yang_jian_shui_yin",
+      "name": "少陽兼水飲內結證",
+      "pathogenesis": "傷寒五、六日，經發汗、攻下之後，病邪傳入少陽，兼有水飲內結",
+      "symptoms": ["胸脅滿微結", "渴而不嘔", "小便不利"],
+      "treatment": "和解少陽，溫化水飲",
+      "formula": "柴胡桂枝乾薑湯",
+      "formula_source": "《傷寒論》"
+    },
+    {
+      "id": "shao_yang_jian_zhong_xu",
+      "name": "少陽兼中虛腹痛證",
+      "pathogenesis": "少陽證兼中焦虛寒",
+      "symptoms": ["腹中急痛"],
+      "treatment": "先溫中補虛，再和解少陽",
+      "formula": "小建中湯",
+      "formula_source": "《傷寒論》"
+    }
+  ],
+  "treatment_contraindications": [
+    "少陽證當以和解為主",
+    "應當禁用汗吐下法",
+    "若違背這一根本法則則變證叢生"
+  ],
+  "prognosis": {
+    "favorable_signs": [
+      "少陽證罷，患者反而能食且不再嘔吐，說明臟氣未虛，中州健運，邪氣不會傳入三陰經",
+      "病人脈不弦而漸趨平和，說明少陽邪氣將退，病情向愈"
+    ],
+    "unfavorable_signs": [
+      "若傷寒數日表無大熱，卻出現躁煩現象，說明表證不復存在，病邪已傳入里"
+    ],
+    "possible_transformations": [
+      {
+        "condition": "傷寒數日表無大熱卻出現躁煩",
+        "transforms_to": "里證",
+        "description": "表證不復存在，病邪已傳入里"
+      }
+    ]
+  },
+  "differentiation": [
+    {
+      "compare_with": "tai_yang_zheng",
+      "compare_name": "太陽證",
+      "similarities": ["同屬三陽病證", "分別為傷寒邪氣入侵致病及傳變過程中的兩個不同階段", "均可出現惡寒、發熱，甚則如瘧狀"],
+      "comparison_table": [
+        { "aspect": "病機", "this_pattern": "傷寒邪氣自表入里，在表里之間的正邪劇爭階段", "other_pattern": "傷寒邪氣初侵太陽經，營衛失和的表證階段" },
+        { "aspect": "病勢", "this_pattern": "病勢已深", "other_pattern": "病勢尚輕淺" },
+        { "aspect": "寒熱", "this_pattern": "往來寒熱", "other_pattern": "寒熱並見，且寒多熱少" },
+        { "aspect": "胸腹", "this_pattern": "多胸脅苦滿，默不欲食，心煩喜嘔（皆為邪不在表之徵）", "other_pattern": "多心腹不滿，呻吟不安而不嘔" }
+      ],
+      "key_points": ["太陽證寒熱並見，少陽證往來寒熱（少陽所獨有）", "太陽證病勢淺，少陽證病勢已深"]
+    },
+    {
+      "compare_with": "yang_ming_zheng",
+      "compare_name": "陽明證",
+      "similarities": ["同屬三陽病證", "均可出現發熱"],
+      "comparison_table": [
+        { "aspect": "病位", "this_pattern": "半表半里之間", "other_pattern": "屬里" },
+        { "aspect": "病機", "this_pattern": "邪氣內鬱膽腑，經氣不利，正邪交爭", "other_pattern": "邪熱阻結胃腸，里實熱盛" },
+        { "aspect": "寒熱特徵", "this_pattern": "寒往則熱來，熱往則寒來，兩者交替出現", "other_pattern": "但熱不寒" }
+      ],
+      "key_points": ["少陽證往來寒熱，陽明證但熱不寒", "綜觀三證為外感病發展中之三個獨立的階段，而三者又互相聯繫影響"]
+    },
+    {
+      "compare_with": "wen_bing_zheng_nue",
+      "compare_name": "溫病正瘧",
+      "similarities": ["二者皆有寒熱往來"],
+      "comparison_table": [
+        { "aspect": "病機", "this_pattern": "邪犯少陽，樞機不利", "other_pattern": "瘧邪作祟，出入營衛" },
+        { "aspect": "兼症", "this_pattern": "胸脅苦滿、心煩喜嘔、默默不欲飲食", "other_pattern": "初起肢體痠楚、呵欠乏力，繼則畏寒戰慄，寒罷則發熱，通體灼熱、頭痛面赤、口渴心煩，數小時後汗出淋漓、諸症消失" },
+        { "aspect": "舌脈", "this_pattern": "脈弦", "other_pattern": "舌紅苔白脈弦" },
+        { "aspect": "熱型", "this_pattern": "寒熱往來發無定時，互為因果，循環不止", "other_pattern": "寒熱多為一日或間日發作，發有定時" }
+      ],
+      "key_points": ["少陽證寒熱往來發無定時，溫病正瘧寒熱發有定時", "熱型有較大的區別"]
+    },
+    {
+      "compare_with": "re_ru_xue_shi_zheng",
+      "compare_name": "熱入血室證",
+      "similarities": ["均見寒熱往來"],
+      "comparison_table": [
+        { "aspect": "病因", "this_pattern": "多可由太陽表證傳來，或外邪直入侵犯少陽，與婦女月經到來與否無關", "other_pattern": "婦女外感，恰值經期適來適斷而發" },
+        { "aspect": "病位", "this_pattern": "膽腑及三焦（半表半里）", "other_pattern": "下焦胞宮（半表半里）" },
+        { "aspect": "譫語特徵", "this_pattern": "可出現心煩、譫語", "other_pattern": "「晝日明了，暮則譫語」" }
+      ],
+      "key_points": ["熱入血室證與婦女月經相關", "熱入血室證譫語特徵為「晝日明了，暮則譫語」"]
+    }
+  ],
+  "treatment_principle": ["和解少陽"],
+  "formulas": [
+    {
+      "id": "xiao_chaihu_tang",
+      "name": "小柴胡湯",
+      "source": "《傷寒論》",
+      "function": "和解少陽",
+      "indication": "主方"
+    },
+    {
+      "id": "chaihu_guizhi_tang",
+      "name": "柴胡桂枝湯",
+      "source": "《傷寒論》",
+      "function": "和解少陽兼以表散",
+      "indication": "少陽兼太陽"
+    },
+    {
+      "id": "da_chaihu_tang",
+      "name": "大柴胡湯",
+      "source": "《傷寒論》",
+      "function": "和解少陽，通下里實",
+      "indication": "少陽兼陽明"
+    },
+    {
+      "id": "chaihu_jia_mangxiao_tang",
+      "name": "柴胡加芒硝湯",
+      "source": "《傷寒論》",
+      "function": "和解少陽兼以瀉熱潤燥",
+      "indication": "少陽兼里實誤下後"
+    },
+    {
+      "id": "chaihu_jia_longgu_muli_tang",
+      "name": "柴胡加龍骨牡蠣湯",
+      "source": "《傷寒論》",
+      "function": "和解少陽，通陽泄熱，重鎮安神",
+      "indication": "汗下後傷陰津"
+    },
+    {
+      "id": "chaihu_guizhi_ganjiang_tang",
+      "name": "柴胡桂枝乾薑湯",
+      "source": "《傷寒論》",
+      "function": "和解少陽，溫化水飲",
+      "indication": "少陽兼水飲內結"
+    },
+    {
+      "id": "xiao_jianzhong_tang",
+      "name": "小建中湯",
+      "source": "《傷寒論》",
+      "function": "溫中補虛",
+      "indication": "少陽兼中虛腹痛，先服此方再和解少陽"
+    }
+  ],
+  "recommended_formulas": ["xiao_chaihu_tang", "chaihu_guizhi_tang", "da_chaihu_tang", "chaihu_jia_mangxiao_tang", "chaihu_jia_longgu_muli_tang", "chaihu_guizhi_ganjiang_tang", "xiao_jianzhong_tang"],
+  "related_patterns": ["tai_yang_zheng", "yang_ming_zheng", "wen_bing_zheng_nue", "re_ru_xue_shi_zheng"],
+  "evolved_from": ["tai_yang_zheng"],
+  "can_evolve_to": ["yang_ming_zheng", "tai_yin_zheng"],
+  "literature": [
+    {
+      "source": "《註解傷寒論·辨少陽病脈證並治》",
+      "quote": "足少陽，膽經也。《內經》曰：病有口苦者，名曰膽癉。《甲乙經》曰：膽者，中精之腑，五臟取決於膽，咽為之使。少陽之脈，起於目銳眦，少陽受邪，致口苦，咽乾，目眩。"
+    },
+    {
+      "source": "《醫宗金鑑·訂正仲景全書》",
+      "quote": "少陽者，膽經也。其脈起於目銳眦，從耳後入耳中，挾咽，出頰車中。邪傷其經，故口苦、咽乾、目眩也。口苦者，熱蒸膽氣上溢也；咽乾者，熱耗津液也；目眩者，熱熏眼發黑也。此揭中風、傷寒邪傳少陽之總綱，凡篇中稱少陽中風、傷寒者，即具此證之謂也。"
+    },
+    {
+      "source": "《傷寒來蘇集·傷寒論注·少陽脈證》",
+      "quote": "太陽主表，頭項強痛為提綱，陽明主里，胃家實為提綱，少陽居半表半里之位，仲景特揭口苦、咽乾、目眩為提綱，奇而至當也。蓋口、咽、目三者，不可謂之表，又不可謂之里，是表之入里，里之出表處，所謂半表半里也。三者能開能闔，開之可見，闔之不見，恰合樞機之象，故兩耳為少陽經絡出入之地，苦、乾、眩者，皆相火上走空竅而為病也。此病自內之外，人所不知，為病人獨知，診家不可無問法。"
+    },
+    {
+      "source": "《註解傷寒論·辨太陽病脈證並治法中》",
+      "quote": "病有在表者，有在里者，有在表里之間者，此邪氣在半表半里之間，謂之半表半里證。五六日，邪氣自表傳里之時。中風者，或傷寒至五六日也。《玉函》曰：中風五六日傷寒，往來寒熱，即是或中風，或傷寒，非是傷寒再中風，中風復傷寒也。論曰：傷寒中風，有柴胡證，但見一證便是，不必悉具者，正是謂或中風，或傷寒也……。"
+    }
+  ],
+  "references": ["《中醫證候鑑別診斷學》"],
+  "common_in": ["外感病中期"]
+}
