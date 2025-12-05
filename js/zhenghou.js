@@ -1,5 +1,5 @@
 /**
- * 中醫證候辨證資料庫 - 證候模組
+ * 中醫證候資料庫 - 證候模組
  */
 
 // 全域資料
@@ -9,7 +9,6 @@ let zhenghouCache = {};
 // DOM 載入完成後執行
 document.addEventListener('DOMContentLoaded', async () => {
   await loadZhenghouIndex();
-  await loadOtherStats();
   setupEventListeners();
 });
 
@@ -23,8 +22,10 @@ async function loadZhenghouIndex() {
     zhenghouIndex = await response.json();
 
     // 更新統計數字
-    document.getElementById('zhenghou-count').textContent = zhenghouIndex.total_syndromes;
-    document.getElementById('category-count').textContent = zhenghouIndex.categories.length;
+    const totalSyndromes = zhenghouIndex.total_syndromes;
+    const totalCategories = zhenghouIndex.categories.length;
+    document.getElementById('stats-text').textContent =
+      `共收錄 ${totalCategories} 大類、${totalSyndromes} 個證候`;
 
     // 渲染分類列表
     renderCategories();
@@ -34,42 +35,6 @@ async function loadZhenghouIndex() {
       <div class="no-results">載入證候資料失敗，請稍後再試。</div>
     `;
   }
-}
-
-/**
- * 載入其他統計資料（中藥、方劑）
- */
-async function loadOtherStats() {
-  // 載入中藥數量
-  try {
-    const herbFiles = await fetch('data/herbs/').catch(() => null);
-    // 簡單計數，假設有固定數量或從其他來源取得
-    const herbsCount = await countJsonFiles('data/herbs/');
-    document.getElementById('herbs-count').textContent = herbsCount || '--';
-  } catch (e) {
-    document.getElementById('herbs-count').textContent = '--';
-  }
-
-  // 載入方劑數量
-  try {
-    const formulasCount = await countJsonFiles('data/formulas/');
-    document.getElementById('formulas-count').textContent = formulasCount || '--';
-  } catch (e) {
-    document.getElementById('formulas-count').textContent = '--';
-  }
-}
-
-/**
- * 計算目錄中的 JSON 檔案數量（排除 _schema.json）
- */
-async function countJsonFiles(dir) {
-  // 由於無法直接列出目錄，這裡使用硬編碼或嘗試載入索引
-  // 這是一個簡化的實作
-  const knownCounts = {
-    'data/herbs/': 5,
-    'data/formulas/': 4
-  };
-  return knownCounts[dir] || 0;
 }
 
 /**
@@ -85,20 +50,21 @@ function renderCategories() {
 
   let html = '';
 
-  zhenghouIndex.categories.forEach((category, catIndex) => {
+  zhenghouIndex.categories.forEach((category) => {
     html += `
-      <div class="zhenghou-category">
-        <h3 class="category-title">${category.id}、${category.name}（${category.syndrome_count} 個證候）</h3>
-        <div class="zhengsu-cards">
+      <div class="category-section">
+        <div class="category-header">
+          <h2 class="category-name">${category.id}、${category.name}</h2>
+          <span class="category-count">${category.syndrome_count} 個證候</span>
+        </div>
+        <div class="syndrome-grid">
     `;
 
     category.syndromes.forEach(syndrome => {
       html += `
-        <div class="zhengsu-card bingxing" data-id="${syndrome.id}" onclick="showZhenghouDetail('${syndrome.id}')">
-          <div class="zhengsu-card-header">
-            <span class="zhengsu-card-name">${syndrome.name}</span>
-            <span class="zhengsu-card-number">#${syndrome.number}</span>
-          </div>
+        <div class="syndrome-card" data-id="${syndrome.id}" onclick="showZhenghouDetail('${syndrome.id}')">
+          <span class="syndrome-number">${syndrome.number}</span>
+          <span class="syndrome-name">${syndrome.name}</span>
         </div>
       `;
     });
@@ -137,46 +103,12 @@ async function showZhenghouDetail(syndromeId) {
 
   // 填充彈窗內容
   document.getElementById('modal-zhenghou-name').textContent = data.name;
+  document.getElementById('modal-category').textContent = data.category || '';
+  document.getElementById('modal-number').textContent = `#${data.number}`;
 
-  // 概述
-  const overviewEl = document.getElementById('modal-overview');
-  overviewEl.innerHTML = formatText(data.overview || '暫無資料');
-
-  // 臨床表現
-  const manifestationsEl = document.getElementById('modal-manifestations');
-  manifestationsEl.innerHTML = data.clinical_manifestations
-    ? formatText(data.clinical_manifestations)
-    : '<span class="no-data">暫無資料</span>';
-
-  // 本證辨析
-  const selfAnalysisEl = document.getElementById('modal-self-analysis');
-  const differentialCard = document.getElementById('differential-card');
-  if (data.differential && data.differential.self_analysis) {
-    selfAnalysisEl.innerHTML = formatText(data.differential.self_analysis);
-    differentialCard.classList.remove('hidden');
-  } else {
-    differentialCard.classList.add('hidden');
-  }
-
-  // 類證鑑別
-  const typeComparisonEl = document.getElementById('modal-type-comparison');
-  const comparisonCard = document.getElementById('comparison-card');
-  if (data.differential && data.differential.type_comparison) {
-    typeComparisonEl.innerHTML = formatText(data.differential.type_comparison);
-    comparisonCard.classList.remove('hidden');
-  } else {
-    comparisonCard.classList.add('hidden');
-  }
-
-  // 文獻選錄
-  const literatureEl = document.getElementById('modal-literature');
-  const literatureCard = document.getElementById('literature-card');
-  if (data.literature) {
-    literatureEl.innerHTML = formatLiterature(data.literature);
-    literatureCard.classList.remove('hidden');
-  } else {
-    literatureCard.classList.add('hidden');
-  }
+  // 建構詳情內容
+  const modalBody = document.getElementById('modal-body');
+  modalBody.innerHTML = buildDetailContent(data);
 
   // 顯示彈窗
   modal.classList.remove('hidden');
@@ -184,13 +116,147 @@ async function showZhenghouDetail(syndromeId) {
 }
 
 /**
- * 格式化文字（換行處理）
+ * 建構證候詳情內容
  */
-function formatText(text) {
+function buildDetailContent(data) {
+  let html = '';
+
+  // 定義/概述
+  if (data.overview) {
+    html += `
+      <section class="detail-section">
+        <h3 class="section-heading">定義</h3>
+        <div class="section-content overview-content">
+          ${formatParagraphs(data.overview)}
+        </div>
+      </section>
+    `;
+  }
+
+  // 臨床表現
+  if (data.clinical_manifestations) {
+    html += `
+      <section class="detail-section">
+        <h3 class="section-heading">臨床表現</h3>
+        <div class="section-content clinical-content">
+          ${formatClinicalManifestations(data.clinical_manifestations)}
+        </div>
+      </section>
+    `;
+  }
+
+  // 本證辨析
+  if (data.differential && data.differential.self_analysis) {
+    html += `
+      <section class="detail-section">
+        <h3 class="section-heading">本證辨析</h3>
+        <div class="section-content analysis-content">
+          ${formatParagraphs(data.differential.self_analysis)}
+        </div>
+      </section>
+    `;
+  }
+
+  // 類證鑑別
+  if (data.differential && data.differential.type_comparison) {
+    html += `
+      <section class="detail-section">
+        <h3 class="section-heading">類證鑑別</h3>
+        <div class="section-content comparison-content">
+          ${formatTypeComparison(data.differential.type_comparison)}
+        </div>
+      </section>
+    `;
+  }
+
+  // 文獻選錄
+  if (data.literature) {
+    html += `
+      <section class="detail-section">
+        <h3 class="section-heading">文獻選錄</h3>
+        <div class="section-content literature-content">
+          ${formatLiterature(data.literature)}
+        </div>
+      </section>
+    `;
+  }
+
+  return html;
+}
+
+/**
+ * 格式化段落文字
+ */
+function formatParagraphs(text) {
   if (!text) return '';
-  return text
-    .replace(/\n/g, '<br>')
-    .replace(/「([^」]+)」/g, '<span style="color: var(--primary-color);">「$1」</span>');
+
+  // 分割段落並處理
+  const paragraphs = text.split('\n').filter(p => p.trim());
+
+  return paragraphs.map(p => {
+    // 高亮引號內容和書名
+    let formatted = p
+      .replace(/「([^」]+)」/g, '<span class="highlight-quote">「$1」</span>')
+      .replace(/《([^》]+)》/g, '<cite class="book-title">《$1》</cite>')
+      .replace(/\(《([^》]+)》\)/g, '(<cite class="book-title">《$1》</cite>)');
+
+    return `<p>${formatted}</p>`;
+  }).join('');
+}
+
+/**
+ * 格式化臨床表現
+ */
+function formatClinicalManifestations(text) {
+  if (!text) return '';
+
+  // 分析是否包含症狀列表特徵
+  const symptoms = text.split(/[，、；]/);
+
+  if (symptoms.length > 3) {
+    // 以標籤形式展示
+    return `
+      <div class="symptom-tags">
+        ${symptoms.map(s => s.trim()).filter(s => s).map(s =>
+          `<span class="symptom-tag">${s}</span>`
+        ).join('')}
+      </div>
+    `;
+  }
+
+  return `<p>${text}</p>`;
+}
+
+/**
+ * 格式化類證鑑別
+ */
+function formatTypeComparison(text) {
+  if (!text) return '';
+
+  // 嘗試按證候名稱分割（如「陽虛證與氣虛證」）
+  const sections = text.split(/\n(?=[^\s]+證與[^\s]+證)/);
+
+  return sections.map(section => {
+    const lines = section.split('\n').filter(l => l.trim());
+    if (lines.length === 0) return '';
+
+    // 第一行可能是標題
+    const firstLine = lines[0];
+    const match = firstLine.match(/^([^\s]+證與[^\s]+證)/);
+
+    if (match) {
+      const title = match[1];
+      const content = [firstLine.replace(title, '').trim(), ...lines.slice(1)].filter(l => l).join('\n');
+      return `
+        <div class="comparison-item">
+          <h4 class="comparison-title">${title}</h4>
+          <div class="comparison-content">${formatParagraphs(content)}</div>
+        </div>
+      `;
+    }
+
+    return `<div class="comparison-item">${formatParagraphs(section)}</div>`;
+  }).join('');
 }
 
 /**
@@ -204,16 +270,27 @@ function formatLiterature(text) {
 
   return citations.map(citation => {
     // 嘗試分離書名和引文
-    const match = citation.match(/《([^》]+)》[：:「]?(.+)/);
+    const match = citation.match(/^《([^》]+)》[·：:「]?\s*(.+)/);
     if (match) {
+      const source = match[1];
+      let quote = match[2];
+
+      // 處理引號
+      if (quote.startsWith('：「') || quote.startsWith(':"')) {
+        quote = quote.substring(2);
+      }
+      if (quote.endsWith('」') || quote.endsWith('"')) {
+        quote = quote.slice(0, -1);
+      }
+
       return `
-        <div class="literature-item">
-          <div class="literature-source">《${match[1]}》</div>
-          <div class="literature-quote">${match[2].replace(/」$/, '')}</div>
-        </div>
+        <blockquote class="literature-quote">
+          <div class="quote-source">《${source}》</div>
+          <div class="quote-text">「${quote}」</div>
+        </blockquote>
       `;
     }
-    return `<div class="literature-item"><div class="literature-quote">${citation}</div></div>`;
+    return `<blockquote class="literature-quote"><div class="quote-text">${citation}</div></blockquote>`;
   }).join('');
 }
 
@@ -259,15 +336,13 @@ function showSearchResults(results) {
   if (results.length === 0) {
     container.innerHTML = '<div class="no-results">未找到匹配的證候</div>';
   } else {
-    let html = '<div class="zhengsu-cards">';
+    let html = '<div class="search-results-grid">';
     results.forEach(syndrome => {
       html += `
-        <div class="zhengsu-card bingxing" onclick="showZhenghouDetail('${syndrome.id}')">
-          <div class="zhengsu-card-header">
-            <span class="zhengsu-card-name">${syndrome.name}</span>
-            <span class="zhengsu-card-number">#${syndrome.number}</span>
-          </div>
-          <div class="zhengsu-card-treatment">${syndrome.category}</div>
+        <div class="syndrome-card search-result" onclick="showZhenghouDetail('${syndrome.id}')">
+          <span class="syndrome-number">${syndrome.number}</span>
+          <span class="syndrome-name">${syndrome.name}</span>
+          <span class="syndrome-category">${syndrome.category}</span>
         </div>
       `;
     });
@@ -276,6 +351,14 @@ function showSearchResults(results) {
   }
 
   container.classList.remove('hidden');
+}
+
+/**
+ * 隱藏搜尋結果
+ */
+function hideSearchResults() {
+  const container = document.getElementById('search-results');
+  container.classList.add('hidden');
 }
 
 /**
@@ -292,6 +375,8 @@ function setupEventListeners() {
       if (keyword.trim()) {
         const results = searchZhenghou(keyword);
         showSearchResults(results);
+      } else {
+        hideSearchResults();
       }
     });
 
@@ -302,7 +387,20 @@ function setupEventListeners() {
         if (keyword.trim()) {
           const results = searchZhenghou(keyword);
           showSearchResults(results);
+        } else {
+          hideSearchResults();
         }
+      }
+    });
+
+    // 即時搜尋（輸入時）
+    searchInput.addEventListener('input', (e) => {
+      const keyword = e.target.value;
+      if (keyword.trim().length >= 1) {
+        const results = searchZhenghou(keyword);
+        showSearchResults(results);
+      } else {
+        hideSearchResults();
       }
     });
   }

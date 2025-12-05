@@ -3,121 +3,58 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>中醫證候辨證資料庫</title>
+  <title>中醫證候資料庫</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
-    <h1>中醫證候辨證資料庫</h1>
-    <p>以證候為核心 · 系統學習辨證論治</p>
-    <nav class="main-nav">
-      <a href="index.html" class="nav-link active">證候首頁</a>
-      <a href="zhengsu.html" class="nav-link">證素總覽</a>
-      <a href="herbs.html" class="nav-link">中藥查詢</a>
-      <a href="formulas.html" class="nav-link">方劑分析</a>
-      <a href="zhengxing.html" class="nav-link">證型查詢</a>
-    </nav>
+    <h1>中醫證候資料庫</h1>
+    <p>系統性整理中醫證候辨證知識</p>
   </header>
 
   <main class="container">
-    <!-- 統計卡片 -->
-    <section class="stats-cards" id="stats-cards">
-      <a href="#" class="stat-card clickable" onclick="return false;">
-        <div class="stat-number" id="zhenghou-count">--</div>
-        <div class="stat-label">證候</div>
-        <div class="stat-detail" id="zhenghou-detail">收錄中醫證候</div>
-      </a>
-      <a href="#" class="stat-card clickable" onclick="return false;">
-        <div class="stat-number" id="category-count">--</div>
-        <div class="stat-label">分類</div>
-        <div class="stat-detail">證候大分類</div>
-      </a>
-      <a href="herbs.html" class="stat-card clickable">
-        <div class="stat-number" id="herbs-count">--</div>
-        <div class="stat-label">中藥</div>
-        <div class="stat-detail">收錄中藥</div>
-      </a>
-      <a href="formulas.html" class="stat-card clickable">
-        <div class="stat-number" id="formulas-count">--</div>
-        <div class="stat-label">方劑</div>
-        <div class="stat-detail">經典方劑</div>
-      </a>
-    </section>
-
-    <!-- 證候分類瀏覽 -->
-    <section class="zhenghou-section" id="zhenghou-section">
-      <h2 class="section-title">證候分類瀏覽</h2>
-      <div id="zhenghou-categories" class="loading">載入中...</div>
-    </section>
-
     <!-- 搜尋區 -->
     <section class="search-section">
-      <h2 class="section-title">快速搜尋</h2>
       <div class="search-box">
-        <input type="text" id="search-input" placeholder="輸入證候名稱搜尋，如：氣虛、血瘀...">
+        <input type="text" id="search-input" placeholder="搜尋證候名稱，如：氣虛、血瘀、少陰...">
         <button id="search-btn">搜尋</button>
       </div>
       <div id="search-results" class="hidden"></div>
     </section>
 
-    <!-- 快速入口 -->
-    <section class="quick-links">
-      <h2 class="section-title">快速入口</h2>
-      <div class="quick-links-grid">
-        <a href="herbs.html" class="quick-link-card">
-          <div class="quick-link-icon">🌿</div>
-          <div class="quick-link-title">中藥查詢</div>
-          <div class="quick-link-desc">按證素、歸經、藥性搜尋中藥</div>
-        </a>
-        <a href="formulas.html" class="quick-link-card">
-          <div class="quick-link-icon">📜</div>
-          <div class="quick-link-title">方劑分析</div>
-          <div class="quick-link-desc">查看方劑的證素權重分析</div>
-        </a>
-        <a href="zhengsu.html" class="quick-link-card">
-          <div class="quick-link-icon">🔬</div>
-          <div class="quick-link-title">證素總覽</div>
-          <div class="quick-link-desc">瀏覽所有病位與病性證素</div>
-        </a>
-      </div>
+    <!-- 統計資訊 -->
+    <section class="stats-bar">
+      <span id="stats-text">載入中...</span>
+    </section>
+
+    <!-- 證候分類瀏覽 -->
+    <section class="zhenghou-browser" id="zhenghou-browser">
+      <div id="zhenghou-categories" class="loading">載入中...</div>
     </section>
   </main>
 
   <!-- 證候詳情彈窗 -->
   <div class="modal-overlay hidden" id="zhenghou-modal">
-    <div class="modal-content" style="max-width: 800px;">
+    <div class="modal-content zhenghou-detail-modal">
       <button class="modal-close">&times;</button>
-      <h3 id="modal-zhenghou-name"></h3>
-      <div class="modal-body">
-        <div class="detail-card">
-          <h4>概述</h4>
-          <div id="modal-overview" class="literature-quote"></div>
+      <div class="modal-header">
+        <h2 id="modal-zhenghou-name"></h2>
+        <div class="modal-meta">
+          <span class="meta-category" id="modal-category"></span>
+          <span class="meta-number" id="modal-number"></span>
         </div>
-        <div class="detail-card">
-          <h4>主要臨床表現</h4>
-          <div id="modal-manifestations" class="symptom-list"></div>
-        </div>
-        <div class="detail-card" id="differential-card">
-          <h4>本證辨析</h4>
-          <div id="modal-self-analysis" class="literature-quote"></div>
-        </div>
-        <div class="detail-card" id="comparison-card">
-          <h4>類證鑑別</h4>
-          <div id="modal-type-comparison" class="literature-quote"></div>
-        </div>
-        <div class="detail-card" id="literature-card">
-          <h4>文獻選錄</h4>
-          <div id="modal-literature" class="literature-quote"></div>
-        </div>
+      </div>
+      <div class="modal-body" id="modal-body">
+        <!-- 動態內容 -->
       </div>
     </div>
   </div>
 
   <footer>
-    <p>中醫證候辨證資料庫 · 僅供學習參考，不作為醫療診斷依據</p>
+    <p>中醫證候資料庫 · 僅供學習參考，不作為醫療診斷依據</p>
   </footer>
 
   <script src="js/zhenghou.js"></script>
