@@ -1939,6 +1939,7 @@ footer {
   cursor: pointer;
   font-size: 0.9rem;
   transition: all 0.2s;
+  -webkit-user-select: none;
   user-select: none;
 }
 
@@ -2862,6 +2863,7 @@ footer {
   cursor: pointer;
   font-size: 0.9rem;
   transition: all 0.2s;
+  -webkit-user-select: none;
   user-select: none;
 }
 
@@ -3291,4 +3293,147 @@ footer {
   .pair-name {
     font-size: 0.9rem;
   }
+}
+
+/* ==================== Safari 相容性修復 ==================== */
+
+/* Flexbox gap 回退方案 - 為不支援 flexbox gap 的舊版 Safari 提供 margin 替代 */
+@supports not (gap: 1rem) {
+  /* 篩選標籤按鈕 */
+  .filter-tab-buttons {
+    margin: -0.25rem;
+  }
+  .filter-tab-buttons > * {
+    margin: 0.25rem;
+  }
+
+  /* 篩選標籤網格 */
+  .filter-tags-grid {
+    margin: -0.25rem;
+  }
+  .filter-tags-grid > * {
+    margin: 0.25rem;
+  }
+
+  /* 演變鏈流程 */
+  .chain-flow {
+    margin: -0.25rem;
+  }
+  .chain-flow > * {
+    margin: 0.25rem;
+  }
+
+  /* 演變鏈列表 */
+  .evolution-chains > * {
+    margin-bottom: 1rem;
+  }
+  .evolution-chains > *:last-child {
+    margin-bottom: 0;
+  }
+
+  /* 演變組列表 */
+  .evolution-groups > * {
+    margin-bottom: 1.5rem;
+  }
+  .evolution-groups > *:last-child {
+    margin-bottom: 0;
+  }
+
+  /* 對照配對網格 */
+  .comparison-pairs {
+    margin: -0.5rem;
+  }
+  .comparison-pairs > * {
+    margin: 0.5rem;
+  }
+
+  /* 搜尋框 */
+  .search-box {
+    margin: -0.25rem;
+  }
+  .search-box > * {
+    margin: 0.25rem;
+  }
+
+  /* 症狀標籤 */
+  .symptom-tags {
+    margin: -0.25rem;
+  }
+  .symptom-tags > * {
+    margin: 0.25rem;
+  }
+
+  /* 證候網格 */
+  .syndrome-grid {
+    margin: -0.4rem;
+  }
+  .syndrome-grid > * {
+    margin: 0.4rem;
+  }
+
+  /* 搜尋結果網格 */
+  .search-results-grid {
+    margin: -0.4rem;
+  }
+  .search-results-grid > * {
+    margin: 0.4rem;
+  }
+
+  /* 篩選結果網格 */
+  .filter-results-grid {
+    margin: -0.4rem;
+  }
+  .filter-results-grid > * {
+    margin: 0.4rem;
+  }
+
+  /* Modal 元數據 */
+  .modal-meta {
+    margin: -0.5rem;
+  }
+  .modal-meta > * {
+    margin: 0.5rem;
+  }
+}
+
+/* 額外的 Safari 相容性修復 */
+
+/* 確保 flexbox 在 Safari 中正確顯示 */
+.filter-tab-buttons,
+.filter-tags-grid,
+.chain-flow,
+.symptom-tags,
+.modal-meta {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.evolution-groups,
+.evolution-chains {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+
+/* 確保 grid 在 Safari 中使用 -webkit- 前綴 */
+.syndrome-grid,
+.comparison-pairs,
+.filter-results-grid,
+.search-results-grid {
+  display: -ms-grid;
+  display: grid;
+}
+
+/* Safari transform 和 transition 相容性 */
+.syndrome-card,
+.chain-item,
+.pair-syndrome,
+.filter-pill {
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
 }
