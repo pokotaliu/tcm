@@ -1,0 +1,70 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "中醫證候資料結構",
+  "description": "描述中醫證候的 JSON 結構",
+  "type": "object",
+  "required": [
+    "id",
+    "number",
+    "name",
+    "category",
+    "overview"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "證候的拼音 ID"
+    },
+    "number": {
+      "type": "integer",
+      "description": "證候編號"
+    },
+    "name": {
+      "type": "string",
+      "description": "證候名稱"
+    },
+    "category": {
+      "type": "string",
+      "description": "所屬分類"
+    },
+    "overview": {
+      "type": "string",
+      "description": "概述"
+    },
+    "clinical_manifestations": {
+      "type": "string",
+      "description": "主要臨床表現"
+    },
+    "common_diseases": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "常見於哪些疾病"
+    },
+    "differential_syndromes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "需要鑑別的證候"
+    },
+    "differential": {
+      "type": "object",
+      "properties": {
+        "self_analysis": {
+          "type": "string",
+          "description": "本證辨析"
+        },
+        "type_comparison": {
+          "type": "string",
+          "description": "類證鑑別"
+        }
+      }
+    },
+    "literature": {
+      "type": "string",
+      "description": "文獻選錄"
+    }
+  }
+}
