@@ -1,0 +1,713 @@
+{
+  "version": "1.0",
+  "generated_at": "2025-12-05",
+  "description": "證型演變關係的有向圖結構，支援互動式演變圖",
+  "nodes": [
+    {
+      "id": "tai_yin_zheng",
+      "name": "太陰證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "tai_yang_zheng",
+      "name": "太陽證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "shao_yin_zheng",
+      "name": "少陰證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "shao_yang_zheng",
+      "name": "少陽證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "xin_qi_xu",
+      "name": "心氣虛證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "qi_xu_zheng",
+      "name": "氣虛證",
+      "category": "基礎證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "qi_xue_liang_xu",
+      "name": "氣血兩虛證",
+      "category": "基礎證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "qingyang_busheng_zheng",
+      "name": "清陽不升證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "gan_qi_xu",
+      "name": "肝氣虛證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "fei_qi_xu",
+      "name": "肺氣虛證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "pi_qi_xu",
+      "name": "脾氣虛證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "shen_qi_xu",
+      "name": "腎氣虛證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "zhong_qi_xia_xian",
+      "name": "中氣下陷證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "qi_xu_bu_gu",
+      "name": "氣不固攝證",
+      "category": "基礎證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "shen_qi_bu_gu",
+      "name": "腎氣不固證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "qi_jue_zheng",
+      "name": "氣厥證",
+      "category": "基礎證候",
+      "severity": 3,
+      "is_critical": true
+    },
+    {
+      "id": "qi_tuo_zheng",
+      "name": "氣脫證",
+      "category": "危重證候",
+      "severity": 3,
+      "is_critical": true
+    },
+    {
+      "id": "wang_yin_zheng",
+      "name": "亡陰證",
+      "category": "危重證候",
+      "severity": 4,
+      "is_critical": true
+    },
+    {
+      "id": "wang_yang_zheng",
+      "name": "亡陽證",
+      "category": "危重證候",
+      "severity": 4,
+      "is_critical": true
+    }
+  ],
+  "edges": [
+    {
+      "from": "shen_qi_xu",
+      "to": "shen_qi_bu_gu",
+      "relation": "惡化",
+      "condition": "",
+      "description": "腎氣虛證演變為腎氣不固證"
+    },
+    {
+      "from": "zhong_qi_xia_xian",
+      "to": "shen_qi_bu_gu",
+      "relation": "發展",
+      "condition": "",
+      "description": "腎氣不固證可由氣陷證發展而來"
+    },
+    {
+      "from": "pi_qi_xu",
+      "to": "qingyang_busheng_zheng",
+      "relation": "發展",
+      "condition": "",
+      "description": "脾氣虛證演變為清陽不升證"
+    },
+    {
+      "from": "pi_qi_xu",
+      "to": "pi_qi_xian",
+      "relation": "發展",
+      "condition": "",
+      "description": "脾氣虛證演變為pi_qi_xian"
+    },
+    {
+      "from": "pi_qi_xu",
+      "to": "pi_bu_tong_xue",
+      "relation": "發展",
+      "condition": "",
+      "description": "脾氣虛證演變為pi_bu_tong_xue"
+    },
+    {
+      "from": "pi_qi_xu",
+      "to": "fei_pi_qi_xu",
+      "relation": "發展",
+      "condition": "",
+      "description": "脾氣虛證演變為fei_pi_qi_xu"
+    },
+    {
+      "from": "pi_qi_xu",
+      "to": "pi_shen_yang_xu",
+      "relation": "發展",
+      "condition": "",
+      "description": "脾氣虛證演變為pi_shen_yang_xu"
+    },
+    {
+      "from": "tai_yang_zheng",
+      "to": "shao_yang_zheng",
+      "relation": "發展",
+      "condition": "",
+      "description": "太陽證寒熱並見，少陽證往來寒熱"
+    },
+    {
+      "from": "tai_yang_zheng",
+      "to": "yang_ming_zheng",
+      "relation": "發展",
+      "condition": "",
+      "description": "太陽主表宜解表，陽明主里宜清里"
+    },
+    {
+      "from": "tai_yang_zheng",
+      "to": "tai_yin_zheng",
+      "relation": "發展",
+      "condition": "",
+      "description": "太陽證演變為太陰證"
+    },
+    {
+      "from": "tai_yang_zheng",
+      "to": "shao_yin_zheng",
+      "relation": "發展",
+      "condition": "",
+      "description": "太陽證演變為少陰證"
+    },
+    {
+      "from": "tai_yang_zheng",
+      "to": "jue_yin_zheng",
+      "relation": "發展",
+      "condition": "",
+      "description": "太陽證演變為jue_yin_zheng"
+    },
+    {
+      "from": "shao_yin_zheng",
+      "to": "jue_yin_zheng",
+      "relation": "發展",
+      "condition": "",
+      "description": "少陰證一派虛寒，厥陰證寒熱錯雜"
+    },
+    {
+      "from": "yang_ming_zheng",
+      "to": "shao_yin_zheng",
+      "relation": "發展",
+      "condition": "",
+      "description": "yang_ming_zheng演變為少陰證"
+    },
+    {
+      "from": "tai_yin_zheng",
+      "to": "shao_yin_zheng",
+      "relation": "發展",
+      "condition": "",
+      "description": "下利後口渴與不渴：太陰病多從寒濕化生，寒濕瀰漫故口不渴；少陰證下利，腎陽虛不能蒸化津液上達，故多口渴"
+    },
+    {
+      "from": "qi_xu",
+      "to": "qi_xu_bu_gu",
+      "relation": "惡化",
+      "condition": "",
+      "description": "qi_xu演變為氣不固攝證"
+    },
+    {
+      "from": "tai_yin_zheng",
+      "to": "yang_ming_zheng",
+      "relation": "發展",
+      "condition": "",
+      "description": "太陰里虛寒濕，陽明里實熱燥，性質截然不同"
+    },
+    {
+      "from": "fei_qi_xu",
+      "to": "fei_pi_qi_xu",
+      "relation": "發展",
+      "condition": "",
+      "description": "肺氣虛證演變為fei_pi_qi_xu"
+    },
+    {
+      "from": "fei_qi_xu",
+      "to": "qi_xu_tan_sou",
+      "relation": "發展",
+      "condition": "",
+      "description": "肺氣虛證演變為qi_xu_tan_sou"
+    },
+    {
+      "from": "fei_qi_xu",
+      "to": "biao_wei_bu_gu",
+      "relation": "發展",
+      "condition": "",
+      "description": "肺氣虛證演變為biao_wei_bu_gu"
+    },
+    {
+      "from": "shao_yang_zheng",
+      "to": "yang_ming_zheng",
+      "relation": "發展",
+      "condition": "",
+      "description": "少陽證往來寒熱，陽明證但熱不寒"
+    },
+    {
+      "from": "shao_yang_zheng",
+      "to": "tai_yin_zheng",
+      "relation": "發展",
+      "condition": "",
+      "description": "少陽證演變為太陰證"
+    },
+    {
+      "from": "qi_xu",
+      "to": "qi_xue_liang_xu",
+      "relation": "發展",
+      "condition": "",
+      "description": "qi_xu演變為氣血兩虛證"
+    },
+    {
+      "from": "xue_xu",
+      "to": "qi_xue_liang_xu",
+      "relation": "發展",
+      "condition": "",
+      "description": "xue_xu演變為氣血兩虛證"
+    },
+    {
+      "from": "wang_yin_zheng",
+      "to": "wang_yang_zheng",
+      "relation": "危變",
+      "condition": "",
+      "description": "亡陰證演變為亡陽證"
+    },
+    {
+      "from": "yin_xu_zheng",
+      "to": "wang_yin_zheng",
+      "relation": "危變",
+      "condition": "",
+      "description": "yin_xu_zheng演變為亡陰證"
+    },
+    {
+      "from": "xin_qi_xu",
+      "to": "xin_yang_xu",
+      "relation": "發展",
+      "condition": "",
+      "description": "心氣虛證演變為xin_yang_xu"
+    },
+    {
+      "from": "xin_qi_xu",
+      "to": "qi_xue_liang_xu",
+      "relation": "發展",
+      "condition": "",
+      "description": "心氣虛證演變為氣血兩虛證"
+    },
+    {
+      "from": "zhong_qi_xia_xian",
+      "to": "qi_tuo_zheng",
+      "relation": "惡化",
+      "condition": "",
+      "description": "中氣下陷證演變為氣脫證"
+    },
+    {
+      "from": "qi_xu_zheng",
+      "to": "zhong_qi_xia_xian",
+      "relation": "惡化",
+      "condition": "",
+      "description": "氣虛證演變為中氣下陷證"
+    },
+    {
+      "from": "pi_qi_xu",
+      "to": "zhong_qi_xia_xian",
+      "relation": "惡化",
+      "condition": "",
+      "description": "脾氣虛證演變為中氣下陷證"
+    },
+    {
+      "from": "qi_tuo_zheng",
+      "to": "wang_yin_zheng",
+      "relation": "危變",
+      "condition": "",
+      "description": "氣脫證可為亡陰證的前奏"
+    },
+    {
+      "from": "qi_tuo_zheng",
+      "to": "wang_yang_zheng",
+      "relation": "危變",
+      "condition": "",
+      "description": "氣脫證可為亡陽證的先驅證候"
+    },
+    {
+      "from": "qi_xu_zheng",
+      "to": "qi_tuo_zheng",
+      "relation": "惡化",
+      "condition": "",
+      "description": "氣虛證演變為氣脫證"
+    },
+    {
+      "from": "yang_xu_zheng",
+      "to": "wang_yang_zheng",
+      "relation": "危變",
+      "condition": "",
+      "description": "yang_xu_zheng演變為亡陽證"
+    },
+    {
+      "from": "qi_xu_zheng",
+      "to": "qi_xue_liang_xu",
+      "relation": "發展",
+      "condition": "",
+      "description": "氣虛證演變為氣血兩虛證"
+    },
+    {
+      "from": "shen_qi_xu",
+      "to": "shen_yang_xu",
+      "relation": "發展",
+      "condition": "",
+      "description": "腎氣虛證演變為shen_yang_xu"
+    },
+    {
+      "from": "shen_qi_xu",
+      "to": "shen_bu_na_qi",
+      "relation": "發展",
+      "condition": "",
+      "description": "腎氣虛證演變為shen_bu_na_qi"
+    }
+  ],
+  "evolution_chains": [
+    {
+      "id": "chain_tai_yang_zheng",
+      "name": "太陽證演變鏈",
+      "description": "從太陽證到少陰證的演變路徑",
+      "path": [
+        "tai_yang_zheng",
+        "shao_yang_zheng",
+        "tai_yin_zheng",
+        "shao_yin_zheng"
+      ],
+      "severity_progression": "輕 → 輕 → 輕 → 輕"
+    },
+    {
+      "id": "chain_xin_qi_xu",
+      "name": "心氣虛證演變鏈",
+      "description": "從心氣虛證到氣血兩虛證的演變路徑",
+      "path": [
+        "xin_qi_xu",
+        "qi_xue_liang_xu"
+      ],
+      "severity_progression": "輕 → 輕"
+    },
+    {
+      "id": "chain_qi_xu_zheng",
+      "name": "氣虛證演變鏈",
+      "description": "從氣虛證到亡陽證的演變路徑",
+      "path": [
+        "qi_xu_zheng",
+        "zhong_qi_xia_xian",
+        "qi_tuo_zheng",
+        "wang_yin_zheng",
+        "wang_yang_zheng"
+      ],
+      "severity_progression": "輕 → 中 → 重 → 危 → 危"
+    },
+    {
+      "id": "chain_pi_qi_xu",
+      "name": "脾氣虛證演變鏈",
+      "description": "從脾氣虛證到亡陽證的演變路徑",
+      "path": [
+        "pi_qi_xu",
+        "zhong_qi_xia_xian",
+        "qi_tuo_zheng",
+        "wang_yin_zheng",
+        "wang_yang_zheng"
+      ],
+      "severity_progression": "輕 → 中 → 重 → 危 → 危"
+    },
+    {
+      "id": "chain_shen_qi_xu",
+      "name": "腎氣虛證演變鏈",
+      "description": "從腎氣虛證到腎氣不固證的演變路徑",
+      "path": [
+        "shen_qi_xu",
+        "shen_qi_bu_gu"
+      ],
+      "severity_progression": "輕 → 中"
+    },
+    {
+      "id": "qi_disease_chain",
+      "name": "氣病演變鏈",
+      "description": "從氣虛到氣脫的完整演變路徑",
+      "path": [
+        "qi_xu_zheng",
+        "zhong_qi_xia_xian",
+        "qi_tuo_zheng"
+      ],
+      "severity_progression": "輕 → 中 → 重"
+    }
+  ],
+  "branch_points": [
+    {
+      "from": "shen_qi_xu",
+      "from_name": "腎氣虛證",
+      "branches": [
+        {
+          "to": "shen_qi_bu_gu",
+          "to_name": "腎氣不固證",
+          "description": ""
+        },
+        {
+          "to": "shen_yang_xu",
+          "to_name": "shen_yang_xu",
+          "description": ""
+        },
+        {
+          "to": "shen_bu_na_qi",
+          "to_name": "shen_bu_na_qi",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "from": "zhong_qi_xia_xian",
+      "from_name": "中氣下陷證",
+      "branches": [
+        {
+          "to": "shen_qi_bu_gu",
+          "to_name": "腎氣不固證",
+          "description": ""
+        },
+        {
+          "to": "qi_tuo_zheng",
+          "to_name": "氣脫證",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "from": "pi_qi_xu",
+      "from_name": "脾氣虛證",
+      "branches": [
+        {
+          "to": "qingyang_busheng_zheng",
+          "to_name": "清陽不升證",
+          "description": ""
+        },
+        {
+          "to": "pi_qi_xian",
+          "to_name": "pi_qi_xian",
+          "description": ""
+        },
+        {
+          "to": "pi_bu_tong_xue",
+          "to_name": "pi_bu_tong_xue",
+          "description": ""
+        },
+        {
+          "to": "fei_pi_qi_xu",
+          "to_name": "fei_pi_qi_xu",
+          "description": ""
+        },
+        {
+          "to": "pi_shen_yang_xu",
+          "to_name": "pi_shen_yang_xu",
+          "description": ""
+        },
+        {
+          "to": "zhong_qi_xia_xian",
+          "to_name": "中氣下陷證",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "from": "tai_yang_zheng",
+      "from_name": "太陽證",
+      "branches": [
+        {
+          "to": "shao_yang_zheng",
+          "to_name": "少陽證",
+          "description": ""
+        },
+        {
+          "to": "yang_ming_zheng",
+          "to_name": "yang_ming_zheng",
+          "description": ""
+        },
+        {
+          "to": "tai_yin_zheng",
+          "to_name": "太陰證",
+          "description": ""
+        },
+        {
+          "to": "shao_yin_zheng",
+          "to_name": "少陰證",
+          "description": ""
+        },
+        {
+          "to": "jue_yin_zheng",
+          "to_name": "jue_yin_zheng",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "from": "tai_yin_zheng",
+      "from_name": "太陰證",
+      "branches": [
+        {
+          "to": "shao_yin_zheng",
+          "to_name": "少陰證",
+          "description": ""
+        },
+        {
+          "to": "yang_ming_zheng",
+          "to_name": "yang_ming_zheng",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "from": "qi_xu",
+      "from_name": "qi_xu",
+      "branches": [
+        {
+          "to": "qi_xu_bu_gu",
+          "to_name": "氣不固攝證",
+          "description": ""
+        },
+        {
+          "to": "qi_xue_liang_xu",
+          "to_name": "氣血兩虛證",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "from": "fei_qi_xu",
+      "from_name": "肺氣虛證",
+      "branches": [
+        {
+          "to": "fei_pi_qi_xu",
+          "to_name": "fei_pi_qi_xu",
+          "description": ""
+        },
+        {
+          "to": "qi_xu_tan_sou",
+          "to_name": "qi_xu_tan_sou",
+          "description": ""
+        },
+        {
+          "to": "biao_wei_bu_gu",
+          "to_name": "biao_wei_bu_gu",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "from": "shao_yang_zheng",
+      "from_name": "少陽證",
+      "branches": [
+        {
+          "to": "yang_ming_zheng",
+          "to_name": "yang_ming_zheng",
+          "description": ""
+        },
+        {
+          "to": "tai_yin_zheng",
+          "to_name": "太陰證",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "from": "xin_qi_xu",
+      "from_name": "心氣虛證",
+      "branches": [
+        {
+          "to": "xin_yang_xu",
+          "to_name": "xin_yang_xu",
+          "description": ""
+        },
+        {
+          "to": "qi_xue_liang_xu",
+          "to_name": "氣血兩虛證",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "from": "qi_xu_zheng",
+      "from_name": "氣虛證",
+      "branches": [
+        {
+          "to": "zhong_qi_xia_xian",
+          "to_name": "中氣下陷證",
+          "description": ""
+        },
+        {
+          "to": "qi_tuo_zheng",
+          "to_name": "氣脫證",
+          "description": ""
+        },
+        {
+          "to": "qi_xue_liang_xu",
+          "to_name": "氣血兩虛證",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "from": "qi_tuo_zheng",
+      "from_name": "氣脫證",
+      "branches": [
+        {
+          "to": "wang_yin_zheng",
+          "to_name": "亡陰證",
+          "description": ""
+        },
+        {
+          "to": "wang_yang_zheng",
+          "to_name": "亡陽證",
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_nodes": 19,
+    "total_edges": 38,
+    "critical_nodes": 4,
+    "evolution_chains": 6
+  }
+}

@@ -1,0 +1,1403 @@
+{
+  "version": "1.0",
+  "generated_at": "2025-12-05",
+  "description": "證素與證型的雙向對應關係，支援證素篩選功能",
+  "by_zhengsu": {
+    "jingshi": {
+      "name": "精室",
+      "category": "病位",
+      "subcategory": "特殊",
+      "treatment": null,
+      "related_zhengxing": []
+    },
+    "jifu": {
+      "name": "肌膚",
+      "category": "病位",
+      "subcategory": "形體",
+      "treatment": null,
+      "related_zhengxing": []
+    },
+    "yang_xu": {
+      "name": "陽虛",
+      "category": "病性",
+      "subcategory": "陰陽病變",
+      "treatment": "溫陽",
+      "related_zhengxing": [
+        {
+          "id": "tai_yin_zheng",
+          "name": "太陰證",
+          "is_primary": false
+        },
+        {
+          "id": "shao_yin_zheng",
+          "name": "少陰證",
+          "is_primary": false
+        }
+      ]
+    },
+    "shaofu": {
+      "name": "少腹",
+      "category": "病位",
+      "subcategory": "部位",
+      "treatment": null,
+      "related_zhengxing": []
+    },
+    "shui_ting": {
+      "name": "水停",
+      "category": "病性",
+      "subcategory": "病理產物",
+      "treatment": "利水",
+      "related_zhengxing": []
+    },
+    "xiongge": {
+      "name": "胸膈",
+      "category": "病位",
+      "subcategory": "部位",
+      "treatment": null,
+      "related_zhengxing": []
+    },
+    "dan": {
+      "name": "膽",
+      "category": "病位",
+      "subcategory": "六腑",
+      "treatment": null,
+      "related_zhengxing": [
+        {
+          "id": "shao_yang_zheng",
+          "name": "少陽證",
+          "is_primary": true
+        }
+      ]
+    },
+    "feng": {
+      "name": "風",
+      "category": "病性",
+      "subcategory": "外邪",
+      "treatment": "祛風",
+      "related_zhengxing": [
+        {
+          "id": "tai_yang_zheng",
+          "name": "太陽證",
+          "is_primary": false
+        }
+      ]
+    },
+    "yang_kang": {
+      "name": "陽亢",
+      "category": "病性",
+      "subcategory": "陰陽病變",
+      "treatment": "平肝潛陽",
+      "related_zhengxing": []
+    },
+    "wang_yin": {
+      "name": "亡陰",
+      "category": "病性",
+      "subcategory": "陰陽病變",
+      "treatment": "救陰",
+      "related_zhengxing": [
+        {
+          "id": "wang_yin_zheng",
+          "name": "亡陰證",
+          "is_primary": true
+        }
+      ]
+    },
+    "xin": {
+      "name": "心",
+      "category": "病位",
+      "subcategory": "五臟",
+      "treatment": null,
+      "related_zhengxing": [
+        {
+          "id": "shao_yin_zheng",
+          "name": "少陰證",
+          "is_primary": true
+        },
+        {
+          "id": "xin_qi_xu",
+          "name": "心氣虛證",
+          "is_primary": true
+        }
+      ]
+    },
+    "qi_ni": {
+      "name": "氣逆",
+      "category": "病性",
+      "subcategory": "氣機病變",
+      "treatment": "降氣",
+      "related_zhengxing": []
+    },
+    "pi": {
+      "name": "脾",
+      "category": "病位",
+      "subcategory": "五臟",
+      "treatment": null,
+      "related_zhengxing": [
+        {
+          "id": "zhong_qi_xia_xian",
+          "name": "中氣下陷證",
+          "is_primary": true
+        },
+        {
+          "id": "qingyang_busheng_zheng",
+          "name": "清陽不升證",
+          "is_primary": true
+        },
+        {
+          "id": "pi_qi_xu",
+          "name": "脾氣虛證",
+          "is_primary": true
+        },
+        {
+          "id": "tai_yin_zheng",
+          "name": "太陰證",
+          "is_primary": false
+        }
+      ]
+    },
+    "xue_han": {
+      "name": "血寒",
+      "category": "病性",
+      "subcategory": "血液病變",
+      "treatment": "溫經",
+      "related_zhengxing": []
+    },
+    "shu": {
+      "name": "暑",
+      "category": "病性",
+      "subcategory": "外邪",
+      "treatment": "清暑",
+      "related_zhengxing": []
+    },
+    "dong_xue": {
+      "name": "動血",
+      "category": "病性",
+      "subcategory": "血液病變",
+      "treatment": "止血",
+      "related_zhengxing": []
+    },
+    "qi_xu": {
+      "name": "氣虛",
+      "category": "病性",
+      "subcategory": "氣機病變",
+      "treatment": "補氣",
+      "related_zhengxing": [
+        {
+          "id": "xin_qi_xu",
+          "name": "心氣虛證",
+          "is_primary": true
+        },
+        {
+          "id": "qi_xu_zheng",
+          "name": "氣虛證",
+          "is_primary": true
+        },
+        {
+          "id": "gan_qi_xu",
+          "name": "肝氣虛證",
+          "is_primary": true
+        },
+        {
+          "id": "fei_qi_xu",
+          "name": "肺氣虛證",
+          "is_primary": true
+        },
+        {
+          "id": "pi_qi_xu",
+          "name": "脾氣虛證",
+          "is_primary": true
+        },
+        {
+          "id": "shen_qi_xu",
+          "name": "腎氣虛證",
+          "is_primary": true
+        },
+        {
+          "id": "zhong_qi_xia_xian",
+          "name": "中氣下陷證",
+          "is_primary": false
+        },
+        {
+          "id": "qi_xu_bu_gu",
+          "name": "氣不固攝證",
+          "is_primary": false
+        },
+        {
+          "id": "qi_xue_liang_xu",
+          "name": "氣血兩虛證",
+          "is_primary": false
+        },
+        {
+          "id": "qingyang_busheng_zheng",
+          "name": "清陽不升證",
+          "is_primary": false
+        },
+        {
+          "id": "shen_qi_bu_gu",
+          "name": "腎氣不固證",
+          "is_primary": false
+        }
+      ]
+    },
+    "shi": {
+      "name": "濕",
+      "category": "病性",
+      "subcategory": "外邪",
+      "treatment": "化濕",
+      "related_zhengxing": [
+        {
+          "id": "tai_yin_zheng",
+          "name": "太陰證",
+          "is_primary": false
+        }
+      ]
+    },
+    "nong": {
+      "name": "膿",
+      "category": "病性",
+      "subcategory": "病理產物",
+      "treatment": "排膿",
+      "related_zhengxing": []
+    },
+    "banbiaobanli": {
+      "name": "半表半裡",
+      "category": "病位",
+      "subcategory": "表裡",
+      "treatment": null,
+      "related_zhengxing": [
+        {
+          "id": "shao_yang_zheng",
+          "name": "少陽證",
+          "is_primary": true
+        }
+      ]
+    },
+    "bu_gu": {
+      "name": "不固",
+      "category": "病性",
+      "subcategory": "氣機病變",
+      "treatment": "收攝",
+      "related_zhengxing": [
+        {
+          "id": "qi_xu_bu_gu",
+          "name": "氣不固攝證",
+          "is_primary": false
+        },
+        {
+          "id": "shen_qi_bu_gu",
+          "name": "腎氣不固證",
+          "is_primary": false
+        }
+      ]
+    },
+    "tan": {
+      "name": "痰",
+      "category": "病性",
+      "subcategory": "病理產物",
+      "treatment": "化痰",
+      "related_zhengxing": []
+    },
+    "dachang": {
+      "name": "大腸",
+      "category": "病位",
+      "subcategory": "六腑",
+      "treatment": null,
+      "related_zhengxing": []
+    },
+    "baogong": {
+      "name": "胞宮",
+      "category": "病位",
+      "subcategory": "特殊",
+      "treatment": null,
+      "related_zhengxing": []
+    },
+    "jing_kui": {
+      "name": "精虧",
+      "category": "病性",
+      "subcategory": "精津病變",
+      "treatment": "填精",
+      "related_zhengxing": []
+    },
+    "zao": {
+      "name": "燥",
+      "category": "病性",
+      "subcategory": "外邪",
+      "treatment": "潤燥",
+      "related_zhengxing": []
+    },
+    "dong_feng": {
+      "name": "動風",
+      "category": "病性",
+      "subcategory": "內生病邪",
+      "treatment": "熄風",
+      "related_zhengxing": []
+    },
+    "jin_kui": {
+      "name": "津虧",
+      "category": "病性",
+      "subcategory": "精津病變",
+      "treatment": "生津",
+      "related_zhengxing": []
+    },
+    "xue_yu": {
+      "name": "血瘀",
+      "category": "病性",
+      "subcategory": "血液病變",
+      "treatment": "活血",
+      "related_zhengxing": []
+    },
+    "pangguang": {
+      "name": "膀胱",
+      "category": "病位",
+      "subcategory": "六腑",
+      "treatment": null,
+      "related_zhengxing": []
+    },
+    "chong_ji": {
+      "name": "蟲積",
+      "category": "病性",
+      "subcategory": "病理產物",
+      "treatment": "驅蟲",
+      "related_zhengxing": []
+    },
+    "huo": {
+      "name": "火",
+      "category": "病性",
+      "subcategory": "外邪",
+      "treatment": "瀉火",
+      "related_zhengxing": [
+        {
+          "id": "shao_yang_zheng",
+          "name": "少陽證",
+          "is_primary": true
+        }
+      ]
+    },
+    "wang_yang": {
+      "name": "亡陽",
+      "category": "病性",
+      "subcategory": "陰陽病變",
+      "treatment": "回陽",
+      "related_zhengxing": [
+        {
+          "id": "wang_yang_zheng",
+          "name": "亡陽證",
+          "is_primary": true
+        }
+      ]
+    },
+    "qi_zhi": {
+      "name": "氣滯",
+      "category": "病性",
+      "subcategory": "氣機病變",
+      "treatment": "行氣",
+      "related_zhengxing": []
+    },
+    "qi_jue": {
+      "name": "氣厥",
+      "category": "病性",
+      "subcategory": "氣機病變",
+      "treatment": "開鬱醒神",
+      "related_zhengxing": [
+        {
+          "id": "qi_jue_zheng",
+          "name": "氣厥證",
+          "is_primary": true
+        }
+      ]
+    },
+    "jingu": {
+      "name": "筋骨",
+      "category": "病位",
+      "subcategory": "形體",
+      "treatment": null,
+      "related_zhengxing": []
+    },
+    "yang_fu": {
+      "name": "陽浮",
+      "category": "病性",
+      "subcategory": "陰陽病變",
+      "treatment": "引火歸元",
+      "related_zhengxing": []
+    },
+    "qi_xian": {
+      "name": "氣陷",
+      "category": "病性",
+      "subcategory": "氣機病變",
+      "treatment": "升提",
+      "related_zhengxing": [
+        {
+          "id": "zhong_qi_xia_xian",
+          "name": "中氣下陷證",
+          "is_primary": false
+        }
+      ]
+    },
+    "wei": {
+      "name": "胃",
+      "category": "病位",
+      "subcategory": "六腑",
+      "treatment": null,
+      "related_zhengxing": []
+    },
+    "yin_xu": {
+      "name": "陰虛",
+      "category": "病性",
+      "subcategory": "陰陽病變",
+      "treatment": "滋陰",
+      "related_zhengxing": [
+        {
+          "id": "shao_yin_zheng",
+          "name": "少陰證",
+          "is_primary": false
+        }
+      ]
+    },
+    "jingluo": {
+      "name": "經絡",
+      "category": "病位",
+      "subcategory": "形體",
+      "treatment": null,
+      "related_zhengxing": []
+    },
+    "du": {
+      "name": "毒",
+      "category": "病性",
+      "subcategory": "外邪",
+      "treatment": "解毒",
+      "related_zhengxing": []
+    },
+    "qi_bi": {
+      "name": "氣閉",
+      "category": "病性",
+      "subcategory": "氣機病變",
+      "treatment": "開閉",
+      "related_zhengxing": []
+    },
+    "shen": {
+      "name": "腎",
+      "category": "病位",
+      "subcategory": "五臟",
+      "treatment": null,
+      "related_zhengxing": [
+        {
+          "id": "shao_yin_zheng",
+          "name": "少陰證",
+          "is_primary": true
+        },
+        {
+          "id": "shen_qi_bu_gu",
+          "name": "腎氣不固證",
+          "is_primary": true
+        },
+        {
+          "id": "shen_qi_xu",
+          "name": "腎氣虛證",
+          "is_primary": true
+        }
+      ]
+    },
+    "shi_ji": {
+      "name": "食積",
+      "category": "病性",
+      "subcategory": "病理產物",
+      "treatment": "消食",
+      "related_zhengxing": []
+    },
+    "qingyang_busheng": {
+      "name": "清陽不升",
+      "category": "病性",
+      "subcategory": "氣機病變",
+      "treatment": "升清降濁",
+      "related_zhengxing": [
+        {
+          "id": "qingyang_busheng_zheng",
+          "name": "清陽不升證",
+          "is_primary": false
+        }
+      ]
+    },
+    "biao": {
+      "name": "表",
+      "category": "病位",
+      "subcategory": "表裡",
+      "treatment": null,
+      "related_zhengxing": [
+        {
+          "id": "tai_yang_zheng",
+          "name": "太陽證",
+          "is_primary": true
+        }
+      ]
+    },
+    "gan": {
+      "name": "肝",
+      "category": "病位",
+      "subcategory": "五臟",
+      "treatment": null,
+      "related_zhengxing": [
+        {
+          "id": "gan_qi_xu",
+          "name": "肝氣虛證",
+          "is_primary": true
+        }
+      ]
+    },
+    "xiaochang": {
+      "name": "小腸",
+      "category": "病位",
+      "subcategory": "六腑",
+      "treatment": null,
+      "related_zhengxing": []
+    },
+    "xue_xu": {
+      "name": "血虛",
+      "category": "病性",
+      "subcategory": "血液病變",
+      "treatment": "補血",
+      "related_zhengxing": [
+        {
+          "id": "qi_xue_liang_xu",
+          "name": "氣血兩虛證",
+          "is_primary": false
+        }
+      ]
+    },
+    "xue_re": {
+      "name": "血熱",
+      "category": "病性",
+      "subcategory": "血液病變",
+      "treatment": "涼血",
+      "related_zhengxing": []
+    },
+    "han": {
+      "name": "寒",
+      "category": "病性",
+      "subcategory": "外邪",
+      "treatment": "散寒",
+      "related_zhengxing": [
+        {
+          "id": "tai_yin_zheng",
+          "name": "太陰證",
+          "is_primary": false
+        },
+        {
+          "id": "tai_yang_zheng",
+          "name": "太陽證",
+          "is_primary": false
+        }
+      ]
+    },
+    "yin": {
+      "name": "飲",
+      "category": "病性",
+      "subcategory": "病理產物",
+      "treatment": "化飲",
+      "related_zhengxing": []
+    },
+    "fei": {
+      "name": "肺",
+      "category": "病位",
+      "subcategory": "五臟",
+      "treatment": null,
+      "related_zhengxing": [
+        {
+          "id": "fei_qi_xu",
+          "name": "肺氣虛證",
+          "is_primary": true
+        }
+      ]
+    },
+    "qi_tuo": {
+      "name": "氣脫",
+      "category": "病性",
+      "subcategory": "氣機病變",
+      "treatment": "固脫",
+      "related_zhengxing": [
+        {
+          "id": "qi_tuo_zheng",
+          "name": "氣脫證",
+          "is_primary": true
+        }
+      ]
+    }
+  },
+  "by_zhengxing": {
+    "gan_qi_xu": {
+      "name": "肝氣虛證",
+      "location": [
+        "gan"
+      ],
+      "location_names": [
+        "肝"
+      ],
+      "nature": [
+        "qi_xu"
+      ],
+      "nature_names": [
+        "氣虛"
+      ],
+      "combined_treatment": [
+        "補氣"
+      ]
+    },
+    "shen_qi_bu_gu": {
+      "name": "腎氣不固證",
+      "location": [
+        "shen"
+      ],
+      "location_names": [
+        "腎"
+      ],
+      "nature": [
+        "qi_xu",
+        "bu_gu"
+      ],
+      "nature_names": [
+        "氣虛",
+        "不固"
+      ],
+      "combined_treatment": [
+        "補氣",
+        "收攝"
+      ]
+    },
+    "qingyang_busheng_zheng": {
+      "name": "清陽不升證",
+      "location": [
+        "pi"
+      ],
+      "location_names": [
+        "脾"
+      ],
+      "nature": [
+        "qi_xu",
+        "qingyang_busheng"
+      ],
+      "nature_names": [
+        "氣虛",
+        "清陽不升"
+      ],
+      "combined_treatment": [
+        "補氣",
+        "升清降濁"
+      ]
+    },
+    "pi_qi_xu": {
+      "name": "脾氣虛證",
+      "location": [
+        "pi"
+      ],
+      "location_names": [
+        "脾"
+      ],
+      "nature": [
+        "qi_xu"
+      ],
+      "nature_names": [
+        "氣虛"
+      ],
+      "combined_treatment": [
+        "補氣"
+      ]
+    },
+    "tai_yang_zheng": {
+      "name": "太陽證",
+      "location": [
+        "biao"
+      ],
+      "location_names": [
+        "表"
+      ],
+      "nature": [
+        "han",
+        "feng"
+      ],
+      "nature_names": [
+        "寒",
+        "風"
+      ],
+      "combined_treatment": [
+        "散寒",
+        "祛風"
+      ]
+    },
+    "shao_yin_zheng": {
+      "name": "少陰證",
+      "location": [
+        "xin",
+        "shen"
+      ],
+      "location_names": [
+        "心",
+        "腎"
+      ],
+      "nature": [
+        "yang_xu",
+        "yin_xu"
+      ],
+      "nature_names": [
+        "陽虛",
+        "陰虛"
+      ],
+      "combined_treatment": [
+        "溫陽",
+        "滋陰"
+      ]
+    },
+    "qi_xu_bu_gu": {
+      "name": "氣不固攝證",
+      "location": [],
+      "location_names": [],
+      "nature": [
+        "qi_xu",
+        "bu_gu"
+      ],
+      "nature_names": [
+        "氣虛",
+        "不固"
+      ],
+      "combined_treatment": [
+        "補氣",
+        "收攝"
+      ]
+    },
+    "tai_yin_zheng": {
+      "name": "太陰證",
+      "location": [
+        "pi"
+      ],
+      "location_names": [
+        "脾"
+      ],
+      "nature": [
+        "yang_xu",
+        "han",
+        "shi"
+      ],
+      "nature_names": [
+        "陽虛",
+        "寒",
+        "濕"
+      ],
+      "combined_treatment": [
+        "溫陽",
+        "散寒",
+        "化濕"
+      ]
+    },
+    "fei_qi_xu": {
+      "name": "肺氣虛證",
+      "location": [
+        "fei"
+      ],
+      "location_names": [
+        "肺"
+      ],
+      "nature": [
+        "qi_xu"
+      ],
+      "nature_names": [
+        "氣虛"
+      ],
+      "combined_treatment": [
+        "補氣"
+      ]
+    },
+    "qi_jue_zheng": {
+      "name": "氣厥證",
+      "location": [],
+      "location_names": [],
+      "nature": [
+        "qi_jue"
+      ],
+      "nature_names": [
+        "氣厥"
+      ],
+      "combined_treatment": [
+        "開鬱醒神"
+      ]
+    },
+    "shao_yang_zheng": {
+      "name": "少陽證",
+      "location": [
+        "dan",
+        "banbiaobanli"
+      ],
+      "location_names": [
+        "膽",
+        "半表半裡"
+      ],
+      "nature": [
+        "huo"
+      ],
+      "nature_names": [
+        "火"
+      ],
+      "combined_treatment": [
+        "瀉火"
+      ]
+    },
+    "qi_xue_liang_xu": {
+      "name": "氣血兩虛證",
+      "location": [],
+      "location_names": [],
+      "nature": [
+        "qi_xu",
+        "xue_xu"
+      ],
+      "nature_names": [
+        "氣虛",
+        "血虛"
+      ],
+      "combined_treatment": [
+        "補氣",
+        "補血"
+      ]
+    },
+    "wang_yin_zheng": {
+      "name": "亡陰證",
+      "location": [],
+      "location_names": [],
+      "nature": [
+        "wang_yin"
+      ],
+      "nature_names": [
+        "亡陰"
+      ],
+      "combined_treatment": [
+        "救陰"
+      ]
+    },
+    "xin_qi_xu": {
+      "name": "心氣虛證",
+      "location": [
+        "xin"
+      ],
+      "location_names": [
+        "心"
+      ],
+      "nature": [
+        "qi_xu"
+      ],
+      "nature_names": [
+        "氣虛"
+      ],
+      "combined_treatment": [
+        "補氣"
+      ]
+    },
+    "zhong_qi_xia_xian": {
+      "name": "中氣下陷證",
+      "location": [
+        "pi"
+      ],
+      "location_names": [
+        "脾"
+      ],
+      "nature": [
+        "qi_xu",
+        "qi_xian"
+      ],
+      "nature_names": [
+        "氣虛",
+        "氣陷"
+      ],
+      "combined_treatment": [
+        "補氣",
+        "升提"
+      ]
+    },
+    "qi_tuo_zheng": {
+      "name": "氣脫證",
+      "location": [],
+      "location_names": [],
+      "nature": [
+        "qi_tuo"
+      ],
+      "nature_names": [
+        "氣脫"
+      ],
+      "combined_treatment": [
+        "固脫"
+      ]
+    },
+    "wang_yang_zheng": {
+      "name": "亡陽證",
+      "location": [],
+      "location_names": [],
+      "nature": [
+        "wang_yang"
+      ],
+      "nature_names": [
+        "亡陽"
+      ],
+      "combined_treatment": [
+        "回陽"
+      ]
+    },
+    "qi_xu_zheng": {
+      "name": "氣虛證",
+      "location": [],
+      "location_names": [],
+      "nature": [
+        "qi_xu"
+      ],
+      "nature_names": [
+        "氣虛"
+      ],
+      "combined_treatment": [
+        "補氣"
+      ]
+    },
+    "shen_qi_xu": {
+      "name": "腎氣虛證",
+      "location": [
+        "shen"
+      ],
+      "location_names": [
+        "腎"
+      ],
+      "nature": [
+        "qi_xu"
+      ],
+      "nature_names": [
+        "氣虛"
+      ],
+      "combined_treatment": [
+        "補氣"
+      ]
+    }
+  },
+  "combination_patterns": {
+    "description": "常見的證素組合模式",
+    "patterns": [
+      {
+        "name": "不固+氣虛",
+        "zhengsu": [
+          "bu_gu",
+          "qi_xu"
+        ],
+        "zhengsu_names": [
+          "不固",
+          "氣虛"
+        ],
+        "typical_zhengxing": "腎氣不固證",
+        "typical_zhengxing_id": "shen_qi_bu_gu",
+        "treatment": "收攝、補氣",
+        "occurrence_count": 2
+      },
+      {
+        "name": "氣虛+清陽不升",
+        "zhengsu": [
+          "qi_xu",
+          "qingyang_busheng"
+        ],
+        "zhengsu_names": [
+          "氣虛",
+          "清陽不升"
+        ],
+        "typical_zhengxing": "清陽不升證",
+        "typical_zhengxing_id": "qingyang_busheng_zheng",
+        "treatment": "補氣、升清降濁",
+        "occurrence_count": 1
+      },
+      {
+        "name": "風+寒",
+        "zhengsu": [
+          "feng",
+          "han"
+        ],
+        "zhengsu_names": [
+          "風",
+          "寒"
+        ],
+        "typical_zhengxing": "太陽證",
+        "typical_zhengxing_id": "tai_yang_zheng",
+        "treatment": "祛風、散寒",
+        "occurrence_count": 1
+      },
+      {
+        "name": "陽虛+陰虛",
+        "zhengsu": [
+          "yang_xu",
+          "yin_xu"
+        ],
+        "zhengsu_names": [
+          "陽虛",
+          "陰虛"
+        ],
+        "typical_zhengxing": "少陰證",
+        "typical_zhengxing_id": "shao_yin_zheng",
+        "treatment": "溫陽、滋陰",
+        "occurrence_count": 1
+      },
+      {
+        "name": "寒+濕+陽虛",
+        "zhengsu": [
+          "han",
+          "shi",
+          "yang_xu"
+        ],
+        "zhengsu_names": [
+          "寒",
+          "濕",
+          "陽虛"
+        ],
+        "typical_zhengxing": "太陰證",
+        "typical_zhengxing_id": "tai_yin_zheng",
+        "treatment": "散寒、化濕、溫陽",
+        "occurrence_count": 1
+      },
+      {
+        "name": "氣虛+血虛",
+        "zhengsu": [
+          "qi_xu",
+          "xue_xu"
+        ],
+        "zhengsu_names": [
+          "氣虛",
+          "血虛"
+        ],
+        "typical_zhengxing": "氣血兩虛證",
+        "typical_zhengxing_id": "qi_xue_liang_xu",
+        "treatment": "補氣、補血",
+        "occurrence_count": 1
+      },
+      {
+        "name": "氣陷+氣虛",
+        "zhengsu": [
+          "qi_xian",
+          "qi_xu"
+        ],
+        "zhengsu_names": [
+          "氣陷",
+          "氣虛"
+        ],
+        "typical_zhengxing": "中氣下陷證",
+        "typical_zhengxing_id": "zhong_qi_xia_xian",
+        "treatment": "升提、補氣",
+        "occurrence_count": 1
+      }
+    ]
+  },
+  "category_summary": {
+    "病位": {
+      "subcategories": {
+        "特殊": [
+          {
+            "id": "jingshi",
+            "name": "精室",
+            "treatment": null
+          },
+          {
+            "id": "baogong",
+            "name": "胞宮",
+            "treatment": null
+          }
+        ],
+        "形體": [
+          {
+            "id": "jifu",
+            "name": "肌膚",
+            "treatment": null
+          },
+          {
+            "id": "jingu",
+            "name": "筋骨",
+            "treatment": null
+          },
+          {
+            "id": "jingluo",
+            "name": "經絡",
+            "treatment": null
+          }
+        ],
+        "部位": [
+          {
+            "id": "shaofu",
+            "name": "少腹",
+            "treatment": null
+          },
+          {
+            "id": "xiongge",
+            "name": "胸膈",
+            "treatment": null
+          }
+        ],
+        "六腑": [
+          {
+            "id": "dan",
+            "name": "膽",
+            "treatment": null
+          },
+          {
+            "id": "dachang",
+            "name": "大腸",
+            "treatment": null
+          },
+          {
+            "id": "pangguang",
+            "name": "膀胱",
+            "treatment": null
+          },
+          {
+            "id": "wei",
+            "name": "胃",
+            "treatment": null
+          },
+          {
+            "id": "xiaochang",
+            "name": "小腸",
+            "treatment": null
+          }
+        ],
+        "五臟": [
+          {
+            "id": "xin",
+            "name": "心",
+            "treatment": null
+          },
+          {
+            "id": "pi",
+            "name": "脾",
+            "treatment": null
+          },
+          {
+            "id": "shen",
+            "name": "腎",
+            "treatment": null
+          },
+          {
+            "id": "gan",
+            "name": "肝",
+            "treatment": null
+          },
+          {
+            "id": "fei",
+            "name": "肺",
+            "treatment": null
+          }
+        ],
+        "表裡": [
+          {
+            "id": "banbiaobanli",
+            "name": "半表半裡",
+            "treatment": null
+          },
+          {
+            "id": "biao",
+            "name": "表",
+            "treatment": null
+          }
+        ]
+      },
+      "total_count": 19
+    },
+    "病性": {
+      "subcategories": {
+        "陰陽病變": [
+          {
+            "id": "yang_xu",
+            "name": "陽虛",
+            "treatment": "溫陽"
+          },
+          {
+            "id": "yang_kang",
+            "name": "陽亢",
+            "treatment": "平肝潛陽"
+          },
+          {
+            "id": "wang_yin",
+            "name": "亡陰",
+            "treatment": "救陰"
+          },
+          {
+            "id": "wang_yang",
+            "name": "亡陽",
+            "treatment": "回陽"
+          },
+          {
+            "id": "yang_fu",
+            "name": "陽浮",
+            "treatment": "引火歸元"
+          },
+          {
+            "id": "yin_xu",
+            "name": "陰虛",
+            "treatment": "滋陰"
+          }
+        ],
+        "病理產物": [
+          {
+            "id": "shui_ting",
+            "name": "水停",
+            "treatment": "利水"
+          },
+          {
+            "id": "nong",
+            "name": "膿",
+            "treatment": "排膿"
+          },
+          {
+            "id": "tan",
+            "name": "痰",
+            "treatment": "化痰"
+          },
+          {
+            "id": "chong_ji",
+            "name": "蟲積",
+            "treatment": "驅蟲"
+          },
+          {
+            "id": "shi_ji",
+            "name": "食積",
+            "treatment": "消食"
+          },
+          {
+            "id": "yin",
+            "name": "飲",
+            "treatment": "化飲"
+          }
+        ],
+        "外邪": [
+          {
+            "id": "feng",
+            "name": "風",
+            "treatment": "祛風"
+          },
+          {
+            "id": "shu",
+            "name": "暑",
+            "treatment": "清暑"
+          },
+          {
+            "id": "shi",
+            "name": "濕",
+            "treatment": "化濕"
+          },
+          {
+            "id": "zao",
+            "name": "燥",
+            "treatment": "潤燥"
+          },
+          {
+            "id": "huo",
+            "name": "火",
+            "treatment": "瀉火"
+          },
+          {
+            "id": "du",
+            "name": "毒",
+            "treatment": "解毒"
+          },
+          {
+            "id": "han",
+            "name": "寒",
+            "treatment": "散寒"
+          }
+        ],
+        "氣機病變": [
+          {
+            "id": "qi_ni",
+            "name": "氣逆",
+            "treatment": "降氣"
+          },
+          {
+            "id": "qi_xu",
+            "name": "氣虛",
+            "treatment": "補氣"
+          },
+          {
+            "id": "bu_gu",
+            "name": "不固",
+            "treatment": "收攝"
+          },
+          {
+            "id": "qi_zhi",
+            "name": "氣滯",
+            "treatment": "行氣"
+          },
+          {
+            "id": "qi_jue",
+            "name": "氣厥",
+            "treatment": "開鬱醒神"
+          },
+          {
+            "id": "qi_xian",
+            "name": "氣陷",
+            "treatment": "升提"
+          },
+          {
+            "id": "qi_bi",
+            "name": "氣閉",
+            "treatment": "開閉"
+          },
+          {
+            "id": "qingyang_busheng",
+            "name": "清陽不升",
+            "treatment": "升清降濁"
+          },
+          {
+            "id": "qi_tuo",
+            "name": "氣脫",
+            "treatment": "固脫"
+          }
+        ],
+        "血液病變": [
+          {
+            "id": "xue_han",
+            "name": "血寒",
+            "treatment": "溫經"
+          },
+          {
+            "id": "dong_xue",
+            "name": "動血",
+            "treatment": "止血"
+          },
+          {
+            "id": "xue_yu",
+            "name": "血瘀",
+            "treatment": "活血"
+          },
+          {
+            "id": "xue_xu",
+            "name": "血虛",
+            "treatment": "補血"
+          },
+          {
+            "id": "xue_re",
+            "name": "血熱",
+            "treatment": "涼血"
+          }
+        ],
+        "精津病變": [
+          {
+            "id": "jing_kui",
+            "name": "精虧",
+            "treatment": "填精"
+          },
+          {
+            "id": "jin_kui",
+            "name": "津虧",
+            "treatment": "生津"
+          }
+        ],
+        "內生病邪": [
+          {
+            "id": "dong_feng",
+            "name": "動風",
+            "treatment": "熄風"
+          }
+        ]
+      },
+      "total_count": 36
+    }
+  },
+  "statistics": {
+    "total_zhengsu": 55,
+    "total_zhengxing": 19,
+    "zhengsu_with_related": 23,
+    "combination_patterns": 7
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "generated_at": "2025-12-05T06:17:00.017809",
+  "elapsed_seconds": 0.07885026931762695,
+  "data_dir": "/home/user/tcm/data",
+  "results": {
+    "validation": {
+      "errors": 0,
+      "warnings": 47
+    },
+    "symptom_index": {
+      "path": "/home/user/tcm/data/indexes/symptom_index.json",
+      "total_symptoms": 565
+    },
+    "evolution_graph": {
+      "path": "/home/user/tcm/data/indexes/evolution_graph.json",
+      "nodes": 19,
+      "edges": 38
+    },
+    "differentiation_matrix": {
+      "path": "/home/user/tcm/data/indexes/differentiation_matrix.json",
+      "pairs": 22,
+      "groups": 4
+    },
+    "zhengsu_mapping": {
+      "path": "/home/user/tcm/data/indexes/zhengsu_mapping.json",
+      "zhengsu": 55,
+      "zhengxing": 19
+    }
+  }
+}

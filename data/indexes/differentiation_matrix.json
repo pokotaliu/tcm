@@ -1,0 +1,1272 @@
+{
+  "version": "1.0",
+  "generated_at": "2025-12-05",
+  "description": "類證鑑別的關係矩陣，支援並列對比功能",
+  "pairs": [
+    {
+      "syndromes": [
+        "tai_yang_zheng",
+        "shao_yang_zheng"
+      ],
+      "syndrome_names": [
+        "太陽證",
+        "少陽證"
+      ],
+      "group_name": "太陽證與少陽證鑑別",
+      "comparison_aspects": [
+        {
+          "aspect": "病機",
+          "tai_yang_zheng": "太陽主表，為人體最外一層，統攝營衛，營行脈中，衛行脈外，營衛相和，皮毛乃固。且太陽經脈上額交巔，絡腦下項，挾脊抵腰，總括頭頂至背及全身肌表，故曰太陽主一身之表，為六經之藩籬。",
+          "shao_yang_zheng": "少陽主相火，亦主樞機，內應於膽及三焦，膽腑疏泄正常，則相火得以出入正常，遊行於肌膚分肉之間，溫暖身體，維持生理功能。若邪氣內侵，無論他經傳來或本經自受，均鬱於膽腑及三焦，樞機不利。"
+        },
+        {
+          "aspect": "主要症狀",
+          "tai_yang_zheng": "頭項強痛、惡寒、脈浮",
+          "shao_yang_zheng": "口苦、咽乾、目眩、寒熱往來、胸脅苦滿"
+        },
+        {
+          "aspect": "舌脈",
+          "tai_yang_zheng": "脈浮",
+          "shao_yang_zheng": "脈弦"
+        },
+        {
+          "aspect": "治法",
+          "tai_yang_zheng": "解表散寒",
+          "shao_yang_zheng": "和解少陽"
+        },
+        {
+          "aspect": "代表方",
+          "tai_yang_zheng": "guizhi_tang、mahuang_tang",
+          "shao_yang_zheng": "xiao_chaihu_tang、chaihu_guizhi_tang"
+        }
+      ],
+      "similarities": [
+        "同屬三陽病證",
+        "均可出現惡寒、發熱，甚則如瘧狀"
+      ],
+      "key_differentiation": "太陽證寒熱並見，少陽證往來寒熱、太陽證病勢淺，少陽證病勢深"
+    },
+    {
+      "syndromes": [
+        "tai_yang_zheng",
+        "yang_ming_zheng"
+      ],
+      "syndrome_names": [
+        "太陽證",
+        "陽明證"
+      ],
+      "group_name": "太陽證與陽明證鑑別",
+      "comparison_aspects": [
+        {
+          "aspect": "病機",
+          "tai_yang_zheng": "太陽主表，為人體最外一層，統攝營衛，營行脈中，衛行脈外，營衛相和，皮毛乃固。且太陽經脈上額交巔，絡腦下項，挾脊抵腰，總括頭頂至背及全身肌表，故曰太陽主一身之表，為六經之藩籬。",
+          "yang_ming_zheng": ""
+        },
+        {
+          "aspect": "主要症狀",
+          "tai_yang_zheng": "頭項強痛、惡寒、脈浮",
+          "yang_ming_zheng": ""
+        },
+        {
+          "aspect": "舌脈",
+          "tai_yang_zheng": "脈浮",
+          "yang_ming_zheng": ""
+        },
+        {
+          "aspect": "治法",
+          "tai_yang_zheng": "解表散寒",
+          "yang_ming_zheng": ""
+        },
+        {
+          "aspect": "代表方",
+          "tai_yang_zheng": "guizhi_tang、mahuang_tang",
+          "yang_ming_zheng": ""
+        }
+      ],
+      "similarities": [
+        "均出現在外感病過程中",
+        "同屬三陽病證",
+        "以陽經和六腑病變為基礎"
+      ],
+      "key_differentiation": "太陽主表宜解表，陽明主里宜清里、太陽證病情淺，陽明證病情重"
+    },
+    {
+      "syndromes": [
+        "tai_yang_zheng",
+        "wen_bing_wei_fen_zheng"
+      ],
+      "syndrome_names": [
+        "太陽證",
+        "溫病衛分證"
+      ],
+      "group_name": "太陽證與溫病衛分證鑑別",
+      "comparison_aspects": [
+        {
+          "aspect": "病機",
+          "tai_yang_zheng": "太陽主表，為人體最外一層，統攝營衛，營行脈中，衛行脈外，營衛相和，皮毛乃固。且太陽經脈上額交巔，絡腦下項，挾脊抵腰，總括頭頂至背及全身肌表，故曰太陽主一身之表，為六經之藩籬。",
+          "wen_bing_wei_fen_zheng": ""
+        },
+        {
+          "aspect": "主要症狀",
+          "tai_yang_zheng": "頭項強痛、惡寒、脈浮",
+          "wen_bing_wei_fen_zheng": ""
+        },
+        {
+          "aspect": "舌脈",
+          "tai_yang_zheng": "脈浮",
+          "wen_bing_wei_fen_zheng": ""
+        },
+        {
+          "aspect": "治法",
+          "tai_yang_zheng": "解表散寒",
+          "wen_bing_wei_fen_zheng": ""
+        },
+        {
+          "aspect": "代表方",
+          "tai_yang_zheng": "guizhi_tang、mahuang_tang",
+          "wen_bing_wei_fen_zheng": ""
+        }
+      ],
+      "similarities": [
+        "均為外感疾病初起之表證階段",
+        "病情尚淺"
+      ],
+      "key_differentiation": "太陽證感受風寒，溫病衛分證感受風熱、太陽證首見惡寒，溫病衛分證首推發熱、治則一辛溫一辛涼"
+    },
+    {
+      "syndromes": [
+        "shao_yin_zheng",
+        "tai_yin_zheng"
+      ],
+      "syndrome_names": [
+        "少陰證",
+        "太陰證"
+      ],
+      "group_name": "少陰證與太陰證鑑別",
+      "comparison_aspects": [
+        {
+          "aspect": "病機",
+          "shao_yin_zheng": "少陰證以「脈微細，但欲寐」為提綱，病位在心、腎。心、腎為水火之臟，陰陽之根。脈微為陽氣衰微，無力鼓動血行；脈細為陰虛則脈細；但欲寐為「陽氣者，精則養神」，心腎陽虛，陰寒內盛，神失所養。陽氣虛衰，邪從寒...",
+          "tai_yin_zheng": "太陰證為脾陽虛弱，寒濕困滯，運化失常，氣機阻結所致。脾司大腹，諸濕腫滿皆屬於脾，脾虛則氣血不運，寒濕不化，濕阻氣滯而見腹滿。脾與胃互為表里，脾不升則胃不降，脾病及胃，濁陰上犯，則嘔吐而食不得下。"
+        },
+        {
+          "aspect": "主要症狀",
+          "shao_yin_zheng": "但欲寐、脈微細",
+          "tai_yin_zheng": "腹滿而吐、食不下、自利益甚、時腹自痛"
+        },
+        {
+          "aspect": "舌脈",
+          "shao_yin_zheng": "脈微細",
+          "tai_yin_zheng": "舌淡苔薄白、脈緩弱"
+        },
+        {
+          "aspect": "治法",
+          "shao_yin_zheng": "寒化證：回陽救逆、熱化證：滋陰清熱",
+          "tai_yin_zheng": "溫中祛寒、健脾燥濕"
+        },
+        {
+          "aspect": "代表方",
+          "shao_yin_zheng": "sini_tang、zhenwu_tang",
+          "tai_yin_zheng": "lizhong_tang、sini_tang"
+        }
+      ],
+      "similarities": [
+        "均屬三陰證",
+        "病位同在于里",
+        "多為虛證、寒證",
+        "均可見下利清谷、時腹痛、舌淡苔白、脈沉弱"
+      ],
+      "key_differentiation": "下利後口渴與不渴：太陰病多從寒濕化生，寒濕瀰漫故口不渴；少陰證下利，腎陽虛不能蒸化津液上達，故多口渴、手足是否溫和：太陰病陽虛程度較輕，可見手足溫和；少陰病陽虛較甚，故大多手足厥冷、從太陰證發展至少陰陽虛下利，說明病邪入里更深，病情更加危重"
+    },
+    {
+      "syndromes": [
+        "shao_yin_zheng",
+        "jue_yin_zheng"
+      ],
+      "syndrome_names": [
+        "少陰證",
+        "厥陰證"
+      ],
+      "group_name": "少陰證與厥陰證鑑別",
+      "comparison_aspects": [
+        {
+          "aspect": "病機",
+          "shao_yin_zheng": "少陰證以「脈微細，但欲寐」為提綱，病位在心、腎。心、腎為水火之臟，陰陽之根。脈微為陽氣衰微，無力鼓動血行；脈細為陰虛則脈細；但欲寐為「陽氣者，精則養神」，心腎陽虛，陰寒內盛，神失所養。陽氣虛衰，邪從寒...",
+          "jue_yin_zheng": ""
+        },
+        {
+          "aspect": "主要症狀",
+          "shao_yin_zheng": "但欲寐、脈微細",
+          "jue_yin_zheng": ""
+        },
+        {
+          "aspect": "舌脈",
+          "shao_yin_zheng": "脈微細",
+          "jue_yin_zheng": ""
+        },
+        {
+          "aspect": "治法",
+          "shao_yin_zheng": "寒化證：回陽救逆、熱化證：滋陰清熱",
+          "jue_yin_zheng": ""
+        },
+        {
+          "aspect": "代表方",
+          "shao_yin_zheng": "sini_tang、zhenwu_tang",
+          "jue_yin_zheng": ""
+        }
+      ],
+      "similarities": [
+        "均可出現手足厥冷、脈微細等表現"
+      ],
+      "key_differentiation": "少陰證一派虛寒，厥陰證寒熱錯雜、治法不同：少陰回陽救逆，厥陰溫清並用"
+    },
+    {
+      "syndromes": [
+        "tai_yin_zheng",
+        "yang_ming_zheng"
+      ],
+      "syndrome_names": [
+        "太陰證",
+        "陽明證"
+      ],
+      "group_name": "太陰證與陽明證鑑別",
+      "comparison_aspects": [
+        {
+          "aspect": "病機",
+          "tai_yin_zheng": "太陰證為脾陽虛弱，寒濕困滯，運化失常，氣機阻結所致。脾司大腹，諸濕腫滿皆屬於脾，脾虛則氣血不運，寒濕不化，濕阻氣滯而見腹滿。脾與胃互為表里，脾不升則胃不降，脾病及胃，濁陰上犯，則嘔吐而食不得下。",
+          "yang_ming_zheng": ""
+        },
+        {
+          "aspect": "主要症狀",
+          "tai_yin_zheng": "腹滿而吐、食不下、自利益甚、時腹自痛",
+          "yang_ming_zheng": ""
+        },
+        {
+          "aspect": "舌脈",
+          "tai_yin_zheng": "舌淡苔薄白、脈緩弱",
+          "yang_ming_zheng": ""
+        },
+        {
+          "aspect": "治法",
+          "tai_yin_zheng": "溫中祛寒、健脾燥濕",
+          "yang_ming_zheng": ""
+        },
+        {
+          "aspect": "代表方",
+          "tai_yin_zheng": "lizhong_tang、sini_tang",
+          "yang_ming_zheng": ""
+        }
+      ],
+      "similarities": [
+        "太陰與陽明同居中焦",
+        "同主胃腸",
+        "互為表里",
+        "關係密切"
+      ],
+      "key_differentiation": "太陰里虛寒濕，陽明里實熱燥，性質截然不同、有「實則陽明，虛則太陰」之說、陽明病因誤下太過可轉入太陰；太陰證過用溫燥之品可演變為陽明證"
+    },
+    {
+      "syndromes": [
+        "shao_yang_zheng",
+        "yang_ming_zheng"
+      ],
+      "syndrome_names": [
+        "少陽證",
+        "陽明證"
+      ],
+      "group_name": "少陽證與陽明證鑑別",
+      "comparison_aspects": [
+        {
+          "aspect": "病機",
+          "shao_yang_zheng": "少陽主相火，亦主樞機，內應於膽及三焦，膽腑疏泄正常，則相火得以出入正常，遊行於肌膚分肉之間，溫暖身體，維持生理功能。若邪氣內侵，無論他經傳來或本經自受，均鬱於膽腑及三焦，樞機不利。",
+          "yang_ming_zheng": ""
+        },
+        {
+          "aspect": "主要症狀",
+          "shao_yang_zheng": "口苦、咽乾、目眩、寒熱往來、胸脅苦滿",
+          "yang_ming_zheng": ""
+        },
+        {
+          "aspect": "舌脈",
+          "shao_yang_zheng": "脈弦",
+          "yang_ming_zheng": ""
+        },
+        {
+          "aspect": "治法",
+          "shao_yang_zheng": "和解少陽",
+          "yang_ming_zheng": ""
+        },
+        {
+          "aspect": "代表方",
+          "shao_yang_zheng": "xiao_chaihu_tang、chaihu_guizhi_tang",
+          "yang_ming_zheng": ""
+        }
+      ],
+      "similarities": [
+        "同屬三陽病證",
+        "均可出現發熱"
+      ],
+      "key_differentiation": "少陽證往來寒熱，陽明證但熱不寒、綜觀三證為外感病發展中之三個獨立的階段，而三者又互相聯繫影響"
+    },
+    {
+      "syndromes": [
+        "shao_yang_zheng",
+        "wen_bing_zheng_nue"
+      ],
+      "syndrome_names": [
+        "少陽證",
+        "溫病正瘧"
+      ],
+      "group_name": "少陽證與溫病正瘧鑑別",
+      "comparison_aspects": [
+        {
+          "aspect": "病機",
+          "shao_yang_zheng": "少陽主相火，亦主樞機，內應於膽及三焦，膽腑疏泄正常，則相火得以出入正常，遊行於肌膚分肉之間，溫暖身體，維持生理功能。若邪氣內侵，無論他經傳來或本經自受，均鬱於膽腑及三焦，樞機不利。",
+          "wen_bing_zheng_nue": ""
+        },
+        {
+          "aspect": "主要症狀",
+          "shao_yang_zheng": "口苦、咽乾、目眩、寒熱往來、胸脅苦滿",
+          "wen_bing_zheng_nue": ""
+        },
+        {
+          "aspect": "舌脈",
+          "shao_yang_zheng": "脈弦",
+          "wen_bing_zheng_nue": ""
+        },
+        {
+          "aspect": "治法",
+          "shao_yang_zheng": "和解少陽",
+          "wen_bing_zheng_nue": ""
+        },
+        {
+          "aspect": "代表方",
+          "shao_yang_zheng": "xiao_chaihu_tang、chaihu_guizhi_tang",
+          "wen_bing_zheng_nue": ""
+        }
+      ],
+      "similarities": [
+        "二者皆有寒熱往來"
+      ],
+      "key_differentiation": "少陽證寒熱往來發無定時，溫病正瘧寒熱發有定時、熱型有較大的區別"
+    },
+    {
+      "syndromes": [
+        "shao_yang_zheng",
+        "re_ru_xue_shi_zheng"
+      ],
+      "syndrome_names": [
+        "少陽證",
+        "熱入血室證"
+      ],
+      "group_name": "少陽證與熱入血室證鑑別",
+      "comparison_aspects": [
+        {
+          "aspect": "病機",
+          "shao_yang_zheng": "少陽主相火，亦主樞機，內應於膽及三焦，膽腑疏泄正常，則相火得以出入正常，遊行於肌膚分肉之間，溫暖身體，維持生理功能。若邪氣內侵，無論他經傳來或本經自受，均鬱於膽腑及三焦，樞機不利。",
+          "re_ru_xue_shi_zheng": ""
+        },
+        {
+          "aspect": "主要症狀",
+          "shao_yang_zheng": "口苦、咽乾、目眩、寒熱往來、胸脅苦滿",
+          "re_ru_xue_shi_zheng": ""
+        },
+        {
+          "aspect": "舌脈",
+          "shao_yang_zheng": "脈弦",
+          "re_ru_xue_shi_zheng": ""
+        },
+        {
+          "aspect": "治法",
+          "shao_yang_zheng": "和解少陽",
+          "re_ru_xue_shi_zheng": ""
+        },
+        {
+          "aspect": "代表方",
+          "shao_yang_zheng": "xiao_chaihu_tang、chaihu_guizhi_tang",
+          "re_ru_xue_shi_zheng": ""
+        }
+      ],
+      "similarities": [
+        "均見寒熱往來"
+      ],
+      "key_differentiation": "熱入血室證與婦女月經相關、熱入血室證譫語特徵為「晝日明了，暮則譫語」"
+    },
+    {
+      "syndromes": [
+        "wang_yin_zheng",
+        "yin_xu_zheng"
+      ],
+      "syndrome_names": [
+        "亡陰證",
+        "陰虛證"
+      ],
+      "group_name": "亡陰證與陰虛證鑑別",
+      "comparison_aspects": [
+        {
+          "aspect": "病機",
+          "wang_yin_zheng": "多種疾病的慢性虧損及過度汗、吐、下，或大失血等，均可造成陰液的嚴重消耗，甚至出現亡陰證。陰虛體質或溫熱病過程中尤為多見。亡陰證是十分嚴重的證候，危在旦夕，無論何種疾病至亡陰階段的臨床表現，辨證要點及治...",
+          "yin_xu_zheng": ""
+        },
+        {
+          "aspect": "主要症狀",
+          "wang_yin_zheng": "肌肉乾癟、皮膚皺摺、眼眶深陷、唇乾齒燥、面色潮紅",
+          "yin_xu_zheng": ""
+        },
+        {
+          "aspect": "舌脈",
+          "wang_yin_zheng": "舌質乾紅、脈虛數或細數無力",
+          "yin_xu_zheng": ""
+        },
+        {
+          "aspect": "治法",
+          "wang_yin_zheng": "滋陰增液、養陰固氣",
+          "yin_xu_zheng": ""
+        },
+        {
+          "aspect": "代表方",
+          "wang_yin_zheng": "shengmai_san、shenfu_tang",
+          "yin_xu_zheng": ""
+        }
+      ],
+      "similarities": [
+        "陰虛往往是亡陰的基礎",
+        "二證均有陰虛生內熱的表現"
+      ],
+      "key_differentiation": "陰虛證病程長病勢緩，亡陰證發病急劇病情危重、亡陰證虛熱現象更明顯，形體消耗更嚴重"
+    },
+    {
+      "syndromes": [
+        "wang_yin_zheng",
+        "wang_xue_zheng"
+      ],
+      "syndrome_names": [
+        "亡陰證",
+        "亡血證"
+      ],
+      "group_name": "亡陰證與亡血證鑑別",
+      "comparison_aspects": [
+        {
+          "aspect": "病機",
+          "wang_yin_zheng": "多種疾病的慢性虧損及過度汗、吐、下，或大失血等，均可造成陰液的嚴重消耗，甚至出現亡陰證。陰虛體質或溫熱病過程中尤為多見。亡陰證是十分嚴重的證候，危在旦夕，無論何種疾病至亡陰階段的臨床表現，辨證要點及治...",
+          "wang_xue_zheng": ""
+        },
+        {
+          "aspect": "主要症狀",
+          "wang_yin_zheng": "肌肉乾癟、皮膚皺摺、眼眶深陷、唇乾齒燥、面色潮紅",
+          "wang_xue_zheng": ""
+        },
+        {
+          "aspect": "舌脈",
+          "wang_yin_zheng": "舌質乾紅、脈虛數或細數無力",
+          "wang_xue_zheng": ""
+        },
+        {
+          "aspect": "治法",
+          "wang_yin_zheng": "滋陰增液、養陰固氣",
+          "wang_xue_zheng": ""
+        },
+        {
+          "aspect": "代表方",
+          "wang_yin_zheng": "shengmai_san、shenfu_tang",
+          "wang_xue_zheng": ""
+        }
+      ],
+      "similarities": [
+        "血為陰液，亡血證亦可發展為亡陰證",
+        "二者關係密切"
+      ],
+      "key_differentiation": "亡陰證有明顯虛熱現象，亡血證以血虛表現為主、亡血證可發展為亡陰證"
+    },
+    {
+      "syndromes": [
+        "zhong_qi_xia_xian",
+        "qi_tuo"
+      ],
+      "syndrome_names": [
+        "中氣下陷證",
+        "氣脫證"
+      ],
+      "group_name": "中氣下陷證與氣脫證鑑別",
+      "comparison_aspects": [
+        {
+          "aspect": "病機",
+          "zhong_qi_xia_xian": "氣陷證是因先天不足、後天失調造成元氣虧損，氣機升降失常，出現以中氣下陷、升舉無力為特徵的證候。屬於氣虛病變中的一個常見類型，多見於內傷雜病。",
+          "qi_tuo": ""
+        },
+        {
+          "aspect": "主要症狀",
+          "zhong_qi_xia_xian": "氣短乏力、神疲懶言、脘腹脹墜、久泄脫肛、陰挺",
+          "qi_tuo": ""
+        },
+        {
+          "aspect": "舌脈",
+          "zhong_qi_xia_xian": "舌質淡胖、脈細緩無力",
+          "qi_tuo": ""
+        },
+        {
+          "aspect": "治法",
+          "zhong_qi_xia_xian": "補氣升陽、升舉中氣",
+          "qi_tuo": ""
+        },
+        {
+          "aspect": "代表方",
+          "zhong_qi_xia_xian": "buzhongyiqi_tang",
+          "qi_tuo": ""
+        },
+        {
+          "aspect": "特點",
+          "zhong_qi_xia_xian": "病勢緩慢、病情遷延，主要為中下焦元氣升舉無力的表現，可見脘腹脹墜、脫肛下利等",
+          "qi_tuo": "多見於暴病或慢性病晚期，病勢危急，主要為全身性正氣衰竭的表現，可見大汗淋漓、面色蒼白、精神萎靡、脈微欲絕"
+        }
+      ],
+      "similarities": [
+        "皆由氣虛發展而來",
+        "病變基礎是氣虛"
+      ],
+      "key_differentiation": "本證主要見於慢性疾病，氣脫證還可見於急性疾病如大失血時的氣隨血脫、氣脫證病機是元氣衰竭、正氣虛脫；本證病機是元氣不足、脾氣不升、中氣下陷、氣脫證急需益氣固脫搶救；本證則宜升舉中氣、緩緩圖治"
+    },
+    {
+      "syndromes": [
+        "zhong_qi_xia_xian",
+        "qingyang_busheng"
+      ],
+      "syndrome_names": [
+        "中氣下陷證",
+        "清陽不升證"
+      ],
+      "group_name": "中氣下陷證與清陽不升證鑑別",
+      "comparison_aspects": [
+        {
+          "aspect": "病機",
+          "zhong_qi_xia_xian": "氣陷證是因先天不足、後天失調造成元氣虧損，氣機升降失常，出現以中氣下陷、升舉無力為特徵的證候。屬於氣虛病變中的一個常見類型，多見於內傷雜病。",
+          "qingyang_busheng": ""
+        },
+        {
+          "aspect": "主要症狀",
+          "zhong_qi_xia_xian": "氣短乏力、神疲懶言、脘腹脹墜、久泄脫肛、陰挺",
+          "qingyang_busheng": ""
+        },
+        {
+          "aspect": "舌脈",
+          "zhong_qi_xia_xian": "舌質淡胖、脈細緩無力",
+          "qingyang_busheng": ""
+        },
+        {
+          "aspect": "治法",
+          "zhong_qi_xia_xian": "補氣升陽、升舉中氣",
+          "qingyang_busheng": ""
+        },
+        {
+          "aspect": "代表方",
+          "zhong_qi_xia_xian": "buzhongyiqi_tang",
+          "qingyang_busheng": ""
+        },
+        {
+          "aspect": "特點",
+          "zhong_qi_xia_xian": "主要是脾氣不升、中氣下陷，臨床見症以中下焦症狀為主，純屬於虛證",
+          "qingyang_busheng": "主要針對濁陰不降而言，以上焦見症為主如頭暈眼花、耳鳴，臨床多見虛實夾雜證"
+        }
+      ],
+      "similarities": [
+        "皆為氣機失常的病證",
+        "都表現為氣的升舉功能減退"
+      ],
+      "key_differentiation": "清陽不升證以陽氣不升為主、濁陰不降為次、清陽不升證亦可因痰濁中阻而見實證表現、氣陷證純屬虛證，以中下焦症狀為主"
+    },
+    {
+      "syndromes": [
+        "zhong_qi_xia_xian",
+        "qi_xu"
+      ],
+      "syndrome_names": [
+        "中氣下陷證",
+        "氣虛證"
+      ],
+      "group_name": "中氣下陷證與氣虛證鑑別",
+      "comparison_aspects": [
+        {
+          "aspect": "病機",
+          "zhong_qi_xia_xian": "氣陷證是因先天不足、後天失調造成元氣虧損，氣機升降失常，出現以中氣下陷、升舉無力為特徵的證候。屬於氣虛病變中的一個常見類型，多見於內傷雜病。",
+          "qi_xu": ""
+        },
+        {
+          "aspect": "主要症狀",
+          "zhong_qi_xia_xian": "氣短乏力、神疲懶言、脘腹脹墜、久泄脫肛、陰挺",
+          "qi_xu": ""
+        },
+        {
+          "aspect": "舌脈",
+          "zhong_qi_xia_xian": "舌質淡胖、脈細緩無力",
+          "qi_xu": ""
+        },
+        {
+          "aspect": "治法",
+          "zhong_qi_xia_xian": "補氣升陽、升舉中氣",
+          "qi_xu": ""
+        },
+        {
+          "aspect": "代表方",
+          "zhong_qi_xia_xian": "buzhongyiqi_tang",
+          "qi_xu": ""
+        },
+        {
+          "aspect": "特點",
+          "zhong_qi_xia_xian": "除氣虛表現外，更突出中氣下陷、元氣升舉無力的表現，可見少腹脹墜、下利脫肛、子宮下垂，病變部位主要在中下焦",
+          "qi_xu": "主要指全身的元氣不足、臟腑功能衰退，可因疾病部位不同而臨床表現各異"
+        }
+      ],
+      "similarities": [
+        "皆為虛證",
+        "氣陷證多為氣虛證演化而來，兩者有因果關係"
+      ],
+      "key_differentiation": "氣虛證是基礎，氣陷證是發展、氣陷證突出「下陷」的特點、氣虛證範圍較廣，氣陷證病位較專"
+    },
+    {
+      "syndromes": [
+        "zhong_qi_xia_xian",
+        "shen_qi_bu_gu"
+      ],
+      "syndrome_names": [
+        "中氣下陷證",
+        "腎氣不固證"
+      ],
+      "group_name": "中氣下陷證與腎氣不固證鑑別",
+      "comparison_aspects": [
+        {
+          "aspect": "病機",
+          "zhong_qi_xia_xian": "氣陷證是因先天不足、後天失調造成元氣虧損，氣機升降失常，出現以中氣下陷、升舉無力為特徵的證候。屬於氣虛病變中的一個常見類型，多見於內傷雜病。",
+          "shen_qi_bu_gu": "腎氣不固證是指腎氣虧虛，封藏固攝功能失職的證候。多因先天稟賦不足，或後天失養，或久病耗損，或老年腎虧所致。"
+        },
+        {
+          "aspect": "主要症狀",
+          "zhong_qi_xia_xian": "氣短乏力、神疲懶言、脘腹脹墜、久泄脫肛、陰挺",
+          "shen_qi_bu_gu": "腰膝酸軟、小便頻數而清、夜尿多、遺精滑精、女子帶下清稀"
+        },
+        {
+          "aspect": "舌脈",
+          "zhong_qi_xia_xian": "舌質淡胖、脈細緩無力",
+          "shen_qi_bu_gu": "舌淡苔白、脈沉弱"
+        },
+        {
+          "aspect": "治法",
+          "zhong_qi_xia_xian": "補氣升陽、升舉中氣",
+          "shen_qi_bu_gu": "補腎固攝"
+        },
+        {
+          "aspect": "代表方",
+          "zhong_qi_xia_xian": "buzhongyiqi_tang",
+          "shen_qi_bu_gu": "jinguo_gujing_wan、sangpiaoxiao_san"
+        },
+        {
+          "aspect": "特點",
+          "zhong_qi_xia_xian": "病變部位主要在中焦脾胃，以脾氣不升、中氣下陷的症狀為主，每每伴有神疲納呆",
+          "shen_qi_bu_gu": "病變部位主要在下焦腎，以腎氣無以溫煦助運、氣化失司、下關不固的症狀為主，每每伴有腰膝酸軟"
+        }
+      ],
+      "similarities": [
+        "皆屬虛證",
+        "均可見下焦的病症如泄瀉、少腹脹等"
+      ],
+      "key_differentiation": "腎氣不固證可由氣陷證發展而來、腎氣不固證可見五更泄瀉，氣陷證見久泄不禁、腎氣不固證可見遺精、滑精、淋濁、小便失禁等腎關不固之症"
+    },
+    {
+      "syndromes": [
+        "qi_tuo_zheng",
+        "wang_yin_zheng"
+      ],
+      "syndrome_names": [
+        "氣脫證",
+        "亡陰證"
+      ],
+      "group_name": "氣脫證與亡陰證鑑別",
+      "comparison_aspects": [
+        {
+          "aspect": "病機",
+          "qi_tuo_zheng": "氣脫證是指機體正氣虛怯，元氣衰竭，臟腑機能極度的虛衰欲絕而出現的生命危急症狀的證候。本證多為外感或內傷，久病不愈，正不勝邪，或外傷、崩中、產後大出血、霍亂、泄瀉等病因所致。常為病情突然變化而出現的危重...",
+          "wang_yin_zheng": "多種疾病的慢性虧損及過度汗、吐、下，或大失血等，均可造成陰液的嚴重消耗，甚至出現亡陰證。陰虛體質或溫熱病過程中尤為多見。亡陰證是十分嚴重的證候，危在旦夕，無論何種疾病至亡陰階段的臨床表現，辨證要點及治..."
+        },
+        {
+          "aspect": "主要症狀",
+          "qi_tuo_zheng": "突然大汗淋漓、精神萎靡、目合口張、面色蒼白、氣短不續",
+          "wang_yin_zheng": "肌肉乾癟、皮膚皺摺、眼眶深陷、唇乾齒燥、面色潮紅"
+        },
+        {
+          "aspect": "舌脈",
+          "qi_tuo_zheng": "舌淡胖、脈細微，或扎大",
+          "wang_yin_zheng": "舌質乾紅、脈虛數或細數無力"
+        },
+        {
+          "aspect": "治法",
+          "qi_tuo_zheng": "益氣固脫、回陽救逆",
+          "wang_yin_zheng": "滋陰增液、養陰固氣"
+        },
+        {
+          "aspect": "代表方",
+          "qi_tuo_zheng": "dushen_tang、shenfu_tang",
+          "wang_yin_zheng": "shengmai_san、shenfu_tang"
+        },
+        {
+          "aspect": "特點",
+          "qi_tuo_zheng": "因大汗淋漓致使津液耗損，氣虛而脫，但只是精神萎靡，尚未出現昏迷",
+          "wang_yin_zheng": "多因邪熱內陷，真陰消爍，或汗出過多、下利不止等造成陰液耗竭，陰不制陽，陰陽離決。證見神志昏迷、精神萎頓、汗出如油、顴紅升火、咽干、舌紅絳、苔光剝、脈虛細帶數"
+        }
+      ],
+      "similarities": [
+        "二者均為危急證候",
+        "且都有大汗淋漓的表現"
+      ],
+      "key_differentiation": "氣脫證可為亡陰證的前奏、氣脫證尚未出現昏迷，亡陰證已見神志昏迷、亡陰證有陰虛內熱表現如顴紅升火、舌紅絳"
+    },
+    {
+      "syndromes": [
+        "qi_tuo_zheng",
+        "wang_yang_zheng"
+      ],
+      "syndrome_names": [
+        "氣脫證",
+        "亡陽證"
+      ],
+      "group_name": "氣脫證與亡陽證鑑別",
+      "comparison_aspects": [
+        {
+          "aspect": "病機",
+          "qi_tuo_zheng": "氣脫證是指機體正氣虛怯，元氣衰竭，臟腑機能極度的虛衰欲絕而出現的生命危急症狀的證候。本證多為外感或內傷，久病不愈，正不勝邪，或外傷、崩中、產後大出血、霍亂、泄瀉等病因所致。常為病情突然變化而出現的危重...",
+          "wang_yang_zheng": "任何疾病若大汗不止，或吐瀉過劇，均可導致陽氣突然衰竭。此外，由於陰陽互根，陰液過度耗竭，陽氣無所依附而散越，亡陰證不及時養陰固液，也必發展為亡陽證。亡陽證易見於陽虛之體或寒盛傷陽之時。不論何種疾病，一..."
+        },
+        {
+          "aspect": "主要症狀",
+          "qi_tuo_zheng": "突然大汗淋漓、精神萎靡、目合口張、面色蒼白、氣短不續",
+          "wang_yang_zheng": "大汗淋漓、汗出如珠、畏寒蜷臥、四肢厥冷、精神恍惚"
+        },
+        {
+          "aspect": "舌脈",
+          "qi_tuo_zheng": "舌淡胖、脈細微，或扎大",
+          "wang_yang_zheng": "舌質淡潤、脈微欲絕，或浮數而空"
+        },
+        {
+          "aspect": "治法",
+          "qi_tuo_zheng": "益氣固脫、回陽救逆",
+          "wang_yang_zheng": "溫陽固脫、回陽救逆"
+        },
+        {
+          "aspect": "代表方",
+          "qi_tuo_zheng": "dushen_tang、shenfu_tang",
+          "wang_yang_zheng": "shenfu_tang、sini_tang"
+        },
+        {
+          "aspect": "特點",
+          "qi_tuo_zheng": "因大汗淋漓，致使氣虛欲脫，但未出現昏迷，只是精神困乏",
+          "wang_yang_zheng": "多為真陽衰微，或汗出過多、下利不止等造成陽氣衰竭，陽不戀陰，陰陽離決。證見昏迷不醒、汗出肢冷、目合口張、手撒肢厥、二便自遺、鼻息低微、舌質淡、脈微細欲絕"
+        }
+      ],
+      "similarities": [
+        "二者均為危急證候",
+        "且都有大汗淋漓的表現"
+      ],
+      "key_differentiation": "氣脫證可為亡陽證的先驅證候、氣脫證未出現昏迷，亡陽證已昏迷不醒、亡陽證脈微細欲絕，較氣脫證更為危重"
+    },
+    {
+      "syndromes": [
+        "qi_tuo_zheng",
+        "qi_jue_zheng"
+      ],
+      "syndrome_names": [
+        "氣脫證",
+        "氣厥證"
+      ],
+      "group_name": "氣脫證與氣厥證鑑別",
+      "comparison_aspects": [
+        {
+          "aspect": "病機",
+          "qi_tuo_zheng": "氣脫證是指機體正氣虛怯，元氣衰竭，臟腑機能極度的虛衰欲絕而出現的生命危急症狀的證候。本證多為外感或內傷，久病不愈，正不勝邪，或外傷、崩中、產後大出血、霍亂、泄瀉等病因所致。常為病情突然變化而出現的危重...",
+          "qi_jue_zheng": "氣厥證是指因情志刺激，氣機逆亂，上壅心胸，閉塞清竅的實證。多因七情所傷，惱怒驚駭，肝鬱不達，怒則氣上，造成氣機逆亂，填塞胸臆，擾亂神明所致。"
+        },
+        {
+          "aspect": "主要症狀",
+          "qi_tuo_zheng": "突然大汗淋漓、精神萎靡、目合口張、面色蒼白、氣短不續",
+          "qi_jue_zheng": "突然昏倒、不省人事、牙關緊閉、兩手握固"
+        },
+        {
+          "aspect": "舌脈",
+          "qi_tuo_zheng": "舌淡胖、脈細微，或扎大",
+          "qi_jue_zheng": "舌苔薄白、脈沉弦"
+        },
+        {
+          "aspect": "治法",
+          "qi_tuo_zheng": "益氣固脫、回陽救逆",
+          "qi_jue_zheng": "開鬱醒神、理氣降逆"
+        },
+        {
+          "aspect": "代表方",
+          "qi_tuo_zheng": "dushen_tang、shenfu_tang",
+          "qi_jue_zheng": "wuyao_shunqi_san"
+        },
+        {
+          "aspect": "特點",
+          "qi_tuo_zheng": "是因元氣不足，氣不固攝所出現的大汗淋漓、精神萎頓的症狀。屬虛證",
+          "qi_jue_zheng": "多因七情所傷，惱怒驚駭，肝鬱不達，怒則氣上，造成氣機逆亂，填塞胸臆，擾亂神明所致。證見突然昏倒、不省人事、肢冷抽搐等。屬實證"
+        }
+      ],
+      "similarities": [
+        "二者均為危急證候",
+        "且都與「氣」的病理變化有關"
+      ],
+      "key_differentiation": "氣脫證屬虛證，氣厥證屬實證、氣脫證大汗淋漓，氣厥證無明顯汗出、病因、病機、症狀各不相同"
+    },
+    {
+      "syndromes": [
+        "qi_tuo_zheng",
+        "zhong_qi_xia_xian"
+      ],
+      "syndrome_names": [
+        "氣脫證",
+        "中氣下陷證"
+      ],
+      "group_name": "氣脫證與中氣下陷證鑑別",
+      "comparison_aspects": [
+        {
+          "aspect": "病機",
+          "qi_tuo_zheng": "氣脫證是指機體正氣虛怯，元氣衰竭，臟腑機能極度的虛衰欲絕而出現的生命危急症狀的證候。本證多為外感或內傷，久病不愈，正不勝邪，或外傷、崩中、產後大出血、霍亂、泄瀉等病因所致。常為病情突然變化而出現的危重...",
+          "zhong_qi_xia_xian": "氣陷證是因先天不足、後天失調造成元氣虧損，氣機升降失常，出現以中氣下陷、升舉無力為特徵的證候。屬於氣虛病變中的一個常見類型，多見於內傷雜病。"
+        },
+        {
+          "aspect": "主要症狀",
+          "qi_tuo_zheng": "突然大汗淋漓、精神萎靡、目合口張、面色蒼白、氣短不續",
+          "zhong_qi_xia_xian": "氣短乏力、神疲懶言、脘腹脹墜、久泄脫肛、陰挺"
+        },
+        {
+          "aspect": "舌脈",
+          "qi_tuo_zheng": "舌淡胖、脈細微，或扎大",
+          "zhong_qi_xia_xian": "舌質淡胖、脈細緩無力"
+        },
+        {
+          "aspect": "治法",
+          "qi_tuo_zheng": "益氣固脫、回陽救逆",
+          "zhong_qi_xia_xian": "補氣升陽、升舉中氣"
+        },
+        {
+          "aspect": "代表方",
+          "qi_tuo_zheng": "dushen_tang、shenfu_tang",
+          "zhong_qi_xia_xian": "buzhongyiqi_tang"
+        },
+        {
+          "aspect": "特點",
+          "qi_tuo_zheng": "多見於暴病或慢性病晚期，病勢危急，主要為全身性正氣衰竭的表現，可見大汗淋漓、面色蒼白、精神萎靡、脈微欲絕",
+          "zhong_qi_xia_xian": "病勢緩慢、病情遷延，主要為中下焦元氣升舉無力的表現，可見脘腹脹墜、脫肛下利等"
+        }
+      ],
+      "similarities": [
+        "皆由氣虛發展而來",
+        "病變基礎是氣虛"
+      ],
+      "key_differentiation": "氣脫證病勢危急，需搶救、中氣下陷證病勢緩慢，緩緩圖治、中氣下陷證可發展為氣脫證"
+    },
+    {
+      "syndromes": [
+        "wang_yang_zheng",
+        "yang_xu_zheng"
+      ],
+      "syndrome_names": [
+        "亡陽證",
+        "陽虛證"
+      ],
+      "group_name": "亡陽證與陽虛證鑑別",
+      "comparison_aspects": [
+        {
+          "aspect": "病機",
+          "wang_yang_zheng": "任何疾病若大汗不止，或吐瀉過劇，均可導致陽氣突然衰竭。此外，由於陰陽互根，陰液過度耗竭，陽氣無所依附而散越，亡陰證不及時養陰固液，也必發展為亡陽證。亡陽證易見於陽虛之體或寒盛傷陽之時。不論何種疾病，一...",
+          "yang_xu_zheng": ""
+        },
+        {
+          "aspect": "主要症狀",
+          "wang_yang_zheng": "大汗淋漓、汗出如珠、畏寒蜷臥、四肢厥冷、精神恍惚",
+          "yang_xu_zheng": ""
+        },
+        {
+          "aspect": "舌脈",
+          "wang_yang_zheng": "舌質淡潤、脈微欲絕，或浮數而空",
+          "yang_xu_zheng": ""
+        },
+        {
+          "aspect": "治法",
+          "wang_yang_zheng": "溫陽固脫、回陽救逆",
+          "yang_xu_zheng": ""
+        },
+        {
+          "aspect": "代表方",
+          "wang_yang_zheng": "shenfu_tang、sini_tang",
+          "yang_xu_zheng": ""
+        }
+      ],
+      "similarities": [
+        "均有一派寒象",
+        "如畏寒蜷臥、面白肢冷、自汗出等"
+      ],
+      "key_differentiation": "陽虛證病程長病情緩，亡陽證病程短病情急、亡陽證陽氣虧損程度遠較陽虛證為甚"
+    },
+    {
+      "syndromes": [
+        "wang_yang_zheng",
+        "wang_yin_zheng"
+      ],
+      "syndrome_names": [
+        "亡陽證",
+        "亡陰證"
+      ],
+      "group_name": "亡陽證與亡陰證鑑別",
+      "comparison_aspects": [
+        {
+          "aspect": "病機",
+          "wang_yang_zheng": "任何疾病若大汗不止，或吐瀉過劇，均可導致陽氣突然衰竭。此外，由於陰陽互根，陰液過度耗竭，陽氣無所依附而散越，亡陰證不及時養陰固液，也必發展為亡陽證。亡陽證易見於陽虛之體或寒盛傷陽之時。不論何種疾病，一...",
+          "wang_yin_zheng": "多種疾病的慢性虧損及過度汗、吐、下，或大失血等，均可造成陰液的嚴重消耗，甚至出現亡陰證。陰虛體質或溫熱病過程中尤為多見。亡陰證是十分嚴重的證候，危在旦夕，無論何種疾病至亡陰階段的臨床表現，辨證要點及治..."
+        },
+        {
+          "aspect": "主要症狀",
+          "wang_yang_zheng": "大汗淋漓、汗出如珠、畏寒蜷臥、四肢厥冷、精神恍惚",
+          "wang_yin_zheng": "肌肉乾癟、皮膚皺摺、眼眶深陷、唇乾齒燥、面色潮紅"
+        },
+        {
+          "aspect": "舌脈",
+          "wang_yang_zheng": "舌質淡潤、脈微欲絕，或浮數而空",
+          "wang_yin_zheng": "舌質乾紅、脈虛數或細數無力"
+        },
+        {
+          "aspect": "治法",
+          "wang_yang_zheng": "溫陽固脫、回陽救逆",
+          "wang_yin_zheng": "滋陰增液、養陰固氣"
+        },
+        {
+          "aspect": "代表方",
+          "wang_yang_zheng": "shenfu_tang、sini_tang",
+          "wang_yin_zheng": "shengmai_san、shenfu_tang"
+        }
+      ],
+      "similarities": [
+        "均是疾病的危重證候",
+        "都可以由汗、吐、下過劇發展而來",
+        "亡陰證往往可以很快發展為亡陽證"
+      ],
+      "key_differentiation": "亡陽證虛寒，亡陰證虛熱、二者治法迥異，必須鑑別、亡陰證可發展為亡陽證"
+    },
+    {
+      "syndromes": [
+        "qi_xu_zheng",
+        "yang_xu_zheng"
+      ],
+      "syndrome_names": [
+        "氣虛證",
+        "陽虛證"
+      ],
+      "group_name": "氣虛證與陽虛證鑑別",
+      "comparison_aspects": [
+        {
+          "aspect": "病機",
+          "qi_xu_zheng": "氣虛證是指人體元氣不足，臟腑功能活動減退的病理狀態。多因先天不足、後天失調、勞倦過度、久病耗氣所致。",
+          "yang_xu_zheng": ""
+        },
+        {
+          "aspect": "主要症狀",
+          "qi_xu_zheng": "氣短乏力、神疲懶言、動則尤甚",
+          "yang_xu_zheng": ""
+        },
+        {
+          "aspect": "舌脈",
+          "qi_xu_zheng": "舌淡、脈虛弱",
+          "yang_xu_zheng": ""
+        },
+        {
+          "aspect": "治法",
+          "qi_xu_zheng": "補氣",
+          "yang_xu_zheng": ""
+        },
+        {
+          "aspect": "代表方",
+          "qi_xu_zheng": "sijunzi_tang",
+          "yang_xu_zheng": ""
+        },
+        {
+          "aspect": "特點",
+          "qi_xu_zheng": "以氣短乏力、動則尤甚為主，無明顯畏寒肢冷",
+          "yang_xu_zheng": "除氣虛表現外，更突出畏寒肢冷、喜暖、脈沉遲等陽氣不足的表現"
+        }
+      ],
+      "similarities": [
+        "皆為虛證",
+        "可見神疲乏力"
+      ],
+      "key_differentiation": "氣虛證無畏寒肢冷、陽虛證為氣虛證進一步發展"
+    }
+  ],
+  "groups": [
+    {
+      "syndromes": [
+        "gan_qi_xu",
+        "shen_qi_bu_gu",
+        "qingyang_busheng_zheng",
+        "pi_qi_xu",
+        "qi_xu_bu_gu",
+        "fei_qi_xu",
+        "qi_xue_liang_xu",
+        "xin_qi_xu",
+        "zhong_qi_xia_xian",
+        "qi_xu_zheng",
+        "shen_qi_xu"
+      ],
+      "syndrome_names": [
+        "肝氣虛證",
+        "腎氣不固證",
+        "清陽不升證",
+        "脾氣虛證",
+        "氣不固攝證",
+        "肺氣虛證",
+        "氣血兩虛證",
+        "心氣虛證",
+        "中氣下陷證",
+        "氣虛證",
+        "腎氣虛證"
+      ],
+      "group_name": "含「qi_xu」證素的證型群組",
+      "comparison_aspects": [
+        {
+          "aspect": "病機",
+          "gan_qi_xu": "",
+          "shen_qi_bu_gu": "腎氣不固證是指腎氣虧虛，封藏固攝功能失職的證候。多因先天稟賦不足，或後天失養，或久病耗損，或老年腎虧所致。",
+          "qingyang_busheng_zheng": "清陽不升證是指脾胃升清功能減退，清陽之氣不能上達頭目的證候。常見虛實夾雜，可兼有痰濁中阻。",
+          "pi_qi_xu": "",
+          "qi_xu_bu_gu": "",
+          "fei_qi_xu": "",
+          "qi_xue_liang_xu": "",
+          "xin_qi_xu": "",
+          "zhong_qi_xia_xian": "氣陷證是因先天不足、後天失調造成元氣虧損，氣機升降失常，出現以中氣下陷、升舉無力為特徵的證候。屬於氣虛病變中的一個常見類型，多見於內傷雜病。",
+          "qi_xu_zheng": "氣虛證是指人體元氣不足，臟腑功能活動減退的病理狀態。多因先天不足、後天失調、勞倦過度、久病耗氣所致。",
+          "shen_qi_xu": ""
+        },
+        {
+          "aspect": "主要症狀",
+          "gan_qi_xu": "symptom_qiduan、驚惕不寧、膽怯",
+          "shen_qi_bu_gu": "腰膝酸軟、小便頻數而清、夜尿多、遺精滑精",
+          "qingyang_busheng_zheng": "頭暈眼花、耳鳴、頭重如裹",
+          "pi_qi_xu": "symptom_fali、symptom_nagu、symptom_fuzhang",
+          "qi_xu_bu_gu": "自汗、出血、遺尿遺精",
+          "fei_qi_xu": "symptom_qiduan、symptom_zihan、symptom_shengdiweiqie",
+          "qi_xue_liang_xu": "symptom_fali、頭暈眼花、symptom_xinji",
+          "xin_qi_xu": "symptom_xinji、symptom_qiduan、symptom_fali",
+          "zhong_qi_xia_xian": "氣短乏力、神疲懶言、脘腹脹墜、久泄脫肛",
+          "qi_xu_zheng": "氣短乏力、神疲懶言、動則尤甚",
+          "shen_qi_xu": "symptom_yaoxisuanruan、symptom_erming、symptom_qiduan"
+        },
+        {
+          "aspect": "治法",
+          "gan_qi_xu": "補氣益志、壯肝膽",
+          "shen_qi_bu_gu": "補腎固攝",
+          "qingyang_busheng_zheng": "升清降濁、健脾化濕",
+          "pi_qi_xu": "健脾益氣",
+          "qi_xu_bu_gu": "補氣固攝",
+          "fei_qi_xu": "補益肺氣",
+          "qi_xue_liang_xu": "益氣養血",
+          "xin_qi_xu": "補益心氣",
+          "zhong_qi_xia_xian": "補氣升陽、升舉中氣",
+          "qi_xu_zheng": "補氣",
+          "shen_qi_xu": "補益腎氣"
+        }
+      ],
+      "key_differentiation": "皆含qi_xu證素，以具體症狀和病位區分"
+    },
+    {
+      "syndromes": [
+        "shen_qi_bu_gu",
+        "qi_xu_bu_gu"
+      ],
+      "syndrome_names": [
+        "腎氣不固證",
+        "氣不固攝證"
+      ],
+      "group_name": "含「bu_gu」證素的證型群組",
+      "comparison_aspects": [
+        {
+          "aspect": "病機",
+          "shen_qi_bu_gu": "腎氣不固證是指腎氣虧虛，封藏固攝功能失職的證候。多因先天稟賦不足，或後天失養，或久病耗損，或老年腎虧所致。",
+          "qi_xu_bu_gu": ""
+        },
+        {
+          "aspect": "主要症狀",
+          "shen_qi_bu_gu": "腰膝酸軟、小便頻數而清、夜尿多、遺精滑精",
+          "qi_xu_bu_gu": "自汗、出血、遺尿遺精"
+        },
+        {
+          "aspect": "治法",
+          "shen_qi_bu_gu": "補腎固攝",
+          "qi_xu_bu_gu": "補氣固攝"
+        }
+      ],
+      "key_differentiation": "皆含bu_gu證素，以具體症狀和病位區分"
+    },
+    {
+      "syndromes": [
+        "tai_yang_zheng",
+        "tai_yin_zheng"
+      ],
+      "syndrome_names": [
+        "太陽證",
+        "太陰證"
+      ],
+      "group_name": "含「han」證素的證型群組",
+      "comparison_aspects": [
+        {
+          "aspect": "病機",
+          "tai_yang_zheng": "太陽主表，為人體最外一層，統攝營衛，營行脈中，衛行脈外，營衛相和，皮毛乃固。且太陽經脈上額交巔，絡腦下項，挾脊抵腰，總括頭頂至背及全身肌表，故曰太陽主一身之表，...",
+          "tai_yin_zheng": "太陰證為脾陽虛弱，寒濕困滯，運化失常，氣機阻結所致。脾司大腹，諸濕腫滿皆屬於脾，脾虛則氣血不運，寒濕不化，濕阻氣滯而見腹滿。脾與胃互為表里，脾不升則胃不降，脾病..."
+        },
+        {
+          "aspect": "主要症狀",
+          "tai_yang_zheng": "頭項強痛、惡寒、脈浮",
+          "tai_yin_zheng": "腹滿而吐、食不下、自利益甚、時腹自痛"
+        },
+        {
+          "aspect": "治法",
+          "tai_yang_zheng": "解表散寒",
+          "tai_yin_zheng": "溫中祛寒、健脾燥濕"
+        }
+      ],
+      "key_differentiation": "皆含han證素，以具體症狀和病位區分"
+    },
+    {
+      "syndromes": [
+        "shao_yin_zheng",
+        "tai_yin_zheng"
+      ],
+      "syndrome_names": [
+        "少陰證",
+        "太陰證"
+      ],
+      "group_name": "含「yang_xu」證素的證型群組",
+      "comparison_aspects": [
+        {
+          "aspect": "病機",
+          "shao_yin_zheng": "少陰證以「脈微細，但欲寐」為提綱，病位在心、腎。心、腎為水火之臟，陰陽之根。脈微為陽氣衰微，無力鼓動血行；脈細為陰虛則脈細；但欲寐為「陽氣者，精則養神」，心腎陽...",
+          "tai_yin_zheng": "太陰證為脾陽虛弱，寒濕困滯，運化失常，氣機阻結所致。脾司大腹，諸濕腫滿皆屬於脾，脾虛則氣血不運，寒濕不化，濕阻氣滯而見腹滿。脾與胃互為表里，脾不升則胃不降，脾病..."
+        },
+        {
+          "aspect": "主要症狀",
+          "shao_yin_zheng": "但欲寐、脈微細",
+          "tai_yin_zheng": "腹滿而吐、食不下、自利益甚、時腹自痛"
+        },
+        {
+          "aspect": "治法",
+          "shao_yin_zheng": "寒化證：回陽救逆、熱化證：滋陰清熱",
+          "tai_yin_zheng": "溫中祛寒、健脾燥濕"
+        }
+      ],
+      "key_differentiation": "皆含yang_xu證素，以具體症狀和病位區分"
+    }
+  ],
+  "suggested_comparisons": {
+    "gan_qi_xu": [
+      "gan_xue_xu",
+      "gan_yin_xu"
+    ],
+    "shen_qi_bu_gu": [
+      "zhong_qi_xia_xian",
+      "shen_qi_xu"
+    ],
+    "qingyang_busheng_zheng": [
+      "pi_qi_xu",
+      "zhong_qi_xia_xian"
+    ],
+    "pi_qi_xu": [
+      "pi_bu_tong_xue",
+      "fei_pi_qi_xu",
+      "pi_yang_xu",
+      "pi_qi_xian",
+      "pi_shen_yang_xu"
+    ],
+    "tai_yang_zheng": [
+      "shao_yin_zheng",
+      "jue_yin_zheng",
+      "shao_yang_zheng",
+      "tai_yin_zheng",
+      "wen_bing_wei_fen_zheng"
+    ],
+    "shao_yin_zheng": [
+      "tai_yang_zheng",
+      "yang_ming_zheng",
+      "jue_yin_zheng",
+      "tai_yin_zheng"
+    ],
+    "qi_xu_bu_gu": [
+      "qi_xu"
+    ],
+    "tai_yin_zheng": [
+      "yang_ming_zheng",
+      "shao_yin_zheng",
+      "tai_yang_zheng"
+    ],
+    "fei_qi_xu": [
+      "fei_pi_qi_xu",
+      "fei_yin_xu",
+      "fei_yang_xu",
+      "qi_xu_tan_sou",
+      "biao_wei_bu_gu"
+    ],
+    "qi_jue_zheng": [
+      "qi_tuo_zheng"
+    ],
+    "shao_yang_zheng": [
+      "wen_bing_zheng_nue",
+      "tai_yang_zheng",
+      "re_ru_xue_shi_zheng",
+      "tai_yin_zheng",
+      "yang_ming_zheng"
+    ],
+    "qi_xue_liang_xu": [
+      "xue_xu",
+      "qi_xu"
+    ],
+    "wang_yin_zheng": [
+      "wang_xue_zheng",
+      "yin_xu_zheng",
+      "wang_yang_zheng"
+    ],
+    "xin_qi_xu": [
+      "qi_xue_liang_xu",
+      "xin_xue_xu",
+      "xin_yang_xu"
+    ],
+    "zhong_qi_xia_xian": [
+      "shen_qi_bu_gu",
+      "pi_qi_xu",
+      "qi_xu",
+      "qi_xu_zheng",
+      "qingyang_busheng_zheng"
+    ],
+    "qi_tuo_zheng": [
+      "wang_yang_zheng",
+      "qi_jue_zheng",
+      "qi_xu_zheng",
+      "zhong_qi_xia_xian",
+      "wang_yin_zheng"
+    ],
+    "wang_yang_zheng": [
+      "wang_yin_zheng",
+      "yang_xu_zheng"
+    ],
+    "qi_xu_zheng": [
+      "qi_xue_liang_xu",
+      "zhong_qi_xia_xian",
+      "yang_xu_zheng",
+      "qi_tuo_zheng"
+    ],
+    "shen_qi_xu": [
+      "shen_yang_xu",
+      "shen_bu_na_qi",
+      "shen_yin_xu",
+      "jing_kui"
+    ]
+  },
+  "statistics": {
+    "total_pairs": 22,
+    "total_groups": 4,
+    "syndromes_with_suggestions": 19
+  }
+}
