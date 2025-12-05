@@ -1,0 +1,339 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "擴展證型結構定義",
+  "description": "支持傷寒六經辨證、類證鑑別對比表、兼變證等完整臨床資料",
+  "type": "object",
+  "required": ["id", "name", "classification", "zhengsu_composition", "symptoms", "treatment_principle"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "唯一識別碼（拼音格式）"
+    },
+    "name": {
+      "type": "string",
+      "description": "證型名稱"
+    },
+    "alias": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "別名列表"
+    },
+    "classification": {
+      "type": "object",
+      "description": "證候分類",
+      "properties": {
+        "category": {
+          "type": "string",
+          "enum": ["基礎證候", "傷寒證候", "溫病證候", "臟腑證候", "全身證候"],
+          "description": "大分類"
+        },
+        "liu_jing": {
+          "type": "string",
+          "enum": ["太陽", "陽明", "少陽", "太陰", "少陰", "厥陰", null],
+          "description": "六經歸屬（傷寒證候專用）"
+        },
+        "wei_qi_ying_xue": {
+          "type": "string",
+          "enum": ["衛分", "氣分", "營分", "血分", null],
+          "description": "衛氣營血歸屬（溫病證候專用）"
+        },
+        "san_jiao": {
+          "type": "string",
+          "enum": ["上焦", "中焦", "下焦", null],
+          "description": "三焦歸屬（溫病證候專用）"
+        }
+      },
+      "required": ["category"]
+    },
+    "zhengsu_composition": {
+      "type": "object",
+      "description": "證素組成",
+      "properties": {
+        "location": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "病位證素 ID 列表"
+        },
+        "nature": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "病性證素 ID 列表"
+        }
+      },
+      "required": ["location", "nature"]
+    },
+    "definition": {
+      "type": "string",
+      "description": "完整定義說明"
+    },
+    "etiology": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "病因列表"
+    },
+    "pathogenesis": {
+      "type": "string",
+      "description": "病機概述"
+    },
+    "pathogenesis_analysis": {
+      "type": "array",
+      "description": "病機分析（詳細解釋每個症狀的成因）",
+      "items": {
+        "type": "object",
+        "properties": {
+          "symptom": { "type": "string", "description": "症狀名稱" },
+          "mechanism": { "type": "string", "description": "病機解釋" }
+        }
+      }
+    },
+    "symptoms": {
+      "type": "object",
+      "description": "症狀表現",
+      "properties": {
+        "main": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "主症"
+        },
+        "secondary": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "次症"
+        },
+        "tongue": { "type": "string", "description": "舌象" },
+        "pulse": { "type": "string", "description": "脈象" }
+      },
+      "required": ["main"]
+    },
+    "symptoms_table": {
+      "type": "array",
+      "description": "症狀分類表（按類型分組）",
+      "items": {
+        "type": "object",
+        "properties": {
+          "category": { "type": "string", "description": "症狀類型（如形體、口面、神志等）" },
+          "manifestations": { "type": "array", "items": { "type": "string" }, "description": "具體表現" }
+        }
+      }
+    },
+    "related_diseases": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "相關病證/疾病"
+    },
+    "self_analysis": {
+      "type": "object",
+      "description": "本證辨析",
+      "properties": {
+        "overview": { "type": "string", "description": "辨析概述" },
+        "key_points": { "type": "array", "items": { "type": "string" }, "description": "辨證要點" },
+        "severity_levels": {
+          "type": "array",
+          "description": "輕重證之別",
+          "items": {
+            "type": "object",
+            "properties": {
+              "level": { "type": "string", "enum": ["輕證", "重證"] },
+              "treatment": { "type": "string" },
+              "formula": { "type": "string" },
+              "formula_source": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "compound_patterns": {
+      "type": "array",
+      "description": "兼變證（傷寒證候特有）",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string", "description": "兼變證 ID" },
+          "name": { "type": "string", "description": "兼變證名稱" },
+          "pathogenesis": { "type": "string", "description": "病機" },
+          "symptoms": { "type": "array", "items": { "type": "string" } },
+          "treatment": { "type": "string", "description": "治法" },
+          "formula": { "type": "string", "description": "方劑" },
+          "formula_source": { "type": "string", "description": "方劑出處" }
+        }
+      }
+    },
+    "transformation_types": {
+      "type": "object",
+      "description": "寒化/熱化（少陰證等特有）",
+      "properties": {
+        "cold_transformation": {
+          "type": "object",
+          "description": "寒化證",
+          "properties": {
+            "overview": { "type": "string" },
+            "symptoms": { "type": "array", "items": { "type": "string" } },
+            "treatment": { "type": "string" },
+            "formula": { "type": "string" },
+            "clinical_subtypes": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "disease": { "type": "string", "description": "疾病名稱" },
+                  "symptoms": { "type": "array", "items": { "type": "string" } },
+                  "treatment": { "type": "string" },
+                  "formula": { "type": "string" }
+                }
+              }
+            }
+          }
+        },
+        "heat_transformation": {
+          "type": "object",
+          "description": "熱化證",
+          "properties": {
+            "overview": { "type": "string" },
+            "symptoms": { "type": "array", "items": { "type": "string" } },
+            "treatment": { "type": "string" },
+            "formula": { "type": "string" }
+          }
+        }
+      }
+    },
+    "prognosis": {
+      "type": "object",
+      "description": "傳變轉歸",
+      "properties": {
+        "favorable_signs": {
+          "type": "array",
+          "description": "向愈徵象",
+          "items": { "type": "string" }
+        },
+        "unfavorable_signs": {
+          "type": "array",
+          "description": "惡化徵象",
+          "items": { "type": "string" }
+        },
+        "possible_transformations": {
+          "type": "array",
+          "description": "可能的傳變",
+          "items": {
+            "type": "object",
+            "properties": {
+              "condition": { "type": "string", "description": "條件" },
+              "transforms_to": { "type": "string", "description": "轉變為何證" },
+              "description": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "treatment_contraindications": {
+      "type": "array",
+      "description": "治療禁忌",
+      "items": { "type": "string" }
+    },
+    "differentiation": {
+      "type": "array",
+      "description": "類證鑑別（詳細對比表）",
+      "items": {
+        "type": "object",
+        "properties": {
+          "compare_with": { "type": "string", "description": "比較證型 ID" },
+          "compare_name": { "type": "string", "description": "比較證型名稱" },
+          "similarities": { "type": "array", "items": { "type": "string" }, "description": "相同點" },
+          "comparison_table": {
+            "type": "array",
+            "description": "鑑別對比表",
+            "items": {
+              "type": "object",
+              "properties": {
+                "aspect": { "type": "string", "description": "鑑別點（如病因、病程、症狀類型等）" },
+                "this_pattern": { "type": "string", "description": "本證表現" },
+                "other_pattern": { "type": "string", "description": "彼證表現" }
+              }
+            }
+          },
+          "key_points": { "type": "array", "items": { "type": "string" }, "description": "鑑別要點總結" }
+        }
+      }
+    },
+    "treatment_principle": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "治則治法"
+    },
+    "formulas": {
+      "type": "array",
+      "description": "常用方劑（詳細版）",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string", "description": "方劑 ID" },
+          "name": { "type": "string", "description": "方劑名稱" },
+          "source": { "type": "string", "description": "出處" },
+          "function": { "type": "string", "description": "功效" },
+          "indication": { "type": "string", "description": "適用情況" }
+        }
+      }
+    },
+    "recommended_formulas": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "推薦方劑 ID 列表（簡化版）"
+    },
+    "recommended_herbs": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "推薦中藥 ID 列表"
+    },
+    "related_patterns": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "相關證型 ID 列表"
+    },
+    "evolved_from": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "由哪些證型演變而來"
+    },
+    "can_evolve_to": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "可能演變成的證型 ID"
+    },
+    "literature": {
+      "type": "array",
+      "description": "文獻選錄",
+      "items": {
+        "type": "object",
+        "properties": {
+          "source": { "type": "string", "description": "出處" },
+          "chapter": { "type": "string", "description": "篇章" },
+          "quote": { "type": "string", "description": "原文" }
+        }
+      }
+    },
+    "references": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "參考文獻"
+    },
+    "common_in": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "常見於哪類人群/疾病"
+    },
+    "clinical_variants": {
+      "type": "array",
+      "description": "臨床變型",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "cause": { "type": "string" },
+          "symptoms": { "type": "array", "items": { "type": "string" } },
+          "treatment": { "type": "string" },
+          "formula": { "type": "string" },
+          "formula_source": { "type": "string" }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "id": "tai_yang_zheng",
+  "name": "太陽證",
+  "alias": ["太陽病", "太陽經證"],
+  "classification": {
+    "category": "傷寒證候",
+    "liu_jing": "太陽"
+  },
+  "zhengsu_composition": {
+    "location": ["biao"],
+    "nature": ["han", "feng"]
+  },
+  "definition": "凡外感風寒，自表而入，侵及太陽，正邪相爭，營衛失和而出現「脈浮、頭項強痛而惡寒」等症狀的一類證候的統稱，是外感病的初起階段。",
+  "pathogenesis": "太陽主表，為人體最外一層，統攝營衛，營行脈中，衛行脈外，營衛相和，皮毛乃固。且太陽經脈上額交巔，絡腦下項，挾脊抵腰，總括頭頂至背及全身肌表，故曰太陽主一身之表，為六經之藩籬。",
+  "pathogenesis_analysis": [
+    { "symptom": "頭項強痛", "mechanism": "外邪侵襲，經脈受邪，氣血運行受阻，不通則痛" },
+    { "symptom": "脈浮", "mechanism": "正氣抗邪於外，氣血疾行，脈道充盈鼓動" },
+    { "symptom": "惡寒", "mechanism": "正氣為邪所傷，不能溫分肉充皮膚" }
+  ],
+  "symptoms": {
+    "main": ["頭項強痛", "惡寒", "脈浮"],
+    "secondary": [],
+    "tongue": "",
+    "pulse": "脈浮"
+  },
+  "symptoms_table": [
+    { "category": "主症", "manifestations": ["頭項強痛", "惡寒", "脈浮"] }
+  ],
+  "related_diseases": ["外感熱病初起"],
+  "self_analysis": {
+    "overview": "太陽主表，為人體最外一層，統攝營衛。本證為外感病之初起，病邪侵入尚淺。三症俱見方為太陽證。",
+    "key_points": ["脈浮、頭項強痛、惡寒三症俱見", "外感病初起階段", "病邪侵入尚淺"]
+  },
+  "compound_patterns": [
+    {
+      "id": "tai_yang_zhong_feng",
+      "name": "太陽中風",
+      "pathogenesis": "寒邪外侵，衛陽束表，營衛不和，衛強營弱",
+      "symptoms": ["發熱汗出", "惡風", "脈浮緩"],
+      "treatment": "解肌祛風，調和營衛",
+      "formula": "桂枝湯",
+      "formula_source": "《傷寒論》"
+    },
+    {
+      "id": "tai_yang_shang_han",
+      "name": "太陽傷寒",
+      "pathogenesis": "衛陽被遏，營陰凝滯",
+      "symptoms": ["惡寒", "體痛", "嘔逆", "脈浮緊"],
+      "treatment": "辛溫發汗，宣肺平喘",
+      "formula": "麻黃湯",
+      "formula_source": "《傷寒論》"
+    },
+    {
+      "id": "tai_yang_xu_shui_zheng",
+      "name": "太陽蓄水證",
+      "pathogenesis": "外邪侵及膀胱，陽氣不煦，氣不能化水，水蓄不行",
+      "symptoms": ["發熱汗出", "煩渴", "煩躁不得眠", "渴欲飲水", "水入則吐", "小便不利", "脈浮數"],
+      "treatment": "化氣行水，兼以解表",
+      "formula": "五苓散",
+      "formula_source": "《傷寒論》"
+    },
+    {
+      "id": "tai_yang_xu_xue_zheng",
+      "name": "太陽蓄血證",
+      "pathogenesis": "邪熱積於下焦，與血搏結於膀胱",
+      "symptoms": ["少腹急結", "其人如狂", "小便自利", "身黃", "脈沉結"],
+      "treatment": "逐瘀泄熱",
+      "formula": "桃核承氣湯",
+      "formula_source": "《傷寒論》"
+    }
+  ],
+  "differentiation": [
+    {
+      "compare_with": "shao_yang_zheng",
+      "compare_name": "少陽證",
+      "similarities": ["同屬三陽病證", "均可出現惡寒、發熱，甚則如瘧狀"],
+      "comparison_table": [
+        { "aspect": "病機", "this_pattern": "傷寒邪氣初侵太陽經，營衛失和的表證階段", "other_pattern": "傷寒邪氣自表入里，在表里之間的正邪劇爭階段" },
+        { "aspect": "病勢", "this_pattern": "病勢尚輕淺", "other_pattern": "病勢已深" },
+        { "aspect": "寒熱", "this_pattern": "寒熱並見，且寒多熱少", "other_pattern": "往來寒熱" },
+        { "aspect": "胸腹", "this_pattern": "多心腹不滿，呻吟不安而不嘔", "other_pattern": "多胸脅苦滿，默不欲食，心煩喜嘔（皆為邪不在表之徵）" }
+      ],
+      "key_points": ["太陽證寒熱並見，少陽證往來寒熱", "太陽證病勢淺，少陽證病勢深"]
+    },
+    {
+      "compare_with": "yang_ming_zheng",
+      "compare_name": "陽明證",
+      "similarities": ["均出現在外感病過程中", "同屬三陽病證", "以陽經和六腑病變為基礎"],
+      "comparison_table": [
+        { "aspect": "病位", "this_pattern": "太陽主表", "other_pattern": "陽明主里" },
+        { "aspect": "發病", "this_pattern": "邪氣首侵之經，病變可傳於他經", "other_pattern": "可由他經傳來，亦可自發為病" },
+        { "aspect": "病程階段", "this_pattern": "外感病的初期階段，病情較淺", "other_pattern": "疾病的極期階段，病情較太陽為重" },
+        { "aspect": "治則", "this_pattern": "宜解表，切忌過汗、下以防引邪深入", "other_pattern": "宜清里，急下存陰" }
+      ],
+      "key_points": ["太陽主表宜解表，陽明主里宜清里", "太陽證病情淺，陽明證病情重"]
+    },
+    {
+      "compare_with": "wen_bing_wei_fen_zheng",
+      "compare_name": "溫病衛分證",
+      "similarities": ["均為外感疾病初起之表證階段", "病情尚淺"],
+      "comparison_table": [
+        { "aspect": "病因", "this_pattern": "多感受風寒病邪", "other_pattern": "多起因於風熱" },
+        { "aspect": "侵犯部位", "this_pattern": "邪氣從皮毛而入，先侵及太陽膀胱經", "other_pattern": "多從口鼻而入，先侵及手太陰肺經" },
+        { "aspect": "首發症狀", "this_pattern": "必見惡寒", "other_pattern": "首推發熱" },
+        { "aspect": "化熱", "this_pattern": "多有衛陽被鬱，常留戀於表，再入里化熱", "other_pattern": "首感熱邪，無需化熱故熱變最速" },
+        { "aspect": "傳變", "this_pattern": "演變後傳入少陽、陽明或三陰經，由寒化熱，再由熱轉變，性質多變", "other_pattern": "傳里後因溫病多挾濕邪，故可在某一階段（如氣分）病情相對穩定，無較大變化" },
+        { "aspect": "治則", "this_pattern": "以寒立論，以辛溫解表為主", "other_pattern": "以熱求因，以辛涼解表為主" }
+      ],
+      "key_points": ["太陽證感受風寒，溫病衛分證感受風熱", "太陽證首見惡寒，溫病衛分證首推發熱", "治則一辛溫一辛涼"]
+    }
+  ],
+  "treatment_principle": ["解表散寒"],
+  "formulas": [
+    {
+      "id": "guizhi_tang",
+      "name": "桂枝湯",
+      "source": "《傷寒論》",
+      "function": "解肌祛風，調和營衛",
+      "indication": "太陽中風"
+    },
+    {
+      "id": "mahuang_tang",
+      "name": "麻黃湯",
+      "source": "《傷寒論》",
+      "function": "辛溫發汗，宣肺平喘",
+      "indication": "太陽傷寒"
+    },
+    {
+      "id": "wuling_san",
+      "name": "五苓散",
+      "source": "《傷寒論》",
+      "function": "化氣行水，兼以解表",
+      "indication": "太陽蓄水證"
+    },
+    {
+      "id": "taohe_chengqi_tang",
+      "name": "桃核承氣湯",
+      "source": "《傷寒論》",
+      "function": "逐瘀泄熱",
+      "indication": "太陽蓄血證"
+    }
+  ],
+  "recommended_formulas": ["guizhi_tang", "mahuang_tang", "wuling_san", "taohe_chengqi_tang"],
+  "related_patterns": ["shao_yang_zheng", "yang_ming_zheng", "wen_bing_wei_fen_zheng", "tai_yang_zhong_feng_zheng", "tai_yang_shang_han_zheng", "tai_yang_xu_shui_zheng", "tai_yang_xu_xue_zheng"],
+  "can_evolve_to": ["shao_yang_zheng", "yang_ming_zheng", "tai_yin_zheng", "shao_yin_zheng", "jue_yin_zheng"],
+  "evolved_from": [],
+  "literature": [
+    {
+      "source": "《傷寒論·辨太陽病脈證並治上》",
+      "quote": "太陽之為病，脈浮，頭項強痛而惡寒。"
+    },
+    {
+      "source": "《傷寒論條辨·辨太陽病脈證並治上》",
+      "quote": "太陽者，……乃六經之首，主皮膚而統營衛，所以為受病之始也。《難經》曰：浮脈在肉上行也。滑氏曰：脈在肉上行，主表也。表即皮膚，榮衛麗焉。故脈見尺寸俱浮，知為病在太陽之診也。項，頸後也。強痛者，皮膚榮衛一有感受，經絡隨感而應，邪正爭擾也。惡寒者，該風而言也。風寒初襲表而鬱於表，故不勝。復被風寒外遷而畏惡之。及其過表而入里，則不復惡。仇雠之義也。"
+    },
+    {
+      "source": "《傷寒來蘇集·傷寒論注·太陽脈證》",
+      "quote": "仲景作論大法，六經各立病機一條，提揭一經綱領，必擇本經至當之脈證而表彰之。六經雖各有表證，惟太陽主表，故表證表脈，獨太陽得其全，如脈浮為在表，太陽像三陽，其脈氣浮而有力，與陽明之兼長大，少陽兼弦細，三陰之微浮者不侔矣。頭項主一身之表，太陽經絡營於頭，會於項，故頭連項而強痛，與陽明頭額痛，少陽頭角痛者少間矣。惡寒為病在表，六經雖各惡寒，而太陽應寒水之化，故惡寒特甚，與陽明二日自止，少陽往來寒熱，三陰之內惡寒者，懸殊矣。後凡言太陽病者，必據此條脈症。如脈反沉，頭不痛，項不強，不惡寒，是太陽之變局矣。仲景立六經總綱法，與《內經·熱論》不同，太陽只重在表證表脈，不重在經絡主病。看諸總綱，各立門戶，其意可知。"
+    },
+    {
+      "source": "《傷寒貫珠集·太陰篇下》",
+      "quote": "溫病者，冬春之月，溫暖太甚，所謂非節之暖，人感之而即病者也。此正是傷寒對照處。傷寒變乃成熱，故必傳經而後渴。溫邪不待傳變，故在太陽而即渴也。傷寒陽為寒鬱，故身發熱而惡寒；溫病陽為邪引，故發熱而不惡寒也。然其脈浮，身熱頭痛，則與傷寒相似，所以謂之傷寒類病云。"
+    },
+    {
+      "source": "《醫宗金鑑·訂正仲景全書》",
+      "quote": "太陽病不解，不傳陽明，邪熱隨經入里，謂之犯本，犯本者，謂犯膀胱之府也。膀胱府之衛為氣分，膀胱府之榮為血分，熱入而犯氣分，氣化不行，熱與水結者，謂之犯衛分之里，五苓散證也；熱入而犯血分，血蓄不行，熱與血結者，謂之犯榮分之里，桃核承氣湯證也。二者雖皆為犯本之證，二方雖皆治犯本之藥，而一從前利，一從後攻，水與血，主治各不同也。"
+    }
+  ],
+  "references": ["《中醫證候鑑別診斷學》"],
+  "common_in": ["外感風寒初起"]
+}

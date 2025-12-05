@@ -1,29 +1,114 @@
 {
   "id": "wang_yin_zheng",
   "name": "亡陰證",
-  "alias": ["陰竭證", "陰脫證"],
+  "alias": ["亡陰"],
+  "classification": {
+    "category": "基礎證候"
+  },
   "zhengsu_composition": {
     "location": [],
     "nature": ["wang_yin"]
   },
-  "pathogenesis": "亡陰證是指陰液大量耗損，陰氣欲竭的危重證候。多因邪熱內陷，真陰消爍，或汗出過多、下利不止、大出血等造成陰液耗竭，陰不制陽，陰陽離決。",
+  "definition": "人體陰液突然大量耗損而出現的陰液欲竭的證候。多因高熱大汗，劇烈吐瀉，出血過多，或其它因素，導致陰液大量耗損所致。",
+  "pathogenesis": "多種疾病的慢性虧損及過度汗、吐、下，或大失血等，均可造成陰液的嚴重消耗，甚至出現亡陰證。陰虛體質或溫熱病過程中尤為多見。亡陰證是十分嚴重的證候，危在旦夕，無論何種疾病至亡陰階段的臨床表現，辨證要點及治療方法均基本相同。由於陰陽互根，陰竭則陽無所附而散越，故亡陰證往往會很快出現亡陽證。",
   "symptoms": {
-    "main": ["身熱面赤", "煩躁不安", "汗出如油", "口渴欲飲"],
-    "secondary": ["手足溫", "神志昏迷", "顴紅升火", "咽干"],
-    "tongue": "舌紅絳少苔或光剝",
-    "pulse": "脈虛細數疾"
+    "main": ["肌肉乾癟", "皮膚皺摺", "眼眶深陷", "唇乾齒燥", "面色潮紅", "精神煩躁", "汗出身熱", "口渴喜冷飲"],
+    "secondary": ["呼吸氣短", "昏迷譫妄"],
+    "tongue": "舌質乾紅",
+    "pulse": "脈虛數或細數無力"
   },
-  "treatment_principle": ["救陰斂液"],
-  "recommended_formulas": ["shengmai_san", "zengye_tang"],
-  "recommended_herbs": ["ren_shen", "mai_dong", "wu_wei_zi", "sheng_di", "xuan_shen"],
-  "evolved_from": ["qi_tuo_zheng", "yin_xu"],
-  "can_evolve_to": [],
-  "differentiate_from": ["qi_tuo_zheng", "wang_yang_zheng"],
-  "common_in": ["熱病後期", "大汗大瀉後", "大出血後"],
-  "clinical_variants": [],
-  "differentiation": [],
-  "literature": [],
-  "related_diseases": [],
-  "description": "亡陰證是陰液耗竭的極危重證候。與氣脫證比較，氣脫證可為亡陰證的前奏；亡陰證已見神志昏迷、汗出如油、舌紅絳等陰虛內熱表現，病情更為危重。與亡陽證比較，亡陰證身熱面赤、手足溫，亡陽證面色蒼白、四肢厥冷。",
-  "source": "《中醫診斷學》"
+  "symptoms_table": [
+    { "category": "形體", "manifestations": ["肌肉乾癟", "皮膚皺摺", "眼眶深陷"] },
+    { "category": "口面", "manifestations": ["唇乾齒燥", "面色潮紅"] },
+    { "category": "神志", "manifestations": ["精神煩躁", "昏迷譫妄"] },
+    { "category": "汗熱", "manifestations": ["汗出身熱"] },
+    { "category": "飲食", "manifestations": ["口渴喜冷飲"] },
+    { "category": "呼吸", "manifestations": ["呼吸氣短"] },
+    { "category": "舌象", "manifestations": ["舌質乾紅"] },
+    { "category": "脈象", "manifestations": ["脈虛數或細數無力"] }
+  ],
+  "related_diseases": ["暴吐暴瀉", "溫病後期"],
+  "self_analysis": {
+    "overview": "多種疾病的慢性虧損及過度汗、吐、下，或大失血等，均可造成陰液的嚴重消耗，甚至出現亡陰證。陰虛體質或溫熱病過程中尤為多見。亡陰證是十分嚴重的證候，危在旦夕，無論何種疾病至亡陰階段的臨床表現，辨證要點及治療方法均基本相同。一旦出現亡陰證就應立即進行搶救。",
+    "key_points": ["陰液突然大量耗損", "虛熱現象明顯", "危在旦夕需搶救"]
+  },
+  "differentiation": [
+    {
+      "compare_with": "yin_xu_zheng",
+      "compare_name": "陰虛證",
+      "similarities": ["陰虛往往是亡陰的基礎", "二證均有陰虛生內熱的表現"],
+      "comparison_table": [
+        { "aspect": "病因", "this_pattern": "高熱，或汗、吐、下過度，或出血過多等原因所致的短期內陰液嚴重耗竭", "other_pattern": "稟賦不足，或思慮過度耗傷陰液，或慢性出血，久病傷陰，或溫熱病耗傷陰液" },
+        { "aspect": "病程", "this_pattern": "發病急劇", "other_pattern": "病程較長，病勢較緩" },
+        { "aspect": "形體", "this_pattern": "肌肉乾癟、皮膚皺摺、眼眶深陷", "other_pattern": "形體消瘦" },
+        { "aspect": "口燥", "this_pattern": "唇乾齒燥、口渴喜冷飲", "other_pattern": "口燥咽乾" },
+        { "aspect": "頭面", "this_pattern": "面色潮紅", "other_pattern": "眩暈、午後顴紅" },
+        { "aspect": "神志", "this_pattern": "精神煩躁或昏迷譫妄", "other_pattern": "失眠" },
+        { "aspect": "汗熱", "this_pattern": "汗出身熱", "other_pattern": "潮熱盜汗、五心煩熱" },
+        { "aspect": "呼吸", "this_pattern": "呼吸氣短", "other_pattern": "—" },
+        { "aspect": "二便", "this_pattern": "—", "other_pattern": "尿少色黃、大便乾燥" },
+        { "aspect": "舌象", "this_pattern": "舌質乾紅", "other_pattern": "舌紅少苔" },
+        { "aspect": "脈象", "this_pattern": "脈虛數或細數無力", "other_pattern": "脈細數" },
+        { "aspect": "病情", "this_pattern": "病情危重", "other_pattern": "病勢較緩" }
+      ],
+      "key_points": ["陰虛證病程長病勢緩，亡陰證發病急劇病情危重", "亡陰證虛熱現象更明顯，形體消耗更嚴重"]
+    },
+    {
+      "compare_with": "wang_xue_zheng",
+      "compare_name": "亡血證",
+      "similarities": ["血為陰液，亡血證亦可發展為亡陰證", "二者關係密切"],
+      "comparison_table": [
+        { "aspect": "病因", "this_pattern": "多見於高熱大汗、暴吐、暴瀉之後", "other_pattern": "大出血或經常慢性出血" },
+        { "aspect": "面色", "this_pattern": "面色潮紅", "other_pattern": "面白無華" },
+        { "aspect": "頭面", "this_pattern": "—", "other_pattern": "頭暈目眩" },
+        { "aspect": "神志", "this_pattern": "精神煩躁", "other_pattern": "—" },
+        { "aspect": "肢體", "this_pattern": "—", "other_pattern": "肢麻無力" },
+        { "aspect": "汗熱", "this_pattern": "汗出身熱", "other_pattern": "無虛熱現象" },
+        { "aspect": "口渴", "this_pattern": "口渴喜冷飲", "other_pattern": "—" },
+        { "aspect": "舌象", "this_pattern": "舌紅而乾", "other_pattern": "唇舌色淡" },
+        { "aspect": "脈象", "this_pattern": "脈虛數或細數無力", "other_pattern": "脈芤或微而澀" },
+        { "aspect": "表現特點", "this_pattern": "虛熱現象明顯", "other_pattern": "一派嚴重的血虛表現" }
+      ],
+      "key_points": ["亡陰證有明顯虛熱現象，亡血證以血虛表現為主", "亡血證可發展為亡陰證"]
+    }
+  ],
+  "treatment_principle": ["滋陰增液", "養陰固氣"],
+  "formulas": [
+    {
+      "id": "shengmai_san",
+      "name": "生脈散",
+      "source": "《內外傷辨惑論》",
+      "function": "滋陰增液",
+      "indication": "亡陰證主方，可加味使用"
+    },
+    {
+      "id": "shenfu_tang",
+      "name": "參附湯",
+      "source": "《婦人良方》",
+      "function": "急回其陽",
+      "indication": "若亡陰欲脫陽，當救陰同時急回其陽"
+    }
+  ],
+  "recommended_formulas": ["shengmai_san", "shenfu_tang"],
+  "related_patterns": ["yin_xu_zheng", "wang_xue_zheng", "wang_yang_zheng"],
+  "evolved_from": ["yin_xu_zheng"],
+  "can_evolve_to": ["wang_yang_zheng"],
+  "prognosis": {
+    "unfavorable_signs": ["由於陰陽互根，陰竭則陽無所附而散越，故亡陰證往往會很快出現亡陽證"],
+    "possible_transformations": [
+      {
+        "condition": "陰竭陽無所附",
+        "transforms_to": "wang_yang_zheng",
+        "description": "亡陰證不及時養陰固液，必發展為亡陽證"
+      }
+    ]
+  },
+  "literature": [
+    {
+      "source": "《侶山堂類辨·陽脫陰脫辨》",
+      "quote": "陰陽虛脫，有外因、內因之分，有偏勝、偏絕之別。如邪中於陰，手足厥冷，脈微欲絕，此陰盛而生陽之氣欲絕於內也；如欲冷飲，欲臥涼地，揭去衣被，躁而不安，此陰盛於內而陽欲脫於外也，急宜參、附、姜、桂以救之；如發汗不解，身反大熱，此陽盛而陰絕於內也；如陽明病，發熱汗多者，急下之，宜大承氣湯，此陽盛於內而陰液外脫也。此外因之陰陽偏勝而偏絕也。若夫內因之陰陽，陽生於陰，陰生於陽。陽生於陰者，陽氣生於陰精也；陰生於陽者，陰精之生於陽化也。陽化者，陽氣化水谷之精微，而生此精也。陰陽和合，交相生化，是為平人。如孤陽不生，獨陰不長，此陰陽之生機欲絕於內也。《難經》曰：脫陽者見鬼，脫陰者目盲。蓋陽脫者，從下而脫於上；陰脫者，從上而脫於下。故脫陰而目盲者，尚有餘命之苟延；脫陽而見鬼者，不計日而死矣。夫陽脫之患，多有本於陰虛。如年老之人，足膝寒冷，此元陽之氣漸衰，而欲絕於下，宜用參附半硫之類，以助生陽。如或因脾胃虛而谷精不生，或入房甚而腎精日損，或憂恐而藏精漸消，或煩勞而精神日耗，以致陰氣日衰，而陽將外脫矣。故治未病者，見陰精有虧，乃陽脫之漸，預培養其陰焉。若待陽氣外脫，用桂、附而欲其引火歸原，不知陰精者，陽氣之生原也，其原已絕，又安所歸乎？故陽脫而用桂、附救之者，外因之脫也；治內因而用桂、附者，助陽氣之衰於下也。若陰虛而陽脫者，非桂、附可救。故曰陰陽虛脫，有外因、內因之分，有偏勝、偏絕之別。"
+    }
+  ],
+  "references": ["《中醫證候鑑別診斷學》"],
+  "common_in": ["暴吐暴瀉者", "溫病後期陰液嚴重灼傷者", "大出血後"]
 }
