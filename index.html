@@ -13,6 +13,10 @@
   <header>
     <h1>中醫證候資料庫</h1>
     <p>系統性整理中醫證候辨證知識</p>
+    <nav class="main-nav">
+      <a href="index.html" class="nav-link active">首頁</a>
+      <a href="evolution-map.html" class="nav-link">演變圖譜</a>
+    </nav>
   </header>
 
   <main class="container">
@@ -109,8 +113,13 @@
 
     <!-- 證候演變圖譜 -->
     <section class="evolution-section" id="evolution-section">
-      <h2 class="section-title">證候演變圖譜</h2>
-      <p class="section-desc">展示證型之間的演變遞進關係，幫助理解病機發展規律</p>
+      <div class="section-header-with-link">
+        <div>
+          <h2 class="section-title">證候演變圖譜</h2>
+          <p class="section-desc">展示證型之間的演變遞進關係，幫助理解病機發展規律</p>
+        </div>
+        <a href="evolution-map.html" class="btn-view-map">查看互動圖譜 →</a>
+      </div>
       <div id="evolution-groups" class="evolution-groups">
         <!-- 動態載入 -->
       </div>
