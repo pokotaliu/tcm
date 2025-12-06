@@ -1,0 +1,285 @@
+{
+  "total": 56,
+  "syndromes": [
+    {
+      "id": "qi_xu",
+      "name": "氣虛證",
+      "category": "基礎證候"
+    },
+    {
+      "id": "qi_xian",
+      "name": "氣陷證",
+      "category": "基礎證候"
+    },
+    {
+      "id": "qi_tuo",
+      "name": "氣脫證",
+      "category": "基礎證候"
+    },
+    {
+      "id": "qi_zhi",
+      "name": "氣滯證",
+      "category": "基礎證候"
+    },
+    {
+      "id": "qi_ni",
+      "name": "氣逆證",
+      "category": "基礎證候"
+    },
+    {
+      "id": "qi_bi",
+      "name": "氣閉證",
+      "category": "基礎證候"
+    },
+    {
+      "id": "xue_xu",
+      "name": "血虛證",
+      "category": "基礎證候"
+    },
+    {
+      "id": "xue_tuo",
+      "name": "血脫證",
+      "category": "基礎證候"
+    },
+    {
+      "id": "xue_yu",
+      "name": "血瘀證",
+      "category": "基礎證候"
+    },
+    {
+      "id": "xue_re",
+      "name": "血熱證",
+      "category": "基礎證候"
+    },
+    {
+      "id": "xue_zao",
+      "name": "血燥證",
+      "category": "基礎證候"
+    },
+    {
+      "id": "xue_han",
+      "name": "血寒證",
+      "category": "基礎證候"
+    },
+    {
+      "id": "jing_tuo",
+      "name": "精脫證",
+      "category": "基礎證候"
+    },
+    {
+      "id": "yin_xu_jin_kui",
+      "name": "陰虛津虧證",
+      "category": "基礎證候"
+    },
+    {
+      "id": "yin_xu",
+      "name": "陰虛證",
+      "category": "基礎證候"
+    },
+    {
+      "id": "yang_xu",
+      "name": "陽虛證",
+      "category": "基礎證候"
+    },
+    {
+      "id": "wang_yin",
+      "name": "亡陰證",
+      "category": "基礎證候"
+    },
+    {
+      "id": "wang_yang",
+      "name": "亡陽證",
+      "category": "基礎證候"
+    },
+    {
+      "id": "shi_shen",
+      "name": "失神證",
+      "category": "基礎證候"
+    },
+    {
+      "id": "feng",
+      "name": "風證",
+      "category": "基礎證候"
+    },
+    {
+      "id": "han",
+      "name": "寒證",
+      "category": "基礎證候"
+    },
+    {
+      "id": "shu",
+      "name": "暑證",
+      "category": "基礎證候"
+    },
+    {
+      "id": "shi",
+      "name": "濕證",
+      "category": "基礎證候"
+    },
+    {
+      "id": "zao",
+      "name": "燥證",
+      "category": "基礎證候"
+    },
+    {
+      "id": "huo_re",
+      "name": "火熱證",
+      "category": "基礎證候"
+    },
+    {
+      "id": "tan",
+      "name": "痰證",
+      "category": "基礎證候"
+    },
+    {
+      "id": "xie_du_chi_sheng",
+      "name": "邪毒熾盛證",
+      "category": "基礎證候"
+    },
+    {
+      "id": "tai_yang",
+      "name": "太陽證",
+      "category": "六經辨證"
+    },
+    {
+      "id": "yang_ming",
+      "name": "陽明證",
+      "category": "六經辨證"
+    },
+    {
+      "id": "shao_yang",
+      "name": "少陽證",
+      "category": "六經辨證"
+    },
+    {
+      "id": "tai_yin",
+      "name": "太陰證",
+      "category": "六經辨證"
+    },
+    {
+      "id": "jue_yin",
+      "name": "厥陰證",
+      "category": "六經辨證"
+    },
+    {
+      "id": "shao_yin",
+      "name": "少陰證",
+      "category": "六經辨證"
+    },
+    {
+      "id": "wei_fen",
+      "name": "衛分證",
+      "category": "衛氣營血辨證"
+    },
+    {
+      "id": "qi_fen",
+      "name": "氣分證",
+      "category": "衛氣營血辨證"
+    },
+    {
+      "id": "ying_fen",
+      "name": "營分證",
+      "category": "衛氣營血辨證"
+    },
+    {
+      "id": "xue_fen",
+      "name": "血分證",
+      "category": "衛氣營血辨證"
+    },
+    {
+      "id": "qi_xu_fa_re",
+      "name": "氣虛發熱證",
+      "category": "複合證候"
+    },
+    {
+      "id": "qi_xu_wai_gan",
+      "name": "氣虛外感證",
+      "category": "複合證候"
+    },
+    {
+      "id": "qi_xu_xue_yu",
+      "name": "氣虛血瘀證",
+      "category": "複合證候"
+    },
+    {
+      "id": "qi_zhi_xue_yu",
+      "name": "氣滯血瘀證",
+      "category": "複合證候"
+    },
+    {
+      "id": "qi_zhi_tan_ning",
+      "name": "氣滯痰凝證",
+      "category": "複合證候"
+    },
+    {
+      "id": "qi_zhi_shi_zu",
+      "name": "氣滯濕阻證",
+      "category": "複合證候"
+    },
+    {
+      "id": "qi_yu_hua_huo",
+      "name": "氣鬱化火證",
+      "category": "複合證候"
+    },
+    {
+      "id": "qi_zhi_shui_ting",
+      "name": "氣滯水停證",
+      "category": "複合證候"
+    },
+    {
+      "id": "xue_xu_sheng_feng",
+      "name": "血虛生風證",
+      "category": "複合證候"
+    },
+    {
+      "id": "xue_xu_feng_zao",
+      "name": "血虛風燥證",
+      "category": "複合證候"
+    },
+    {
+      "id": "xue_xu_jin_kui",
+      "name": "血虛津虧證",
+      "category": "複合證候"
+    },
+    {
+      "id": "xue_xu_han_ning",
+      "name": "血虛寒凝證",
+      "category": "複合證候"
+    },
+    {
+      "id": "xue_xu_wai_gan",
+      "name": "血虛外感證",
+      "category": "複合證候"
+    },
+    {
+      "id": "xue_yu_qi_zhi",
+      "name": "血瘀氣滯證",
+      "category": "複合證候"
+    },
+    {
+      "id": "xue_yu_hua_re",
+      "name": "血瘀化熱證",
+      "category": "複合證候"
+    },
+    {
+      "id": "xue_yu_shui_ting",
+      "name": "血瘀水停證",
+      "category": "複合證候"
+    },
+    {
+      "id": "xue_yu_dong_xue",
+      "name": "血瘀動血證",
+      "category": "複合證候"
+    },
+    {
+      "id": "yu_xue_bi_zu",
+      "name": "瘀血痺阻證",
+      "category": "複合證候"
+    },
+    {
+      "id": "xue_re_dong_feng",
+      "name": "血熱動風證",
+      "category": "複合證候"
+    }
+  ]
+}

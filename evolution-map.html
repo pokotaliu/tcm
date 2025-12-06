@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>證候演變圖譜 - 中醫證候資料庫</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>證候演變圖譜</h1>
+    <p>互動式視覺化展示證型之間的演變遞進關係</p>
+    <nav class="main-nav">
+      <a href="index.html" class="nav-link">首頁</a>
+      <a href="evolution-map.html" class="nav-link active">演變圖譜</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <!-- 控制面板 -->
+    <section class="evolution-controls">
+      <div class="control-group">
+        <label>選擇演變主題：</label>
+        <select id="chain-select">
+          <option value="all">全部顯示</option>
+          <option value="qi">氣病演變系列</option>
+          <option value="blood">血證演變系列</option>
+          <option value="yin_yang">陰陽演變系列</option>
+          <option value="liu_jing">六經傳變系列</option>
+          <option value="weiqi">衛氣營血系列</option>
+        </select>
+      </div>
+      <div class="control-group">
+        <label>佈局方式：</label>
+        <div class="layout-buttons">
+          <button class="layout-btn active" data-layout="force">力導向圖</button>
+          <button class="layout-btn" data-layout="hierarchical">層級圖</button>
+          <button class="layout-btn" data-layout="radial">放射圖</button>
+        </div>
+      </div>
+      <div class="control-group">
+        <button id="reset-view" class="btn-secondary">重置視圖</button>
+        <button id="toggle-labels" class="btn-secondary">隱藏標籤</button>
+      </div>
+    </section>
+
+    <!-- 圖例說明 -->
+    <section class="evolution-legend">
+      <h3>圖例說明</h3>
+      <div class="legend-items">
+        <div class="legend-item">
+          <span class="legend-node severity-1"></span>
+          <span>輕證</span>
+        </div>
+        <div class="legend-item">
+          <span class="legend-node severity-2"></span>
+          <span>中證</span>
+        </div>
+        <div class="legend-item">
+          <span class="legend-node severity-3"></span>
+          <span>重證</span>
+        </div>
+        <div class="legend-item">
+          <span class="legend-node severity-4"></span>
+          <span>危重證</span>
+        </div>
+        <div class="legend-divider"></div>
+        <div class="legend-item">
+          <span class="legend-edge relation-develop"></span>
+          <span>發展</span>
+        </div>
+        <div class="legend-item">
+          <span class="legend-edge relation-worsen"></span>
+          <span>惡化</span>
+        </div>
+        <div class="legend-item">
+          <span class="legend-edge relation-critical"></span>
+          <span>危變</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SVG 視覺化區域 -->
+    <section class="evolution-map-container">
+      <div id="evolution-map" class="evolution-map">
+        <div class="loading">載入中...</div>
+      </div>
+    </section>
+
+    <!-- 節點詳情面板 -->
+    <aside class="node-detail-panel hidden" id="node-detail">
+      <button class="panel-close" id="close-detail">&times;</button>
+      <h3 id="detail-name"></h3>
+      <div class="detail-content">
+        <div class="detail-row">
+          <span class="detail-label">類別：</span>
+          <span id="detail-category"></span>
+        </div>
+        <div class="detail-row">
+          <span class="detail-label">嚴重程度：</span>
+          <span id="detail-severity"></span>
+        </div>
+        <div class="detail-row">
+          <span class="detail-label">可演變為：</span>
+          <div id="detail-evolve-to" class="detail-tags"></div>
+        </div>
+        <div class="detail-row">
+          <span class="detail-label">來源於：</span>
+          <div id="detail-evolve-from" class="detail-tags"></div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- 演變鏈快速導航 -->
+    <section class="evolution-chains-nav">
+      <h3>快速導航</h3>
+      <div id="chains-list" class="chains-list">
+        <!-- 動態填充 -->
+      </div>
+    </section>
+
+    <!-- 統計資訊 -->
+    <section class="evolution-stats">
+      <div class="stat-item">
+        <span class="stat-value" id="stat-nodes">0</span>
+        <span class="stat-label">證型節點</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-value" id="stat-edges">0</span>
+        <span class="stat-label">演變關係</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-value" id="stat-critical">0</span>
+        <span class="stat-label">危重證型</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-value" id="stat-chains">0</span>
+        <span class="stat-label">演變鏈</span>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>中醫證候資料庫 · 僅供學習參考，不作為醫療診斷依據</p>
+  </footer>
+
+  <script src="js/evolution-map.js"></script>
+</body>
+</html>
