@@ -23,7 +23,9 @@
   },
   "literature": "《醫學綱目》：\"蓋目主氣血，氣血盛則元府得利，出入升降而明，虛則元府無以出入升降而昏，此則必用參芪四物等劑，助氣血運行而明也。\"\n\n---",
   "zhengsu_composition": {
-    "location": [],
+    "location": [
+      "shen"
+    ],
     "nature": [
       "qi_xu",
       "xue_xu"

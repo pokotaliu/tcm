@@ -19,7 +19,9 @@
   },
   "literature": "《靈枢·脈度》：\"肝氣通於目，肝和則目能辨五色矣\"。\n\n《醫宗金鑑·眼科心法要訣》：\"內障皆因傷七情，喜怒憂思悲恐驚，臟腑內傷精不注，初為內障久成風。\"\n\n---",
   "zhengsu_composition": {
-    "location": [],
+    "location": [
+      "shen"
+    ],
     "nature": [
       "qi_zhi",
       "xue_yu"
