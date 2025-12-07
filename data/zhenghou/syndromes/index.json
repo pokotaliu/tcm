@@ -5328,5 +5328,9 @@
       "category": "專科證候",
       "number": 483
     }
-  ]
+  ],
+  "zhengsu_composition": {
+    "location": [],
+    "nature": []
+  }
 }
