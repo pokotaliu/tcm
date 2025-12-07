@@ -1,0 +1,627 @@
+{
+  "total": 56,
+  "categories": {
+    "基礎證候": [
+      {
+        "id": "qixu",
+        "name": "氣虛證",
+        "number": 1
+      },
+      {
+        "id": "qixian",
+        "name": "氣陷證",
+        "number": 2
+      },
+      {
+        "id": "qituo",
+        "name": "氣脫證",
+        "number": 3
+      },
+      {
+        "id": "qizhi",
+        "name": "氣滯證",
+        "number": 4
+      },
+      {
+        "id": "qini",
+        "name": "氣逆證",
+        "number": 5
+      },
+      {
+        "id": "qibi",
+        "name": "氣閉證",
+        "number": 6
+      },
+      {
+        "id": "xuexu",
+        "name": "血虛證",
+        "number": 7
+      },
+      {
+        "id": "xuetuo",
+        "name": "血脫證",
+        "number": 8
+      },
+      {
+        "id": "xueyu",
+        "name": "血瘀證",
+        "number": 9
+      },
+      {
+        "id": "xuere",
+        "name": "血熱證",
+        "number": 10
+      },
+      {
+        "id": "xuezao",
+        "name": "血燥證",
+        "number": 11
+      },
+      {
+        "id": "xuehan",
+        "name": "血寒證",
+        "number": 12
+      },
+      {
+        "id": "jingtuo",
+        "name": "精脫證",
+        "number": 13
+      },
+      {
+        "id": "yinxujinkui",
+        "name": "陰虛津虧證",
+        "number": 14
+      },
+      {
+        "id": "yinxu",
+        "name": "陰虛證",
+        "number": 15
+      },
+      {
+        "id": "yangxu",
+        "name": "陽虛證",
+        "number": 16
+      },
+      {
+        "id": "wangyin",
+        "name": "亡陰證",
+        "number": 17
+      },
+      {
+        "id": "wangyang",
+        "name": "亡陽證",
+        "number": 18
+      },
+      {
+        "id": "shishen",
+        "name": "失神證",
+        "number": 19
+      },
+      {
+        "id": "feng",
+        "name": "風證",
+        "number": 20
+      },
+      {
+        "id": "han",
+        "name": "寒證",
+        "number": 21
+      },
+      {
+        "id": "shu",
+        "name": "暑證",
+        "number": 22
+      },
+      {
+        "id": "shi",
+        "name": "濕證",
+        "number": 23
+      },
+      {
+        "id": "zao",
+        "name": "燥證",
+        "number": 24
+      },
+      {
+        "id": "huore",
+        "name": "火熱證",
+        "number": 25
+      },
+      {
+        "id": "tan",
+        "name": "痰證",
+        "number": 26
+      },
+      {
+        "id": "xieduchisheng",
+        "name": "邪毒熾盛證",
+        "number": 27
+      },
+      {
+        "id": "taiyang",
+        "name": "太陽證",
+        "number": 28
+      },
+      {
+        "id": "yangming",
+        "name": "陽明證",
+        "number": 29
+      },
+      {
+        "id": "shaoyang",
+        "name": "少陽證",
+        "number": 30
+      },
+      {
+        "id": "taiyin",
+        "name": "太陰證",
+        "number": 31
+      },
+      {
+        "id": "jueyin",
+        "name": "厥陰證",
+        "number": 32
+      },
+      {
+        "id": "shaoyin",
+        "name": "少陰證",
+        "number": 33
+      },
+      {
+        "id": "weifen",
+        "name": "衛分證",
+        "number": 34
+      },
+      {
+        "id": "qifen",
+        "name": "氣分證",
+        "number": 35
+      },
+      {
+        "id": "yingfen",
+        "name": "營分證",
+        "number": 36
+      },
+      {
+        "id": "xuefen",
+        "name": "血分證",
+        "number": 37
+      }
+    ],
+    "全身證候": [
+      {
+        "id": "qixufare",
+        "name": "氣虛發熱證",
+        "number": 38
+      },
+      {
+        "id": "qixuwaigan",
+        "name": "氣虛外感證",
+        "number": 39
+      },
+      {
+        "id": "qixuxueyu",
+        "name": "氣虛血瘀證",
+        "number": 40
+      },
+      {
+        "id": "qizhixueyu",
+        "name": "氣滯血瘀證",
+        "number": 41
+      },
+      {
+        "id": "qizhitanning",
+        "name": "氣滯痰凝證",
+        "number": 42
+      },
+      {
+        "id": "qizhishizu",
+        "name": "氣滯濕阻證",
+        "number": 43
+      },
+      {
+        "id": "qiyuhuahuo",
+        "name": "氣鬱化火證",
+        "number": 44
+      },
+      {
+        "id": "qizhishuiting",
+        "name": "氣滯水停證",
+        "number": 45
+      },
+      {
+        "id": "xuexushengfeng",
+        "name": "血虛生風證",
+        "number": 46
+      },
+      {
+        "id": "xuexufengzao",
+        "name": "血虛風燥證",
+        "number": 47
+      },
+      {
+        "id": "xuexujinkui",
+        "name": "血虛津虧證",
+        "number": 48
+      },
+      {
+        "id": "xuexuhanning",
+        "name": "血虛寒凝證",
+        "number": 49
+      },
+      {
+        "id": "xuexuwaigan",
+        "name": "血虛外感證",
+        "number": 50
+      },
+      {
+        "id": "xueyuqizhi",
+        "name": "血瘀氣滯證",
+        "number": 51
+      },
+      {
+        "id": "xueyuhuare",
+        "name": "血瘀化熱證",
+        "number": 52
+      },
+      {
+        "id": "xueyushuiting",
+        "name": "血瘀水停證",
+        "number": 53
+      },
+      {
+        "id": "xueyudongxue",
+        "name": "血瘀動血證",
+        "number": 54
+      },
+      {
+        "id": "yuxuebizu",
+        "name": "瘀血痺阻證",
+        "number": 55
+      },
+      {
+        "id": "xueredongfeng",
+        "name": "血熱動風證",
+        "number": 56
+      }
+    ]
+  },
+  "syndromes": [
+    {
+      "id": "qixu",
+      "name": "氣虛證",
+      "category": "基礎證候",
+      "number": 1
+    },
+    {
+      "id": "qixian",
+      "name": "氣陷證",
+      "category": "基礎證候",
+      "number": 2
+    },
+    {
+      "id": "qituo",
+      "name": "氣脫證",
+      "category": "基礎證候",
+      "number": 3
+    },
+    {
+      "id": "qizhi",
+      "name": "氣滯證",
+      "category": "基礎證候",
+      "number": 4
+    },
+    {
+      "id": "qini",
+      "name": "氣逆證",
+      "category": "基礎證候",
+      "number": 5
+    },
+    {
+      "id": "qibi",
+      "name": "氣閉證",
+      "category": "基礎證候",
+      "number": 6
+    },
+    {
+      "id": "xuexu",
+      "name": "血虛證",
+      "category": "基礎證候",
+      "number": 7
+    },
+    {
+      "id": "xuetuo",
+      "name": "血脫證",
+      "category": "基礎證候",
+      "number": 8
+    },
+    {
+      "id": "xueyu",
+      "name": "血瘀證",
+      "category": "基礎證候",
+      "number": 9
+    },
+    {
+      "id": "xuere",
+      "name": "血熱證",
+      "category": "基礎證候",
+      "number": 10
+    },
+    {
+      "id": "xuezao",
+      "name": "血燥證",
+      "category": "基礎證候",
+      "number": 11
+    },
+    {
+      "id": "xuehan",
+      "name": "血寒證",
+      "category": "基礎證候",
+      "number": 12
+    },
+    {
+      "id": "jingtuo",
+      "name": "精脫證",
+      "category": "基礎證候",
+      "number": 13
+    },
+    {
+      "id": "yinxujinkui",
+      "name": "陰虛津虧證",
+      "category": "基礎證候",
+      "number": 14
+    },
+    {
+      "id": "yinxu",
+      "name": "陰虛證",
+      "category": "基礎證候",
+      "number": 15
+    },
+    {
+      "id": "yangxu",
+      "name": "陽虛證",
+      "category": "基礎證候",
+      "number": 16
+    },
+    {
+      "id": "wangyin",
+      "name": "亡陰證",
+      "category": "基礎證候",
+      "number": 17
+    },
+    {
+      "id": "wangyang",
+      "name": "亡陽證",
+      "category": "基礎證候",
+      "number": 18
+    },
+    {
+      "id": "shishen",
+      "name": "失神證",
+      "category": "基礎證候",
+      "number": 19
+    },
+    {
+      "id": "feng",
+      "name": "風證",
+      "category": "基礎證候",
+      "number": 20
+    },
+    {
+      "id": "han",
+      "name": "寒證",
+      "category": "基礎證候",
+      "number": 21
+    },
+    {
+      "id": "shu",
+      "name": "暑證",
+      "category": "基礎證候",
+      "number": 22
+    },
+    {
+      "id": "shi",
+      "name": "濕證",
+      "category": "基礎證候",
+      "number": 23
+    },
+    {
+      "id": "zao",
+      "name": "燥證",
+      "category": "基礎證候",
+      "number": 24
+    },
+    {
+      "id": "huore",
+      "name": "火熱證",
+      "category": "基礎證候",
+      "number": 25
+    },
+    {
+      "id": "tan",
+      "name": "痰證",
+      "category": "基礎證候",
+      "number": 26
+    },
+    {
+      "id": "xieduchisheng",
+      "name": "邪毒熾盛證",
+      "category": "基礎證候",
+      "number": 27
+    },
+    {
+      "id": "taiyang",
+      "name": "太陽證",
+      "category": "基礎證候",
+      "number": 28
+    },
+    {
+      "id": "yangming",
+      "name": "陽明證",
+      "category": "基礎證候",
+      "number": 29
+    },
+    {
+      "id": "shaoyang",
+      "name": "少陽證",
+      "category": "基礎證候",
+      "number": 30
+    },
+    {
+      "id": "taiyin",
+      "name": "太陰證",
+      "category": "基礎證候",
+      "number": 31
+    },
+    {
+      "id": "jueyin",
+      "name": "厥陰證",
+      "category": "基礎證候",
+      "number": 32
+    },
+    {
+      "id": "shaoyin",
+      "name": "少陰證",
+      "category": "基礎證候",
+      "number": 33
+    },
+    {
+      "id": "weifen",
+      "name": "衛分證",
+      "category": "基礎證候",
+      "number": 34
+    },
+    {
+      "id": "qifen",
+      "name": "氣分證",
+      "category": "基礎證候",
+      "number": 35
+    },
+    {
+      "id": "yingfen",
+      "name": "營分證",
+      "category": "基礎證候",
+      "number": 36
+    },
+    {
+      "id": "xuefen",
+      "name": "血分證",
+      "category": "基礎證候",
+      "number": 37
+    },
+    {
+      "id": "qixufare",
+      "name": "氣虛發熱證",
+      "category": "全身證候",
+      "number": 38
+    },
+    {
+      "id": "qixuwaigan",
+      "name": "氣虛外感證",
+      "category": "全身證候",
+      "number": 39
+    },
+    {
+      "id": "qixuxueyu",
+      "name": "氣虛血瘀證",
+      "category": "全身證候",
+      "number": 40
+    },
+    {
+      "id": "qizhixueyu",
+      "name": "氣滯血瘀證",
+      "category": "全身證候",
+      "number": 41
+    },
+    {
+      "id": "qizhitanning",
+      "name": "氣滯痰凝證",
+      "category": "全身證候",
+      "number": 42
+    },
+    {
+      "id": "qizhishizu",
+      "name": "氣滯濕阻證",
+      "category": "全身證候",
+      "number": 43
+    },
+    {
+      "id": "qiyuhuahuo",
+      "name": "氣鬱化火證",
+      "category": "全身證候",
+      "number": 44
+    },
+    {
+      "id": "qizhishuiting",
+      "name": "氣滯水停證",
+      "category": "全身證候",
+      "number": 45
+    },
+    {
+      "id": "xuexushengfeng",
+      "name": "血虛生風證",
+      "category": "全身證候",
+      "number": 46
+    },
+    {
+      "id": "xuexufengzao",
+      "name": "血虛風燥證",
+      "category": "全身證候",
+      "number": 47
+    },
+    {
+      "id": "xuexujinkui",
+      "name": "血虛津虧證",
+      "category": "全身證候",
+      "number": 48
+    },
+    {
+      "id": "xuexuhanning",
+      "name": "血虛寒凝證",
+      "category": "全身證候",
+      "number": 49
+    },
+    {
+      "id": "xuexuwaigan",
+      "name": "血虛外感證",
+      "category": "全身證候",
+      "number": 50
+    },
+    {
+      "id": "xueyuqizhi",
+      "name": "血瘀氣滯證",
+      "category": "全身證候",
+      "number": 51
+    },
+    {
+      "id": "xueyuhuare",
+      "name": "血瘀化熱證",
+      "category": "全身證候",
+      "number": 52
+    },
+    {
+      "id": "xueyushuiting",
+      "name": "血瘀水停證",
+      "category": "全身證候",
+      "number": 53
+    },
+    {
+      "id": "xueyudongxue",
+      "name": "血瘀動血證",
+      "category": "全身證候",
+      "number": 54
+    },
+    {
+      "id": "yuxuebizu",
+      "name": "瘀血痺阻證",
+      "category": "全身證候",
+      "number": 55
+    },
+    {
+      "id": "xueredongfeng",
+      "name": "血熱動風證",
+      "category": "全身證候",
+      "number": 56
+    }
+  ]
+}
