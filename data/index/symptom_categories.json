@@ -1,0 +1,992 @@
+{
+  "version": "1.0",
+  "generated_at": "2025-12-07",
+  "description": "症狀分類索引（8大類），支援首頁症狀反查",
+  "categories": [
+    {
+      "name": "頭面五官",
+      "symptom_count": 43,
+      "symptoms": [
+        {
+          "name": "舌紅",
+          "count": 85,
+          "syndrome_count": 85
+        },
+        {
+          "name": "舌淡",
+          "count": 70,
+          "syndrome_count": 70
+        },
+        {
+          "name": "口渴",
+          "count": 57,
+          "syndrome_count": 57
+        },
+        {
+          "name": "頭暈",
+          "count": 46,
+          "syndrome_count": 46
+        },
+        {
+          "name": "頭痛",
+          "count": 41,
+          "syndrome_count": 41
+        },
+        {
+          "name": "口乾",
+          "count": 34,
+          "syndrome_count": 34
+        },
+        {
+          "name": "咽乾",
+          "count": 34,
+          "syndrome_count": 34
+        },
+        {
+          "name": "耳鳴",
+          "count": 31,
+          "syndrome_count": 31
+        },
+        {
+          "name": "目眩",
+          "count": 26,
+          "syndrome_count": 26
+        },
+        {
+          "name": "口苦",
+          "count": 23,
+          "syndrome_count": 23
+        },
+        {
+          "name": "面色晄白",
+          "count": 16,
+          "syndrome_count": 16
+        },
+        {
+          "name": "面色晄",
+          "count": 16,
+          "syndrome_count": 16
+        },
+        {
+          "name": "面色蒼白",
+          "count": 16,
+          "syndrome_count": 16
+        },
+        {
+          "name": "面色蒼",
+          "count": 16,
+          "syndrome_count": 16
+        },
+        {
+          "name": "面白",
+          "count": 16,
+          "syndrome_count": 16
+        },
+        {
+          "name": "面赤",
+          "count": 14,
+          "syndrome_count": 14
+        },
+        {
+          "name": "面色黧黑",
+          "count": 11,
+          "syndrome_count": 11
+        },
+        {
+          "name": "耳聾",
+          "count": 11,
+          "syndrome_count": 11
+        },
+        {
+          "name": "咽痛",
+          "count": 10,
+          "syndrome_count": 10
+        },
+        {
+          "name": "面紅",
+          "count": 9,
+          "syndrome_count": 9
+        },
+        {
+          "name": "面色萎黃",
+          "count": 8,
+          "syndrome_count": 8
+        },
+        {
+          "name": "口淡",
+          "count": 8,
+          "syndrome_count": 8
+        },
+        {
+          "name": "舌紫",
+          "count": 7,
+          "syndrome_count": 7
+        },
+        {
+          "name": "目赤",
+          "count": 6,
+          "syndrome_count": 6
+        },
+        {
+          "name": "面白無華",
+          "count": 6,
+          "syndrome_count": 6
+        },
+        {
+          "name": "視物模糊",
+          "count": 6,
+          "syndrome_count": 6
+        },
+        {
+          "name": "面紅耳赤",
+          "count": 4,
+          "syndrome_count": 4
+        },
+        {
+          "name": "面色晦暗",
+          "count": 4,
+          "syndrome_count": 4
+        },
+        {
+          "name": "身熱面赤",
+          "count": 3,
+          "syndrome_count": 3
+        },
+        {
+          "name": "身可見口",
+          "count": 3,
+          "syndrome_count": 3
+        },
+        {
+          "name": "面色無華",
+          "count": 3,
+          "syndrome_count": 3
+        },
+        {
+          "name": "身可見面",
+          "count": 3,
+          "syndrome_count": 3
+        },
+        {
+          "name": "頭重",
+          "count": 3,
+          "syndrome_count": 3
+        },
+        {
+          "name": "面白神疲",
+          "count": 3,
+          "syndrome_count": 3
+        },
+        {
+          "name": "心煩口渴",
+          "count": 3,
+          "syndrome_count": 3
+        },
+        {
+          "name": "面色淡白",
+          "count": 3,
+          "syndrome_count": 3
+        },
+        {
+          "name": "面赤氣粗",
+          "count": 2,
+          "syndrome_count": 2
+        },
+        {
+          "name": "面浮肢腫",
+          "count": 2,
+          "syndrome_count": 2
+        },
+        {
+          "name": "面色紫暗",
+          "count": 2,
+          "syndrome_count": 2
+        },
+        {
+          "name": "面紅目赤",
+          "count": 2,
+          "syndrome_count": 2
+        },
+        {
+          "name": "神疲頭晕",
+          "count": 2,
+          "syndrome_count": 2
+        },
+        {
+          "name": "面色暗淡",
+          "count": 2,
+          "syndrome_count": 2
+        },
+        {
+          "name": "面白色淡",
+          "count": 2,
+          "syndrome_count": 2
+        }
+      ]
+    },
+    {
+      "name": "胸脅腹部",
+      "symptom_count": 33,
+      "symptoms": [
+        {
+          "name": "心煩",
+          "count": 67,
+          "syndrome_count": 67
+        },
+        {
+          "name": "心悸",
+          "count": 47,
+          "syndrome_count": 47
+        },
+        {
+          "name": "腹脹",
+          "count": 41,
+          "syndrome_count": 41
+        },
+        {
+          "name": "胸悶",
+          "count": 34,
+          "syndrome_count": 34
+        },
+        {
+          "name": "腹痛",
+          "count": 22,
+          "syndrome_count": 22
+        },
+        {
+          "name": "腹滿",
+          "count": 15,
+          "syndrome_count": 15
+        },
+        {
+          "name": "心煩熱",
+          "count": 13,
+          "syndrome_count": 13
+        },
+        {
+          "name": "心嘔吐",
+          "count": 13,
+          "syndrome_count": 13
+        },
+        {
+          "name": "心悸怔忡",
+          "count": 7,
+          "syndrome_count": 7
+        },
+        {
+          "name": "心悸健忘",
+          "count": 6,
+          "syndrome_count": 6
+        },
+        {
+          "name": "胸痛",
+          "count": 6,
+          "syndrome_count": 6
+        },
+        {
+          "name": "心悸失眠",
+          "count": 5,
+          "syndrome_count": 5
+        },
+        {
+          "name": "脘脹",
+          "count": 4,
+          "syndrome_count": 4
+        },
+        {
+          "name": "心悸氣短",
+          "count": 4,
+          "syndrome_count": 4
+        },
+        {
+          "name": "心煩懊憹",
+          "count": 3,
+          "syndrome_count": 3
+        },
+        {
+          "name": "心煩不寐",
+          "count": 3,
+          "syndrome_count": 3
+        },
+        {
+          "name": "心煩少寐",
+          "count": 3,
+          "syndrome_count": 3
+        },
+        {
+          "name": "心煩不安",
+          "count": 3,
+          "syndrome_count": 3
+        },
+        {
+          "name": "脘痛",
+          "count": 3,
+          "syndrome_count": 3
+        },
+        {
+          "name": "心腹冷痛",
+          "count": 3,
+          "syndrome_count": 3
+        },
+        {
+          "name": "腹瀉",
+          "count": 3,
+          "syndrome_count": 3
+        },
+        {
+          "name": "心煩喜嘔",
+          "count": 3,
+          "syndrome_count": 3
+        },
+        {
+          "name": "心煩躁擾",
+          "count": 3,
+          "syndrome_count": 3
+        },
+        {
+          "name": "心中懊憹",
+          "count": 2,
+          "syndrome_count": 2
+        },
+        {
+          "name": "心胸則喘",
+          "count": 2,
+          "syndrome_count": 2
+        },
+        {
+          "name": "脘悶",
+          "count": 2,
+          "syndrome_count": 2
+        },
+        {
+          "name": "心下痞硬",
+          "count": 2,
+          "syndrome_count": 2
+        },
+        {
+          "name": "心煩不得",
+          "count": 2,
+          "syndrome_count": 2
+        },
+        {
+          "name": "心下硬滿",
+          "count": 2,
+          "syndrome_count": 2
+        },
+        {
+          "name": "心中疼熱",
+          "count": 2,
+          "syndrome_count": 2
+        },
+        {
+          "name": "心包證",
+          "count": 2,
+          "syndrome_count": 2
+        },
+        {
+          "name": "心下悸",
+          "count": 2,
+          "syndrome_count": 2
+        },
+        {
+          "name": "心煩乾嘔",
+          "count": 2,
+          "syndrome_count": 2
+        }
+      ]
+    },
+    {
+      "name": "腰背四肢",
+      "symptom_count": 9,
+      "symptoms": [
+        {
+          "name": "肢冷",
+          "count": 27,
+          "syndrome_count": 27
+        },
+        {
+          "name": "四肢厥",
+          "count": 10,
+          "syndrome_count": 10
+        },
+        {
+          "name": "形寒肢冷",
+          "count": 9,
+          "syndrome_count": 9
+        },
+        {
+          "name": "腰膝酸軟",
+          "count": 4,
+          "syndrome_count": 4
+        },
+        {
+          "name": "腰酸",
+          "count": 4,
+          "syndrome_count": 4
+        },
+        {
+          "name": "腰痛",
+          "count": 4,
+          "syndrome_count": 4
+        },
+        {
+          "name": "四肢不",
+          "count": 3,
+          "syndrome_count": 3
+        },
+        {
+          "name": "肢腫",
+          "count": 3,
+          "syndrome_count": 3
+        },
+        {
+          "name": "氣少不足",
+          "count": 2,
+          "syndrome_count": 2
+        }
+      ]
+    },
+    {
+      "name": "二便",
+      "symptom_count": 11,
+      "symptoms": [
+        {
+          "name": "便秘",
+          "count": 31,
+          "syndrome_count": 31
+        },
+        {
+          "name": "便溏",
+          "count": 24,
+          "syndrome_count": 24
+        },
+        {
+          "name": "小便不",
+          "count": 23,
+          "syndrome_count": 23
+        },
+        {
+          "name": "小便短",
+          "count": 22,
+          "syndrome_count": 22
+        },
+        {
+          "name": "下利",
+          "count": 21,
+          "syndrome_count": 21
+        },
+        {
+          "name": "大便乾",
+          "count": 13,
+          "syndrome_count": 13
+        },
+        {
+          "name": "大便溏",
+          "count": 12,
+          "syndrome_count": 12
+        },
+        {
+          "name": "小便清",
+          "count": 9,
+          "syndrome_count": 9
+        },
+        {
+          "name": "便結",
+          "count": 7,
+          "syndrome_count": 7
+        },
+        {
+          "name": "小便頻",
+          "count": 4,
+          "syndrome_count": 4
+        },
+        {
+          "name": "便稀",
+          "count": 3,
+          "syndrome_count": 3
+        }
+      ]
+    },
+    {
+      "name": "寒熱汗出",
+      "symptom_count": 9,
+      "symptoms": [
+        {
+          "name": "發熱",
+          "count": 79,
+          "syndrome_count": 79
+        },
+        {
+          "name": "惡寒",
+          "count": 46,
+          "syndrome_count": 46
+        },
+        {
+          "name": "潮熱",
+          "count": 21,
+          "syndrome_count": 21
+        },
+        {
+          "name": "自汗",
+          "count": 19,
+          "syndrome_count": 19
+        },
+        {
+          "name": "寒熱",
+          "count": 8,
+          "syndrome_count": 8
+        },
+        {
+          "name": "身熱不揚",
+          "count": 6,
+          "syndrome_count": 6
+        },
+        {
+          "name": "盜汗",
+          "count": 5,
+          "syndrome_count": 5
+        },
+        {
+          "name": "身熱夜甚",
+          "count": 5,
+          "syndrome_count": 5
+        },
+        {
+          "name": "身熱不退",
+          "count": 2,
+          "syndrome_count": 2
+        }
+      ]
+    },
+    {
+      "name": "神志精神",
+      "symptom_count": 20,
+      "symptoms": [
+        {
+          "name": "神疲",
+          "count": 30,
+          "syndrome_count": 30
+        },
+        {
+          "name": "失眠",
+          "count": 27,
+          "syndrome_count": 27
+        },
+        {
+          "name": "神疲乏力",
+          "count": 12,
+          "syndrome_count": 12
+        },
+        {
+          "name": "怔忡",
+          "count": 12,
+          "syndrome_count": 12
+        },
+        {
+          "name": "神昏譫語",
+          "count": 12,
+          "syndrome_count": 12
+        },
+        {
+          "name": "多夢",
+          "count": 11,
+          "syndrome_count": 11
+        },
+        {
+          "name": "神疲欲寐",
+          "count": 3,
+          "syndrome_count": 3
+        },
+        {
+          "name": "神志昏沉",
+          "count": 3,
+          "syndrome_count": 3
+        },
+        {
+          "name": "神不振",
+          "count": 3,
+          "syndrome_count": 3
+        },
+        {
+          "name": "神萎靡",
+          "count": 3,
+          "syndrome_count": 3
+        },
+        {
+          "name": "嗜睡",
+          "count": 3,
+          "syndrome_count": 3
+        },
+        {
+          "name": "神志昏迷",
+          "count": 3,
+          "syndrome_count": 3
+        },
+        {
+          "name": "神抑鬱",
+          "count": 2,
+          "syndrome_count": 2
+        },
+        {
+          "name": "神倦怠",
+          "count": 2,
+          "syndrome_count": 2
+        },
+        {
+          "name": "神志痴呆",
+          "count": 2,
+          "syndrome_count": 2
+        },
+        {
+          "name": "神疲倦",
+          "count": 2,
+          "syndrome_count": 2
+        },
+        {
+          "name": "神昏驚厥",
+          "count": 2,
+          "syndrome_count": 2
+        },
+        {
+          "name": "神志不清",
+          "count": 2,
+          "syndrome_count": 2
+        },
+        {
+          "name": "神抑鬱或",
+          "count": 2,
+          "syndrome_count": 2
+        },
+        {
+          "name": "神疲憊",
+          "count": 2,
+          "syndrome_count": 2
+        }
+      ]
+    },
+    {
+      "name": "飲食口味",
+      "symptom_count": 6,
+      "symptoms": [
+        {
+          "name": "納呆",
+          "count": 24,
+          "syndrome_count": 24
+        },
+        {
+          "name": "食少",
+          "count": 15,
+          "syndrome_count": 15
+        },
+        {
+          "name": "納少",
+          "count": 5,
+          "syndrome_count": 5
+        },
+        {
+          "name": "食不",
+          "count": 4,
+          "syndrome_count": 4
+        },
+        {
+          "name": "厭食",
+          "count": 2,
+          "syndrome_count": 2
+        },
+        {
+          "name": "不欲飲食",
+          "count": 2,
+          "syndrome_count": 2
+        }
+      ]
+    },
+    {
+      "name": "婦科",
+      "symptom_count": 5,
+      "symptoms": [
+        {
+          "name": "帶下",
+          "count": 14,
+          "syndrome_count": 14
+        },
+        {
+          "name": "痛經",
+          "count": 9,
+          "syndrome_count": 9
+        },
+        {
+          "name": "月經量",
+          "count": 7,
+          "syndrome_count": 7
+        },
+        {
+          "name": "月經不",
+          "count": 7,
+          "syndrome_count": 7
+        },
+        {
+          "name": "崩漏",
+          "count": 5,
+          "syndrome_count": 5
+        }
+      ]
+    },
+    {
+      "name": "其他",
+      "symptom_count": 61,
+      "symptoms": [
+        {
+          "name": "脈細",
+          "count": 90,
+          "syndrome_count": 90
+        },
+        {
+          "name": "苔黃",
+          "count": 86,
+          "syndrome_count": 86
+        },
+        {
+          "name": "苔白",
+          "count": 81,
+          "syndrome_count": 81
+        },
+        {
+          "name": "脈弦",
+          "count": 62,
+          "syndrome_count": 62
+        },
+        {
+          "name": "疼痛",
+          "count": 59,
+          "syndrome_count": 59
+        },
+        {
+          "name": "脈沉",
+          "count": 57,
+          "syndrome_count": 57
+        },
+        {
+          "name": "脈浮",
+          "count": 44,
+          "syndrome_count": 44
+        },
+        {
+          "name": "咳嗽",
+          "count": 37,
+          "syndrome_count": 37
+        },
+        {
+          "name": "乏力",
+          "count": 33,
+          "syndrome_count": 33
+        },
+        {
+          "name": "脈數",
+          "count": 27,
+          "syndrome_count": 27
+        },
+        {
+          "name": "氣短",
+          "count": 27,
+          "syndrome_count": 27
+        },
+        {
+          "name": "脈滑",
+          "count": 23,
+          "syndrome_count": 23
+        },
+        {
+          "name": "倦怠",
+          "count": 23,
+          "syndrome_count": 23
+        },
+        {
+          "name": "眩暈",
+          "count": 21,
+          "syndrome_count": 21
+        },
+        {
+          "name": "脹痛",
+          "count": 19,
+          "syndrome_count": 19
+        },
+        {
+          "name": "形體消瘦",
+          "count": 14,
+          "syndrome_count": 14
+        },
+        {
+          "name": "刺痛",
+          "count": 14,
+          "syndrome_count": 14
+        },
+        {
+          "name": "脈虛",
+          "count": 13,
+          "syndrome_count": 13
+        },
+        {
+          "name": "水腫",
+          "count": 10,
+          "syndrome_count": 10
+        },
+        {
+          "name": "氣懶言",
+          "count": 10,
+          "syndrome_count": 10
+        },
+        {
+          "name": "脈弱",
+          "count": 10,
+          "syndrome_count": 10
+        },
+        {
+          "name": "浮腫",
+          "count": 10,
+          "syndrome_count": 10
+        },
+        {
+          "name": "苔膩",
+          "count": 9,
+          "syndrome_count": 9
+        },
+        {
+          "name": "咯痰",
+          "count": 8,
+          "syndrome_count": 8
+        },
+        {
+          "name": "不寐",
+          "count": 7,
+          "syndrome_count": 7
+        },
+        {
+          "name": "遺精",
+          "count": 7,
+          "syndrome_count": 7
+        },
+        {
+          "name": "氣虛證",
+          "count": 7,
+          "syndrome_count": 7
+        },
+        {
+          "name": "痰多",
+          "count": 6,
+          "syndrome_count": 6
+        },
+        {
+          "name": "喘息",
+          "count": 5,
+          "syndrome_count": 5
+        },
+        {
+          "name": "困倦",
+          "count": 5,
+          "syndrome_count": 5
+        },
+        {
+          "name": "身體困重",
+          "count": 5,
+          "syndrome_count": 5
+        },
+        {
+          "name": "身困重",
+          "count": 5,
+          "syndrome_count": 5
+        },
+        {
+          "name": "陽痿",
+          "count": 5,
+          "syndrome_count": 5
+        },
+        {
+          "name": "氣短乏力",
+          "count": 5,
+          "syndrome_count": 5
+        },
+        {
+          "name": "身症狀",
+          "count": 4,
+          "syndrome_count": 4
+        },
+        {
+          "name": "氣滯證",
+          "count": 4,
+          "syndrome_count": 4
+        },
+        {
+          "name": "滑精",
+          "count": 4,
+          "syndrome_count": 4
+        },
+        {
+          "name": "隱痛",
+          "count": 3,
+          "syndrome_count": 3
+        },
+        {
+          "name": "氣息急促",
+          "count": 3,
+          "syndrome_count": 3
+        },
+        {
+          "name": "氣虛弱證",
+          "count": 3,
+          "syndrome_count": 3
+        },
+        {
+          "name": "絞痛",
+          "count": 3,
+          "syndrome_count": 3
+        },
+        {
+          "name": "氣陰兩虛",
+          "count": 3,
+          "syndrome_count": 3
+        },
+        {
+          "name": "形平塌",
+          "count": 3,
+          "syndrome_count": 3
+        },
+        {
+          "name": "苔滑",
+          "count": 3,
+          "syndrome_count": 3
+        },
+        {
+          "name": "痰白",
+          "count": 2,
+          "syndrome_count": 2
+        },
+        {
+          "name": "氣逆證",
+          "count": 2,
+          "syndrome_count": 2
+        },
+        {
+          "name": "身皆腫",
+          "count": 2,
+          "syndrome_count": 2
+        },
+        {
+          "name": "身疼痛",
+          "count": 2,
+          "syndrome_count": 2
+        },
+        {
+          "name": "氣滯證由",
+          "count": 2,
+          "syndrome_count": 2
+        },
+        {
+          "name": "氣促",
+          "count": 2,
+          "syndrome_count": 2
+        }
+      ]
+    }
+  ],
+  "total_symptoms": 186
+}
