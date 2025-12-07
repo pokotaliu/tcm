@@ -11,5 +11,14 @@
     "self_analysis": "",
     "type_comparison": ""
   },
-  "literature": ""
+  "literature": "",
+  "zhengsu_composition": {
+    "location": [
+      "jingu"
+    ],
+    "nature": [
+      "han",
+      "shi"
+    ]
+  }
 }
