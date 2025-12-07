@@ -20,7 +20,9 @@
   },
   "literature": "",
   "zhengsu_composition": {
-    "location": [],
+    "location": [
+      "shen"
+    ],
     "nature": [
       "shi",
       "tan"
