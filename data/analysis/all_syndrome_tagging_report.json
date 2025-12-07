@@ -1,0 +1,5541 @@
+{
+  "summary": {
+    "total": 464,
+    "high": 464,
+    "medium": 0,
+    "low": 0
+  },
+  "by_category": {
+    "全身證候": {
+      "category": "全身證候",
+      "total": 98,
+      "high": 98,
+      "medium": 0,
+      "low": 0,
+      "details": [
+        {
+          "name": "血瘀化熱證",
+          "id": "xueyuhuare",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "xue_yu",
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：血瘀、熱/火。根據證候名稱「血瘀化熱證」分析其病機組成。"
+        },
+        {
+          "name": "氣滯濕阻證",
+          "id": "qizhishizu",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "qi_zhi",
+            "shi"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：氣滯、濕。根據證候名稱「氣滯濕阻證」分析其病機組成。"
+        },
+        {
+          "name": "痰熱內閉證",
+          "id": "tanreneibi",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "tan",
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：痰、熱/火。根據證候名稱「痰熱內閉證」分析其病機組成。"
+        },
+        {
+          "name": "濕熱下注證",
+          "id": "shirexiazhu",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "shi",
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：濕、熱/火。根據證候名稱「濕熱下注證」分析其病機組成。"
+        },
+        {
+          "name": "氣滯血瘀證",
+          "id": "qizhixueyu",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "qi_zhi",
+            "xue_yu"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：氣滯、血瘀。根據證候名稱「氣滯血瘀證」分析其病機組成。"
+        },
+        {
+          "name": "陽虛飲停證",
+          "id": "yangxuyinting",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "yang_xu",
+            "shui_ting"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：陽虛、水停。根據證候名稱「陽虛飲停證」分析其病機組成。"
+        },
+        {
+          "name": "陽虛外感證",
+          "id": "yangxuwaigan",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "yang_xu"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：陽虛。根據證候名稱「陽虛外感證」分析其病機組成。"
+        },
+        {
+          "name": "氣虛發熱證",
+          "id": "qixu_fare",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "qi_xu",
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：氣虛、熱/火。根據證候名稱「氣虛發熱證」分析其病機組成。"
+        },
+        {
+          "name": "陰虛血熱證",
+          "id": "yinxuxuere",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "yin_xu",
+            "xue_re"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：陰虛、血熱。根據證候名稱「陰虛血熱證」分析其病機組成。"
+        },
+        {
+          "name": "血熱動風證",
+          "id": "xueredongfeng",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "xue_re",
+            "dong_feng"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：血熱、動風/內風。根據證候名稱「血熱動風證」分析其病機組成。"
+        },
+        {
+          "name": "氣鬱化火證",
+          "id": "qiyuhuahuo",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "qi_zhi",
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：氣滯、熱/火。根據證候名稱「氣鬱化火證」分析其病機組成。"
+        },
+        {
+          "name": "寒濕阻滯證",
+          "id": "hanshizuzhi",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "han",
+            "shi"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：寒、濕。根據證候名稱「寒濕阻滯證」分析其病機組成。"
+        },
+        {
+          "name": "風邪犯表證",
+          "id": "fengxiefanbiao",
+          "confidence": "high",
+          "location": [
+            "biao"
+          ],
+          "nature": [
+            "feng"
+          ],
+          "reasoning": "病位：表。病性：風。根據證候名稱「風邪犯表證」分析其病機組成。"
+        },
+        {
+          "name": "瘀血痺阻證",
+          "id": "yuxue_bizu",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "xue_yu"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：血瘀。根據證候名稱「瘀血痺阻證」分析其病機組成。"
+        },
+        {
+          "name": "熱毒內陷證",
+          "id": "reduneixian",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "huo",
+            "du"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：熱/火、毒。根據證候名稱「熱毒內陷證」分析其病機組成。"
+        },
+        {
+          "name": "陰虛外感證",
+          "id": "yinxuwaigan",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "yin_xu"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：陰虛。根據證候名稱「陰虛外感證」分析其病機組成。"
+        },
+        {
+          "name": "氣虛血瘀證",
+          "id": "qixu_xueyu",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "qi_xu",
+            "xue_yu"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：氣虛、血瘀。根據證候名稱「氣虛血瘀證」分析其病機組成。"
+        },
+        {
+          "name": "血瘀動血證",
+          "id": "xueyu_dongxue",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "xue_yu",
+            "dong_xue"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：血瘀、動血。根據證候名稱「血瘀動血證」分析其病機組成。"
+        },
+        {
+          "name": "氣滯痰凝證",
+          "id": "qizhitanning",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "qi_zhi",
+            "tan"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：氣滯、痰。根據證候名稱「氣滯痰凝證」分析其病機組成。"
+        },
+        {
+          "name": "溫燥證",
+          "id": "wenzao",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "zao",
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：燥、熱/火。根據證候名稱「溫燥證」分析其病機組成。"
+        },
+        {
+          "name": "血瘀化熱證",
+          "id": "xueyu_huare",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "xue_yu",
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：血瘀、熱/火。根據證候名稱「血瘀化熱證」分析其病機組成。"
+        },
+        {
+          "name": "寒凝血瘀證",
+          "id": "hanningxueyu",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "han",
+            "xue_yu"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：寒、血瘀。根據證候名稱「寒凝血瘀證」分析其病機組成。"
+        },
+        {
+          "name": "血虛寒凝證",
+          "id": "xuexuhanning",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "han",
+            "xue_yu"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：寒、血瘀。根據證候名稱「血虛寒凝證」分析其病機組成。"
+        },
+        {
+          "name": "風熱表證",
+          "id": "fengrebiao",
+          "confidence": "high",
+          "location": [
+            "biao"
+          ],
+          "nature": [
+            "feng",
+            "huo"
+          ],
+          "reasoning": "病位：表。病性：風、熱/火。根據證候名稱「風熱表證」分析其病機組成。"
+        },
+        {
+          "name": "濕熱內蘊證",
+          "id": "shireneiyun",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "shi",
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：濕、熱/火。根據證候名稱「濕熱內蘊證」分析其病機組成。"
+        },
+        {
+          "name": "血虛津虧證",
+          "id": "xuexujinkui",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "xue_xu",
+            "jin_kui"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：血虛、津虧。根據證候名稱「血虛津虧證」分析其病機組成。"
+        },
+        {
+          "name": "風熱疫毒證",
+          "id": "fengreyidu",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "feng",
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：風、熱/火。根據證候名稱「風熱疫毒證」分析其病機組成。"
+        },
+        {
+          "name": "痰熱動風證",
+          "id": "tanredongfeng",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "tan",
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：痰、熱/火。根據證候名稱「痰熱動風證」分析其病機組成。"
+        },
+        {
+          "name": "氣虛外感證",
+          "id": "qixu_waigan",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "qi_xu"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：氣虛。根據證候名稱「氣虛外感證」分析其病機組成。"
+        },
+        {
+          "name": "濕熱痺阻證",
+          "id": "shirebizu",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "shi",
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：濕、熱/火。根據證候名稱「濕熱痺阻證」分析其病機組成。"
+        },
+        {
+          "name": "陰陽兩虛證",
+          "id": "yinyangliangxu",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "yin_xu",
+            "yang_xu"
+          ],
+          "reasoning": "陰陽互根，陰損及陰或陽損及陰。久病必致陰陽俱虛，既有畏寒肢冷又有潮熱盜汗。"
+        },
+        {
+          "name": "血熱動風證",
+          "id": "xuere_dongfeng",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "xue_re",
+            "dong_feng"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：血熱、動風/內風。根據證候名稱「血熱動風證」分析其病機組成。"
+        },
+        {
+          "name": "風熱上擾證",
+          "id": "fengreshangrao",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "feng",
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：風、熱/火。根據證候名稱「風熱上擾證」分析其病機組成。"
+        },
+        {
+          "name": "氣血兩虛證",
+          "id": "qixueliangxu",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "qi_xu",
+            "xue_xu"
+          ],
+          "reasoning": "氣血互生互化，虛損互因。氣虛則血無以生，血虛則氣無以附。表現為神疲乏力、面色蒼白、頭暈心悸。"
+        },
+        {
+          "name": "燥痰證",
+          "id": "zaotan",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "zao",
+            "tan"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：燥、痰。根據證候名稱「燥痰證」分析其病機組成。"
+        },
+        {
+          "name": "血瘀動血證",
+          "id": "xueyudongxue",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "xue_yu",
+            "dong_xue"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：血瘀、動血。根據證候名稱「血瘀動血證」分析其病機組成。"
+        },
+        {
+          "name": "血熱挾濕證",
+          "id": "xuerexieshi",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "xue_re",
+            "shi",
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：血熱、濕、熱/火。根據證候名稱「血熱挾濕證」分析其病機組成。"
+        },
+        {
+          "name": "痰瘀互結證",
+          "id": "tanyuhujie",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "tan",
+            "xue_yu"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：痰、血瘀。根據證候名稱「痰瘀互結證」分析其病機組成。"
+        },
+        {
+          "name": "暑熱動風證",
+          "id": "shuredongfeng",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "shu",
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：暑、熱/火。根據證候名稱「暑熱動風證」分析其病機組成。"
+        },
+        {
+          "name": "濁陰不降證",
+          "id": "zhuoyinbujiang",
+          "confidence": "high",
+          "location": [
+            "wei"
+          ],
+          "nature": [
+            "qi_ni"
+          ],
+          "reasoning": "胃氣不降，濁陰上逆。表現為噁心嘔吐、腹脹納呆。胃主降濁，濁陰不降病位在胃。"
+        },
+        {
+          "name": "濕痰證",
+          "id": "shitan",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "shi",
+            "tan"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：濕、痰。根據證候名稱「濕痰證」分析其病機組成。"
+        },
+        {
+          "name": "氣滯水停證",
+          "id": "qizhi_shuiting",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "qi_zhi",
+            "shui_ting"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：氣滯、水停。根據證候名稱「氣滯水停證」分析其病機組成。"
+        },
+        {
+          "name": "陰虛動風證",
+          "id": "yinxudongfeng",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "xue_re",
+            "dong_feng"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：血熱、動風/內風。根據證候名稱「陰虛動風證」分析其病機組成。"
+        },
+        {
+          "name": "痰熱內擾證",
+          "id": "tanreneirao",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "tan",
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：痰、熱/火。根據證候名稱「痰熱內擾證」分析其病機組成。"
+        },
+        {
+          "name": "血熱動血證",
+          "id": "xueredongxue",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "xue_re",
+            "dong_xue"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：血熱、動血。根據證候名稱「血熱動血證」分析其病機組成。"
+        },
+        {
+          "name": "血瘀氣滯證",
+          "id": "xueyuqizhi",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "qi_zhi",
+            "xue_yu"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：氣滯、血瘀。根據證候名稱「血瘀氣滯證」分析其病機組成。"
+        },
+        {
+          "name": "陽虛水泛證",
+          "id": "yangxushuifan",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "yang_xu",
+            "shui_ting"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：陽虛、水停。根據證候名稱「陽虛水泛證」分析其病機組成。"
+        },
+        {
+          "name": "陰虛濕熱證",
+          "id": "yinxushire",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "shi",
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：濕、熱/火。根據證候名稱「陰虛濕熱證」分析其病機組成。"
+        },
+        {
+          "name": "氣滯濕阻證",
+          "id": "qizhi_shizu",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "qi_zhi",
+            "shi"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：氣滯、濕。根據證候名稱「氣滯濕阻證」分析其病機組成。"
+        },
+        {
+          "name": "清陽不升證",
+          "id": "qingyangbusheng",
+          "confidence": "high",
+          "location": [
+            "pi"
+          ],
+          "nature": [
+            "qi_xu",
+            "qi_xian"
+          ],
+          "reasoning": "脾氣不升，清陽不能上達頭目。表現為頭暈目眩、神疲乏力、腹瀉。病機關鍵在脾。"
+        },
+        {
+          "name": "血瘀水停證",
+          "id": "xueyu_shuiting",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "xue_yu",
+            "shui_ting"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：血瘀、水停。根據證候名稱「血瘀水停證」分析其病機組成。"
+        },
+        {
+          "name": "氣陰兩虛證",
+          "id": "qiyinliangxu",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "qi_xu",
+            "yin_xu"
+          ],
+          "reasoning": "氣陰俱傷，多見於熱病後期或慢性消耗性疾病。氣虛則倦怠乏力，陰虛則口乾潮熱。"
+        },
+        {
+          "name": "血虛津虧證",
+          "id": "xuexu_jinkui",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "xue_xu",
+            "jin_kui"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：血虛、津虧。根據證候名稱「血虛津虧證」分析其病機組成。"
+        },
+        {
+          "name": "真熱假寒證",
+          "id": "zhenrejiahan",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "huo"
+          ],
+          "reasoning": "熱極至深，陽氣內鬱不達四末。本質是裡熱熾盛，外現假寒（四肢厥冷），但身熱不惡寒、渴喜冷飲。"
+        },
+        {
+          "name": "水飲內停證",
+          "id": "shuiyinneiting",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "shui_ting"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：水停。根據證候名稱「水飲內停證」分析其病機組成。"
+        },
+        {
+          "name": "陽虛痰凝證",
+          "id": "yangxutanning",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "yang_xu",
+            "tan"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：陽虛、痰。根據證候名稱「陽虛痰凝證」分析其病機組成。"
+        },
+        {
+          "name": "暑閉氣機證",
+          "id": "shubiqiji",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "qi_bi",
+            "shu"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：氣閉、暑。根據證候名稱「暑閉氣機證」分析其病機組成。"
+        },
+        {
+          "name": "風痰證",
+          "id": "fengtan",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "feng",
+            "tan"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：風、痰。根據證候名稱「風痰證」分析其病機組成。"
+        },
+        {
+          "name": "血虛外感證",
+          "id": "xuexu_waigan",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "xue_xu"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：血虛。根據證候名稱「血虛外感證」分析其病機組成。"
+        },
+        {
+          "name": "虛陽浮越證",
+          "id": "xuyangfuyue",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "yang_xu",
+            "yang_kang"
+          ],
+          "reasoning": "陽虛根本不固，虛陽浮散於外。表現為下寒上熱，面紅如妝但足冷，是危重證候前兆。"
+        },
+        {
+          "name": "氣鬱化火證",
+          "id": "qiyu_huahuo",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "qi_zhi",
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：氣滯、熱/火。根據證候名稱「氣鬱化火證」分析其病機組成。"
+        },
+        {
+          "name": "涼燥證",
+          "id": "liangzao",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "zao",
+            "han"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：燥、寒。根據證候名稱「涼燥證」分析其病機組成。"
+        },
+        {
+          "name": "血熱化燥證",
+          "id": "xuerehuazao",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "xue_re",
+            "zao",
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：血熱、燥、熱/火。根據證候名稱「血熱化燥證」分析其病機組成。"
+        },
+        {
+          "name": "氣滯血瘀證",
+          "id": "qizhi_xueyu",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "qi_zhi",
+            "xue_yu"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：氣滯、血瘀。根據證候名稱「氣滯血瘀證」分析其病機組成。"
+        },
+        {
+          "name": "氣虛發熱證",
+          "id": "qixufare",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "qi_xu",
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：氣虛、熱/火。根據證候名稱「氣虛發熱證」分析其病機組成。"
+        },
+        {
+          "name": "血虛寒凝證",
+          "id": "xuexu_hanning",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "han",
+            "xue_yu"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：寒、血瘀。根據證候名稱「血虛寒凝證」分析其病機組成。"
+        },
+        {
+          "name": "濕熱證",
+          "id": "shire",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "shi",
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：濕、熱/火。根據證候名稱「濕熱證」分析其病機組成。"
+        },
+        {
+          "name": "陽虛寒凝證",
+          "id": "yangxuhanning",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "yang_xu",
+            "han"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：陽虛、寒。根據證候名稱「陽虛寒凝證」分析其病機組成。"
+        },
+        {
+          "name": "風寒化熱證",
+          "id": "fenghanhuare",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "feng",
+            "han"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：風、寒。根據證候名稱「風寒化熱證」分析其病機組成。"
+        },
+        {
+          "name": "熱毒入營證",
+          "id": "reduruying",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "huo",
+            "du"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：熱/火、毒。根據證候名稱「熱毒入營證」分析其病機組成。"
+        },
+        {
+          "name": "水濕泛濫證",
+          "id": "shuishifanlan",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "shi",
+            "shui_ting"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：濕、水停。根據證候名稱「水濕泛濫證」分析其病機組成。"
+        },
+        {
+          "name": "陰虛陽浮證",
+          "id": "yinxuyangfu",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "yin_xu",
+            "yang_kang"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：陰虛、陽亢。根據證候名稱「陰虛陽浮證」分析其病機組成。"
+        },
+        {
+          "name": "風熱壅盛證",
+          "id": "fengreyongsheng",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "feng",
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：風、熱/火。根據證候名稱「風熱壅盛證」分析其病機組成。"
+        },
+        {
+          "name": "氣滯痰凝證",
+          "id": "qizhi_tanning",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "qi_zhi",
+            "tan"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：氣滯、痰。根據證候名稱「氣滯痰凝證」分析其病機組成。"
+        },
+        {
+          "name": "陰虛內熱證",
+          "id": "yinxuneire",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "yin_xu",
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：陰虛、熱/火。根據證候名稱「陰虛內熱證」分析其病機組成。"
+        },
+        {
+          "name": "寒濕痺阻證",
+          "id": "hanshibizu",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "han",
+            "shi"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：寒、濕。根據證候名稱「寒濕痺阻證」分析其病機組成。"
+        },
+        {
+          "name": "陽虛濕困證",
+          "id": "yangxushikun",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "yang_xu",
+            "shi"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：陽虛、濕。根據證候名稱「陽虛濕困證」分析其病機組成。"
+        },
+        {
+          "name": "真寒假熱證",
+          "id": "zhenhanjiare",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "yang_xu"
+          ],
+          "reasoning": "陽虛至極，虛陽外浮。本質是陽虛內寒，外現假熱之象（面紅、身熱），但欲蓋衣被、四肢厥冷。"
+        },
+        {
+          "name": "風濕犯表證",
+          "id": "fengshifanbiao",
+          "confidence": "high",
+          "location": [
+            "biao"
+          ],
+          "nature": [
+            "feng",
+            "shi"
+          ],
+          "reasoning": "病位：表。病性：風、濕。根據證候名稱「風濕犯表證」分析其病機組成。"
+        },
+        {
+          "name": "血虛生風證",
+          "id": "xuexushengfeng",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "xue_xu",
+            "dong_feng"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：血虛、動風/內風。根據證候名稱「血虛生風證」分析其病機組成。"
+        },
+        {
+          "name": "血虛外感證",
+          "id": "xuexuwaigan",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "xue_xu"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：血虛。根據證候名稱「血虛外感證」分析其病機組成。"
+        },
+        {
+          "name": "血瘀氣滯證",
+          "id": "xueyu_qizhi",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "qi_zhi",
+            "xue_yu"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：氣滯、血瘀。根據證候名稱「血瘀氣滯證」分析其病機組成。"
+        },
+        {
+          "name": "氣虛血瘀證",
+          "id": "qixuxueyu",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "qi_xu",
+            "xue_yu"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：氣虛、血瘀。根據證候名稱「氣虛血瘀證」分析其病機組成。"
+        },
+        {
+          "name": "陽虛血瘀證",
+          "id": "yangxuxueyu",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "yang_xu",
+            "xue_yu"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：陽虛、血瘀。根據證候名稱「陽虛血瘀證」分析其病機組成。"
+        },
+        {
+          "name": "暑濕表證",
+          "id": "shushibiao",
+          "confidence": "high",
+          "location": [
+            "biao"
+          ],
+          "nature": [
+            "shu",
+            "shi"
+          ],
+          "reasoning": "病位：表。病性：暑、濕。根據證候名稱「暑濕表證」分析其病機組成。"
+        },
+        {
+          "name": "風濕化熱證",
+          "id": "fengshihuare",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "feng",
+            "shi"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：風、濕。根據證候名稱「風濕化熱證」分析其病機組成。"
+        },
+        {
+          "name": "血虛生風證",
+          "id": "xuexu_shengfeng",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "xue_xu",
+            "dong_feng"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：血虛、動風/內風。根據證候名稱「血虛生風證」分析其病機組成。"
+        },
+        {
+          "name": "血虛風燥證",
+          "id": "xuexufengzao",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "xue_xu",
+            "dong_feng"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：血虛、動風/內風。根據證候名稱「血虛風燥證」分析其病機組成。"
+        },
+        {
+          "name": "血虛風燥證",
+          "id": "xuexu_fengzao",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "xue_xu",
+            "dong_feng"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：血虛、動風/內風。根據證候名稱「血虛風燥證」分析其病機組成。"
+        },
+        {
+          "name": "氣虛外感證",
+          "id": "qixuwaigan",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "qi_xu"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：氣虛。根據證候名稱「氣虛外感證」分析其病機組成。"
+        },
+        {
+          "name": "陰虛陽亢證",
+          "id": "yinxuyangkang",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "yin_xu",
+            "yang_kang"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：陰虛、陽亢。根據證候名稱「陰虛陽亢證」分析其病機組成。"
+        },
+        {
+          "name": "血瘀水停證",
+          "id": "xueyushuiting",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "xue_yu",
+            "shui_ting"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：血瘀、水停。根據證候名稱「血瘀水停證」分析其病機組成。"
+        },
+        {
+          "name": "風寒表證",
+          "id": "fenghanbiao",
+          "confidence": "high",
+          "location": [
+            "biao"
+          ],
+          "nature": [
+            "feng",
+            "han"
+          ],
+          "reasoning": "病位：表。病性：風、寒。根據證候名稱「風寒表證」分析其病機組成。"
+        },
+        {
+          "name": "寒痰證",
+          "id": "hantan",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "han",
+            "tan"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：寒、痰。根據證候名稱「寒痰證」分析其病機組成。"
+        },
+        {
+          "name": "氣滯水停證",
+          "id": "qizhishuiting",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "qi_zhi",
+            "shui_ting"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：氣滯、水停。根據證候名稱「氣滯水停證」分析其病機組成。"
+        },
+        {
+          "name": "瘀血痺阻證",
+          "id": "yuxuebizu",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "xue_yu"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：血瘀。根據證候名稱「瘀血痺阻證」分析其病機組成。"
+        },
+        {
+          "name": "熱痰證",
+          "id": "retan",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "huo",
+            "tan"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：熱/火、痰。根據證候名稱「熱痰證」分析其病機組成。"
+        },
+        {
+          "name": "陰虛血燥證",
+          "id": "yinxuxuezao",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "yin_xu",
+            "zao"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：陰虛、燥。根據證候名稱「陰虛血燥證」分析其病機組成。"
+        }
+      ]
+    },
+    "臟腑證候": {
+      "category": "臟腑證候",
+      "total": 126,
+      "high": 126,
+      "medium": 0,
+      "low": 0,
+      "details": [
+        {
+          "name": "肝氣鬱結證",
+          "id": "ganqiyujie",
+          "confidence": "high",
+          "location": [
+            "gan"
+          ],
+          "nature": [
+            "qi_zhi"
+          ],
+          "reasoning": "病位：肝。病性：氣滯。根據證候名稱「肝氣鬱結證」分析其病機組成。"
+        },
+        {
+          "name": "寒滯肝脈證",
+          "id": "hanzhiganmai",
+          "confidence": "high",
+          "location": [
+            "gan"
+          ],
+          "nature": [
+            "han"
+          ],
+          "reasoning": "病位：肝。病性：寒。根據證候名稱「寒滯肝脈證」分析其病機組成。"
+        },
+        {
+          "name": "胃寒證",
+          "id": "weihan",
+          "confidence": "high",
+          "location": [
+            "wei"
+          ],
+          "nature": [
+            "han"
+          ],
+          "reasoning": "病位：胃。病性：寒。根據證候名稱「胃寒證」分析其病機組成。"
+        },
+        {
+          "name": "心火亢盛證",
+          "id": "xinhuokangsheng",
+          "confidence": "high",
+          "location": [
+            "xin"
+          ],
+          "nature": [
+            "huo"
+          ],
+          "reasoning": "病位：心。病性：熱/火。根據證候名稱「心火亢盛證」分析其病機組成。"
+        },
+        {
+          "name": "肝陰虛證",
+          "id": "ganyinxu",
+          "confidence": "high",
+          "location": [
+            "gan"
+          ],
+          "nature": [
+            "yin_xu"
+          ],
+          "reasoning": "病位：肝。病性：陰虛。根據證候名稱「肝陰虛證」分析其病機組成。"
+        },
+        {
+          "name": "肝鬱陰虛證",
+          "id": "ganyuyinxu",
+          "confidence": "high",
+          "location": [
+            "gan"
+          ],
+          "nature": [
+            "qi_zhi",
+            "yin_xu"
+          ],
+          "reasoning": "病位：肝。病性：氣滯、陰虛。根據證候名稱「肝鬱陰虛證」分析其病機組成。"
+        },
+        {
+          "name": "寒滯心脈證",
+          "id": "hanzhixinmai",
+          "confidence": "high",
+          "location": [
+            "xin"
+          ],
+          "nature": [
+            "han"
+          ],
+          "reasoning": "病位：心。病性：寒。根據證候名稱「寒滯心脈證」分析其病機組成。"
+        },
+        {
+          "name": "肺氣虛證",
+          "id": "feiqixu",
+          "confidence": "high",
+          "location": [
+            "fei"
+          ],
+          "nature": [
+            "qi_xu"
+          ],
+          "reasoning": "病位：肺。病性：氣虛。根據證候名稱「肺氣虛證」分析其病機組成。"
+        },
+        {
+          "name": "心血瘀阻證",
+          "id": "xinxueyuzu",
+          "confidence": "high",
+          "location": [
+            "xin"
+          ],
+          "nature": [
+            "xue_yu"
+          ],
+          "reasoning": "病位：心。病性：血瘀。根據證候名稱「心血瘀阻證」分析其病機組成。"
+        },
+        {
+          "name": "脾虛食積證",
+          "id": "pixushiji",
+          "confidence": "high",
+          "location": [
+            "pi"
+          ],
+          "nature": [
+            "shi_ji"
+          ],
+          "reasoning": "病位：脾。病性：食積。根據證候名稱「脾虛食積證」分析其病機組成。"
+        },
+        {
+          "name": "腎氣不固證",
+          "id": "shenqibugu",
+          "confidence": "high",
+          "location": [
+            "shen"
+          ],
+          "nature": [
+            "bu_gu"
+          ],
+          "reasoning": "病位：腎。病性：不固。根據證候名稱「腎氣不固證」分析其病機組成。"
+        },
+        {
+          "name": "胃氣痞塞證",
+          "id": "weiqipisai",
+          "confidence": "high",
+          "location": [
+            "wei"
+          ],
+          "nature": [
+            "qi_zhi"
+          ],
+          "reasoning": "病位：胃。病性：氣滯。根據證候名稱「胃氣痞塞證」分析其病機組成。"
+        },
+        {
+          "name": "大腸虛寒證",
+          "id": "dachangxuhan",
+          "confidence": "high",
+          "location": [
+            "dachang"
+          ],
+          "nature": [
+            "han"
+          ],
+          "reasoning": "病位：大腸。病性：寒。根據證候名稱「大腸虛寒證」分析其病機組成。"
+        },
+        {
+          "name": "心陰虛證",
+          "id": "xinyinxu",
+          "confidence": "high",
+          "location": [
+            "xin"
+          ],
+          "nature": [
+            "yin_xu"
+          ],
+          "reasoning": "病位：心。病性：陰虛。根據證候名稱「心陰虛證」分析其病機組成。"
+        },
+        {
+          "name": "脾腎陰虛證",
+          "id": "pishenyinxu",
+          "confidence": "high",
+          "location": [
+            "pi",
+            "shen"
+          ],
+          "nature": [
+            "yin_xu"
+          ],
+          "reasoning": "病位：脾、腎。病性：陰虛。根據證候名稱「脾腎陰虛證」分析其病機組成。"
+        },
+        {
+          "name": "心肺氣虛證",
+          "id": "xinfeiqixu",
+          "confidence": "high",
+          "location": [
+            "xin",
+            "fei"
+          ],
+          "nature": [
+            "qi_xu"
+          ],
+          "reasoning": "病位：心、肺。病性：氣虛。根據證候名稱「心肺氣虛證」分析其病機組成。"
+        },
+        {
+          "name": "小腸氣滯證",
+          "id": "xiaochangqizhi",
+          "confidence": "high",
+          "location": [
+            "xiaochang"
+          ],
+          "nature": [
+            "qi_zhi"
+          ],
+          "reasoning": "病位：小腸。病性：氣滯。根據證候名稱「小腸氣滯證」分析其病機組成。"
+        },
+        {
+          "name": "痰熱壅肺證",
+          "id": "tanreyongfei",
+          "confidence": "high",
+          "location": [
+            "fei"
+          ],
+          "nature": [
+            "tan",
+            "huo"
+          ],
+          "reasoning": "病位：肺。病性：痰、熱/火。根據證候名稱「痰熱壅肺證」分析其病機組成。"
+        },
+        {
+          "name": "大腸不固證",
+          "id": "dachangbugu",
+          "confidence": "high",
+          "location": [
+            "dachang"
+          ],
+          "nature": [
+            "bu_gu"
+          ],
+          "reasoning": "病位：大腸。病性：不固。根據證候名稱「大腸不固證」分析其病機組成。"
+        },
+        {
+          "name": "腎陰陽兩虛證",
+          "id": "shenyinyangliangxu",
+          "confidence": "high",
+          "location": [
+            "shen"
+          ],
+          "nature": [
+            "yin_xu",
+            "yang_xu"
+          ],
+          "reasoning": "腎陰陽俱虛。腎為先天之本，陰陽互根，久病腎精虧損可致陰陽兩虛。"
+        },
+        {
+          "name": "瘀阻肺絡證",
+          "id": "yuzufeiluo",
+          "confidence": "high",
+          "location": [
+            "fei"
+          ],
+          "nature": [
+            "xue_yu"
+          ],
+          "reasoning": "病位：肺。病性：血瘀。根據證候名稱「瘀阻肺絡證」分析其病機組成。"
+        },
+        {
+          "name": "痰火擾心證",
+          "id": "tanhuoraoxin",
+          "confidence": "high",
+          "location": [
+            "xin"
+          ],
+          "nature": [
+            "huo",
+            "tan"
+          ],
+          "reasoning": "病位：心。病性：熱/火、痰。根據證候名稱「痰火擾心證」分析其病機組成。"
+        },
+        {
+          "name": "腎不納氣證",
+          "id": "shenbunaqi",
+          "confidence": "high",
+          "location": [
+            "shen",
+            "fei"
+          ],
+          "nature": [
+            "qi_xu",
+            "bu_gu"
+          ],
+          "reasoning": "腎氣虛不能攝納肺氣。腎主納氣，肺主呼吸，腎虛則氣浮於上，表現為喘促、呼多吸少。"
+        },
+        {
+          "name": "痰阻心脈證",
+          "id": "tanzuxinmai",
+          "confidence": "high",
+          "location": [
+            "xin"
+          ],
+          "nature": [
+            "tan"
+          ],
+          "reasoning": "病位：心。病性：痰。根據證候名稱「痰阻心脈證」分析其病機組成。"
+        },
+        {
+          "name": "肝腎陰虛證",
+          "id": "ganshenyinxu",
+          "confidence": "high",
+          "location": [
+            "gan",
+            "shen"
+          ],
+          "nature": [
+            "yin_xu"
+          ],
+          "reasoning": "病位：肝、腎。病性：陰虛。根據證候名稱「肝腎陰虛證」分析其病機組成。"
+        },
+        {
+          "name": "腎經寒濕證",
+          "id": "shenjinghanshi",
+          "confidence": "high",
+          "location": [
+            "shen"
+          ],
+          "nature": [
+            "han",
+            "shi"
+          ],
+          "reasoning": "病位：腎。病性：寒、濕。根據證候名稱「腎經寒濕證」分析其病機組成。"
+        },
+        {
+          "name": "腎陽虛水泛證",
+          "id": "shenyangxushuifan",
+          "confidence": "high",
+          "location": [
+            "shen"
+          ],
+          "nature": [
+            "yang_xu",
+            "shui_ting"
+          ],
+          "reasoning": "病位：腎。病性：陽虛、水停。根據證候名稱「腎陽虛水泛證」分析其病機組成。"
+        },
+        {
+          "name": "表寒肺熱證",
+          "id": "biaohanfeire",
+          "confidence": "high",
+          "location": [
+            "fei",
+            "biao"
+          ],
+          "nature": [
+            "han",
+            "huo"
+          ],
+          "reasoning": "病位：肺、表。病性：寒、熱/火。根據證候名稱「表寒肺熱證」分析其病機組成。"
+        },
+        {
+          "name": "肺陰虛證",
+          "id": "feiyinxu",
+          "confidence": "high",
+          "location": [
+            "fei"
+          ],
+          "nature": [
+            "yin_xu"
+          ],
+          "reasoning": "病位：肺。病性：陰虛。根據證候名稱「肺陰虛證」分析其病機組成。"
+        },
+        {
+          "name": "脾虛濕熱證",
+          "id": "pixushire",
+          "confidence": "high",
+          "location": [
+            "pi"
+          ],
+          "nature": [
+            "shi",
+            "huo"
+          ],
+          "reasoning": "病位：脾。病性：濕、熱/火。根據證候名稱「脾虛濕熱證」分析其病機組成。"
+        },
+        {
+          "name": "精血虧虛證",
+          "id": "jingxuekuixu",
+          "confidence": "high",
+          "location": [
+            "shen",
+            "gan"
+          ],
+          "nature": [
+            "jing_kui",
+            "xue_xu"
+          ],
+          "reasoning": "精血同源，肝藏血、腎藏精，精血虧虛多涉肝腎。表現為頭暈目眩、腰膝酸軟。"
+        },
+        {
+          "name": "心陽暴脫證",
+          "id": "xinyangbaotuo",
+          "confidence": "high",
+          "location": [
+            "xin"
+          ],
+          "nature": [
+            "yang_xu",
+            "qi_tuo"
+          ],
+          "reasoning": "心陽突然衰竭欲脫。危重證候，表現為面色蒼白、四肢厥冷、脈微欲絕。"
+        },
+        {
+          "name": "肺熱腸結證",
+          "id": "feirechangjie",
+          "confidence": "high",
+          "location": [
+            "fei"
+          ],
+          "nature": [
+            "huo"
+          ],
+          "reasoning": "病位：肺。病性：熱/火。根據證候名稱「肺熱腸結證」分析其病機組成。"
+        },
+        {
+          "name": "腎虛髓虧證",
+          "id": "shenxusuikui",
+          "confidence": "high",
+          "location": [
+            "shen"
+          ],
+          "nature": [
+            "jing_kui"
+          ],
+          "reasoning": "腎主骨生髓，腎精不足則髓海空虛。表現為腰膝酸軟、頭暈健忘、骨軟無力。"
+        },
+        {
+          "name": "暑傷肺絡證",
+          "id": "shushangfeiluo",
+          "confidence": "high",
+          "location": [
+            "fei"
+          ],
+          "nature": [
+            "shu"
+          ],
+          "reasoning": "病位：肺。病性：暑。根據證候名稱「暑傷肺絡證」分析其病機組成。"
+        },
+        {
+          "name": "心膽氣虛證",
+          "id": "xindanqixu",
+          "confidence": "high",
+          "location": [
+            "xin",
+            "dan"
+          ],
+          "nature": [
+            "qi_xu"
+          ],
+          "reasoning": "病位：心、膽。病性：氣虛。根據證候名稱「心膽氣虛證」分析其病機組成。"
+        },
+        {
+          "name": "陰虛肺熱證",
+          "id": "yinxufeire",
+          "confidence": "high",
+          "location": [
+            "fei"
+          ],
+          "nature": [
+            "yin_xu",
+            "huo"
+          ],
+          "reasoning": "病位：肺。病性：陰虛、熱/火。根據證候名稱「陰虛肺熱證」分析其病機組成。"
+        },
+        {
+          "name": "風熱襲肺證",
+          "id": "fengrexifei",
+          "confidence": "high",
+          "location": [
+            "fei"
+          ],
+          "nature": [
+            "feng",
+            "huo"
+          ],
+          "reasoning": "病位：肺。病性：風、熱/火。根據證候名稱「風熱襲肺證」分析其病機組成。"
+        },
+        {
+          "name": "風寒犯肺證",
+          "id": "fenghanfanfei",
+          "confidence": "high",
+          "location": [
+            "fei"
+          ],
+          "nature": [
+            "feng",
+            "han"
+          ],
+          "reasoning": "病位：肺。病性：風、寒。根據證候名稱「風寒犯肺證」分析其病機組成。"
+        },
+        {
+          "name": "肝經濕熱證",
+          "id": "ganjingshire",
+          "confidence": "high",
+          "location": [
+            "gan"
+          ],
+          "nature": [
+            "shi",
+            "huo"
+          ],
+          "reasoning": "病位：肝。病性：濕、熱/火。根據證候名稱「肝經濕熱證」分析其病機組成。"
+        },
+        {
+          "name": "食傷脾胃證",
+          "id": "shishangpiwei",
+          "confidence": "high",
+          "location": [
+            "pi",
+            "wei"
+          ],
+          "nature": [
+            "shi_ji"
+          ],
+          "reasoning": "飲食不節損傷脾胃。食積內停，表現為脘腹脹滿、噯腐吞酸、不思飲食。"
+        },
+        {
+          "name": "脾胃濕熱證",
+          "id": "piweishire",
+          "confidence": "high",
+          "location": [
+            "pi",
+            "wei"
+          ],
+          "nature": [
+            "shi",
+            "huo"
+          ],
+          "reasoning": "病位：脾、胃。病性：濕、熱/火。根據證候名稱「脾胃濕熱證」分析其病機組成。"
+        },
+        {
+          "name": "肝血虛證",
+          "id": "ganxuexu",
+          "confidence": "high",
+          "location": [
+            "gan"
+          ],
+          "nature": [
+            "xue_xu"
+          ],
+          "reasoning": "病位：肝。病性：血虛。根據證候名稱「肝血虛證」分析其病機組成。"
+        },
+        {
+          "name": "腎陰虛證",
+          "id": "shenyinxu",
+          "confidence": "high",
+          "location": [
+            "shen"
+          ],
+          "nature": [
+            "yin_xu"
+          ],
+          "reasoning": "病位：腎。病性：陰虛。根據證候名稱「腎陰虛證」分析其病機組成。"
+        },
+        {
+          "name": "心腎陽虛證",
+          "id": "xinshenyangxu",
+          "confidence": "high",
+          "location": [
+            "xin",
+            "shen"
+          ],
+          "nature": [
+            "yang_xu"
+          ],
+          "reasoning": "病位：心、腎。病性：陽虛。根據證候名稱「心腎陽虛證」分析其病機組成。"
+        },
+        {
+          "name": "心胃火盛證",
+          "id": "xinweihuosheng",
+          "confidence": "high",
+          "location": [
+            "xin",
+            "wei"
+          ],
+          "nature": [
+            "huo"
+          ],
+          "reasoning": "病位：心、胃。病性：熱/火。根據證候名稱「心胃火盛證」分析其病機組成。"
+        },
+        {
+          "name": "肺鬱水停證",
+          "id": "feiyushuiting",
+          "confidence": "high",
+          "location": [
+            "fei"
+          ],
+          "nature": [
+            "qi_zhi",
+            "shui_ting"
+          ],
+          "reasoning": "病位：肺。病性：氣滯、水停。根據證候名稱「肺鬱水停證」分析其病機組成。"
+        },
+        {
+          "name": "肝火上炎證",
+          "id": "ganhuoshangyan",
+          "confidence": "high",
+          "location": [
+            "gan"
+          ],
+          "nature": [
+            "huo"
+          ],
+          "reasoning": "病位：肝。病性：熱/火。根據證候名稱「肝火上炎證」分析其病機組成。"
+        },
+        {
+          "name": "肝膽濕熱證",
+          "id": "gandanshire",
+          "confidence": "high",
+          "location": [
+            "gan",
+            "dan"
+          ],
+          "nature": [
+            "shi",
+            "huo"
+          ],
+          "reasoning": "病位：肝、膽。病性：濕、熱/火。根據證候名稱「肝膽濕熱證」分析其病機組成。"
+        },
+        {
+          "name": "燥邪犯肺證",
+          "id": "zaoxiefanfei",
+          "confidence": "high",
+          "location": [
+            "fei"
+          ],
+          "nature": [
+            "zao"
+          ],
+          "reasoning": "病位：肺。病性：燥。根據證候名稱「燥邪犯肺證」分析其病機組成。"
+        },
+        {
+          "name": "風水犯肺證",
+          "id": "fengshuifanfei",
+          "confidence": "high",
+          "location": [
+            "fei"
+          ],
+          "nature": [
+            "feng"
+          ],
+          "reasoning": "病位：肺。病性：風。根據證候名稱「風水犯肺證」分析其病機組成。"
+        },
+        {
+          "name": "心腎不交證",
+          "id": "xinshenbujiao",
+          "confidence": "high",
+          "location": [
+            "xin",
+            "shen"
+          ],
+          "nature": [
+            "yin_xu",
+            "huo"
+          ],
+          "reasoning": "心腎水火不濟。腎水不能上濟心火，心火不能下交腎水，表現為心煩失眠、腰膝酸軟。"
+        },
+        {
+          "name": "大腸濕熱證",
+          "id": "dachangshire",
+          "confidence": "high",
+          "location": [
+            "dachang"
+          ],
+          "nature": [
+            "shi",
+            "huo"
+          ],
+          "reasoning": "病位：大腸。病性：濕、熱/火。根據證候名稱「大腸濕熱證」分析其病機組成。"
+        },
+        {
+          "name": "腎精不足證",
+          "id": "shenjingbuzu",
+          "confidence": "high",
+          "location": [
+            "shen"
+          ],
+          "nature": [
+            "jing_kui"
+          ],
+          "reasoning": "腎精虧虛不足。腎主藏精，精虧則發育遲緩、早衰、生殖功能減退。"
+        },
+        {
+          "name": "膀胱失約證",
+          "id": "pangguangshiyue",
+          "confidence": "high",
+          "location": [
+            "pangguang"
+          ],
+          "nature": [
+            "qi_xu",
+            "bu_gu"
+          ],
+          "reasoning": "膀胱約束無力。氣虛不能固攝，表現為小便頻數、遺尿、尿失禁。"
+        },
+        {
+          "name": "腎陰虛火旺證",
+          "id": "shenyinxuhuowang",
+          "confidence": "high",
+          "location": [
+            "shen"
+          ],
+          "nature": [
+            "yin_xu",
+            "huo"
+          ],
+          "reasoning": "病位：腎。病性：陰虛、熱/火。根據證候名稱「腎陰虛火旺證」分析其病機組成。"
+        },
+        {
+          "name": "心陰虛血瘀證",
+          "id": "xinyinxuxueyu",
+          "confidence": "high",
+          "location": [
+            "xin"
+          ],
+          "nature": [
+            "xue_yu",
+            "yin_xu"
+          ],
+          "reasoning": "病位：心。病性：血瘀、陰虛。根據證候名稱「心陰虛血瘀證」分析其病機組成。"
+        },
+        {
+          "name": "熱毒閉肺證",
+          "id": "redubifei",
+          "confidence": "high",
+          "location": [
+            "fei"
+          ],
+          "nature": [
+            "huo",
+            "du"
+          ],
+          "reasoning": "病位：肺。病性：熱/火、毒。根據證候名稱「熱毒閉肺證」分析其病機組成。"
+        },
+        {
+          "name": "腎虛寒凝證",
+          "id": "shenxuhanning",
+          "confidence": "high",
+          "location": [
+            "shen"
+          ],
+          "nature": [
+            "han"
+          ],
+          "reasoning": "病位：腎。病性：寒。根據證候名稱「腎虛寒凝證」分析其病機組成。"
+        },
+        {
+          "name": "肝瘀痰結證",
+          "id": "ganyutanjie",
+          "confidence": "high",
+          "location": [
+            "gan"
+          ],
+          "nature": [
+            "xue_yu",
+            "tan"
+          ],
+          "reasoning": "病位：肝。病性：血瘀、痰。根據證候名稱「肝瘀痰結證」分析其病機組成。"
+        },
+        {
+          "name": "脾經濕熱證",
+          "id": "pijingshire",
+          "confidence": "high",
+          "location": [
+            "pi"
+          ],
+          "nature": [
+            "shi",
+            "huo"
+          ],
+          "reasoning": "病位：脾。病性：濕、熱/火。根據證候名稱「脾經濕熱證」分析其病機組成。"
+        },
+        {
+          "name": "胃陰虛證",
+          "id": "weiyinxu",
+          "confidence": "high",
+          "location": [
+            "wei"
+          ],
+          "nature": [
+            "yin_xu"
+          ],
+          "reasoning": "病位：胃。病性：陰虛。根據證候名稱「胃陰虛證」分析其病機組成。"
+        },
+        {
+          "name": "脾虛氣滯證",
+          "id": "pixuqizhi",
+          "confidence": "high",
+          "location": [
+            "pi"
+          ],
+          "nature": [
+            "qi_zhi"
+          ],
+          "reasoning": "病位：脾。病性：氣滯。根據證候名稱「脾虛氣滯證」分析其病機組成。"
+        },
+        {
+          "name": "肝血瘀滯證",
+          "id": "ganxueyuzhi",
+          "confidence": "high",
+          "location": [
+            "gan"
+          ],
+          "nature": [
+            "xue_yu"
+          ],
+          "reasoning": "病位：肝。病性：血瘀。根據證候名稱「肝血瘀滯證」分析其病機組成。"
+        },
+        {
+          "name": "肝胃不和證",
+          "id": "ganweibuhe",
+          "confidence": "high",
+          "location": [
+            "gan",
+            "wei"
+          ],
+          "nature": [
+            "qi_zhi"
+          ],
+          "reasoning": "肝氣橫逆犯胃。肝失疏洩，胃失和降，表現為胃脘脹痛、噯氣、泛酸。"
+        },
+        {
+          "name": "心肝血虛證",
+          "id": "xinganxuexu",
+          "confidence": "high",
+          "location": [
+            "xin",
+            "gan"
+          ],
+          "nature": [
+            "xue_xu"
+          ],
+          "reasoning": "病位：心、肝。病性：血虛。根據證候名稱「心肝血虛證」分析其病機組成。"
+        },
+        {
+          "name": "水氣凌心證",
+          "id": "shuiqilingxin",
+          "confidence": "high",
+          "location": [
+            "xin"
+          ],
+          "nature": [
+            "yang_xu",
+            "shui_ting"
+          ],
+          "reasoning": "水飲上凌心肺。腎陽虛水液泛濫，上凌於心，表現為心悸、胸悶、水腫。"
+        },
+        {
+          "name": "肺氣陰兩虛證",
+          "id": "feiqiyinliangxu",
+          "confidence": "high",
+          "location": [
+            "fei"
+          ],
+          "nature": [
+            "qi_xu",
+            "yin_xu"
+          ],
+          "reasoning": "肺氣陰俱虛。久病耗傷肺氣肺陰，表現為咳嗽無力、氣短、口乾、潮熱。"
+        },
+        {
+          "name": "小腸虛寒證",
+          "id": "xiaochangxuhan",
+          "confidence": "high",
+          "location": [
+            "xiaochang"
+          ],
+          "nature": [
+            "han"
+          ],
+          "reasoning": "病位：小腸。病性：寒。根據證候名稱「小腸虛寒證」分析其病機組成。"
+        },
+        {
+          "name": "大腸結熱證",
+          "id": "dachangjiere",
+          "confidence": "high",
+          "location": [
+            "dachang"
+          ],
+          "nature": [
+            "huo"
+          ],
+          "reasoning": "病位：大腸。病性：熱/火。根據證候名稱「大腸結熱證」分析其病機組成。"
+        },
+        {
+          "name": "脾虛肝鬱證",
+          "id": "pixuganyu",
+          "confidence": "high",
+          "location": [
+            "gan",
+            "pi"
+          ],
+          "nature": [
+            "qi_zhi"
+          ],
+          "reasoning": "病位：肝、脾。病性：氣滯。根據證候名稱「脾虛肝鬱證」分析其病機組成。"
+        },
+        {
+          "name": "胃強脾弱證",
+          "id": "weiqiangpiruo",
+          "confidence": "high",
+          "location": [
+            "pi",
+            "wei"
+          ],
+          "nature": [
+            "huo",
+            "qi_xu"
+          ],
+          "reasoning": "胃熱脾虛。胃火亢盛消穀善飢，脾虛運化無力則便溏，表現為多食易飢、大便溏薄。"
+        },
+        {
+          "name": "心氣陰兩虛證",
+          "id": "xinqiyinliangxu",
+          "confidence": "high",
+          "location": [
+            "xin"
+          ],
+          "nature": [
+            "qi_xu",
+            "yin_xu"
+          ],
+          "reasoning": "心氣心陰俱虛。久病耗傷心氣心陰，表現為心悸氣短、口乾、五心煩熱。"
+        },
+        {
+          "name": "心肺陰虛證",
+          "id": "xinfeiyinxu",
+          "confidence": "high",
+          "location": [
+            "xin",
+            "fei"
+          ],
+          "nature": [
+            "yin_xu"
+          ],
+          "reasoning": "病位：心、肺。病性：陰虛。根據證候名稱「心肺陰虛證」分析其病機組成。"
+        },
+        {
+          "name": "膀胱虛寒證",
+          "id": "pangguangxuhan",
+          "confidence": "high",
+          "location": [
+            "pangguang"
+          ],
+          "nature": [
+            "han"
+          ],
+          "reasoning": "病位：膀胱。病性：寒。根據證候名稱「膀胱虛寒證」分析其病機組成。"
+        },
+        {
+          "name": "心血虛證",
+          "id": "xinxuexu",
+          "confidence": "high",
+          "location": [
+            "xin"
+          ],
+          "nature": [
+            "xue_xu"
+          ],
+          "reasoning": "病位：心。病性：血虛。根據證候名稱「心血虛證」分析其病機組成。"
+        },
+        {
+          "name": "肝鬱化火證",
+          "id": "ganyuhuahuo",
+          "confidence": "high",
+          "location": [
+            "gan"
+          ],
+          "nature": [
+            "qi_zhi",
+            "huo"
+          ],
+          "reasoning": "病位：肝。病性：氣滯、熱/火。根據證候名稱「肝鬱化火證」分析其病機組成。"
+        },
+        {
+          "name": "脾虛濕困證",
+          "id": "pixushikun",
+          "confidence": "high",
+          "location": [
+            "pi"
+          ],
+          "nature": [
+            "shi"
+          ],
+          "reasoning": "病位：脾。病性：濕。根據證候名稱「脾虛濕困證」分析其病機組成。"
+        },
+        {
+          "name": "脾胃陽虛證",
+          "id": "piweiyangxu",
+          "confidence": "high",
+          "location": [
+            "pi",
+            "wei"
+          ],
+          "nature": [
+            "yang_xu"
+          ],
+          "reasoning": "病位：脾、胃。病性：陽虛。根據證候名稱「脾胃陽虛證」分析其病機組成。"
+        },
+        {
+          "name": "寒飲停肺證",
+          "id": "hanyintingfei",
+          "confidence": "high",
+          "location": [
+            "fei"
+          ],
+          "nature": [
+            "han",
+            "shui_ting"
+          ],
+          "reasoning": "病位：肺。病性：寒、水停。根據證候名稱「寒飲停肺證」分析其病機組成。"
+        },
+        {
+          "name": "肝陽上亢證",
+          "id": "ganyangshangkang",
+          "confidence": "high",
+          "location": [
+            "gan"
+          ],
+          "nature": [
+            "yin_xu",
+            "yang_kang"
+          ],
+          "reasoning": "肝腎陰虛，肝陽偏亢。陰不制陽，肝陽上擾，表現為頭暈頭痛、面紅目赤、急躁易怒。"
+        },
+        {
+          "name": "胃氣虛證",
+          "id": "weiqixu",
+          "confidence": "high",
+          "location": [
+            "wei"
+          ],
+          "nature": [
+            "qi_xu"
+          ],
+          "reasoning": "病位：胃。病性：氣虛。根據證候名稱「胃氣虛證」分析其病機組成。"
+        },
+        {
+          "name": "肝風內動證",
+          "id": "ganfengneidong",
+          "confidence": "high",
+          "location": [
+            "gan"
+          ],
+          "nature": [
+            "feng"
+          ],
+          "reasoning": "病位：肝。病性：風。根據證候名稱「肝風內動證」分析其病機組成。"
+        },
+        {
+          "name": "肝脾氣虛證",
+          "id": "ganpiqixu",
+          "confidence": "high",
+          "location": [
+            "gan",
+            "pi"
+          ],
+          "nature": [
+            "qi_xu"
+          ],
+          "reasoning": "病位：肝、脾。病性：氣虛。根據證候名稱「肝脾氣虛證」分析其病機組成。"
+        },
+        {
+          "name": "脾腎陽虛證",
+          "id": "pishenyangxu",
+          "confidence": "high",
+          "location": [
+            "pi",
+            "shen"
+          ],
+          "nature": [
+            "yang_xu"
+          ],
+          "reasoning": "病位：脾、腎。病性：陽虛。根據證候名稱「脾腎陽虛證」分析其病機組成。"
+        },
+        {
+          "name": "肺陽虛證",
+          "id": "feiyangxu",
+          "confidence": "high",
+          "location": [
+            "fei"
+          ],
+          "nature": [
+            "yang_xu"
+          ],
+          "reasoning": "病位：肺。病性：陽虛。根據證候名稱「肺陽虛證」分析其病機組成。"
+        },
+        {
+          "name": "胃氣上逆證",
+          "id": "weiqishangni",
+          "confidence": "high",
+          "location": [
+            "wei"
+          ],
+          "nature": [
+            "qi_ni"
+          ],
+          "reasoning": "病位：胃。病性：氣逆。根據證候名稱「胃氣上逆證」分析其病機組成。"
+        },
+        {
+          "name": "腎陽虛證",
+          "id": "shenyangxu",
+          "confidence": "high",
+          "location": [
+            "shen"
+          ],
+          "nature": [
+            "yang_xu"
+          ],
+          "reasoning": "病位：腎。病性：陽虛。根據證候名稱「腎陽虛證」分析其病機組成。"
+        },
+        {
+          "name": "脾虛水停證",
+          "id": "pixushuiting",
+          "confidence": "high",
+          "location": [
+            "pi"
+          ],
+          "nature": [
+            "shui_ting"
+          ],
+          "reasoning": "病位：脾。病性：水停。根據證候名稱「脾虛水停證」分析其病機組成。"
+        },
+        {
+          "name": "膽鬱痰擾證",
+          "id": "danyutanrao",
+          "confidence": "high",
+          "location": [
+            "dan"
+          ],
+          "nature": [
+            "qi_zhi",
+            "tan"
+          ],
+          "reasoning": "病位：膽。病性：氣滯、痰。根據證候名稱「膽鬱痰擾證」分析其病機組成。"
+        },
+        {
+          "name": "肝火犯肺證",
+          "id": "ganhuofanfei",
+          "confidence": "high",
+          "location": [
+            "fei",
+            "gan"
+          ],
+          "nature": [
+            "huo"
+          ],
+          "reasoning": "病位：肺、肝。病性：熱/火。根據證候名稱「肝火犯肺證」分析其病機組成。"
+        },
+        {
+          "name": "膽熱證",
+          "id": "danre",
+          "confidence": "high",
+          "location": [
+            "dan"
+          ],
+          "nature": [
+            "huo"
+          ],
+          "reasoning": "病位：膽。病性：熱/火。根據證候名稱「膽熱證」分析其病機組成。"
+        },
+        {
+          "name": "心陽虛證",
+          "id": "xinyangxu",
+          "confidence": "high",
+          "location": [
+            "xin"
+          ],
+          "nature": [
+            "yang_xu"
+          ],
+          "reasoning": "病位：心。病性：陽虛。根據證候名稱「心陽虛證」分析其病機組成。"
+        },
+        {
+          "name": "脾虛痰濕證",
+          "id": "pixutanshi",
+          "confidence": "high",
+          "location": [
+            "pi"
+          ],
+          "nature": [
+            "shi",
+            "tan"
+          ],
+          "reasoning": "病位：脾。病性：濕、痰。根據證候名稱「脾虛痰濕證」分析其病機組成。"
+        },
+        {
+          "name": "腎氣虛證",
+          "id": "shenqixu",
+          "confidence": "high",
+          "location": [
+            "shen"
+          ],
+          "nature": [
+            "qi_xu"
+          ],
+          "reasoning": "病位：腎。病性：氣虛。根據證候名稱「腎氣虛證」分析其病機組成。"
+        },
+        {
+          "name": "肝脾不調證",
+          "id": "ganpibudiao",
+          "confidence": "high",
+          "location": [
+            "gan",
+            "pi"
+          ],
+          "nature": [
+            "qi_zhi",
+            "qi_xu"
+          ],
+          "reasoning": "肝鬱脾虛。肝失疏洩，脾失健運，表現為胸脅脹滿、腹脹、便溏。"
+        },
+        {
+          "name": "肺氣衰絕證",
+          "id": "feiqishuaijue",
+          "confidence": "high",
+          "location": [
+            "fei"
+          ],
+          "nature": [
+            "qi_xu",
+            "qi_tuo"
+          ],
+          "reasoning": "肺氣衰竭欲絕。危重證候，肺主氣司呼吸功能衰竭，表現為呼吸微弱、汗出如油。"
+        },
+        {
+          "name": "肺腎陰虛證",
+          "id": "feishenyinxu",
+          "confidence": "high",
+          "location": [
+            "fei",
+            "shen"
+          ],
+          "nature": [
+            "yin_xu"
+          ],
+          "reasoning": "病位：肺、腎。病性：陰虛。根據證候名稱「肺腎陰虛證」分析其病機組成。"
+        },
+        {
+          "name": "肝鬱血瘀證",
+          "id": "ganyuxueyu",
+          "confidence": "high",
+          "location": [
+            "gan"
+          ],
+          "nature": [
+            "qi_zhi",
+            "xue_yu"
+          ],
+          "reasoning": "病位：肝。病性：氣滯、血瘀。根據證候名稱「肝鬱血瘀證」分析其病機組成。"
+        },
+        {
+          "name": "艾滋病濕毒蘊結肌膚證",
+          "id": "aizibingshiduyunjiejifu",
+          "confidence": "high",
+          "location": [
+            "jifu"
+          ],
+          "nature": [
+            "shi",
+            "du"
+          ],
+          "reasoning": "病位：肌膚。病性：濕、毒。根據證候名稱「艾滋病濕毒蘊結肌膚證」分析其病機組成。"
+        },
+        {
+          "name": "肺熱熾盛證",
+          "id": "feirechisheng",
+          "confidence": "high",
+          "location": [
+            "fei"
+          ],
+          "nature": [
+            "huo"
+          ],
+          "reasoning": "病位：肺。病性：熱/火。根據證候名稱「肺熱熾盛證」分析其病機組成。"
+        },
+        {
+          "name": "肝陽虛證",
+          "id": "ganyangxu",
+          "confidence": "high",
+          "location": [
+            "gan"
+          ],
+          "nature": [
+            "yang_xu"
+          ],
+          "reasoning": "病位：肝。病性：陽虛。根據證候名稱「肝陽虛證」分析其病機組成。"
+        },
+        {
+          "name": "腎虛血瘀證",
+          "id": "shenxuxueyu",
+          "confidence": "high",
+          "location": [
+            "shen"
+          ],
+          "nature": [
+            "xue_yu"
+          ],
+          "reasoning": "病位：腎。病性：血瘀。根據證候名稱「腎虛血瘀證」分析其病機組成。"
+        },
+        {
+          "name": "脾腎氣虛證",
+          "id": "pishenqixu",
+          "confidence": "high",
+          "location": [
+            "pi",
+            "shen"
+          ],
+          "nature": [
+            "qi_xu"
+          ],
+          "reasoning": "病位：脾、腎。病性：氣虛。根據證候名稱「脾腎氣虛證」分析其病機組成。"
+        },
+        {
+          "name": "艾滋病脾氣虛證",
+          "id": "aizibingpiqixu",
+          "confidence": "high",
+          "location": [
+            "pi"
+          ],
+          "nature": [
+            "qi_xu"
+          ],
+          "reasoning": "病位：脾。病性：氣虛。根據證候名稱「艾滋病脾氣虛證」分析其病機組成。"
+        },
+        {
+          "name": "痰瘀阻肺證",
+          "id": "tanyuzufei",
+          "confidence": "high",
+          "location": [
+            "fei"
+          ],
+          "nature": [
+            "tan",
+            "xue_yu"
+          ],
+          "reasoning": "病位：肺。病性：痰、血瘀。根據證候名稱「痰瘀阻肺證」分析其病機組成。"
+        },
+        {
+          "name": "肺脾腎陽虛證",
+          "id": "feipishenyangxu",
+          "confidence": "high",
+          "location": [
+            "fei",
+            "pi",
+            "shen"
+          ],
+          "nature": [
+            "yang_xu"
+          ],
+          "reasoning": "病位：肺、脾、腎。病性：陽虛。根據證候名稱「肺脾腎陽虛證」分析其病機組成。"
+        },
+        {
+          "name": "心陽虛血瘀證",
+          "id": "xinyangxuxueyu",
+          "confidence": "high",
+          "location": [
+            "xin"
+          ],
+          "nature": [
+            "yang_xu",
+            "xue_yu"
+          ],
+          "reasoning": "病位：心。病性：陽虛、血瘀。根據證候名稱「心陽虛血瘀證」分析其病機組成。"
+        },
+        {
+          "name": "胃熱證",
+          "id": "weire",
+          "confidence": "high",
+          "location": [
+            "wei"
+          ],
+          "nature": [
+            "huo"
+          ],
+          "reasoning": "病位：胃。病性：熱/火。根據證候名稱「胃熱證」分析其病機組成。"
+        },
+        {
+          "name": "大腸津虧證",
+          "id": "dachangjinkui",
+          "confidence": "high",
+          "location": [
+            "dachang"
+          ],
+          "nature": [
+            "jin_kui"
+          ],
+          "reasoning": "病位：大腸。病性：津虧。根據證候名稱「大腸津虧證」分析其病機組成。"
+        },
+        {
+          "name": "寒痰阻肺證",
+          "id": "hantanzufei",
+          "confidence": "high",
+          "location": [
+            "fei"
+          ],
+          "nature": [
+            "han",
+            "tan"
+          ],
+          "reasoning": "病位：肺。病性：寒、痰。根據證候名稱「寒痰阻肺證」分析其病機組成。"
+        },
+        {
+          "name": "膽氣虛證",
+          "id": "danqixu",
+          "confidence": "high",
+          "location": [
+            "dan"
+          ],
+          "nature": [
+            "qi_xu"
+          ],
+          "reasoning": "病位：膽。病性：氣虛。根據證候名稱「膽氣虛證」分析其病機組成。"
+        },
+        {
+          "name": "心脾兩虛證",
+          "id": "xinpiliangxu",
+          "confidence": "high",
+          "location": [
+            "xin",
+            "pi"
+          ],
+          "nature": [
+            "qi_xu",
+            "xue_xu"
+          ],
+          "reasoning": "心脾氣血俱虛。思慮過度傷心脾，氣血生化不足，表現為心悸失眠、食少便溏。"
+        },
+        {
+          "name": "陰虛肺燥證",
+          "id": "yinxufeizao",
+          "confidence": "high",
+          "location": [
+            "fei"
+          ],
+          "nature": [
+            "yin_xu",
+            "zao"
+          ],
+          "reasoning": "病位：肺。病性：陰虛、燥。根據證候名稱「陰虛肺燥證」分析其病機組成。"
+        },
+        {
+          "name": "心氣虛血瘀證",
+          "id": "xinqixuxueyu",
+          "confidence": "high",
+          "location": [
+            "xin"
+          ],
+          "nature": [
+            "qi_xu",
+            "xue_yu"
+          ],
+          "reasoning": "病位：心。病性：氣虛、血瘀。根據證候名稱「心氣虛血瘀證」分析其病機組成。"
+        },
+        {
+          "name": "心氣虛證",
+          "id": "xinqixu",
+          "confidence": "high",
+          "location": [
+            "xin"
+          ],
+          "nature": [
+            "qi_xu"
+          ],
+          "reasoning": "病位：心。病性：氣虛。根據證候名稱「心氣虛證」分析其病機組成。"
+        },
+        {
+          "name": "痰迷心竅證",
+          "id": "tanmixinqiao",
+          "confidence": "high",
+          "location": [
+            "xin"
+          ],
+          "nature": [
+            "tan"
+          ],
+          "reasoning": "病位：心。病性：痰。根據證候名稱「痰迷心竅證」分析其病機組成。"
+        },
+        {
+          "name": "寒濕困脾證",
+          "id": "hanshikunpi",
+          "confidence": "high",
+          "location": [
+            "pi"
+          ],
+          "nature": [
+            "han",
+            "shi"
+          ],
+          "reasoning": "病位：脾。病性：寒、濕。根據證候名稱「寒濕困脾證」分析其病機組成。"
+        },
+        {
+          "name": "艾滋病肺氣陰兩虛證",
+          "id": "aizibingfeiqiyinliangxu",
+          "confidence": "high",
+          "location": [
+            "fei"
+          ],
+          "nature": [
+            "qi_xu",
+            "yin_xu"
+          ],
+          "reasoning": "艾滋病致肺氣陰兩虛。疫毒耗傷肺氣肺陰，表現為咳嗽氣短、潮熱盜汗。"
+        },
+        {
+          "name": "肝胃氣滯證",
+          "id": "ganweiqizhi",
+          "confidence": "high",
+          "location": [
+            "gan",
+            "wei"
+          ],
+          "nature": [
+            "qi_zhi"
+          ],
+          "reasoning": "病位：肝、胃。病性：氣滯。根據證候名稱「肝胃氣滯證」分析其病機組成。"
+        },
+        {
+          "name": "膀胱濕熱證",
+          "id": "pangguangshire",
+          "confidence": "high",
+          "location": [
+            "pangguang"
+          ],
+          "nature": [
+            "shi",
+            "huo"
+          ],
+          "reasoning": "病位：膀胱。病性：濕、熱/火。根據證候名稱「膀胱濕熱證」分析其病機組成。"
+        },
+        {
+          "name": "風擾肺系證",
+          "id": "fengraofeixi",
+          "confidence": "high",
+          "location": [
+            "fei"
+          ],
+          "nature": [
+            "feng"
+          ],
+          "reasoning": "病位：肺。病性：風。根據證候名稱「風擾肺系證」分析其病機組成。"
+        },
+        {
+          "name": "心氣血兩虛證",
+          "id": "xinqixueliangxu",
+          "confidence": "high",
+          "location": [
+            "xin"
+          ],
+          "nature": [
+            "qi_xu",
+            "xue_xu"
+          ],
+          "reasoning": "心氣心血俱虛。心失所養，表現為心悸怔忡、面色無華、神疲乏力。"
+        },
+        {
+          "name": "脾肺氣虛證",
+          "id": "pifeiqixu",
+          "confidence": "high",
+          "location": [
+            "fei",
+            "pi"
+          ],
+          "nature": [
+            "qi_xu"
+          ],
+          "reasoning": "病位：肺、脾。病性：氣虛。根據證候名稱「脾肺氣虛證」分析其病機組成。"
+        },
+        {
+          "name": "肝鬱血虛證",
+          "id": "ganyuxuexu",
+          "confidence": "high",
+          "location": [
+            "gan"
+          ],
+          "nature": [
+            "qi_zhi",
+            "xue_xu"
+          ],
+          "reasoning": "病位：肝。病性：氣滯、血虛。根據證候名稱「肝鬱血虛證」分析其病機組成。"
+        },
+        {
+          "name": "脾胃氣虛證",
+          "id": "piweiqixu",
+          "confidence": "high",
+          "location": [
+            "pi",
+            "wei"
+          ],
+          "nature": [
+            "qi_xu"
+          ],
+          "reasoning": "病位：脾、胃。病性：氣虛。根據證候名稱「脾胃氣虛證」分析其病機組成。"
+        }
+      ]
+    },
+    "傷寒證候": {
+      "category": "傷寒證候",
+      "total": 100,
+      "high": 100,
+      "medium": 0,
+      "low": 0,
+      "details": [
+        {
+          "name": "太陽陽明犯胃上逆證",
+          "id": "taiyangyangmingfanweishangni",
+          "confidence": "high",
+          "location": [
+            "wei"
+          ],
+          "nature": [
+            "qi_ni"
+          ],
+          "reasoning": "病位：胃。病性：氣逆。根據證候名稱「太陽陽明犯胃上逆證」分析其病機組成。"
+        },
+        {
+          "name": "大結胸證",
+          "id": "dajiexiong",
+          "confidence": "high",
+          "location": [
+            "xiongge"
+          ],
+          "nature": [
+            "huo",
+            "shui_ting"
+          ],
+          "reasoning": "邪熱與水飲結於胸膈。表現為胸腹硬滿疼痛，從心下至少腹硬滿而痛，按之石硬。"
+        },
+        {
+          "name": "熱厥證",
+          "id": "rejue",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：熱/火。根據證候名稱「熱厥證」分析其病機組成。"
+        },
+        {
+          "name": "少陽兼表證",
+          "id": "shaoyangjianbiao",
+          "confidence": "high",
+          "location": [
+            "dan",
+            "biao"
+          ],
+          "nature": [
+            "huo",
+            "feng"
+          ],
+          "reasoning": "少陽病兼有表證未解。表現為往來寒熱兼惡風寒、頭痛。"
+        },
+        {
+          "name": "厥陰寒格證",
+          "id": "jueyinhange",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "han"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：寒。根據證候名稱「厥陰寒格證」分析其病機組成。"
+        },
+        {
+          "name": "少陰陰盛格陽證",
+          "id": "shaoyinyinshenggeyang",
+          "confidence": "high",
+          "location": [
+            "shen"
+          ],
+          "nature": [
+            "yang_xu",
+            "yang_kang"
+          ],
+          "reasoning": "少陰陰寒內盛，格陽於外。真寒假熱，表現為身大熱而欲近衣、下利清谷。"
+        },
+        {
+          "name": "陽明津傷腸燥證",
+          "id": "yangmingjinshangchangzao",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "zao"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：燥。根據證候名稱「陽明津傷腸燥證」分析其病機組成。"
+        },
+        {
+          "name": "太陽水氣上逆證",
+          "id": "taiyangshuiqishangni",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "qi_ni",
+            "shui_ting"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：氣逆、水停。根據證候名稱「太陽水氣上逆證」分析其病機組成。"
+        },
+        {
+          "name": "太陽表虛證",
+          "id": "taiyangbiaoxu",
+          "confidence": "high",
+          "location": [
+            "biao"
+          ],
+          "nature": [
+            "feng",
+            "qi_xu"
+          ],
+          "reasoning": "太陽中風證，衛強營弱。表虛有汗，表現為發熱、汗出、惡風、脈浮緩。"
+        },
+        {
+          "name": "熱入血室證",
+          "id": "reruxueshi",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：熱/火。根據證候名稱「熱入血室證」分析其病機組成。"
+        },
+        {
+          "name": "少陽半表半里證",
+          "id": "shaoyangbanbiaobanli",
+          "confidence": "high",
+          "location": [
+            "dan"
+          ],
+          "nature": [
+            "huo"
+          ],
+          "reasoning": "邪在少陽半表半里。表現為往來寒熱、胸脅苦滿、口苦、咽乾、目眩。"
+        },
+        {
+          "name": "太陽心氣陰兩虛證",
+          "id": "taiyangxinqiyinliangxu",
+          "confidence": "high",
+          "location": [
+            "xin",
+            "biao"
+          ],
+          "nature": [
+            "qi_xu",
+            "yin_xu"
+          ],
+          "reasoning": "太陽病誤治後心氣心陰俱傷。表現為心悸、汗出、脈結代。"
+        },
+        {
+          "name": "厥陰上熱下寒陰虛證",
+          "id": "jueyinshangrexiahanyinxu",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "yin_xu",
+            "han",
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：陰虛、寒、熱/火。根據證候名稱「厥陰上熱下寒陰虛證」分析其病機組成。"
+        },
+        {
+          "name": "少陰虛火犯咽證",
+          "id": "shaoyinxuhuofanyan",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "yin_xu",
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：陰虛、熱/火。根據證候名稱「少陰虛火犯咽證」分析其病機組成。"
+        },
+        {
+          "name": "少陰寒邪犯咽證",
+          "id": "shaoyinhanxiefanyan",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "han"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：寒。根據證候名稱「少陰寒邪犯咽證」分析其病機組成。"
+        },
+        {
+          "name": "三陽合病證",
+          "id": "sanyanghebing",
+          "confidence": "high",
+          "location": [
+            "biao",
+            "wei",
+            "dan"
+          ],
+          "nature": [
+            "huo"
+          ],
+          "reasoning": "太陽、陽明、少陽三經同時受邪。表現為頭痛、身熱、口苦、便秘等。"
+        },
+        {
+          "name": "少陰客熱犯咽證",
+          "id": "shaoyinkerefanyan",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：熱/火。根據證候名稱「少陰客熱犯咽證」分析其病機組成。"
+        },
+        {
+          "name": "水停食滯痞證",
+          "id": "shuitingshizhipi",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "shui_ting",
+            "shi_ji"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：水停、食積。根據證候名稱「水停食滯痞證」分析其病機組成。"
+        },
+        {
+          "name": "太陽邪鬱肌表證",
+          "id": "taiyangxieyujibiao",
+          "confidence": "high",
+          "location": [
+            "biao"
+          ],
+          "nature": [
+            "qi_zhi"
+          ],
+          "reasoning": "病位：表。病性：氣滯。根據證候名稱「太陽邪鬱肌表證」分析其病機組成。"
+        },
+        {
+          "name": "少陰痰火結咽證",
+          "id": "shaoyintanhuojieyan",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "huo",
+            "tan"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：熱/火、痰。根據證候名稱「少陰痰火結咽證」分析其病機組成。"
+        },
+        {
+          "name": "下焦滑脫證",
+          "id": "xiajiaohuatuo",
+          "confidence": "high",
+          "location": [
+            "shen",
+            "dachang"
+          ],
+          "nature": [
+            "yang_xu",
+            "bu_gu"
+          ],
+          "reasoning": "下焦虛寒滑脫。腎陽虛不能固攝，表現為下利不止、滑脫不禁。"
+        },
+        {
+          "name": "太陽陰陽俱虛證",
+          "id": "taiyangyinyangjuxu",
+          "confidence": "high",
+          "location": [
+            "biao"
+          ],
+          "nature": [
+            "yin_xu",
+            "yang_xu"
+          ],
+          "reasoning": "太陽病誤治後陰陽俱傷。表現為汗出、惡寒、發熱、脈微弱。"
+        },
+        {
+          "name": "胃虛氣逆痞證",
+          "id": "weixuqinipi",
+          "confidence": "high",
+          "location": [
+            "wei"
+          ],
+          "nature": [
+            "qi_ni"
+          ],
+          "reasoning": "病位：胃。病性：氣逆。根據證候名稱「胃虛氣逆痞證」分析其病機組成。"
+        },
+        {
+          "name": "太陽陽虛水氣上衝證",
+          "id": "taiyangyangxushuiqishangchong",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "qi_ni",
+            "yang_xu",
+            "shui_ting"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：氣逆、陽虛、水停。根據證候名稱「太陽陽虛水氣上衝證」分析其病機組成。"
+        },
+        {
+          "name": "少陰陽虛寒凝證",
+          "id": "shaoyinyangxuhanning",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "yang_xu",
+            "han"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：陽虛、寒。根據證候名稱「少陰陽虛寒凝證」分析其病機組成。"
+        },
+        {
+          "name": "太陽少陽邪迫大腸證",
+          "id": "taiyangshaoyangxiepodachang",
+          "confidence": "high",
+          "location": [
+            "dachang",
+            "biao",
+            "dan"
+          ],
+          "nature": [
+            "huo"
+          ],
+          "reasoning": "太陽少陽合病，邪熱迫於大腸。表現為下利、發熱、往來寒熱。"
+        },
+        {
+          "name": "少陰陰虛火旺證",
+          "id": "shaoyinyinxuhuowang",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "yin_xu",
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：陰虛、熱/火。根據證候名稱「少陰陰虛火旺證」分析其病機組成。"
+        },
+        {
+          "name": "太陽熱多寒少證",
+          "id": "taiyangreduohanshao",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "han",
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：寒、熱/火。根據證候名稱「太陽熱多寒少證」分析其病機組成。"
+        },
+        {
+          "name": "太陽表實經輸不利證",
+          "id": "taiyangbiaoshijingshubuli",
+          "confidence": "high",
+          "location": [
+            "biao",
+            "jingluo"
+          ],
+          "nature": [
+            "han",
+            "shi"
+          ],
+          "reasoning": "太陽傷寒兼經絡不利。表現為身疼痛、項背強、無汗。"
+        },
+        {
+          "name": "太陽少陽犯胃上逆證",
+          "id": "taiyangshaoyangfanweishangni",
+          "confidence": "high",
+          "location": [
+            "wei"
+          ],
+          "nature": [
+            "qi_ni"
+          ],
+          "reasoning": "病位：胃。病性：氣逆。根據證候名稱「太陽少陽犯胃上逆證」分析其病機組成。"
+        },
+        {
+          "name": "太陽陽虛心神浮越證",
+          "id": "taiyangyangxuxinshenfuyue",
+          "confidence": "high",
+          "location": [
+            "xin"
+          ],
+          "nature": [
+            "yang_xu"
+          ],
+          "reasoning": "病位：心。病性：陽虛。根據證候名稱「太陽陽虛心神浮越證」分析其病機組成。"
+        },
+        {
+          "name": "熱痞兼表陽虛證",
+          "id": "repijianbiaoyangxu",
+          "confidence": "high",
+          "location": [
+            "biao"
+          ],
+          "nature": [
+            "yang_xu",
+            "huo"
+          ],
+          "reasoning": "病位：表。病性：陽虛、熱/火。根據證候名稱「熱痞兼表陽虛證」分析其病機組成。"
+        },
+        {
+          "name": "病差水停腰下證",
+          "id": "bingchashuitingyaoxia",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "shui_ting"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：水停。根據證候名稱「病差水停腰下證」分析其病機組成。"
+        },
+        {
+          "name": "邪熱下利證",
+          "id": "xierexiali",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：熱/火。根據證候名稱「邪熱下利證」分析其病機組成。"
+        },
+        {
+          "name": "病後虛羸氣逆證",
+          "id": "binghouxuleiqini",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "qi_ni"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：氣逆。根據證候名稱「病後虛羸氣逆證」分析其病機組成。"
+        },
+        {
+          "name": "太陽邪陷脾虛胃實證",
+          "id": "taiyangxiexianpixuweishi",
+          "confidence": "high",
+          "location": [
+            "pi",
+            "wei",
+            "biao"
+          ],
+          "nature": [
+            "qi_xu",
+            "huo"
+          ],
+          "reasoning": "太陽病誤下後脾虛胃實。表現為下利、腹脹滿、心下痞硬。"
+        },
+        {
+          "name": "水飲停聚胸脅證",
+          "id": "shuiyintingjuxiongxie",
+          "confidence": "high",
+          "location": [
+            "xiongge"
+          ],
+          "nature": [
+            "shui_ting"
+          ],
+          "reasoning": "病位：胸膈。病性：水停。根據證候名稱「水飲停聚胸脅證」分析其病機組成。"
+        },
+        {
+          "name": "少陽兼表及里虛實錯雜證",
+          "id": "shaoyangjianbiaojilixushicuoza",
+          "confidence": "high",
+          "location": [
+            "dan",
+            "biao"
+          ],
+          "nature": [
+            "huo",
+            "qi_xu"
+          ],
+          "reasoning": "少陽病兼表證及裡虛實夾雜。病機複雜，寒熱虛實並見。"
+        },
+        {
+          "name": "太陽熱擾胸膈中焦氣滯證",
+          "id": "taiyangreraoxionggezhongjiaoqizhi",
+          "confidence": "high",
+          "location": [
+            "xiongge"
+          ],
+          "nature": [
+            "qi_zhi",
+            "huo"
+          ],
+          "reasoning": "病位：胸膈。病性：氣滯、熱/火。根據證候名稱「太陽熱擾胸膈中焦氣滯證」分析其病機組成。"
+        },
+        {
+          "name": "太陽蓄水證",
+          "id": "taiyangxushui",
+          "confidence": "high",
+          "location": [
+            "pangguang"
+          ],
+          "nature": [
+            "shui_ting"
+          ],
+          "reasoning": "太陽之邪入裡，膀胱氣化不利。表現為小便不利、煩渴、水入即吐。"
+        },
+        {
+          "name": "少陰陰虛水熱互結證",
+          "id": "shaoyinyinxushuirehujie",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "yin_xu",
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：陰虛、熱/火。根據證候名稱「少陰陰虛水熱互結證」分析其病機組成。"
+        },
+        {
+          "name": "臟結證",
+          "id": "zangjie",
+          "confidence": "high",
+          "location": [
+            "pi"
+          ],
+          "nature": [
+            "yang_xu",
+            "xue_yu"
+          ],
+          "reasoning": "陽虛陰結於內。臟氣虛寒，邪結不解，表現為心下痞硬、繞臍痛。"
+        },
+        {
+          "name": "太陽邪陷脾氣不和證",
+          "id": "taiyangxiexianpiqibuhe",
+          "confidence": "high",
+          "location": [
+            "pi",
+            "biao"
+          ],
+          "nature": [
+            "qi_xu"
+          ],
+          "reasoning": "太陽病誤治後脾氣失和。表現為腹脹、下利、不欲食。"
+        },
+        {
+          "name": "太陽陰盛虛陽上擾證",
+          "id": "taiyangyinshengxuyangshangrao",
+          "confidence": "high",
+          "location": [
+            "biao"
+          ],
+          "nature": [
+            "yang_xu",
+            "yang_kang"
+          ],
+          "reasoning": "太陽病陰盛陽浮。下焦虛寒，虛陽上擾，表現為煩躁、厥冷。"
+        },
+        {
+          "name": "太陽陽虛表衛不固證",
+          "id": "taiyangyangxubiaoweibugu",
+          "confidence": "high",
+          "location": [
+            "biao"
+          ],
+          "nature": [
+            "yang_xu",
+            "bu_gu"
+          ],
+          "reasoning": "病位：表。病性：陽虛、不固。根據證候名稱「太陽陽虛表衛不固證」分析其病機組成。"
+        },
+        {
+          "name": "太陽熱擾胸膈中焦虛寒證",
+          "id": "taiyangreraoxionggezhongjiaoxuhan",
+          "confidence": "high",
+          "location": [
+            "xiongge"
+          ],
+          "nature": [
+            "han",
+            "huo"
+          ],
+          "reasoning": "病位：胸膈。病性：寒、熱/火。根據證候名稱「太陽熱擾胸膈中焦虛寒證」分析其病機組成。"
+        },
+        {
+          "name": "表熱兼里寒下迫大腸證",
+          "id": "biaorejianlihanxiapodachang",
+          "confidence": "high",
+          "location": [
+            "dachang",
+            "biao"
+          ],
+          "nature": [
+            "han",
+            "huo"
+          ],
+          "reasoning": "病位：大腸、表。病性：寒、熱/火。根據證候名稱「表熱兼里寒下迫大腸證」分析其病機組成。"
+        },
+        {
+          "name": "陽明水熱互結證",
+          "id": "yangmingshuirehujie",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：熱/火。根據證候名稱「陽明水熱互結證」分析其病機組成。"
+        },
+        {
+          "name": "胃陽不足飲停證",
+          "id": "weiyangbuzuyinting",
+          "confidence": "high",
+          "location": [
+            "wei"
+          ],
+          "nature": [
+            "yang_xu",
+            "shui_ting"
+          ],
+          "reasoning": "病位：胃。病性：陽虛、水停。根據證候名稱「胃陽不足飲停證」分析其病機組成。"
+        },
+        {
+          "name": "熱痞證",
+          "id": "repi",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：熱/火。根據證候名稱「熱痞證」分析其病機組成。"
+        },
+        {
+          "name": "太陽風濕相搏證",
+          "id": "taiyangfengshixiangbo",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "feng",
+            "shi"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：風、濕。根據證候名稱「太陽風濕相搏證」分析其病機組成。"
+        },
+        {
+          "name": "少陽兼胃熱證",
+          "id": "shaoyangjianweire",
+          "confidence": "high",
+          "location": [
+            "wei"
+          ],
+          "nature": [
+            "huo"
+          ],
+          "reasoning": "病位：胃。病性：熱/火。根據證候名稱「少陽兼胃熱證」分析其病機組成。"
+        },
+        {
+          "name": "少陰陽虛水泛證",
+          "id": "shaoyinyangxushuifan",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "yang_xu",
+            "shui_ting"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：陽虛、水停。根據證候名稱「少陰陽虛水泛證」分析其病機組成。"
+        },
+        {
+          "name": "病後餘熱未盡勞復證",
+          "id": "binghouyureweijinlaofu",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：熱/火。根據證候名稱「病後餘熱未盡勞復證」分析其病機組成。"
+        },
+        {
+          "name": "陽明腑實證",
+          "id": "yangmingfushi",
+          "confidence": "high",
+          "location": [
+            "wei",
+            "dachang"
+          ],
+          "nature": [
+            "huo",
+            "zao"
+          ],
+          "reasoning": "陽明熱結腸腑。燥屎內結，表現為潮熱、譫語、腹滿硬痛、便秘。"
+        },
+        {
+          "name": "太陽表寒里飲證",
+          "id": "taiyangbiaohanliyin",
+          "confidence": "high",
+          "location": [
+            "biao"
+          ],
+          "nature": [
+            "han"
+          ],
+          "reasoning": "病位：表。病性：寒。根據證候名稱「太陽表寒里飲證」分析其病機組成。"
+        },
+        {
+          "name": "痰阻胸膈證",
+          "id": "tanzuxiongge",
+          "confidence": "high",
+          "location": [
+            "xiongge"
+          ],
+          "nature": [
+            "tan"
+          ],
+          "reasoning": "病位：胸膈。病性：痰。根據證候名稱「痰阻胸膈證」分析其病機組成。"
+        },
+        {
+          "name": "太陽表實證",
+          "id": "taiyangbiaoshi",
+          "confidence": "high",
+          "location": [
+            "biao"
+          ],
+          "nature": [
+            "han"
+          ],
+          "reasoning": "太陽傷寒證，寒邪束表。表實無汗，表現為惡寒、發熱、無汗、頭身疼痛、脈浮緊。"
+        },
+        {
+          "name": "脾約證",
+          "id": "piyue",
+          "confidence": "high",
+          "location": [
+            "pi"
+          ],
+          "nature": [
+            "yin_xu",
+            "zao"
+          ],
+          "reasoning": "脾陰不足，津液不能四布。胃強脾弱，津液偏滲膀胱，表現為大便硬、小便數。"
+        },
+        {
+          "name": "少陰陽鬱四逆證",
+          "id": "shaoyinyangyusini",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "qi_zhi"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：氣滯。根據證候名稱「少陰陽鬱四逆證」分析其病機組成。"
+        },
+        {
+          "name": "陽明經證",
+          "id": "yangmingjing",
+          "confidence": "high",
+          "location": [
+            "wei"
+          ],
+          "nature": [
+            "huo"
+          ],
+          "reasoning": "陽明熱盛於經。邪熱熾盛，表現為身大熱、大汗、大渴、脈洪大。"
+        },
+        {
+          "name": "上熱下寒證",
+          "id": "shangrexiahan",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "han",
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：寒、熱/火。根據證候名稱「上熱下寒證」分析其病機組成。"
+        },
+        {
+          "name": "太陽胃氣上逆證",
+          "id": "taiyangweiqishangni",
+          "confidence": "high",
+          "location": [
+            "wei"
+          ],
+          "nature": [
+            "qi_ni"
+          ],
+          "reasoning": "病位：胃。病性：氣逆。根據證候名稱「太陽胃氣上逆證」分析其病機組成。"
+        },
+        {
+          "name": "陽明瘀血證",
+          "id": "yangmingyuxue",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "xue_yu"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：血瘀。根據證候名稱「陽明瘀血證」分析其病機組成。"
+        },
+        {
+          "name": "太陽熱擾胸膈證",
+          "id": "taiyangreraoxiongge",
+          "confidence": "high",
+          "location": [
+            "xiongge"
+          ],
+          "nature": [
+            "huo"
+          ],
+          "reasoning": "病位：胸膈。病性：熱/火。根據證候名稱「太陽熱擾胸膈證」分析其病機組成。"
+        },
+        {
+          "name": "陽明濕熱里實證",
+          "id": "yangmingshirelishi",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "shi",
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：濕、熱/火。根據證候名稱「陽明濕熱里實證」分析其病機組成。"
+        },
+        {
+          "name": "太陽陰陽兩虛虛陽上擾證",
+          "id": "taiyangyinyangliangxuxuyangshangrao",
+          "confidence": "high",
+          "location": [
+            "biao"
+          ],
+          "nature": [
+            "yin_xu",
+            "yang_xu",
+            "yang_kang"
+          ],
+          "reasoning": "太陽病誤治後陰陽兩虛，虛陽上擾。表現為心煩、汗出、厥冷。"
+        },
+        {
+          "name": "小結胸證",
+          "id": "xiaojiexiong",
+          "confidence": "high",
+          "location": [
+            "xiongge"
+          ],
+          "nature": [
+            "tan",
+            "huo"
+          ],
+          "reasoning": "痰熱互結於心下。表現為心下痞、按之則痛，病位較大結胸為輕。"
+        },
+        {
+          "name": "陽明濕熱證",
+          "id": "yangmingshire",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "shi",
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：濕、熱/火。根據證候名稱「陽明濕熱證」分析其病機組成。"
+        },
+        {
+          "name": "太陽心陽不足證",
+          "id": "taiyangxinyangbuzu",
+          "confidence": "high",
+          "location": [
+            "xin",
+            "biao"
+          ],
+          "nature": [
+            "yang_xu"
+          ],
+          "reasoning": "太陽病誤治後心陽虛。表現為心悸、胸悶、四肢厥冷。"
+        },
+        {
+          "name": "厥陰熱迫大腸證",
+          "id": "jueyinrepodachang",
+          "confidence": "high",
+          "location": [
+            "dachang"
+          ],
+          "nature": [
+            "huo"
+          ],
+          "reasoning": "病位：大腸。病性：熱/火。根據證候名稱「厥陰熱迫大腸證」分析其病機組成。"
+        },
+        {
+          "name": "太陽表寒里熱證",
+          "id": "taiyangbiaohanlire",
+          "confidence": "high",
+          "location": [
+            "biao"
+          ],
+          "nature": [
+            "han",
+            "huo"
+          ],
+          "reasoning": "病位：表。病性：寒、熱/火。根據證候名稱「太陽表寒里熱證」分析其病機組成。"
+        },
+        {
+          "name": "寒熱錯雜痞證",
+          "id": "hanrecuozapi",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "han",
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：寒、熱/火。根據證候名稱「寒熱錯雜痞證」分析其病機組成。"
+        },
+        {
+          "name": "厥陰血虛寒鬱證",
+          "id": "jueyinxuexuhanyu",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "qi_zhi",
+            "xue_xu",
+            "han"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：氣滯、血虛、寒。根據證候名稱「厥陰血虛寒鬱證」分析其病機組成。"
+        },
+        {
+          "name": "少陰兼陽明證",
+          "id": "shaoyinjianyangming",
+          "confidence": "high",
+          "location": [
+            "shen",
+            "wei"
+          ],
+          "nature": [
+            "yang_xu",
+            "huo"
+          ],
+          "reasoning": "少陰病兼陽明燥實。表現為下利清谷兼腹滿硬痛。"
+        },
+        {
+          "name": "太陽表虛肺氣不利證",
+          "id": "taiyangbiaoxufeiqibuli",
+          "confidence": "high",
+          "location": [
+            "fei",
+            "biao"
+          ],
+          "nature": [
+            "feng",
+            "qi_xu"
+          ],
+          "reasoning": "太陽中風兼肺氣不利。表現為發熱汗出、咳嗽、喘息。"
+        },
+        {
+          "name": "太陰虛寒證",
+          "id": "taiyinxuhan",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "yin_xu",
+            "han"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：陰虛、寒。根據證候名稱「太陰虛寒證」分析其病機組成。"
+        },
+        {
+          "name": "太陽熱邪迫肺證",
+          "id": "taiyangrexiepofei",
+          "confidence": "high",
+          "location": [
+            "fei"
+          ],
+          "nature": [
+            "huo"
+          ],
+          "reasoning": "病位：肺。病性：熱/火。根據證候名稱「太陽熱邪迫肺證」分析其病機組成。"
+        },
+        {
+          "name": "太陽營傷經脈失養證",
+          "id": "taiyangyingshangjingmaishiyang",
+          "confidence": "high",
+          "location": [
+            "biao",
+            "jingluo"
+          ],
+          "nature": [
+            "xue_xu"
+          ],
+          "reasoning": "太陽病營血不足，經脈失養。表現為身體瞤動、肢體麻木。"
+        },
+        {
+          "name": "少陰陰盛戴陽證",
+          "id": "shaoyinyinshengdaiyang",
+          "confidence": "high",
+          "location": [
+            "shen"
+          ],
+          "nature": [
+            "yang_xu",
+            "yang_kang"
+          ],
+          "reasoning": "少陰陰寒內盛，戴陽於上。真寒假熱，表現為面赤、下利清谷、四肢厥冷。"
+        },
+        {
+          "name": "太陽陽明邪迫大腸證",
+          "id": "taiyangyangmingxiepodachang",
+          "confidence": "high",
+          "location": [
+            "dachang",
+            "biao",
+            "wei"
+          ],
+          "nature": [
+            "huo"
+          ],
+          "reasoning": "太陽陽明合病，邪熱迫於大腸。表現為發熱、下利、腹痛。"
+        },
+        {
+          "name": "陽明濕熱兼表證",
+          "id": "yangmingshirejianbiao",
+          "confidence": "high",
+          "location": [
+            "biao"
+          ],
+          "nature": [
+            "shi",
+            "huo"
+          ],
+          "reasoning": "病位：表。病性：濕、熱/火。根據證候名稱「陽明濕熱兼表證」分析其病機組成。"
+        },
+        {
+          "name": "太陽脾虛氣滯證",
+          "id": "taiyangpixuqizhi",
+          "confidence": "high",
+          "location": [
+            "pi"
+          ],
+          "nature": [
+            "qi_zhi"
+          ],
+          "reasoning": "病位：脾。病性：氣滯。根據證候名稱「太陽脾虛氣滯證」分析其病機組成。"
+        },
+        {
+          "name": "太陰寒濕鬱結證",
+          "id": "taiyinhanshiyujie",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "han",
+            "shi"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：寒、濕。根據證候名稱「太陰寒濕鬱結證」分析其病機組成。"
+        },
+        {
+          "name": "少陰兼表證",
+          "id": "shaoyinjianbiao",
+          "confidence": "high",
+          "location": [
+            "shen",
+            "biao"
+          ],
+          "nature": [
+            "yang_xu",
+            "han"
+          ],
+          "reasoning": "少陰病兼太陽表證未解。表現為惡寒、發熱、脈微細。"
+        },
+        {
+          "name": "太陽瘀血營氣不敷證",
+          "id": "taiyangyuxueyingqibufu",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "xue_yu"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：血瘀。根據證候名稱「太陽瘀血營氣不敷證」分析其病機組成。"
+        },
+        {
+          "name": "少陰陽虛滑脫證",
+          "id": "shaoyinyangxuhuatuo",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "qi_xian",
+            "yang_xu"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：氣陷、陽虛。根據證候名稱「少陰陽虛滑脫證」分析其病機組成。"
+        },
+        {
+          "name": "少陰陽虛陰盛證",
+          "id": "shaoyinyangxuyinsheng",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "yin_xu",
+            "yang_xu"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：陰虛、陽虛。根據證候名稱「少陰陽虛陰盛證」分析其病機組成。"
+        },
+        {
+          "name": "太陽蓄血證",
+          "id": "taiyangxuxue",
+          "confidence": "high",
+          "location": [
+            "pangguang"
+          ],
+          "nature": [
+            "xue_yu",
+            "huo"
+          ],
+          "reasoning": "太陽之邪入裡，熱與血結於下焦。表現為少腹急結、小便自利、如狂。"
+        },
+        {
+          "name": "少陽兼里實證",
+          "id": "shaoyangjianlishi",
+          "confidence": "high",
+          "location": [
+            "dan",
+            "wei"
+          ],
+          "nature": [
+            "huo"
+          ],
+          "reasoning": "少陽病兼陽明里實。表現為往來寒熱、腹滿便秘。"
+        },
+        {
+          "name": "太陽陽虛心神失守證",
+          "id": "taiyangyangxuxinshenshishou",
+          "confidence": "high",
+          "location": [
+            "xin"
+          ],
+          "nature": [
+            "yang_xu"
+          ],
+          "reasoning": "病位：心。病性：陽虛。根據證候名稱「太陽陽虛心神失守證」分析其病機組成。"
+        },
+        {
+          "name": "寒邪犯胃濁陰上逆證",
+          "id": "hanxiefanweizhuoyinshangni",
+          "confidence": "high",
+          "location": [
+            "wei"
+          ],
+          "nature": [
+            "qi_ni",
+            "han"
+          ],
+          "reasoning": "病位：胃。病性：氣逆、寒。根據證候名稱「寒邪犯胃濁陰上逆證」分析其病機組成。"
+        },
+        {
+          "name": "太陽中虛里急證",
+          "id": "taiyangzhongxuliji",
+          "confidence": "high",
+          "location": [
+            "pi",
+            "biao"
+          ],
+          "nature": [
+            "qi_xu",
+            "han"
+          ],
+          "reasoning": "太陽病兼中焦虛寒。表現為發熱、腹中急痛、喜溫喜按。"
+        },
+        {
+          "name": "少陽氣機微結證",
+          "id": "shaoyangqijiweijie",
+          "confidence": "high",
+          "location": [
+            "dan"
+          ],
+          "nature": [
+            "qi_zhi"
+          ],
+          "reasoning": "少陽病氣機輕度鬱結。表現為胸脅苦滿、心煩、小便不利。"
+        },
+        {
+          "name": "寒實結胸證",
+          "id": "hanshijiexiong",
+          "confidence": "high",
+          "location": [
+            "xiongge"
+          ],
+          "nature": [
+            "han"
+          ],
+          "reasoning": "病位：胸膈。病性：寒。根據證候名稱「寒實結胸證」分析其病機組成。"
+        },
+        {
+          "name": "太陽胸陽不振證",
+          "id": "taiyangxiongyangbuzhen",
+          "confidence": "high",
+          "location": [
+            "xiongge",
+            "biao"
+          ],
+          "nature": [
+            "yang_xu"
+          ],
+          "reasoning": "太陽病誤治後胸陽不振。表現為胸悶、心悸、短氣。"
+        },
+        {
+          "name": "少陰虛寒滑脫證",
+          "id": "shaoyinxuhanhuatuo",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "qi_xian",
+            "yin_xu",
+            "han"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：氣陷、陰虛、寒。根據證候名稱「少陰虛寒滑脫證」分析其病機組成。"
+        },
+        {
+          "name": "太陽表虛經輸不利證",
+          "id": "taiyangbiaoxujingshubuli",
+          "confidence": "high",
+          "location": [
+            "biao",
+            "jingluo"
+          ],
+          "nature": [
+            "feng",
+            "qi_xu"
+          ],
+          "reasoning": "太陽中風兼經絡不利。表現為汗出、惡風、項背強。"
+        },
+        {
+          "name": "太陽陽虛水氣欲沖證",
+          "id": "taiyangyangxushuiqiyuchong",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "yang_xu",
+            "shui_ting"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：陽虛、水停。根據證候名稱「太陽陽虛水氣欲沖證」分析其病機組成。"
+        },
+        {
+          "name": "厥陰蛔厥證",
+          "id": "jueyinhuijue",
+          "confidence": "high",
+          "location": [
+            "gan"
+          ],
+          "nature": [
+            "han",
+            "du"
+          ],
+          "reasoning": "厥陰證蛔蟲上擾。寒熱錯雜，蛔蟲內動，表現為手足厥冷、嘔吐蛔蟲。"
+        }
+      ]
+    },
+    "溫病證候": {
+      "category": "溫病證候",
+      "total": 31,
+      "high": 31,
+      "medium": 0,
+      "low": 0,
+      "details": [
+        {
+          "name": "濕熱鬱於經絡證",
+          "id": "shireyuyujingluo",
+          "confidence": "high",
+          "location": [
+            "jingluo"
+          ],
+          "nature": [
+            "shi",
+            "huo"
+          ],
+          "reasoning": "病位：經絡。病性：濕、熱/火。根據證候名稱「濕熱鬱於經絡證」分析其病機組成。"
+        },
+        {
+          "name": "暑濕困阻中焦證",
+          "id": "shushikunzuzhongjiao",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "shu",
+            "shi"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：暑、濕。根據證候名稱「暑濕困阻中焦證」分析其病機組成。"
+        },
+        {
+          "name": "暑傷心腎證",
+          "id": "shushangxinshen",
+          "confidence": "high",
+          "location": [
+            "xin",
+            "shen"
+          ],
+          "nature": [
+            "shu"
+          ],
+          "reasoning": "病位：心、腎。病性：暑。根據證候名稱「暑傷心腎證」分析其病機組成。"
+        },
+        {
+          "name": "熱毒熾盛證",
+          "id": "reduchisheng",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "huo",
+            "du"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：熱/火、毒。根據證候名稱「熱毒熾盛證」分析其病機組成。"
+        },
+        {
+          "name": "氣熱爍津證",
+          "id": "qireshuojin",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：熱/火。根據證候名稱「氣熱爍津證」分析其病機組成。"
+        },
+        {
+          "name": "暑濕挾滯證",
+          "id": "shushixiezhi",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "shu",
+            "shi"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：暑、濕。根據證候名稱「暑濕挾滯證」分析其病機組成。"
+        },
+        {
+          "name": "燥傷肺胃證",
+          "id": "zaoshangfeiwei",
+          "confidence": "high",
+          "location": [
+            "fei",
+            "wei"
+          ],
+          "nature": [
+            "zao"
+          ],
+          "reasoning": "病位：肺、胃。病性：燥。根據證候名稱「燥傷肺胃證」分析其病機組成。"
+        },
+        {
+          "name": "濕阻氣分證",
+          "id": "shizuqifen",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "shi"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：濕。根據證候名稱「濕阻氣分證」分析其病機組成。"
+        },
+        {
+          "name": "暑熱傷氣證",
+          "id": "shureshangqi",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "shu",
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：暑、熱/火。根據證候名稱「暑熱傷氣證」分析其病機組成。"
+        },
+        {
+          "name": "暑濕鬱蒸證",
+          "id": "shushiyuzheng",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "shu",
+            "shi"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：暑、濕。根據證候名稱「暑濕鬱蒸證」分析其病機組成。"
+        },
+        {
+          "name": "熱傷氣陰證",
+          "id": "reshangqiyin",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：熱/火。根據證候名稱「熱傷氣陰證」分析其病機組成。"
+        },
+        {
+          "name": "上焦燥熱證",
+          "id": "shangjiaozaore",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "zao",
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：燥、熱/火。根據證候名稱「上焦燥熱證」分析其病機組成。"
+        },
+        {
+          "name": "熱極生風證",
+          "id": "rejishengfeng",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "xue_re",
+            "dong_feng"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：血熱、動風/內風。根據證候名稱「熱極生風證」分析其病機組成。"
+        },
+        {
+          "name": "痰濁內蒙心包證",
+          "id": "tanzhuoneimengxinbao",
+          "confidence": "high",
+          "location": [
+            "xin"
+          ],
+          "nature": [
+            "tan"
+          ],
+          "reasoning": "病位：心。病性：痰。根據證候名稱「痰濁內蒙心包證」分析其病機組成。"
+        },
+        {
+          "name": "暑兼寒濕證",
+          "id": "shujianhanshi",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "han",
+            "shi"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：寒、濕。根據證候名稱「暑兼寒濕證」分析其病機組成。"
+        },
+        {
+          "name": "液乾便結證",
+          "id": "yeqianbianjie",
+          "confidence": "high",
+          "location": [
+            "dachang"
+          ],
+          "nature": [
+            "yin_xu",
+            "zao"
+          ],
+          "reasoning": "津液耗傷，腸道乾燥。表現為大便乾結、腹滿硬痛。"
+        },
+        {
+          "name": "陰虛風動證",
+          "id": "yinxufengdong",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "yin_xu",
+            "feng"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：陰虛、風。根據證候名稱「陰虛風動證」分析其病機組成。"
+        },
+        {
+          "name": "邪伏膜原證",
+          "id": "xiefumoyuan",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "shi",
+            "huo"
+          ],
+          "reasoning": "濕熱疫毒伏於膜原。膜原為半表半裡之處，表現為寒熱往來、苔白如積粉。"
+        },
+        {
+          "name": "邪留陰分證",
+          "id": "xieliuyinfen",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "yin_xu",
+            "huo"
+          ],
+          "reasoning": "溫病後期，餘熱留於陰分。表現為夜熱早涼、熱退無汗、舌紅少苔。"
+        },
+        {
+          "name": "熱結胃腸證",
+          "id": "rejieweichang",
+          "confidence": "high",
+          "location": [
+            "wei",
+            "dachang"
+          ],
+          "nature": [
+            "huo"
+          ],
+          "reasoning": "病位：胃、大腸。病性：熱/火。根據證候名稱「熱結胃腸證」分析其病機組成。"
+        },
+        {
+          "name": "濕熱瀰漫三焦證",
+          "id": "shiremimansanjiao",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "shi",
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：濕、熱/火。根據證候名稱「濕熱瀰漫三焦證」分析其病機組成。"
+        },
+        {
+          "name": "陰虛火旺證",
+          "id": "yinxuhuowang",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "yin_xu",
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：陰虛、熱/火。根據證候名稱「陰虛火旺證」分析其病機組成。"
+        },
+        {
+          "name": "氣營兩燔證",
+          "id": "qiyingliangfan",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "huo",
+            "xue_re"
+          ],
+          "reasoning": "氣分營分同時熱盛。氣分大熱兼營分熱擾，表現為壯熱、神昏、斑疹。"
+        },
+        {
+          "name": "逆傳心包證",
+          "id": "nichuanxinbao",
+          "confidence": "high",
+          "location": [
+            "xin"
+          ],
+          "nature": [
+            "huo"
+          ],
+          "reasoning": "溫邪由衛分直接內陷心包。病勢急重，表現為神昏譫語、舌絳。"
+        },
+        {
+          "name": "濕遏熱伏證",
+          "id": "shierefu",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "shi",
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：濕、熱/火。根據證候名稱「濕遏熱伏證」分析其病機組成。"
+        },
+        {
+          "name": "濕熱化燥證",
+          "id": "shirehuazao",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "shi",
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：濕、熱/火。根據證候名稱「濕熱化燥證」分析其病機組成。"
+        },
+        {
+          "name": "瘀熱相搏證",
+          "id": "yurexiangbo",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "xue_yu",
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：血瘀、熱/火。根據證候名稱「瘀熱相搏證」分析其病機組成。"
+        },
+        {
+          "name": "毒壅上焦證",
+          "id": "duyongshangjiao",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "du"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：毒。根據證候名稱「毒壅上焦證」分析其病機組成。"
+        },
+        {
+          "name": "濕遏衛陽證",
+          "id": "shieweiyang",
+          "confidence": "high",
+          "location": [
+            "biao"
+          ],
+          "nature": [
+            "shi"
+          ],
+          "reasoning": "病位：表。病性：濕。根據證候名稱「濕遏衛陽證」分析其病機組成。"
+        },
+        {
+          "name": "熱耗真陰證",
+          "id": "rehaozhenyin",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：熱/火。根據證候名稱「熱耗真陰證」分析其病機組成。"
+        },
+        {
+          "name": "熱擾胸膈證",
+          "id": "reraoxiongge",
+          "confidence": "high",
+          "location": [
+            "xiongge"
+          ],
+          "nature": [
+            "huo"
+          ],
+          "reasoning": "病位：胸膈。病性：熱/火。根據證候名稱「熱擾胸膈證」分析其病機組成。"
+        }
+      ]
+    },
+    "專科證候": {
+      "category": "專科證候",
+      "total": 109,
+      "high": 109,
+      "medium": 0,
+      "low": 0,
+      "details": [
+        {
+          "name": "小兒腎氣虛弱證",
+          "id": "xiaoershenqixuruo",
+          "confidence": "high",
+          "location": [
+            "shen"
+          ],
+          "nature": [
+            "qi_xu"
+          ],
+          "reasoning": "病位：腎。病性：氣虛。根據證候名稱「小兒腎氣虛弱證」分析其病機組成。"
+        },
+        {
+          "name": "正虛毒陷證",
+          "id": "zhengxuduxian",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "du"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：毒。根據證候名稱「正虛毒陷證」分析其病機組成。"
+        },
+        {
+          "name": "胎熱證",
+          "id": "taire",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：熱/火。根據證候名稱「胎熱證」分析其病機組成。"
+        },
+        {
+          "name": "肌膚失養證",
+          "id": "jifushiyang",
+          "confidence": "high",
+          "location": [
+            "jifu"
+          ],
+          "nature": [
+            "xue_xu",
+            "zao"
+          ],
+          "reasoning": "血虛不能濡養肌膚。表現為皮膚乾燥、瘙癢、脫屑。"
+        },
+        {
+          "name": "風熱郁滯肌膚證",
+          "id": "fengreyuzhijifu",
+          "confidence": "high",
+          "location": [
+            "jifu"
+          ],
+          "nature": [
+            "feng",
+            "huo"
+          ],
+          "reasoning": "病位：肌膚。病性：風、熱/火。根據證候名稱「風熱郁滯肌膚證」分析其病機組成。"
+        },
+        {
+          "name": "小兒元氣虛弱證",
+          "id": "xiaoeryuanqixuruo",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "qi_xu"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：氣虛。根據證候名稱「小兒元氣虛弱證」分析其病機組成。"
+        },
+        {
+          "name": "小兒風寒束表證",
+          "id": "xiaoerfenghanshubiao",
+          "confidence": "high",
+          "location": [
+            "biao"
+          ],
+          "nature": [
+            "feng",
+            "han"
+          ],
+          "reasoning": "病位：表。病性：風、寒。根據證候名稱「小兒風寒束表證」分析其病機組成。"
+        },
+        {
+          "name": "蟲毒襲膚證",
+          "id": "chongduxifu",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "du"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：毒。根據證候名稱「蟲毒襲膚證」分析其病機組成。"
+        },
+        {
+          "name": "小兒熱極生風證",
+          "id": "xiaoerrejishengfeng",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "xue_re",
+            "dong_feng"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：血熱、動風/內風。根據證候名稱「小兒熱極生風證」分析其病機組成。"
+        },
+        {
+          "name": "肉輪血虛證",
+          "id": "roulunxuexu",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "xue_xu"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：血虛。根據證候名稱「肉輪血虛證」分析其病機組成。"
+        },
+        {
+          "name": "衝任寒證",
+          "id": "chongrenhan",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "han"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：寒。根據證候名稱「衝任寒證」分析其病機組成。"
+        },
+        {
+          "name": "小兒胃火上炎證",
+          "id": "xiaoerweihuoshangyan",
+          "confidence": "high",
+          "location": [
+            "wei"
+          ],
+          "nature": [
+            "huo"
+          ],
+          "reasoning": "病位：胃。病性：熱/火。根據證候名稱「小兒胃火上炎證」分析其病機組成。"
+        },
+        {
+          "name": "邪熱瘀結肌膚證",
+          "id": "xiereyujiejifu",
+          "confidence": "high",
+          "location": [
+            "jifu"
+          ],
+          "nature": [
+            "xue_yu",
+            "huo"
+          ],
+          "reasoning": "病位：肌膚。病性：血瘀、熱/火。根據證候名稱「邪熱瘀結肌膚證」分析其病機組成。"
+        },
+        {
+          "name": "水輪火邪傷络證",
+          "id": "shuilunhuoxieshangluo",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：熱/火。根據證候名稱「水輪火邪傷络證」分析其病機組成。"
+        },
+        {
+          "name": "水輪氣滯血瘀證",
+          "id": "shuilunqizhixueyu",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "qi_zhi",
+            "xue_yu"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：氣滯、血瘀。根據證候名稱「水輪氣滯血瘀證」分析其病機組成。"
+        },
+        {
+          "name": "風輪濕熱證",
+          "id": "fenglunshire",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "shi",
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：濕、熱/火。根據證候名稱「風輪濕熱證」分析其病機組成。"
+        },
+        {
+          "name": "氣輪濕熱證",
+          "id": "qilunshire",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "shi",
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：濕、熱/火。根據證候名稱「氣輪濕熱證」分析其病機組成。"
+        },
+        {
+          "name": "蟲毒濕熱結膚證",
+          "id": "chongdushirejiefu",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "shi",
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：濕、熱/火。根據證候名稱「蟲毒濕熱結膚證」分析其病機組成。"
+        },
+        {
+          "name": "寒濕凝滯筋骨證",
+          "id": "hanshiningzhijingu",
+          "confidence": "high",
+          "location": [
+            "gan",
+            "shen",
+            "jingu"
+          ],
+          "nature": [
+            "han",
+            "shi"
+          ],
+          "reasoning": "病位：肝、腎、筋骨。病性：寒、濕。根據證候名稱「寒濕凝滯筋骨證」分析其病機組成。"
+        },
+        {
+          "name": "血瘀耳竅證",
+          "id": "xueyuerqiao",
+          "confidence": "high",
+          "location": [
+            "shen"
+          ],
+          "nature": [
+            "xue_yu"
+          ],
+          "reasoning": "病位：腎。病性：血瘀。根據證候名稱「血瘀耳竅證」分析其病機組成。"
+        },
+        {
+          "name": "肺經鬱熱犯鼻證",
+          "id": "feijingyurefanbi",
+          "confidence": "high",
+          "location": [
+            "fei"
+          ],
+          "nature": [
+            "qi_zhi",
+            "huo"
+          ],
+          "reasoning": "病位：肺。病性：氣滯、熱/火。根據證候名稱「肺經鬱熱犯鼻證」分析其病機組成。"
+        },
+        {
+          "name": "衝任痰濕凝結證",
+          "id": "chongrentanshiningjie",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "shi",
+            "tan"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：濕、痰。根據證候名稱「衝任痰濕凝結證」分析其病機組成。"
+        },
+        {
+          "name": "熱毒蘊結肌膚證",
+          "id": "reduyunjiejifu",
+          "confidence": "high",
+          "location": [
+            "jifu"
+          ],
+          "nature": [
+            "huo",
+            "du"
+          ],
+          "reasoning": "病位：肌膚。病性：熱/火、毒。根據證候名稱「熱毒蘊結肌膚證」分析其病機組成。"
+        },
+        {
+          "name": "水輪水濕停聚證",
+          "id": "shuilunshuishitingju",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "shi",
+            "shui_ting"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：濕、水停。根據證候名稱「水輪水濕停聚證」分析其病機組成。"
+        },
+        {
+          "name": "風輪氣虛邪戀(留)證",
+          "id": "fenglunqixuxielian(liu)",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "qi_xu",
+            "feng"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：氣虛、風。根據證候名稱「風輪氣虛邪戀(留)證」分析其病機組成。"
+        },
+        {
+          "name": "小兒脾胃虛寒證",
+          "id": "xiaoerpiweixuhan",
+          "confidence": "high",
+          "location": [
+            "pi",
+            "wei"
+          ],
+          "nature": [
+            "han"
+          ],
+          "reasoning": "病位：脾、胃。病性：寒。根據證候名稱「小兒脾胃虛寒證」分析其病機組成。"
+        },
+        {
+          "name": "小兒心經實熱證",
+          "id": "xiaoerxinjingshire",
+          "confidence": "high",
+          "location": [
+            "xin"
+          ],
+          "nature": [
+            "huo"
+          ],
+          "reasoning": "病位：心。病性：熱/火。根據證候名稱「小兒心經實熱證」分析其病機組成。"
+        },
+        {
+          "name": "水輪陰虛火旺證",
+          "id": "shuilunyinxuhuowang",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "yin_xu",
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：陰虛、熱/火。根據證候名稱「水輪陰虛火旺證」分析其病機組成。"
+        },
+        {
+          "name": "胎寒證",
+          "id": "taihan",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "han"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：寒。根據證候名稱「胎寒證」分析其病機組成。"
+        },
+        {
+          "name": "胞宮寒凝證",
+          "id": "baogonghanning",
+          "confidence": "high",
+          "location": [
+            "baogong"
+          ],
+          "nature": [
+            "han"
+          ],
+          "reasoning": "病位：胞宮。病性：寒。根據證候名稱「胞宮寒凝證」分析其病機組成。"
+        },
+        {
+          "name": "水輪痰濕證",
+          "id": "shuiluntanshi",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "shi",
+            "tan"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：濕、痰。根據證候名稱「水輪痰濕證」分析其病機組成。"
+        },
+        {
+          "name": "水輪痰火證",
+          "id": "shuiluntanhuo",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "huo",
+            "tan"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：熱/火、痰。根據證候名稱「水輪痰火證」分析其病機組成。"
+        },
+        {
+          "name": "水輪氣虛證",
+          "id": "shuilunqixu",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "qi_xu"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：氣虛。根據證候名稱「水輪氣虛證」分析其病機組成。"
+        },
+        {
+          "name": "風輪陰虛證",
+          "id": "fenglunyinxu",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "yin_xu",
+            "feng"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：陰虛、風。根據證候名稱「風輪陰虛證」分析其病機組成。"
+        },
+        {
+          "name": "氣輪熱阻血瘀證",
+          "id": "qilunrezuxueyu",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "xue_yu",
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：血瘀、熱/火。根據證候名稱「氣輪熱阻血瘀證」分析其病機組成。"
+        },
+        {
+          "name": "小兒肺熱熾盛證",
+          "id": "xiaoerfeirechisheng",
+          "confidence": "high",
+          "location": [
+            "fei"
+          ],
+          "nature": [
+            "huo"
+          ],
+          "reasoning": "病位：肺。病性：熱/火。根據證候名稱「小兒肺熱熾盛證」分析其病機組成。"
+        },
+        {
+          "name": "肉輪濕熱證",
+          "id": "roulunshire",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "shi",
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：濕、熱/火。根據證候名稱「肉輪濕熱證」分析其病機組成。"
+        },
+        {
+          "name": "衝任熱證",
+          "id": "chongrenre",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：熱/火。根據證候名稱「衝任熱證」分析其病機組成。"
+        },
+        {
+          "name": "血輪實熱證",
+          "id": "xuelunshire",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：熱/火。根據證候名稱「血輪實熱證」分析其病機組成。"
+        },
+        {
+          "name": "陰虛毒盛證",
+          "id": "yinxudusheng",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "yin_xu",
+            "du"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：陰虛、毒。根據證候名稱「陰虛毒盛證」分析其病機組成。"
+        },
+        {
+          "name": "衝任瘀阻證",
+          "id": "chongrenyuzu",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "xue_yu"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：血瘀。根據證候名稱「衝任瘀阻證」分析其病機組成。"
+        },
+        {
+          "name": "濕痰流聚皮下證",
+          "id": "shitanliujupixia",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "shi",
+            "tan"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：濕、痰。根據證候名稱「濕痰流聚皮下證」分析其病機組成。"
+        },
+        {
+          "name": "血輪虛熱證",
+          "id": "xuelunxure",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：熱/火。根據證候名稱「血輪虛熱證」分析其病機組成。"
+        },
+        {
+          "name": "小兒心脾兩虛證",
+          "id": "xiaoerxinpiliangxu",
+          "confidence": "high",
+          "location": [
+            "xin",
+            "pi"
+          ],
+          "nature": [
+            "qi_xu",
+            "xue_xu"
+          ],
+          "reasoning": "小兒心脾氣血俱虛。表現為面黃、食少、心悸、多夢。"
+        },
+        {
+          "name": "水輪氣虛血少證",
+          "id": "shuilunqixuxueshao",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "qi_xu",
+            "xue_xu"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：氣虛、血虛。根據證候名稱「水輪氣虛血少證」分析其病機組成。"
+        },
+        {
+          "name": "小兒脾胃食滯證",
+          "id": "xiaoerpiweishizhi",
+          "confidence": "high",
+          "location": [
+            "pi",
+            "wei"
+          ],
+          "nature": [
+            "shi_ji"
+          ],
+          "reasoning": "病位：脾、胃。病性：食積。根據證候名稱「小兒脾胃食滯證」分析其病機組成。"
+        },
+        {
+          "name": "熱盛釀膿證",
+          "id": "reshengniangnong",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：熱/火。根據證候名稱「熱盛釀膿證」分析其病機組成。"
+        },
+        {
+          "name": "小兒蟲積證",
+          "id": "xiaoerchongji",
+          "confidence": "high",
+          "location": [
+            "pi",
+            "wei"
+          ],
+          "nature": [
+            "du"
+          ],
+          "reasoning": "蟲積腸胃。表現為臍周腹痛、面黃肌瘦、夜間磨牙。"
+        },
+        {
+          "name": "小兒脾虛肝亢證",
+          "id": "xiaoerpixugankang",
+          "confidence": "high",
+          "location": [
+            "gan",
+            "pi"
+          ],
+          "nature": [
+            "qi_xu",
+            "dong_feng"
+          ],
+          "reasoning": "小兒脾虛肝旺。土虛木乘，表現為食少便溏、急躁易怒、抽搐。"
+        },
+        {
+          "name": "胞宮虛寒證",
+          "id": "baogongxuhan",
+          "confidence": "high",
+          "location": [
+            "baogong"
+          ],
+          "nature": [
+            "han"
+          ],
+          "reasoning": "病位：胞宮。病性：寒。根據證候名稱「胞宮虛寒證」分析其病機組成。"
+        },
+        {
+          "name": "濕熱蒸鼻證",
+          "id": "shirezhengbi",
+          "confidence": "high",
+          "location": [
+            "fei"
+          ],
+          "nature": [
+            "shi",
+            "huo"
+          ],
+          "reasoning": "病位：肺。病性：濕、熱/火。根據證候名稱「濕熱蒸鼻證」分析其病機組成。"
+        },
+        {
+          "name": "腎虛寒痰證",
+          "id": "shenxuhantan",
+          "confidence": "high",
+          "location": [
+            "shen"
+          ],
+          "nature": [
+            "han",
+            "tan"
+          ],
+          "reasoning": "病位：腎。病性：寒、痰。根據證候名稱「腎虛寒痰證」分析其病機組成。"
+        },
+        {
+          "name": "肉輪痰濕證",
+          "id": "rouluntanshi",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "shi",
+            "tan"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：濕、痰。根據證候名稱「肉輪痰濕證」分析其病機組成。"
+        },
+        {
+          "name": "水輪實熱證",
+          "id": "shuilunshire",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：熱/火。根據證候名稱「水輪實熱證」分析其病機組成。"
+        },
+        {
+          "name": "肉輪氣虛證",
+          "id": "roulunqixu",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "qi_xu"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：氣虛。根據證候名稱「肉輪氣虛證」分析其病機組成。"
+        },
+        {
+          "name": "風熱痰毒證",
+          "id": "fengretandu",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "feng",
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：風、熱/火。根據證候名稱「風熱痰毒證」分析其病機組成。"
+        },
+        {
+          "name": "肉輪陰虛風動證",
+          "id": "roulunyinxufengdong",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "yin_xu",
+            "feng"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：陰虛、風。根據證候名稱「肉輪陰虛風動證」分析其病機組成。"
+        },
+        {
+          "name": "小兒驚恐驚嚇證",
+          "id": "xiaoerjingkongjingxia",
+          "confidence": "high",
+          "location": [
+            "xin"
+          ],
+          "nature": [
+            "dong_feng"
+          ],
+          "reasoning": "小兒受驚驚恐。心神不寧，表現為夜啼、夜驚、睡眠不安。"
+        },
+        {
+          "name": "小兒熱入營血證",
+          "id": "xiaoerreruyingxue",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：熱/火。根據證候名稱「小兒熱入營血證」分析其病機組成。"
+        },
+        {
+          "name": "肉輪熱阻血瘀證",
+          "id": "roulunrezuxueyu",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "xue_yu",
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：血瘀、熱/火。根據證候名稱「肉輪熱阻血瘀證」分析其病機組成。"
+        },
+        {
+          "name": "水輪痰瘀互結證",
+          "id": "shuiluntanyuhujie",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "tan",
+            "xue_yu"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：痰、血瘀。根據證候名稱「水輪痰瘀互結證」分析其病機組成。"
+        },
+        {
+          "name": "小兒胎毒内蘊證",
+          "id": "xiaoertaiduneiyun",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "du"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：毒。根據證候名稱「小兒胎毒内蘊證」分析其病機組成。"
+        },
+        {
+          "name": "水輪氣虛血瘀證",
+          "id": "shuilunqixuxueyu",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "qi_xu",
+            "xue_yu"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：氣虛、血瘀。根據證候名稱「水輪氣虛血瘀證」分析其病機組成。"
+        },
+        {
+          "name": "小兒肺氣虛弱證",
+          "id": "xiaoerfeiqixuruo",
+          "confidence": "high",
+          "location": [
+            "fei"
+          ],
+          "nature": [
+            "qi_xu"
+          ],
+          "reasoning": "病位：肺。病性：氣虛。根據證候名稱「小兒肺氣虛弱證」分析其病機組成。"
+        },
+        {
+          "name": "肉輪熱毒證",
+          "id": "roulunredu",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "huo",
+            "du"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：熱/火、毒。根據證候名稱「肉輪熱毒證」分析其病機組成。"
+        },
+        {
+          "name": "陰虛痰阻證",
+          "id": "yinxutanzu",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "yin_xu",
+            "tan"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：陰虛、痰。根據證候名稱「陰虛痰阻證」分析其病機組成。"
+        },
+        {
+          "name": "水輪頭風痰火證",
+          "id": "shuiluntoufengtanhuo",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "feng",
+            "huo",
+            "tan"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：風、熱/火、痰。根據證候名稱「水輪頭風痰火證」分析其病機組成。"
+        },
+        {
+          "name": "氣虛毒滯證",
+          "id": "qixuduzhi",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "qi_xu",
+            "du"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：氣虛、毒。根據證候名稱「氣虛毒滯證」分析其病機組成。"
+        },
+        {
+          "name": "虛火爍喉證",
+          "id": "xuhuoshuohou",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：熱/火。根據證候名稱「虛火爍喉證」分析其病機組成。"
+        },
+        {
+          "name": "小兒濕熱內盛(蘊)證",
+          "id": "xiaoershireneisheng(yun)",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "shi",
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：濕、熱/火。根據證候名稱「小兒濕熱內盛(蘊)證」分析其病機組成。"
+        },
+        {
+          "name": "衝任不固證",
+          "id": "chongrenbugu",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "bu_gu"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：不固。根據證候名稱「衝任不固證」分析其病機組成。"
+        },
+        {
+          "name": "風火熱毒證",
+          "id": "fenghuoredu",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "huo",
+            "du"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：熱/火、毒。根據證候名稱「風火熱毒證」分析其病機組成。"
+        },
+        {
+          "name": "寒凝血滯肌膚證",
+          "id": "hanningxuezhijifu",
+          "confidence": "high",
+          "location": [
+            "jifu"
+          ],
+          "nature": [
+            "han"
+          ],
+          "reasoning": "病位：肌膚。病性：寒。根據證候名稱「寒凝血滯肌膚證」分析其病機組成。"
+        },
+        {
+          "name": "風熱犯喉證",
+          "id": "fengrefanhou",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "feng",
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：風、熱/火。根據證候名稱「風熱犯喉證」分析其病機組成。"
+        },
+        {
+          "name": "小兒脾虛生風證",
+          "id": "xiaoerpixushengfeng",
+          "confidence": "high",
+          "location": [
+            "pi"
+          ],
+          "nature": [
+            "feng",
+            "dong_feng"
+          ],
+          "reasoning": "病位：脾。病性：風、動風/內風。根據證候名稱「小兒脾虛生風證」分析其病機組成。"
+        },
+        {
+          "name": "風邪熱毒犯耳證",
+          "id": "fengxieredufaner",
+          "confidence": "high",
+          "location": [
+            "shen"
+          ],
+          "nature": [
+            "huo",
+            "du"
+          ],
+          "reasoning": "病位：腎。病性：熱/火、毒。根據證候名稱「風邪熱毒犯耳證」分析其病機組成。"
+        },
+        {
+          "name": "產後敗血上衝證",
+          "id": "chanhoubaixueshangchong",
+          "confidence": "high",
+          "location": [
+            "baogong",
+            "xin"
+          ],
+          "nature": [
+            "xue_yu"
+          ],
+          "reasoning": "產後瘀血上攻。惡露不下，瘀血上衝心胸，表現為胸悶、神昏。"
+        },
+        {
+          "name": "衝任虛衰證",
+          "id": "chongrenxushuai",
+          "confidence": "high",
+          "location": [
+            "baogong"
+          ],
+          "nature": [
+            "qi_xu",
+            "xue_xu"
+          ],
+          "reasoning": "衝任二脈虛弱。主司月經胎孕的衝任失養，表現為月經不調、不孕。"
+        },
+        {
+          "name": "氣滯血瘀鼻竅證",
+          "id": "qizhixueyubiqiao",
+          "confidence": "high",
+          "location": [
+            "fei"
+          ],
+          "nature": [
+            "qi_zhi",
+            "xue_yu"
+          ],
+          "reasoning": "病位：肺。病性：氣滯、血瘀。根據證候名稱「氣滯血瘀鼻竅證」分析其病機組成。"
+        },
+        {
+          "name": "痰濕阻胞證",
+          "id": "tanshizubao",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "shi",
+            "tan"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：濕、痰。根據證候名稱「痰濕阻胞證」分析其病機組成。"
+        },
+        {
+          "name": "氣輪陰虛證",
+          "id": "qilunyinxu",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "yin_xu"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：陰虛。根據證候名稱「氣輪陰虛證」分析其病機組成。"
+        },
+        {
+          "name": "氣輪熱毒證",
+          "id": "qilunredu",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "huo",
+            "du"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：熱/火、毒。根據證候名稱「氣輪熱毒證」分析其病機組成。"
+        },
+        {
+          "name": "小兒風溫束表證",
+          "id": "xiaoerfengwenshubiao",
+          "confidence": "high",
+          "location": [
+            "biao"
+          ],
+          "nature": [
+            "feng",
+            "huo"
+          ],
+          "reasoning": "病位：表。病性：風、熱/火。根據證候名稱「小兒風溫束表證」分析其病機組成。"
+        },
+        {
+          "name": "風毒蘊膚證",
+          "id": "fengduyunfu",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "feng",
+            "du"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：風、毒。根據證候名稱「風毒蘊膚證」分析其病機組成。"
+        },
+        {
+          "name": "水輪陰虧證",
+          "id": "shuilunyinkui",
+          "confidence": "high",
+          "location": [
+            "shen"
+          ],
+          "nature": [
+            "yin_xu"
+          ],
+          "reasoning": "眼科證候，水輪（瞳仁）屬腎，腎陰虧虛。表現為視物模糊、目乾澀。"
+        },
+        {
+          "name": "小兒痰熱蒙閉心竅證",
+          "id": "xiaoertanremengbixinqiao",
+          "confidence": "high",
+          "location": [
+            "xin"
+          ],
+          "nature": [
+            "tan",
+            "huo"
+          ],
+          "reasoning": "病位：心。病性：痰、熱/火。根據證候名稱「小兒痰熱蒙閉心竅證」分析其病機組成。"
+        },
+        {
+          "name": "肌膚瘀滯證",
+          "id": "jifuyuzhi",
+          "confidence": "high",
+          "location": [
+            "jifu"
+          ],
+          "nature": [
+            "xue_yu"
+          ],
+          "reasoning": "病位：肌膚。病性：血瘀。根據證候名稱「肌膚瘀滯證」分析其病機組成。"
+        },
+        {
+          "name": "濕熱蘊結肌膚證",
+          "id": "shireyunjiejifu",
+          "confidence": "high",
+          "location": [
+            "jifu"
+          ],
+          "nature": [
+            "shi",
+            "huo"
+          ],
+          "reasoning": "病位：肌膚。病性：濕、熱/火。根據證候名稱「濕熱蘊結肌膚證」分析其病機組成。"
+        },
+        {
+          "name": "氣結咽喉證",
+          "id": "qijieyanhou",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "qi_zhi"
+          ],
+          "reasoning": "氣機鬱結於咽喉。表現為咽中如有物阻、吞之不下、吐之不出（梅核氣）。"
+        },
+        {
+          "name": "肺氣虛鼻塞證",
+          "id": "feiqixubise",
+          "confidence": "high",
+          "location": [
+            "fei"
+          ],
+          "nature": [
+            "qi_xu"
+          ],
+          "reasoning": "病位：肺。病性：氣虛。根據證候名稱「肺氣虛鼻塞證」分析其病機組成。"
+        },
+        {
+          "name": "肉輪風熱證",
+          "id": "roulunfengre",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "feng",
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：風、熱/火。根據證候名稱「肉輪風熱證」分析其病機組成。"
+        },
+        {
+          "name": "濕毒蘊結肌膚證",
+          "id": "shiduyunjiejifu",
+          "confidence": "high",
+          "location": [
+            "jifu"
+          ],
+          "nature": [
+            "shi",
+            "du"
+          ],
+          "reasoning": "病位：肌膚。病性：濕、毒。根據證候名稱「濕毒蘊結肌膚證」分析其病機組成。"
+        },
+        {
+          "name": "氣輪風熱證",
+          "id": "qilunfengre",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "feng",
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：風、熱/火。根據證候名稱「氣輪風熱證」分析其病機組成。"
+        },
+        {
+          "name": "風熱犯肺鼻息不利證",
+          "id": "fengrefanfeibixibuli",
+          "confidence": "high",
+          "location": [
+            "fei"
+          ],
+          "nature": [
+            "feng",
+            "huo"
+          ],
+          "reasoning": "病位：肺。病性：風、熱/火。根據證候名稱「風熱犯肺鼻息不利證」分析其病機組成。"
+        },
+        {
+          "name": "小兒肝腎陰虛證",
+          "id": "xiaoerganshenyinxu",
+          "confidence": "high",
+          "location": [
+            "gan",
+            "shen"
+          ],
+          "nature": [
+            "yin_xu"
+          ],
+          "reasoning": "病位：肝、腎。病性：陰虛。根據證候名稱「小兒肝腎陰虛證」分析其病機組成。"
+        },
+        {
+          "name": "風輪風熱證",
+          "id": "fenglunfengre",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "feng",
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：風、熱/火。根據證候名稱「風輪風熱證」分析其病機組成。"
+        },
+        {
+          "name": "風寒襲喉證",
+          "id": "fenghanxihou",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "feng",
+            "han"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：風、寒。根據證候名稱「風寒襲喉證」分析其病機組成。"
+        },
+        {
+          "name": "風輪熱毒證",
+          "id": "fenglunredu",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "huo",
+            "du"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：熱/火、毒。根據證候名稱「風輪熱毒證」分析其病機組成。"
+        },
+        {
+          "name": "水輪血络痹阻證",
+          "id": "shuilunxueluobizu",
+          "confidence": "high",
+          "location": [
+            "shen"
+          ],
+          "nature": [
+            "xue_yu"
+          ],
+          "reasoning": "眼科證候，水輪血絡瘀阻。腎絡瘀滯，表現為眼底出血、視力下降。"
+        },
+        {
+          "name": "水輪絡痹精虧證",
+          "id": "shuilunluobijingkui",
+          "confidence": "high",
+          "location": [
+            "jingshi"
+          ],
+          "nature": [
+            "jing_kui"
+          ],
+          "reasoning": "病位：精室。病性：精虧。根據證候名稱「水輪絡痹精虧證」分析其病機組成。"
+        },
+        {
+          "name": "小兒內熱熾盛證",
+          "id": "xiaoerneirechisheng",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "huo"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：熱/火。根據證候名稱「小兒內熱熾盛證」分析其病機組成。"
+        },
+        {
+          "name": "膿毒蘊結證",
+          "id": "nongduyunjie",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "du"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：毒。根據證候名稱「膿毒蘊結證」分析其病機組成。"
+        },
+        {
+          "name": "小兒心氣虧虛證",
+          "id": "xiaoerxinqikuixu",
+          "confidence": "high",
+          "location": [
+            "xin"
+          ],
+          "nature": [
+            "qi_xu"
+          ],
+          "reasoning": "小兒心氣虛弱。表現為心悸、氣短、面白、易驚。"
+        },
+        {
+          "name": "陰虛耳竅失濡證",
+          "id": "yinxuerqiaoshiru",
+          "confidence": "high",
+          "location": [
+            "shen"
+          ],
+          "nature": [
+            "yin_xu"
+          ],
+          "reasoning": "病位：腎。病性：陰虛。根據證候名稱「陰虛耳竅失濡證」分析其病機組成。"
+        },
+        {
+          "name": "小兒脾胃虛弱證",
+          "id": "xiaoerpiweixuruo",
+          "confidence": "high",
+          "location": [
+            "pi",
+            "wei"
+          ],
+          "nature": [
+            "qi_xu"
+          ],
+          "reasoning": "小兒脾胃功能虛弱。表現為食少、腹脹、便溏、面黃肌瘦。"
+        },
+        {
+          "name": "痰濁瘀阻咽喉證",
+          "id": "tanzhuoyuzuyanhou",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "xue_yu",
+            "tan"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：血瘀、痰。根據證候名稱「痰濁瘀阻咽喉證」分析其病機組成。"
+        },
+        {
+          "name": "肝膽濕熱犯耳證",
+          "id": "gandanshirefaner",
+          "confidence": "high",
+          "location": [
+            "gan",
+            "dan",
+            "shen"
+          ],
+          "nature": [
+            "shi",
+            "huo"
+          ],
+          "reasoning": "病位：肝、膽、腎。病性：濕、熱/火。根據證候名稱「肝膽濕熱犯耳證」分析其病機組成。"
+        },
+        {
+          "name": "小兒內閉外脫證",
+          "id": "xiaoerneibiwaituo",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "qi_bi"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：氣閉。根據證候名稱「小兒內閉外脫證」分析其病機組成。"
+        },
+        {
+          "name": "風濕蘊膚證",
+          "id": "fengshiyunfu",
+          "confidence": "high",
+          "location": [],
+          "nature": [
+            "feng",
+            "shi"
+          ],
+          "reasoning": "病位：全身/無特定病位。病性：風、濕。根據證候名稱「風濕蘊膚證」分析其病機組成。"
+        }
+      ]
+    }
+  }
+}

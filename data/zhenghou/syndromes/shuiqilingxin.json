@@ -24,7 +24,10 @@
       "xin"
     ],
     "nature": [
+      "yang_xu",
       "shui_ting"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "水飲上凌心肺。腎陽虛水液泛濫，上凌於心，表現為心悸、胸悶、水腫。"
 }

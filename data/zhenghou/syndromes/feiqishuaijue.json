@@ -21,7 +21,10 @@
       "fei"
     ],
     "nature": [
+      "qi_xu",
       "qi_tuo"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "肺氣衰竭欲絕。危重證候，肺主氣司呼吸功能衰竭，表現為呼吸微弱、汗出如油。"
 }

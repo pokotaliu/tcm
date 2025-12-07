@@ -26,11 +26,14 @@
   "literature": "《丹溪心法·驚悸怔忡》：“怔忡者血虛，怔忡無時，血少者多。有思慮便動，屬虛。時作時止者，痰因火動。”",
   "zhengsu_composition": {
     "location": [
-      "pi",
-      "xin"
+      "xin",
+      "pi"
     ],
     "nature": [
-      "qi_xu"
+      "qi_xu",
+      "xue_xu"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "心脾氣血俱虛。思慮過度傷心脾，氣血生化不足，表現為心悸失眠、食少便溏。"
 }

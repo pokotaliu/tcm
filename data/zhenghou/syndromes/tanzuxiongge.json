@@ -23,8 +23,9 @@
       "xiongge"
     ],
     "nature": [
-      "qi_zhi",
       "tan"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "病位：胸膈。病性：痰。根據證候名稱「痰阻胸膈證」分析其病機組成。"
 }

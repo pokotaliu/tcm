@@ -25,5 +25,7 @@
     "nature": [
       "feng"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "病位：肺。病性：風。根據證候名稱「風擾肺系證」分析其病機組成。"
 }

@@ -25,5 +25,7 @@
       "dong_xue",
       "qi_tuo"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "危重證候，大量出血導致血氣俱脫。血為氣之載體，血脫則氣亦隨之外脫，故兼有氣脫表現。"
 }

@@ -23,11 +23,11 @@
   },
   "literature": "《素問·骨空論》：“任脈為病，男子內結七疝；女子帶下瘕聚。”\n《素問·骨空論》：“衝脈為病，逆氣里急。”\n《醫學衷中參西錄》：“血瘀衝任則可閉經。”\n《臨證指南醫案》：“衝脈為病，用紫石英以鎮逆；任脈為病，用龜板以鎮攝。”",
   "zhengsu_composition": {
-    "location": [
-      "baogong"
-    ],
+    "location": [],
     "nature": [
       "xue_yu"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "病位：全身/無特定病位。病性：血瘀。根據證候名稱「衝任瘀阻證」分析其病機組成。"
 }

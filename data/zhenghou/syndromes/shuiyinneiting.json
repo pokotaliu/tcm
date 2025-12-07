@@ -26,5 +26,7 @@
     "nature": [
       "shui_ting"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "病位：全身/無特定病位。病性：水停。根據證候名稱「水飲內停證」分析其病機組成。"
 }

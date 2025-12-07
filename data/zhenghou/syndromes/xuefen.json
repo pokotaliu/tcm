@@ -19,8 +19,10 @@
       "xin"
     ],
     "nature": [
-      "dong_xue",
-      "huo"
+      "huo",
+      "dong_xue"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "溫病重症，熱入血分。熱盛動血，迫血妄行。表現為斑疹顯露、吐血衄血、神昏抽搐。病位在心因心主血。"
 }

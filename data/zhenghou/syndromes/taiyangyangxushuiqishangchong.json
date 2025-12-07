@@ -19,8 +19,10 @@
     "location": [],
     "nature": [
       "qi_ni",
-      "shui_ting",
-      "yang_xu"
+      "yang_xu",
+      "shui_ting"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "病位：全身/無特定病位。病性：氣逆、陽虛、水停。根據證候名稱「太陽陽虛水氣上衝證」分析其病機組成。"
 }

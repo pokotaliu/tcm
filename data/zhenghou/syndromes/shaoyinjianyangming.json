@@ -18,12 +18,13 @@
   "zhengsu_composition": {
     "location": [
       "shen",
-      "wei",
-      "xin"
+      "wei"
     ],
     "nature": [
-      "huo",
-      "yang_xu"
+      "yang_xu",
+      "huo"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "少陰病兼陽明燥實。表現為下利清谷兼腹滿硬痛。"
 }

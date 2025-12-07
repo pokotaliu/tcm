@@ -22,7 +22,9 @@
       "xiaochang"
     ],
     "nature": [
-      "yang_xu"
+      "han"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "病位：小腸。病性：寒。根據證候名稱「小腸虛寒證」分析其病機組成。"
 }

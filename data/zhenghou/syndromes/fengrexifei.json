@@ -28,5 +28,7 @@
       "feng",
       "huo"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "病位：肺。病性：風、熱/火。根據證候名稱「風熱襲肺證」分析其病機組成。"
 }

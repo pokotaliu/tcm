@@ -17,8 +17,9 @@
       "shen"
     ],
     "nature": [
-      "han",
-      "yang_xu"
+      "han"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "病位：腎。病性：寒。根據證候名稱「腎虛寒凝證」分析其病機組成。"
 }

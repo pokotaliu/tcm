@@ -22,7 +22,9 @@
   "zhengsu_composition": {
     "location": [],
     "nature": [
-      "yin_xu"
+      "huo"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "病位：全身/無特定病位。病性：熱/火。根據證候名稱「血輪虛熱證」分析其病機組成。"
 }

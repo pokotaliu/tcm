@@ -25,11 +25,13 @@
   "literature": "《雜病廣要·驚悸》：“有因怒氣傷肝，有因驚氣入膽，母能令子虛，因而心血不足，又或嗜欲繁冗，思想無窮，則心神耗散而心君不寧，此其所以有從肝膽出治也。”",
   "zhengsu_composition": {
     "location": [
-      "gan",
-      "xin"
+      "xin",
+      "gan"
     ],
     "nature": [
       "xue_xu"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "病位：心、肝。病性：血虛。根據證候名稱「心肝血虛證」分析其病機組成。"
 }

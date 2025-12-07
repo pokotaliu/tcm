@@ -15,7 +15,10 @@
   "zhengsu_composition": {
     "location": [],
     "nature": [
-      "qi_xu"
+      "yin_xu",
+      "yang_xu"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "陰陽互根，陰損及陰或陽損及陰。久病必致陰陽俱虛，既有畏寒肢冷又有潮熱盜汗。"
 }

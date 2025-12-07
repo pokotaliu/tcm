@@ -26,8 +26,9 @@
       "biao"
     ],
     "nature": [
-      "han",
-      "yin"
+      "han"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "病位：表。病性：寒。根據證候名稱「太陽表寒里飲證」分析其病機組成。"
 }

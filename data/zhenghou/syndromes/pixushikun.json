@@ -29,8 +29,9 @@
       "pi"
     ],
     "nature": [
-      "qi_xu",
       "shi"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "病位：脾。病性：濕。根據證候名稱「脾虛濕困證」分析其病機組成。"
 }

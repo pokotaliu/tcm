@@ -27,7 +27,10 @@
       "gan"
     ],
     "nature": [
+      "yin_xu",
       "yang_kang"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "肝腎陰虛，肝陽偏亢。陰不制陽，肝陽上擾，表現為頭暈頭痛、面紅目赤、急躁易怒。"
 }

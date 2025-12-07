@@ -26,7 +26,10 @@
   "zhengsu_composition": {
     "location": [],
     "nature": [
-      "du"
+      "du",
+      "huo"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "毒邪熾盛的基礎證候。毒為邪氣之甚者，常與熱相兼為患。表現為紅腫熱痛、潰爛、高熱等。"
 }

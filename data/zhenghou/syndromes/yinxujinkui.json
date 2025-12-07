@@ -26,8 +26,10 @@
   "zhengsu_composition": {
     "location": [],
     "nature": [
-      "jin_kui",
-      "yin_xu"
+      "yin_xu",
+      "jin_kui"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "陰液和津液同虧。陰虛則內熱，津虧則燥象，二者常相互影響。是陰虛證和津液虧損的複合表現。"
 }

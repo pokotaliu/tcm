@@ -24,7 +24,10 @@
       "jifu"
     ],
     "nature": [
-      "xue_xu"
+      "xue_xu",
+      "zao"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "血虛不能濡養肌膚。表現為皮膚乾燥、瘙癢、脫屑。"
 }

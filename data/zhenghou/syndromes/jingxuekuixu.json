@@ -22,9 +22,15 @@
   },
   "literature": "《張氏醫通》：“氣不耗，歸精與腎而為精；精不泄，歸精與肝而化清血。”\n《素問·上古天真論》：“女子七歲，腎氣盛，齒更髮長。二七而天癸至，任脈通，太衝脈盛，月事以時下，故有子。”",
   "zhengsu_composition": {
-    "location": [],
+    "location": [
+      "shen",
+      "gan"
+    ],
     "nature": [
-      "jing_kui"
+      "jing_kui",
+      "xue_xu"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "精血同源，肝藏血、腎藏精，精血虧虛多涉肝腎。表現為頭暈目眩、腰膝酸軟。"
 }

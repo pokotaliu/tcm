@@ -24,8 +24,10 @@
   "zhengsu_composition": {
     "location": [],
     "nature": [
-      "qi_xu",
-      "yang_fu"
+      "yang_xu",
+      "yang_kang"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "陽虛根本不固，虛陽浮散於外。表現為下寒上熱，面紅如妝但足冷，是危重證候前兆。"
 }

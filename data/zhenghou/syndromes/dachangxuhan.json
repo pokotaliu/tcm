@@ -20,7 +20,9 @@
       "dachang"
     ],
     "nature": [
-      "yang_xu"
+      "han"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "病位：大腸。病性：寒。根據證候名稱「大腸虛寒證」分析其病機組成。"
 }

@@ -19,10 +19,14 @@
   "zhengsu_composition": {
     "location": [
       "pi",
-      "wei"
+      "wei",
+      "biao"
     ],
     "nature": [
-      "qi_xu"
+      "qi_xu",
+      "huo"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "太陽病誤下後脾虛胃實。表現為下利、腹脹滿、心下痞硬。"
 }

@@ -27,9 +27,10 @@
       "pi"
     ],
     "nature": [
-      "huo",
-      "qi_xu",
-      "shi"
+      "shi",
+      "huo"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "病位：脾。病性：濕、熱/火。根據證候名稱「脾虛濕熱證」分析其病機組成。"
 }

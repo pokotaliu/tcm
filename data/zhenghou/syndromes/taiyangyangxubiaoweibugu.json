@@ -27,8 +27,10 @@
       "biao"
     ],
     "nature": [
-      "bu_gu",
-      "yang_xu"
+      "yang_xu",
+      "bu_gu"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "病位：表。病性：陽虛、不固。根據證候名稱「太陽陽虛表衛不固證」分析其病機組成。"
 }

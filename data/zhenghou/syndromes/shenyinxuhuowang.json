@@ -25,8 +25,10 @@
       "shen"
     ],
     "nature": [
-      "huo",
-      "yin_xu"
+      "yin_xu",
+      "huo"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "病位：腎。病性：陰虛、熱/火。根據證候名稱「腎陰虛火旺證」分析其病機組成。"
 }

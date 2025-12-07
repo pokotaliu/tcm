@@ -19,8 +19,9 @@
   "zhengsu_composition": {
     "location": [],
     "nature": [
-      "han",
       "huo"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "熱極至深，陽氣內鬱不達四末。本質是裡熱熾盛，外現假寒（四肢厥冷），但身熱不惡寒、渴喜冷飲。"
 }

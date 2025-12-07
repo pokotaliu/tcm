@@ -28,9 +28,10 @@
       "jifu"
     ],
     "nature": [
-      "du",
-      "qi_zhi",
-      "shi"
+      "shi",
+      "du"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "病位：肌膚。病性：濕、毒。根據證候名稱「艾滋病濕毒蘊結肌膚證」分析其病機組成。"
 }

@@ -22,8 +22,9 @@
       "xin"
     ],
     "nature": [
-      "han",
-      "qi_zhi"
+      "han"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "病位：心。病性：寒。根據證候名稱「寒滯心脈證」分析其病機組成。"
 }

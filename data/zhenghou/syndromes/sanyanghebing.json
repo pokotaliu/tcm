@@ -19,12 +19,13 @@
   "zhengsu_composition": {
     "location": [
       "biao",
-      "dan",
-      "wei"
+      "wei",
+      "dan"
     ],
     "nature": [
-      "feng",
       "huo"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "太陽、陽明、少陽三經同時受邪。表現為頭痛、身熱、口苦、便秘等。"
 }

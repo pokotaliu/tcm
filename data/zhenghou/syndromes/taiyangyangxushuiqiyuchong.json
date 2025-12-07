@@ -19,8 +19,10 @@
   "zhengsu_composition": {
     "location": [],
     "nature": [
-      "shui_ting",
-      "yang_xu"
+      "yang_xu",
+      "shui_ting"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "病位：全身/無特定病位。病性：陽虛、水停。根據證候名稱「太陽陽虛水氣欲沖證」分析其病機組成。"
 }

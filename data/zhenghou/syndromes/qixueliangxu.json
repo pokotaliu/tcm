@@ -26,7 +26,10 @@
   "zhengsu_composition": {
     "location": [],
     "nature": [
-      "qi_xu"
+      "qi_xu",
+      "xue_xu"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "氣血互生互化，虛損互因。氣虛則血無以生，血虛則氣無以附。表現為神疲乏力、面色蒼白、頭暈心悸。"
 }

@@ -23,11 +23,11 @@
   },
   "literature": "《醫門棒喝·卷六》“若脈數舌絳，邪入營分；若舌深絳，煩擾不寐，或夜有谵語，已入血分。”",
   "zhengsu_composition": {
-    "location": [
-      "xin"
-    ],
+    "location": [],
     "nature": [
       "huo"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "病位：全身/無特定病位。病性：熱/火。根據證候名稱「小兒熱入營血證」分析其病機組成。"
 }

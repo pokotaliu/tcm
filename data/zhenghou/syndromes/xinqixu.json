@@ -31,5 +31,7 @@
     "nature": [
       "qi_xu"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "病位：心。病性：氣虛。根據證候名稱「心氣虛證」分析其病機組成。"
 }

@@ -29,8 +29,10 @@
       "wei"
     ],
     "nature": [
-      "feng",
+      "qi_ni",
       "han"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "病位：胃。病性：氣逆、寒。根據證候名稱「寒邪犯胃濁陰上逆證」分析其病機組成。"
 }

@@ -27,7 +27,9 @@
       "xin"
     ],
     "nature": [
-      "feng"
+      "dong_feng"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "小兒受驚驚恐。心神不寧，表現為夜啼、夜驚、睡眠不安。"
 }

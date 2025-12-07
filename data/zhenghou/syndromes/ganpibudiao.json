@@ -30,7 +30,10 @@
       "pi"
     ],
     "nature": [
-      "qi_zhi"
+      "qi_zhi",
+      "qi_xu"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "肝鬱脾虛。肝失疏洩，脾失健運，表現為胸脅脹滿、腹脹、便溏。"
 }

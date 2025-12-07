@@ -23,8 +23,10 @@
       "fei"
     ],
     "nature": [
-      "huo",
-      "shi"
+      "shi",
+      "huo"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "病位：肺。病性：濕、熱/火。根據證候名稱「濕熱蒸鼻證」分析其病機組成。"
 }

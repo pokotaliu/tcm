@@ -25,7 +25,10 @@
   "zhengsu_composition": {
     "location": [],
     "nature": [
-      "huo"
+      "huo",
+      "xue_re"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "氣分營分同時熱盛。氣分大熱兼營分熱擾，表現為壯熱、神昏、斑疹。"
 }

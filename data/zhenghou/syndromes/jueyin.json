@@ -23,7 +23,10 @@
       "gan"
     ],
     "nature": [
-      "han"
+      "han",
+      "huo"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "厥陰主肝，厥陰病為寒熱錯雜證。上熱（消渴、心中疼熱）下寒（下利、吐蛔），體現陰陽不相順接的病機。"
 }

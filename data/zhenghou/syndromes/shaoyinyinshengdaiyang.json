@@ -17,12 +17,13 @@
   "literature": "《傷寒論條辨》：“少陰病而加下利者，不獨在經，而亦在臟，寒甚而陰性也。治之以乾薑附子者，勝其陰則寒自散也。用蔥白而名白通者，通其陽，則陰自消也。”\n《傷寒論譯釋》：“白通湯證，真寒假熱，有面赤、外熱等現象，而四逆湯證純屬陰寒，很少有假熱之象，所以用蔥白易甘草，急通其被格之陽也。”",
   "zhengsu_composition": {
     "location": [
-      "shen",
-      "xin"
+      "shen"
     ],
     "nature": [
-      "han",
-      "yang_xu"
+      "yang_xu",
+      "yang_kang"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "少陰陰寒內盛，戴陽於上。真寒假熱，表現為面赤、下利清谷、四肢厥冷。"
 }

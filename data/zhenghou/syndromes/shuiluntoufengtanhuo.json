@@ -24,8 +24,9 @@
     "nature": [
       "feng",
       "huo",
-      "shui_ting",
       "tan"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "病位：全身/無特定病位。病性：風、熱/火、痰。根據證候名稱「水輪頭風痰火證」分析其病機組成。"
 }

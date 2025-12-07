@@ -22,8 +22,9 @@
       "biao"
     ],
     "nature": [
-      "feng",
       "han"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "太陽傷寒證，寒邪束表。表實無汗，表現為惡寒、發熱、無汗、頭身疼痛、脈浮緊。"
 }

@@ -29,5 +29,7 @@
       "tan",
       "xue_yu"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "病位：肺。病性：痰、血瘀。根據證候名稱「痰瘀阻肺證」分析其病機組成。"
 }

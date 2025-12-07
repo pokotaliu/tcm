@@ -20,10 +20,10 @@
   "zhengsu_composition": {
     "location": [],
     "nature": [
-      "huo",
-      "qi_zhi",
-      "shui_ting",
-      "yin_xu"
+      "yin_xu",
+      "huo"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "病位：全身/無特定病位。病性：陰虛、熱/火。根據證候名稱「少陰陰虛水熱互結證」分析其病機組成。"
 }

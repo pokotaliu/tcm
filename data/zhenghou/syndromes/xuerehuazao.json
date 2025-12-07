@@ -26,7 +26,10 @@
     "location": [],
     "nature": [
       "xue_re",
-      "zao"
+      "zao",
+      "huo"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "病位：全身/無特定病位。病性：血熱、燥、熱/火。根據證候名稱「血熱化燥證」分析其病機組成。"
 }

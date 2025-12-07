@@ -27,7 +27,10 @@
       "shen"
     ],
     "nature": [
-      "qi_xu"
+      "yin_xu",
+      "yang_xu"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "腎陰陽俱虛。腎為先天之本，陰陽互根，久病腎精虧損可致陰陽兩虛。"
 }
