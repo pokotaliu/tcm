@@ -25,5 +25,7 @@
     "nature": [
       "han"
     ]
-  }
+  },
+  "tagging_confidence": "medium",
+  "tagging_reasoning": "傷寒厥陰病證，寒熱錯雜，肝失疏洩。厥陰主肝，病機複雜，可見寒熱往來、厥熱勝復。標為medium因為厥陰病機複雜多變。"
 }

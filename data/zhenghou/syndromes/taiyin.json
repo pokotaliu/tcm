@@ -17,8 +17,11 @@
       "pi"
     ],
     "nature": [
+      "yang_xu",
       "han",
       "shi"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "傷寒太陰病證，脾陽虛寒濕內盛。太陰主脾，表現為腹滿、吐利、食不下、脈遲緩。"
 }

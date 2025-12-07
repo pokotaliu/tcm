@@ -1,0 +1,438 @@
+{
+  "total": 39,
+  "high": 38,
+  "medium": 1,
+  "low": 0,
+  "details": [
+    {
+      "name": "風證",
+      "id": "feng",
+      "confidence": "high",
+      "location": [],
+      "nature": [
+        "feng"
+      ],
+      "reasoning": "外感風邪所致的基礎證候。風為百病之長，善行數變。表現為遊走性、發病急、變化快的特點。"
+    },
+    {
+      "name": "血分證",
+      "id": "xuefen",
+      "confidence": "high",
+      "location": [
+        "xin"
+      ],
+      "nature": [
+        "huo",
+        "dong_xue"
+      ],
+      "reasoning": "溫病重症，熱入血分。熱盛動血，迫血妄行。表現為斑疹顯露、吐血衄血、神昏抽搐。病位在心因心主血。"
+    },
+    {
+      "name": "厥陰證",
+      "id": "jueyin",
+      "confidence": "medium",
+      "location": [
+        "gan"
+      ],
+      "nature": [
+        "han"
+      ],
+      "reasoning": "傷寒厥陰病證，寒熱錯雜，肝失疏洩。厥陰主肝，病機複雜，可見寒熱往來、厥熱勝復。標為medium因為厥陰病機複雜多變。"
+    },
+    {
+      "name": "失神證",
+      "id": "shishen",
+      "confidence": "high",
+      "location": [
+        "xin"
+      ],
+      "nature": [
+        "qi_xu"
+      ],
+      "reasoning": "心主神明，失神病位在心。反映心神失養或心氣虛弱，表現為精神萎靡、反應遲鈍、目光無神。"
+    },
+    {
+      "name": "氣分證",
+      "id": "qifen",
+      "confidence": "high",
+      "location": [],
+      "nature": [
+        "huo"
+      ],
+      "reasoning": "溫病進展，熱邪入氣分。氣分涵蓋範圍廣，無固定病位。表現為壯熱、汗多、口渴、脈洪大。"
+    },
+    {
+      "name": "氣滯證",
+      "id": "qizhi",
+      "confidence": "high",
+      "location": [],
+      "nature": [
+        "qi_zhi"
+      ],
+      "reasoning": "全身性氣機阻滯證候。多因情志不舒所致，可發生於各臟腑部位，以脹悶、走竄疼痛為特點。"
+    },
+    {
+      "name": "太陰證",
+      "id": "taiyin",
+      "confidence": "high",
+      "location": [
+        "pi"
+      ],
+      "nature": [
+        "yang_xu",
+        "han",
+        "shi"
+      ],
+      "reasoning": "傷寒太陰病證，脾陽虛寒濕內盛。太陰主脾，表現為腹滿、吐利、食不下、脈遲緩。"
+    },
+    {
+      "name": "血虛證",
+      "id": "xuexu",
+      "confidence": "high",
+      "location": [],
+      "nature": [
+        "xue_xu"
+      ],
+      "reasoning": "全身性基礎虛證，血液虧虛不能濡養臟腑肌膚。無特定病位，以面色蒼白、頭暈心悸、脈細為特點。"
+    },
+    {
+      "name": "亡陽證",
+      "id": "wangyang",
+      "confidence": "high",
+      "location": [],
+      "nature": [
+        "wang_yang"
+      ],
+      "reasoning": "危重證候，陽氣暴脫欲亡。常見於大汗、大吐、大瀉後。表現為冷汗淋漓、四肢厥冷、脈微欲絕。"
+    },
+    {
+      "name": "精脫證",
+      "id": "jingtuo",
+      "confidence": "high",
+      "location": [
+        "shen"
+      ],
+      "nature": [
+        "jing_kui",
+        "qi_tuo"
+      ],
+      "reasoning": "危重證候，腎精耗竭。腎藏精，精脫則元氣亦脫。常見於久病虛極或暴病傷精，病位在腎。"
+    },
+    {
+      "name": "氣虛證",
+      "id": "qixu",
+      "confidence": "high",
+      "location": [],
+      "nature": [
+        "qi_xu"
+      ],
+      "reasoning": "全身性基礎虛證，元氣不足，臟腑功能衰退。無特定臟腑定位，是各臟腑氣虛證的基礎。"
+    },
+    {
+      "name": "氣陷證",
+      "id": "qixian",
+      "confidence": "high",
+      "location": [
+        "pi"
+      ],
+      "nature": [
+        "qi_xu",
+        "qi_xian"
+      ],
+      "reasoning": "氣陷是氣虛的進一步發展，主要表現為中氣下陷。病機核心在脾，脾主升清，脾氣不升則中氣下陷，可見脫肛、子宮下垂等下陷症狀。"
+    },
+    {
+      "name": "陰虛津虧證",
+      "id": "yinxujinkui",
+      "confidence": "high",
+      "location": [],
+      "nature": [
+        "yin_xu",
+        "jin_kui"
+      ],
+      "reasoning": "陰液和津液同虧。陰虛則內熱，津虧則燥象，二者常相互影響。是陰虛證和津液虧損的複合表現。"
+    },
+    {
+      "name": "痰證",
+      "id": "tan",
+      "confidence": "high",
+      "location": [],
+      "nature": [
+        "tan"
+      ],
+      "reasoning": "痰濁內生所致的基礎證候。痰為津液代謝障礙的病理產物，可隨氣流竄，無處不到，故無固定病位。"
+    },
+    {
+      "name": "陽明證",
+      "id": "yangming",
+      "confidence": "high",
+      "location": [
+        "wei",
+        "dachang"
+      ],
+      "nature": [
+        "huo"
+      ],
+      "reasoning": "傷寒陽明病證，裡熱熾盛。陽明主胃腸，表現為身熱、汗出、口渴、便秘、脈洪大。"
+    },
+    {
+      "name": "少陰證",
+      "id": "shaoyin",
+      "confidence": "high",
+      "location": [
+        "shen",
+        "xin"
+      ],
+      "nature": [
+        "yang_xu"
+      ],
+      "reasoning": "傷寒少陰病證，心腎陽虛。少陰主心腎，表現為脈微細、但欲寐、畏寒肢冷。少陰病多為陽虛。"
+    },
+    {
+      "name": "暑證",
+      "id": "shu",
+      "confidence": "high",
+      "location": [],
+      "nature": [
+        "shu"
+      ],
+      "reasoning": "感受暑熱之邪所致的基礎證候。暑為陽邪，易傷氣耗津，表現為身熱汗多、口渴、倦怠。"
+    },
+    {
+      "name": "陽虛證",
+      "id": "yangxu",
+      "confidence": "high",
+      "location": [],
+      "nature": [
+        "yang_xu"
+      ],
+      "reasoning": "全身性基礎虛證，陽氣不足，溫煦失職。表現為畏寒肢冷、面白、脈沉遲，體現陽虛生寒的病機。"
+    },
+    {
+      "name": "太陽證",
+      "id": "taiyang",
+      "confidence": "high",
+      "location": [
+        "biao"
+      ],
+      "nature": [
+        "feng",
+        "han"
+      ],
+      "reasoning": "傷寒太陽病證，外感風寒初起，邪在肌表。太陽主一身之表，表現為惡寒、頭項強痛、脈浮。"
+    },
+    {
+      "name": "寒證",
+      "id": "han",
+      "confidence": "high",
+      "location": [],
+      "nature": [
+        "han"
+      ],
+      "reasoning": "寒邪侵襲所致的基礎證候。寒性收引凝滯，表現為惡寒、疼痛、脈緊遲等收縮凝滯之象。"
+    },
+    {
+      "name": "亡陰證",
+      "id": "wangyin",
+      "confidence": "high",
+      "location": [],
+      "nature": [
+        "wang_yin"
+      ],
+      "reasoning": "危重證候，陰液耗竭將盡。常見於熱病後期或大汗傷津。表現為身熱汗出如油、煩躁、脈細數疾。"
+    },
+    {
+      "name": "燥證",
+      "id": "zao",
+      "confidence": "high",
+      "location": [],
+      "nature": [
+        "zao"
+      ],
+      "reasoning": "燥邪傷津所致的基礎證候。燥性乾澀，易傷肺胃津液，表現為口乾咽燥、皮膚乾裂。"
+    },
+    {
+      "name": "邪毒熾盛證",
+      "id": "xieduchisheng",
+      "confidence": "high",
+      "location": [],
+      "nature": [
+        "du",
+        "huo"
+      ],
+      "reasoning": "毒邪熾盛的基礎證候。毒為邪氣之甚者，常與熱相兼為患。表現為紅腫熱痛、潰爛、高熱等。"
+    },
+    {
+      "name": "濕證",
+      "id": "shi",
+      "confidence": "high",
+      "location": [],
+      "nature": [
+        "shi"
+      ],
+      "reasoning": "濕邪侵襲所致的基礎證候。濕性重濁黏滯，表現為肢體困重、苔膩、病程纏綿難愈。"
+    },
+    {
+      "name": "邪毒熾盛證",
+      "id": "xiedu_chisheng",
+      "confidence": "high",
+      "location": [],
+      "nature": [
+        "du",
+        "huo"
+      ],
+      "reasoning": "毒邪熾盛的基礎證候。毒為邪氣之甚者，常與熱相兼為患。表現為紅腫熱痛、潰爛、高熱等。"
+    },
+    {
+      "name": "血燥證",
+      "id": "xuezao",
+      "confidence": "high",
+      "location": [],
+      "nature": [
+        "xue_xu",
+        "zao"
+      ],
+      "reasoning": "血虛失養，兼有燥象。血虛不能濡潤肌膚筋脈，出現皮膚乾燥脫屑、瘙癢等燥象，體現血虛生燥的病機。"
+    },
+    {
+      "name": "衛分證",
+      "id": "weifen",
+      "confidence": "high",
+      "location": [
+        "biao",
+        "fei"
+      ],
+      "nature": [
+        "feng",
+        "huo"
+      ],
+      "reasoning": "溫病初期，溫邪襲表犯肺。衛分主皮毛，肺主皮毛，故兼有肺衛症狀。表現為發熱微惡寒、咳嗽、脈浮數。"
+    },
+    {
+      "name": "氣脫證",
+      "id": "qituo",
+      "confidence": "high",
+      "location": [],
+      "nature": [
+        "qi_tuo"
+      ],
+      "reasoning": "危重證候，元氣欲脫。可發生於各臟腑的危急階段，無固定病位。表現為大汗淋漓、氣息微弱、脈微欲絕。"
+    },
+    {
+      "name": "少陽證",
+      "id": "shaoyang",
+      "confidence": "high",
+      "location": [
+        "dan"
+      ],
+      "nature": [
+        "huo"
+      ],
+      "reasoning": "傷寒少陽病證，邪在半表半裡。少陽主樞，膽與三焦相表裡，表現為往來寒熱、胸脅苦滿、口苦。"
+    },
+    {
+      "name": "氣逆證",
+      "id": "qini",
+      "confidence": "high",
+      "location": [],
+      "nature": [
+        "qi_ni"
+      ],
+      "reasoning": "氣機當降不降，上逆為患。常見於肺（咳喘）、胃（呃逆嘔吐）、肝（頭脹頭痛）等臟腑，是全身性病機概念。"
+    },
+    {
+      "name": "陰虛津虧證",
+      "id": "yinxu_jinkui",
+      "confidence": "high",
+      "location": [],
+      "nature": [
+        "yin_xu",
+        "jin_kui"
+      ],
+      "reasoning": "陰液和津液同虧。陰虛則內熱，津虧則燥象，二者常相互影響。是陰虛證和津液虧損的複合表現。"
+    },
+    {
+      "name": "血寒證",
+      "id": "xuehan",
+      "confidence": "high",
+      "location": [],
+      "nature": [
+        "xue_han"
+      ],
+      "reasoning": "寒邪客於血脈，血行凝滯。表現為疼痛、肢冷、脈遲緊。是寒邪影響血液運行的全身性病機。"
+    },
+    {
+      "name": "血瘀證",
+      "id": "xueyu",
+      "confidence": "high",
+      "location": [],
+      "nature": [
+        "xue_yu"
+      ],
+      "reasoning": "全身性病機，血液運行不暢或離經之血停滯體內。無特定病位，以固定刺痛、舌紫脈澀為特點。"
+    },
+    {
+      "name": "血熱證",
+      "id": "xuere",
+      "confidence": "high",
+      "location": [],
+      "nature": [
+        "xue_re"
+      ],
+      "reasoning": "熱邪侵入血分，血熱妄行。表現為出血鮮紅、身熱煩躁、舌紅絳。是全身性熱證深入血分的表現。"
+    },
+    {
+      "name": "血脫證",
+      "id": "xuetuo",
+      "confidence": "high",
+      "location": [],
+      "nature": [
+        "dong_xue",
+        "qi_tuo"
+      ],
+      "reasoning": "危重證候，大量出血導致血氣俱脫。血為氣之載體，血脫則氣亦隨之外脫，故兼有氣脫表現。"
+    },
+    {
+      "name": "火熱證",
+      "id": "huore",
+      "confidence": "high",
+      "location": [],
+      "nature": [
+        "huo"
+      ],
+      "reasoning": "火熱之邪所致的基礎證候。熱為陽邪，易傷陰耗氣，表現為發熱、口渴、面紅、脈數。"
+    },
+    {
+      "name": "氣閉證",
+      "id": "qibi",
+      "confidence": "high",
+      "location": [],
+      "nature": [
+        "qi_bi"
+      ],
+      "reasoning": "氣機閉阻不通。多為實證，可因痰、熱、瘀等邪氣閉阻所致。常見於心（神志昏迷）、肺（窒息）等急症。"
+    },
+    {
+      "name": "陰虛證",
+      "id": "yinxu",
+      "confidence": "high",
+      "location": [],
+      "nature": [
+        "yin_xu"
+      ],
+      "reasoning": "全身性基礎虛證，陰精不足，陰不制陽。表現為潮熱盜汗、五心煩熱、舌紅脈細數，體現陰虛內熱的病機。"
+    },
+    {
+      "name": "營分證",
+      "id": "yingfen",
+      "confidence": "high",
+      "location": [
+        "xin"
+      ],
+      "nature": [
+        "huo"
+      ],
+      "reasoning": "溫病深入，熱入營分擾心。營血為心所主，熱入營分必擾心神。表現為身熱夜甚、神昏譫語、斑疹隱隱。"
+    }
+  ]
+}

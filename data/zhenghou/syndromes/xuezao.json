@@ -27,7 +27,10 @@
   "zhengsu_composition": {
     "location": [],
     "nature": [
+      "xue_xu",
       "zao"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "血虛失養，兼有燥象。血虛不能濡潤肌膚筋脈，出現皮膚乾燥脫屑、瘙癢等燥象，體現血虛生燥的病機。"
 }
