@@ -219,9 +219,9 @@ BASIC_SYNDROME_RULES: Dict[str, Dict] = {
     },
     "厥陰證": {
         "location": ["gan"],
-        "nature": ["han"],
-        "confidence": "medium",
-        "reasoning": "傷寒厥陰病證，寒熱錯雜，肝失疏洩。厥陰主肝，病機複雜，可見寒熱往來、厥熱勝復。標為medium因為厥陰病機複雜多變。"
+        "nature": ["han", "huo"],
+        "confidence": "high",
+        "reasoning": "厥陰主肝，厥陰病為寒熱錯雜證。上熱（消渴、心中疼熱）下寒（下利、吐蛔），體現陰陽不相順接的病機。"
     },
     "少陰證": {
         "location": ["shen", "xin"],
