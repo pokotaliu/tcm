@@ -38,5 +38,7 @@
     "nature": [
       "yin_xu"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "病位：肝。病性：陰虛。根據證候名稱「肝陰虛證」分析其病機組成。"
 }

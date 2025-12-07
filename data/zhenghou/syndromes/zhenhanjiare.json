@@ -15,8 +15,9 @@
   "zhengsu_composition": {
     "location": [],
     "nature": [
-      "han",
-      "huo"
+      "yang_xu"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "陽虛至極，虛陽外浮。本質是陽虛內寒，外現假熱之象（面紅、身熱），但欲蓋衣被、四肢厥冷。"
 }

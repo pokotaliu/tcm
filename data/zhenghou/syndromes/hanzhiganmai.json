@@ -24,8 +24,9 @@
       "gan"
     ],
     "nature": [
-      "han",
-      "qi_zhi"
+      "han"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "病位：肝。病性：寒。根據證候名稱「寒滯肝脈證」分析其病機組成。"
 }

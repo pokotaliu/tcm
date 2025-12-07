@@ -24,5 +24,7 @@
       "qi_bi",
       "shu"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "病位：全身/無特定病位。病性：氣閉、暑。根據證候名稱「暑閉氣機證」分析其病機組成。"
 }

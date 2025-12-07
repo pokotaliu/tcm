@@ -26,8 +26,10 @@
       "fei"
     ],
     "nature": [
-      "qi_zhi",
-      "tan"
+      "tan",
+      "huo"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "病位：肺。病性：痰、熱/火。根據證候名稱「痰熱壅肺證」分析其病機組成。"
 }

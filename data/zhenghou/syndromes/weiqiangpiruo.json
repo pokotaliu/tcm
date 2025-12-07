@@ -23,7 +23,10 @@
       "wei"
     ],
     "nature": [
-      "yin_xu"
+      "huo",
+      "qi_xu"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "胃熱脾虛。胃火亢盛消穀善飢，脾虛運化無力則便溏，表現為多食易飢、大便溏薄。"
 }

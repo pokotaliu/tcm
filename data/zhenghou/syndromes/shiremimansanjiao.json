@@ -20,12 +20,12 @@
   },
   "literature": "《南病別鑑·濕熱条辨》：“濕熱症，壯熱煩渴，舌焦紅或縮，斑疹胸痞，自利，神昏痙厥，熱邪充斥表里三焦，宜大劑犀角、羚羊角、生地、玄參、銀花露、紫草、方潔水、金汁、鮮菖蒲等味。”",
   "zhengsu_composition": {
-    "location": [
-      "xiongge"
-    ],
+    "location": [],
     "nature": [
-      "huo",
-      "shi"
+      "shi",
+      "huo"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "病位：全身/無特定病位。病性：濕、熱/火。根據證候名稱「濕熱瀰漫三焦證」分析其病機組成。"
 }

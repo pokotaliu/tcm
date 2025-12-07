@@ -21,11 +21,11 @@
   },
   "literature": "《婦人大全良方》：“婦人月水不斷，淋漓腹痛，或因勞損氣血而傷衝任。”\n《證治準繩·女科》：“勞傷氣血，衝任虛損，月水過多。”",
   "zhengsu_composition": {
-    "location": [
-      "baogong"
-    ],
+    "location": [],
     "nature": [
       "bu_gu"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "病位：全身/無特定病位。病性：不固。根據證候名稱「衝任不固證」分析其病機組成。"
 }

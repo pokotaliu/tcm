@@ -24,11 +24,13 @@
   "literature": "",
   "zhengsu_composition": {
     "location": [
-      "dan"
+      "dan",
+      "wei"
     ],
     "nature": [
-      "huo",
-      "shi_ji"
+      "huo"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "少陽病兼陽明里實。表現為往來寒熱、腹滿便秘。"
 }

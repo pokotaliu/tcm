@@ -25,5 +25,7 @@
     "nature": [
       "jin_kui"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "病位：大腸。病性：津虧。根據證候名稱「大腸津虧證」分析其病機組成。"
 }

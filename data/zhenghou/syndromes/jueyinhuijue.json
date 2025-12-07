@@ -21,8 +21,10 @@
       "gan"
     ],
     "nature": [
-      "chong_ji",
-      "han"
+      "han",
+      "du"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "厥陰證蛔蟲上擾。寒熱錯雜，蛔蟲內動，表現為手足厥冷、嘔吐蛔蟲。"
 }

@@ -26,8 +26,10 @@
       "pangguang"
     ],
     "nature": [
-      "bu_gu",
-      "qi_xu"
+      "qi_xu",
+      "bu_gu"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "膀胱約束無力。氣虛不能固攝，表現為小便頻數、遺尿、尿失禁。"
 }

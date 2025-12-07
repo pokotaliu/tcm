@@ -25,7 +25,10 @@
   "zhengsu_composition": {
     "location": [],
     "nature": [
-      "feng"
+      "yin_xu",
+      "huo"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "溫病後期，餘熱留於陰分。表現為夜熱早涼、熱退無汗、舌紅少苔。"
 }

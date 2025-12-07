@@ -18,12 +18,12 @@
   },
   "literature": "* 《仁齋直指方》：“七情氣鬱，結成痰涎，隨氣結聚，堅大如塊，在心腹間或塞咽喉，如梅核，粉絮樣，咯不出，咽不下。”",
   "zhengsu_composition": {
-    "location": [
-      "fei"
-    ],
+    "location": [],
     "nature": [
-      "tan",
-      "xue_yu"
+      "xue_yu",
+      "tan"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "病位：全身/無特定病位。病性：血瘀、痰。根據證候名稱「痰濁瘀阻咽喉證」分析其病機組成。"
 }

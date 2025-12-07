@@ -26,7 +26,10 @@
       "xin"
     ],
     "nature": [
-      "qi_xu"
+      "qi_xu",
+      "xue_xu"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "心氣心血俱虛。心失所養，表現為心悸怔忡、面色無華、神疲乏力。"
 }

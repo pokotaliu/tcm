@@ -24,9 +24,10 @@
       "fei"
     ],
     "nature": [
-      "feng",
-      "huo",
-      "qi_zhi"
+      "qi_zhi",
+      "huo"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "病位：肺。病性：氣滯、熱/火。根據證候名稱「肺經鬱熱犯鼻證」分析其病機組成。"
 }

@@ -20,10 +20,14 @@
   "literature": "《仁齋直指方》：“真元耗損，喘生於腎氣之上奔。”\n《類證治裁》：“喘由外感者治肺，由內傷者治腎，以肺主出氣，腎主納氣也。出氣阻而喘為肺病，吸氣促而喘為腎病。”",
   "zhengsu_composition": {
     "location": [
-      "shen"
+      "shen",
+      "fei"
     ],
     "nature": [
-      "qi_xu"
+      "qi_xu",
+      "bu_gu"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "腎氣虛不能攝納肺氣。腎主納氣，肺主呼吸，腎虛則氣浮於上，表現為喘促、呼多吸少。"
 }

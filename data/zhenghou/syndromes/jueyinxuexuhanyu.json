@@ -30,9 +30,11 @@
   "zhengsu_composition": {
     "location": [],
     "nature": [
-      "han",
       "qi_zhi",
-      "xue_xu"
+      "xue_xu",
+      "han"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "病位：全身/無特定病位。病性：氣滯、血虛、寒。根據證候名稱「厥陰血虛寒鬱證」分析其病機組成。"
 }

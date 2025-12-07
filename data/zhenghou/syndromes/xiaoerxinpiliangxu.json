@@ -24,11 +24,14 @@
   "literature": "《證治準繩·幼科·集之二》“人身有九藏，心藏神肝藏魂，二經皆主於血，血虧則神魂失寧，而生驚悸也。……驚者心卒動而恐怖也，悸者，心跳動而怔忡也，二者因心虛血少，故健忘之證隨之。”",
   "zhengsu_composition": {
     "location": [
-      "pi",
-      "xin"
+      "xin",
+      "pi"
     ],
     "nature": [
-      "qi_xu"
+      "qi_xu",
+      "xue_xu"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "小兒心脾氣血俱虛。表現為面黃、食少、心悸、多夢。"
 }

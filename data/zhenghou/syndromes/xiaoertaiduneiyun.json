@@ -23,8 +23,9 @@
   "zhengsu_composition": {
     "location": [],
     "nature": [
-      "du",
-      "shi"
+      "du"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "病位：全身/無特定病位。病性：毒。根據證候名稱「小兒胎毒内蘊證」分析其病機組成。"
 }

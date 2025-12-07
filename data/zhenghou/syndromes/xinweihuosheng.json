@@ -21,11 +21,13 @@
   "literature": "《金匱要略·驚悸吐衄下血胸滿瘀血病脈證治》：“心氣不足，吐血、衄血，瀉心湯主之。”\n《瘍醫大全》引馮楚瞻：“滿口生瘡者，名曰口糜，若白細點子生於上顎者，名曰七星瘡也。總不外乎心、肺、胃三經之蘊熱……。”",
   "zhengsu_composition": {
     "location": [
-      "wei",
-      "xin"
+      "xin",
+      "wei"
     ],
     "nature": [
       "huo"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "病位：心、胃。病性：熱/火。根據證候名稱「心胃火盛證」分析其病機組成。"
 }

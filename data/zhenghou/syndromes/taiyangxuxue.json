@@ -24,8 +24,10 @@
       "pangguang"
     ],
     "nature": [
-      "huo",
-      "xue_yu"
+      "xue_yu",
+      "huo"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "太陽之邪入裡，熱與血結於下焦。表現為少腹急結、小便自利、如狂。"
 }

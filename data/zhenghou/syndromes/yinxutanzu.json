@@ -17,9 +17,10 @@
   "zhengsu_composition": {
     "location": [],
     "nature": [
-      "qi_zhi",
-      "tan",
-      "yin_xu"
+      "yin_xu",
+      "tan"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "病位：全身/無特定病位。病性：陰虛、痰。根據證候名稱「陰虛痰阻證」分析其病機組成。"
 }

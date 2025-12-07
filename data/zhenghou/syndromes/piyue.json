@@ -19,8 +19,10 @@
       "pi"
     ],
     "nature": [
-      "huo",
-      "yin_xu"
+      "yin_xu",
+      "zao"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "脾陰不足，津液不能四布。胃強脾弱，津液偏滲膀胱，表現為大便硬、小便數。"
 }

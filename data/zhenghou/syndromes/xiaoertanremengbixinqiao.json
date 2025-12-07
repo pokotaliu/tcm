@@ -21,8 +21,10 @@
       "xin"
     ],
     "nature": [
-      "qi_bi",
-      "tan"
+      "tan",
+      "huo"
     ]
-  }
+  },
+  "tagging_confidence": "high",
+  "tagging_reasoning": "病位：心。病性：痰、熱/火。根據證候名稱「小兒痰熱蒙閉心竅證」分析其病機組成。"
 }
