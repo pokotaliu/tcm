@@ -33,12 +33,12 @@
           "syndrome_count": 41
         },
         {
-          "name": "口乾",
+          "name": "咽乾",
           "count": 34,
           "syndrome_count": 34
         },
         {
-          "name": "咽乾",
+          "name": "口乾",
           "count": 34,
           "syndrome_count": 34
         },
@@ -58,6 +58,11 @@
           "syndrome_count": 23
         },
         {
+          "name": "面白",
+          "count": 16,
+          "syndrome_count": 16
+        },
+        {
           "name": "面色晄白",
           "count": 16,
           "syndrome_count": 16
@@ -68,17 +73,12 @@
           "syndrome_count": 16
         },
         {
-          "name": "面色蒼白",
-          "count": 16,
-          "syndrome_count": 16
-        },
-        {
           "name": "面色蒼",
           "count": 16,
           "syndrome_count": 16
         },
         {
-          "name": "面白",
+          "name": "面色蒼白",
           "count": 16,
           "syndrome_count": 16
         },
@@ -148,12 +148,7 @@
           "syndrome_count": 4
         },
         {
-          "name": "身熱面赤",
-          "count": 3,
-          "syndrome_count": 3
-        },
-        {
-          "name": "身可見口",
+          "name": "面白神疲",
           "count": 3,
           "syndrome_count": 3
         },
@@ -163,7 +158,7 @@
           "syndrome_count": 3
         },
         {
-          "name": "身可見面",
+          "name": "身可見口",
           "count": 3,
           "syndrome_count": 3
         },
@@ -173,12 +168,12 @@
           "syndrome_count": 3
         },
         {
-          "name": "面白神疲",
+          "name": "身熱面赤",
           "count": 3,
           "syndrome_count": 3
         },
         {
-          "name": "心煩口渴",
+          "name": "身可見面",
           "count": 3,
           "syndrome_count": 3
         },
@@ -188,17 +183,12 @@
           "syndrome_count": 3
         },
         {
-          "name": "面赤氣粗",
-          "count": 2,
-          "syndrome_count": 2
+          "name": "心煩口渴",
+          "count": 3,
+          "syndrome_count": 3
         },
         {
-          "name": "面浮肢腫",
-          "count": 2,
-          "syndrome_count": 2
-        },
-        {
-          "name": "面色紫暗",
+          "name": "面色暗淡",
           "count": 2,
           "syndrome_count": 2
         },
@@ -208,17 +198,27 @@
           "syndrome_count": 2
         },
         {
+          "name": "面色紫暗",
+          "count": 2,
+          "syndrome_count": 2
+        },
+        {
           "name": "神疲頭晕",
           "count": 2,
           "syndrome_count": 2
         },
         {
-          "name": "面色暗淡",
+          "name": "面白色淡",
           "count": 2,
           "syndrome_count": 2
         },
         {
-          "name": "面白色淡",
+          "name": "面赤氣粗",
+          "count": 2,
+          "syndrome_count": 2
+        },
+        {
+          "name": "面浮肢腫",
           "count": 2,
           "syndrome_count": 2
         }
@@ -289,14 +289,39 @@
           "syndrome_count": 5
         },
         {
+          "name": "心悸氣短",
+          "count": 4,
+          "syndrome_count": 4
+        },
+        {
           "name": "脘脹",
           "count": 4,
           "syndrome_count": 4
         },
         {
-          "name": "心悸氣短",
-          "count": 4,
-          "syndrome_count": 4
+          "name": "心腹冷痛",
+          "count": 3,
+          "syndrome_count": 3
+        },
+        {
+          "name": "心煩躁擾",
+          "count": 3,
+          "syndrome_count": 3
+        },
+        {
+          "name": "心煩不寐",
+          "count": 3,
+          "syndrome_count": 3
+        },
+        {
+          "name": "脘痛",
+          "count": 3,
+          "syndrome_count": 3
+        },
+        {
+          "name": "腹瀉",
+          "count": 3,
+          "syndrome_count": 3
         },
         {
           "name": "心煩懊憹",
@@ -304,7 +329,7 @@
           "syndrome_count": 3
         },
         {
-          "name": "心煩不寐",
+          "name": "心煩喜嘔",
           "count": 3,
           "syndrome_count": 3
         },
@@ -319,29 +344,9 @@
           "syndrome_count": 3
         },
         {
-          "name": "脘痛",
-          "count": 3,
-          "syndrome_count": 3
-        },
-        {
-          "name": "心腹冷痛",
-          "count": 3,
-          "syndrome_count": 3
-        },
-        {
-          "name": "腹瀉",
-          "count": 3,
-          "syndrome_count": 3
-        },
-        {
-          "name": "心煩喜嘔",
-          "count": 3,
-          "syndrome_count": 3
-        },
-        {
-          "name": "心煩躁擾",
-          "count": 3,
-          "syndrome_count": 3
+          "name": "脘悶",
+          "count": 2,
+          "syndrome_count": 2
         },
         {
           "name": "心中懊憹",
@@ -354,22 +359,7 @@
           "syndrome_count": 2
         },
         {
-          "name": "脘悶",
-          "count": 2,
-          "syndrome_count": 2
-        },
-        {
-          "name": "心下痞硬",
-          "count": 2,
-          "syndrome_count": 2
-        },
-        {
-          "name": "心煩不得",
-          "count": 2,
-          "syndrome_count": 2
-        },
-        {
-          "name": "心下硬滿",
+          "name": "心包證",
           "count": 2,
           "syndrome_count": 2
         },
@@ -379,17 +369,27 @@
           "syndrome_count": 2
         },
         {
-          "name": "心包證",
-          "count": 2,
-          "syndrome_count": 2
-        },
-        {
           "name": "心下悸",
           "count": 2,
           "syndrome_count": 2
         },
         {
+          "name": "心煩不得",
+          "count": 2,
+          "syndrome_count": 2
+        },
+        {
           "name": "心煩乾嘔",
+          "count": 2,
+          "syndrome_count": 2
+        },
+        {
+          "name": "心下痞硬",
+          "count": 2,
+          "syndrome_count": 2
+        },
+        {
+          "name": "心下硬滿",
           "count": 2,
           "syndrome_count": 2
         }
@@ -415,17 +415,17 @@
           "syndrome_count": 9
         },
         {
+          "name": "腰痛",
+          "count": 4,
+          "syndrome_count": 4
+        },
+        {
           "name": "腰膝酸軟",
           "count": 4,
           "syndrome_count": 4
         },
         {
           "name": "腰酸",
-          "count": 4,
-          "syndrome_count": 4
-        },
-        {
-          "name": "腰痛",
           "count": 4,
           "syndrome_count": 4
         },
@@ -573,6 +573,11 @@
           "syndrome_count": 27
         },
         {
+          "name": "神昏譫語",
+          "count": 12,
+          "syndrome_count": 12
+        },
+        {
           "name": "神疲乏力",
           "count": 12,
           "syndrome_count": 12
@@ -583,29 +588,9 @@
           "syndrome_count": 12
         },
         {
-          "name": "神昏譫語",
-          "count": 12,
-          "syndrome_count": 12
-        },
-        {
           "name": "多夢",
           "count": 11,
           "syndrome_count": 11
-        },
-        {
-          "name": "神疲欲寐",
-          "count": 3,
-          "syndrome_count": 3
-        },
-        {
-          "name": "神志昏沉",
-          "count": 3,
-          "syndrome_count": 3
-        },
-        {
-          "name": "神不振",
-          "count": 3,
-          "syndrome_count": 3
         },
         {
           "name": "神萎靡",
@@ -618,12 +603,37 @@
           "syndrome_count": 3
         },
         {
+          "name": "神志昏沉",
+          "count": 3,
+          "syndrome_count": 3
+        },
+        {
+          "name": "神疲欲寐",
+          "count": 3,
+          "syndrome_count": 3
+        },
+        {
+          "name": "神不振",
+          "count": 3,
+          "syndrome_count": 3
+        },
+        {
           "name": "神志昏迷",
           "count": 3,
           "syndrome_count": 3
         },
         {
-          "name": "神抑鬱",
+          "name": "神昏驚厥",
+          "count": 2,
+          "syndrome_count": 2
+        },
+        {
+          "name": "神抑鬱或",
+          "count": 2,
+          "syndrome_count": 2
+        },
+        {
+          "name": "神志不清",
           "count": 2,
           "syndrome_count": 2
         },
@@ -643,17 +653,7 @@
           "syndrome_count": 2
         },
         {
-          "name": "神昏驚厥",
-          "count": 2,
-          "syndrome_count": 2
-        },
-        {
-          "name": "神志不清",
-          "count": 2,
-          "syndrome_count": 2
-        },
-        {
-          "name": "神抑鬱或",
+          "name": "神抑鬱",
           "count": 2,
           "syndrome_count": 2
         },
@@ -715,12 +715,12 @@
           "syndrome_count": 9
         },
         {
-          "name": "月經量",
+          "name": "月經不",
           "count": 7,
           "syndrome_count": 7
         },
         {
-          "name": "月經不",
+          "name": "月經量",
           "count": 7,
           "syndrome_count": 7
         },
@@ -781,22 +781,22 @@
           "syndrome_count": 33
         },
         {
-          "name": "脈數",
-          "count": 27,
-          "syndrome_count": 27
-        },
-        {
           "name": "氣短",
           "count": 27,
           "syndrome_count": 27
         },
         {
-          "name": "脈滑",
+          "name": "脈數",
+          "count": 27,
+          "syndrome_count": 27
+        },
+        {
+          "name": "倦怠",
           "count": 23,
           "syndrome_count": 23
         },
         {
-          "name": "倦怠",
+          "name": "脈滑",
           "count": 23,
           "syndrome_count": 23
         },
@@ -811,12 +811,12 @@
           "syndrome_count": 19
         },
         {
-          "name": "形體消瘦",
+          "name": "刺痛",
           "count": 14,
           "syndrome_count": 14
         },
         {
-          "name": "刺痛",
+          "name": "形體消瘦",
           "count": 14,
           "syndrome_count": 14
         },
@@ -826,22 +826,22 @@
           "syndrome_count": 13
         },
         {
-          "name": "水腫",
-          "count": 10,
-          "syndrome_count": 10
-        },
-        {
           "name": "氣懶言",
           "count": 10,
           "syndrome_count": 10
         },
         {
-          "name": "脈弱",
+          "name": "水腫",
           "count": 10,
           "syndrome_count": 10
         },
         {
           "name": "浮腫",
+          "count": 10,
+          "syndrome_count": 10
+        },
+        {
+          "name": "脈弱",
           "count": 10,
           "syndrome_count": 10
         },
@@ -856,6 +856,11 @@
           "syndrome_count": 8
         },
         {
+          "name": "氣虛證",
+          "count": 7,
+          "syndrome_count": 7
+        },
+        {
           "name": "不寐",
           "count": 7,
           "syndrome_count": 7
@@ -866,29 +871,9 @@
           "syndrome_count": 7
         },
         {
-          "name": "氣虛證",
-          "count": 7,
-          "syndrome_count": 7
-        },
-        {
           "name": "痰多",
           "count": 6,
           "syndrome_count": 6
-        },
-        {
-          "name": "喘息",
-          "count": 5,
-          "syndrome_count": 5
-        },
-        {
-          "name": "困倦",
-          "count": 5,
-          "syndrome_count": 5
-        },
-        {
-          "name": "身體困重",
-          "count": 5,
-          "syndrome_count": 5
         },
         {
           "name": "身困重",
@@ -901,17 +886,32 @@
           "syndrome_count": 5
         },
         {
+          "name": "身體困重",
+          "count": 5,
+          "syndrome_count": 5
+        },
+        {
+          "name": "喘息",
+          "count": 5,
+          "syndrome_count": 5
+        },
+        {
           "name": "氣短乏力",
           "count": 5,
           "syndrome_count": 5
         },
         {
-          "name": "身症狀",
+          "name": "困倦",
+          "count": 5,
+          "syndrome_count": 5
+        },
+        {
+          "name": "氣滯證",
           "count": 4,
           "syndrome_count": 4
         },
         {
-          "name": "氣滯證",
+          "name": "身症狀",
           "count": 4,
           "syndrome_count": 4
         },
@@ -926,17 +926,7 @@
           "syndrome_count": 3
         },
         {
-          "name": "氣息急促",
-          "count": 3,
-          "syndrome_count": 3
-        },
-        {
           "name": "氣虛弱證",
-          "count": 3,
-          "syndrome_count": 3
-        },
-        {
-          "name": "絞痛",
           "count": 3,
           "syndrome_count": 3
         },
@@ -956,22 +946,17 @@
           "syndrome_count": 3
         },
         {
-          "name": "痰白",
-          "count": 2,
-          "syndrome_count": 2
+          "name": "絞痛",
+          "count": 3,
+          "syndrome_count": 3
         },
         {
-          "name": "氣逆證",
-          "count": 2,
-          "syndrome_count": 2
+          "name": "氣息急促",
+          "count": 3,
+          "syndrome_count": 3
         },
         {
           "name": "身皆腫",
-          "count": 2,
-          "syndrome_count": 2
-        },
-        {
-          "name": "身疼痛",
           "count": 2,
           "syndrome_count": 2
         },
@@ -981,7 +966,22 @@
           "syndrome_count": 2
         },
         {
-          "name": "氣促",
+          "name": "早洩",
+          "count": 2,
+          "syndrome_count": 2
+        },
+        {
+          "name": "身黃如金",
+          "count": 2,
+          "syndrome_count": 2
+        },
+        {
+          "name": "身不遂",
+          "count": 2,
+          "syndrome_count": 2
+        },
+        {
+          "name": "身症狀可",
           "count": 2,
           "syndrome_count": 2
         }

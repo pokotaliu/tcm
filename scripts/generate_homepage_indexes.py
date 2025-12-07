@@ -255,6 +255,15 @@ def generate_syndrome_index(syndromes):
         '專科證候': 'specialty'
     }
 
+    # 臟腑證候子分類的自定義排序
+    zangfu_subcat_order = ['心系', '肝系', '脾系', '肺系', '腎系', '腑系', '臟腑兼證', '其他臟腑']
+
+    def get_subcat_sort_key(cat_name, subcat_name):
+        """獲取子分類的排序鍵"""
+        if cat_name == '臟腑證候' and subcat_name in zangfu_subcat_order:
+            return (zangfu_subcat_order.index(subcat_name), subcat_name)
+        return (999, subcat_name)
+
     for cat_name in category_order:
         if cat_name not in categories_data:
             continue
@@ -263,7 +272,10 @@ def generate_syndrome_index(syndromes):
         subcategories = []
         cat_total = 0
 
-        for subcat_name, syn_list in sorted(subcats.items()):
+        # 根據分類使用不同的排序邏輯
+        sorted_subcats = sorted(subcats.items(), key=lambda x: get_subcat_sort_key(cat_name, x[0]))
+
+        for subcat_name, syn_list in sorted_subcats:
             # 按編號排序
             syn_list.sort(key=lambda x: x.get('number', 9999))
             cat_total += len(syn_list)

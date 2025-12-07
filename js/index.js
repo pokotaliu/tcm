@@ -48,7 +48,7 @@ function cacheElements() {
 }
 
 /**
- * 設置事件監聽器
+ * 設置事件監聯器
  */
 function setupEventListeners() {
   // 模組切換
@@ -78,6 +78,19 @@ function setupEventListeners() {
   });
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') closeModal();
+  });
+
+  // 展開更多按鈕
+  document.querySelectorAll('.btn-expand-more').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const targetId = btn.dataset.target;
+      const targetEl = document.getElementById(targetId);
+      if (targetEl) {
+        targetEl.classList.toggle('hidden');
+        btn.classList.toggle('expanded');
+        btn.textContent = targetEl.classList.contains('hidden') ? '展開更多' : '收起';
+      }
+    });
   });
 }
 
@@ -195,11 +208,26 @@ function renderCategorySection(category) {
 function renderSyndromeTags(syndromes) {
   if (!syndromes || syndromes.length === 0) return '';
 
-  return syndromes.map(s => `
-    <span class="syndrome-tag" data-id="${s.id}" title="${s.name}">
-      <span class="tag-number">#${s.number}</span>${s.name}
-    </span>
-  `).join('');
+  return syndromes.map(s => {
+    // 建立 tooltip 內容
+    let tooltipContent = '';
+    if (s.location && s.location.length > 0) {
+      tooltipContent += `<span class="tooltip-location">📍 ${s.location.join('、')}</span>`;
+    }
+    if (s.nature && s.nature.length > 0) {
+      tooltipContent += `<span class="tooltip-nature">🔹 ${s.nature.join('、')}</span>`;
+    }
+
+    const tooltipHtml = tooltipContent
+      ? `<span class="tooltip">${tooltipContent}</span>`
+      : '';
+
+    return `
+      <span class="syndrome-tag" data-id="${s.id}">
+        <span class="tag-number">${s.number}</span>${s.name}${tooltipHtml}
+      </span>
+    `;
+  }).join('');
 }
 
 /**

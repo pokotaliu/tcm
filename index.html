@@ -93,13 +93,13 @@
           <div class="symptom-categories-preview">
             <h3>8 大症狀分類</h3>
             <div class="symptom-category-btns">
-              <button class="symptom-cat-btn" disabled>全身症狀</button>
               <button class="symptom-cat-btn" disabled>頭面五官</button>
               <button class="symptom-cat-btn" disabled>胸腹症狀</button>
+              <button class="symptom-cat-btn" disabled>腰背四肢</button>
               <button class="symptom-cat-btn" disabled>二便異常</button>
-              <button class="symptom-cat-btn" disabled>皮膚症狀</button>
-              <button class="symptom-cat-btn" disabled>舌脈象</button>
-              <button class="symptom-cat-btn" disabled>精神情志</button>
+              <button class="symptom-cat-btn" disabled>寒熱汗出</button>
+              <button class="symptom-cat-btn" disabled>神志精神</button>
+              <button class="symptom-cat-btn" disabled>飲食口味</button>
               <button class="symptom-cat-btn" disabled>婦兒專科</button>
             </div>
           </div>
@@ -120,7 +120,7 @@
           <div class="zhengsu-preview">
             <div class="zhengsu-preview-section">
               <h3>病位證素</h3>
-              <div class="zhengsu-preview-tags">
+              <div class="zhengsu-preview-tags" id="location-tags">
                 <span class="preview-tag location">心</span>
                 <span class="preview-tag location">肝</span>
                 <span class="preview-tag location">脾</span>
@@ -128,12 +128,23 @@
                 <span class="preview-tag location">腎</span>
                 <span class="preview-tag location">胃</span>
                 <span class="preview-tag location">膽</span>
-                <span class="preview-tag location">...</span>
               </div>
+              <div class="zhengsu-preview-tags zhengsu-expanded hidden" id="location-tags-expanded">
+                <span class="preview-tag location">大腸</span>
+                <span class="preview-tag location">小腸</span>
+                <span class="preview-tag location">膀胱</span>
+                <span class="preview-tag location">表</span>
+                <span class="preview-tag location">半表半裡</span>
+                <span class="preview-tag location">胞宮</span>
+                <span class="preview-tag location">經絡</span>
+                <span class="preview-tag location">肌膚</span>
+                <span class="preview-tag location">筋骨</span>
+              </div>
+              <button class="btn-expand-more" data-target="location-tags-expanded">展開更多</button>
             </div>
             <div class="zhengsu-preview-section">
               <h3>病性證素</h3>
-              <div class="zhengsu-preview-tags">
+              <div class="zhengsu-preview-tags" id="nature-tags">
                 <span class="preview-tag nature xu">氣虛</span>
                 <span class="preview-tag nature xu">血虛</span>
                 <span class="preview-tag nature xu">陰虛</span>
@@ -141,8 +152,34 @@
                 <span class="preview-tag nature shi">氣滯</span>
                 <span class="preview-tag nature shi">血瘀</span>
                 <span class="preview-tag nature shi">痰</span>
-                <span class="preview-tag nature shi">...</span>
               </div>
+              <div class="zhengsu-preview-tags zhengsu-expanded hidden" id="nature-tags-expanded">
+                <span class="zhengsu-group-label">虛證：</span>
+                <span class="preview-tag nature xu">精虧</span>
+                <span class="preview-tag nature xu">津虧</span>
+                <span class="zhengsu-group-label">氣機：</span>
+                <span class="preview-tag nature shi">氣逆</span>
+                <span class="preview-tag nature shi">氣陷</span>
+                <span class="preview-tag nature shi">氣閉</span>
+                <span class="preview-tag nature shi">氣脫</span>
+                <span class="zhengsu-group-label">血病：</span>
+                <span class="preview-tag nature shi">血熱</span>
+                <span class="preview-tag nature shi">血寒</span>
+                <span class="preview-tag nature shi">動血</span>
+                <span class="zhengsu-group-label">外邪：</span>
+                <span class="preview-tag nature shi">風</span>
+                <span class="preview-tag nature shi">寒</span>
+                <span class="preview-tag nature shi">暑</span>
+                <span class="preview-tag nature shi">濕</span>
+                <span class="preview-tag nature shi">燥</span>
+                <span class="preview-tag nature shi">火</span>
+                <span class="preview-tag nature shi">毒</span>
+                <span class="zhengsu-group-label">病產：</span>
+                <span class="preview-tag nature shi">飲</span>
+                <span class="preview-tag nature shi">水停</span>
+                <span class="preview-tag nature shi">食積</span>
+              </div>
+              <button class="btn-expand-more" data-target="nature-tags-expanded">展開更多</button>
             </div>
           </div>
 
@@ -190,7 +227,22 @@
                     <td class="placeholder-cell">-</td>
                   </tr>
                   <tr>
+                    <td>病因病機</td>
+                    <td class="placeholder-cell">-</td>
+                    <td class="placeholder-cell">-</td>
+                  </tr>
+                  <tr>
                     <td>鑑別要點</td>
+                    <td class="placeholder-cell">-</td>
+                    <td class="placeholder-cell">-</td>
+                  </tr>
+                  <tr>
+                    <td>治法</td>
+                    <td class="placeholder-cell">-</td>
+                    <td class="placeholder-cell">-</td>
+                  </tr>
+                  <tr>
+                    <td>代表方劑</td>
                     <td class="placeholder-cell">-</td>
                     <td class="placeholder-cell">-</td>
                   </tr>
