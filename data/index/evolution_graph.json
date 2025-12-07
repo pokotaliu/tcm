@@ -1,0 +1,4234 @@
+{
+  "version": "2.0",
+  "generated_at": "2025-12-07",
+  "description": "證型演變關係的有向圖結構，支援首頁互動式演變圖",
+  "nodes": [
+    {
+      "id": "tai_yin_zheng",
+      "name": "太陰證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "tai_yang_zheng",
+      "name": "太陽證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "shao_yin_zheng",
+      "name": "少陰證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "shao_yang_zheng",
+      "name": "少陽證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "xin_qi_xu",
+      "name": "心氣虛證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "qi_xu_zheng",
+      "name": "氣虛證",
+      "category": "基礎證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "qi_xue_liang_xu",
+      "name": "氣血兩虛證",
+      "category": "基礎證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "qingyang_busheng_zheng",
+      "name": "清陽不升證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "gan_qi_xu",
+      "name": "肝氣虛證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "fei_qi_xu",
+      "name": "肺氣虛證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "pi_qi_xu",
+      "name": "脾氣虛證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "shen_qi_xu",
+      "name": "腎氣虛證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "zhong_qi_xia_xian",
+      "name": "中氣下陷證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "qi_xu_bu_gu",
+      "name": "氣不固攝證",
+      "category": "基礎證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "shen_qi_bu_gu",
+      "name": "腎氣不固證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "qi_jue_zheng",
+      "name": "氣厥證",
+      "category": "基礎證候",
+      "severity": 3,
+      "is_critical": true
+    },
+    {
+      "id": "qi_tuo_zheng",
+      "name": "氣脫證",
+      "category": "危重證候",
+      "severity": 3,
+      "is_critical": true
+    },
+    {
+      "id": "wang_yin_zheng",
+      "name": "亡陰證",
+      "category": "危重證候",
+      "severity": 4,
+      "is_critical": true
+    },
+    {
+      "id": "wang_yang_zheng",
+      "name": "亡陽證",
+      "category": "危重證候",
+      "severity": 4,
+      "is_critical": true
+    },
+    {
+      "id": "shirehuazao",
+      "name": "濕熱化燥證",
+      "category": "溫病證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xinweihuosheng",
+      "name": "心胃火盛證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "yangming",
+      "name": "陽明證",
+      "category": "基礎證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "tanhuoraoxin",
+      "name": "痰火擾心證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "zhenrejiahan",
+      "name": "真熱假寒證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "taiyangbiaoxu",
+      "name": "太陽表虛證",
+      "category": "傷寒證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "yinxutanzu",
+      "name": "陰虛痰阻證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xiaoerfenghanshubiao",
+      "name": "小兒風寒束表證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "ganyuxuexu",
+      "name": "肝鬱血虛證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "ganyuyinxu",
+      "name": "肝鬱陰虛證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "chongrentanshiningjie",
+      "name": "衝任痰濕凝結證",
+      "category": "專科證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "shushangfeiluo",
+      "name": "暑傷肺絡證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "taiyangbiaohanliyin",
+      "name": "太陽表寒里飲證",
+      "category": "傷寒證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "hanrecuozapi",
+      "name": "寒熱錯雜痞證",
+      "category": "傷寒證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "taiyangreraoxionggezhongjiaoxuhan",
+      "name": "太陽熱擾胸膈中焦虛寒證",
+      "category": "傷寒證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "fengrexifei",
+      "name": "風熱襲肺證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xueyu_huare",
+      "name": "血瘀化熱證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "shireyuyujingluo",
+      "name": "濕熱鬱於經絡證",
+      "category": "溫病證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "shaoyinyinshenggeyang",
+      "name": "少陰陰盛格陽證",
+      "category": "傷寒證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "weixuqinipi",
+      "name": "胃虛氣逆痞證",
+      "category": "傷寒證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "shaoyinyangyusini",
+      "name": "少陰陽鬱四逆證",
+      "category": "傷寒證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "ganpibudiao",
+      "name": "肝脾不調證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "taiyangreraoxiongge",
+      "name": "太陽熱擾胸膈證",
+      "category": "傷寒證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "shushiyuzheng",
+      "name": "暑濕鬱蒸證",
+      "category": "溫病證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "xierexiali",
+      "name": "邪熱下利證",
+      "category": "傷寒證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "shiduyunjiejifu",
+      "name": "濕毒蘊結肌膚證",
+      "category": "專科證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "xuhuoshuohou",
+      "name": "虛火爍喉證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "biaorejianlihanxiapodachang",
+      "name": "表熱兼里寒下迫大腸證",
+      "category": "傷寒證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "binghouxuleiqini",
+      "name": "病後虛羸氣逆證",
+      "category": "傷寒證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "yangxuwaigan",
+      "name": "陽虛外感證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "fengshiyunfu",
+      "name": "風濕蘊膚證",
+      "category": "專科證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "roulunshire",
+      "name": "肉輪濕熱證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "huore",
+      "name": "火熱證",
+      "category": "基礎證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "shaoyinxuhuofanyan",
+      "name": "少陰虛火犯咽證",
+      "category": "傷寒證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "shuilunqizhixueyu",
+      "name": "水輪氣滯血瘀證",
+      "category": "專科證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "yangmingshire",
+      "name": "陽明濕熱證",
+      "category": "傷寒證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xuexu_jinkui",
+      "name": "血虛津虧證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "shitanliujupixia",
+      "name": "濕痰流聚皮下證",
+      "category": "專科證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "shiremimansanjiao",
+      "name": "濕熱瀰漫三焦證",
+      "category": "溫病證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "shubiqiji",
+      "name": "暑閉氣機證",
+      "category": "全身證候",
+      "severity": 4,
+      "is_critical": true
+    },
+    {
+      "id": "danyutanrao",
+      "name": "膽鬱痰擾證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "taiyangxushui",
+      "name": "太陽蓄水證",
+      "category": "傷寒證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "yinxu",
+      "name": "陰虛證",
+      "category": "基礎證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xiaoerfeirechisheng",
+      "name": "小兒肺熱熾盛證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "yangxuxueyu",
+      "name": "陽虛血瘀證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xueyu_shuiting",
+      "name": "血瘀水停證",
+      "category": "全身證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "qixueliangxu",
+      "name": "氣血兩虛證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "hantan",
+      "name": "寒痰證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "dachangjinkui",
+      "name": "大腸津虧證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "shuilunxueluobizu",
+      "name": "水輪血络痹阻證",
+      "category": "專科證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "fengreyuzhijifu",
+      "name": "風熱郁滯肌膚證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "pijingshire",
+      "name": "脾經濕熱證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "qiyingliangfan",
+      "name": "氣營兩燔證",
+      "category": "溫病證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "pixushuiting",
+      "name": "脾虛水停證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "dachangbugu",
+      "name": "大腸不固證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "pixushiji",
+      "name": "脾虛食積證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xinqixuxueyu",
+      "name": "心氣虛血瘀證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "pangguangshiyue",
+      "name": "膀胱失約證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "yinxufeizao",
+      "name": "陰虛肺燥證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "piyue",
+      "name": "脾約證",
+      "category": "傷寒證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "taiyangbiaohanlire",
+      "name": "太陽表寒里熱證",
+      "category": "傷寒證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "fenghanbiao",
+      "name": "風寒表證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "shenbunaqi",
+      "name": "腎不納氣證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "taiyangxieyujibiao",
+      "name": "太陽邪鬱肌表證",
+      "category": "傷寒證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "pixuqizhi",
+      "name": "脾虛氣滯證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "shieweiyang",
+      "name": "濕遏衛陽證",
+      "category": "溫病證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "yangxu",
+      "name": "陽虛證",
+      "category": "基礎證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "ganyuxueyu",
+      "name": "肝鬱血瘀證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "fenglunqixuxielian(liu)",
+      "name": "風輪氣虛邪戀(留)證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "taiyangyinyangliangxuxuyangshangrao",
+      "name": "太陽陰陽兩虛虛陽上擾證",
+      "category": "傷寒證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "shushikunzuzhongjiao",
+      "name": "暑濕困阻中焦證",
+      "category": "溫病證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "ganqiyujie",
+      "name": "肝氣鬱結證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "xueyuqizhi",
+      "name": "血瘀氣滯證",
+      "category": "全身證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "tanshizubao",
+      "name": "痰濕阻胞證",
+      "category": "專科證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "qini",
+      "name": "氣逆證",
+      "category": "基礎證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "yinxushire",
+      "name": "陰虛濕熱證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "taiyangyinyangjuxu",
+      "name": "太陽陰陽俱虛證",
+      "category": "傷寒證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "yangxuyinting",
+      "name": "陽虛飲停證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "taiyinhanshiyujie",
+      "name": "太陰寒濕鬱結證",
+      "category": "傷寒證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "shire",
+      "name": "濕熱證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "reshengniangnong",
+      "name": "熱盛釀膿證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xinpiliangxu",
+      "name": "心脾兩虛證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xiaoerfengwenshubiao",
+      "name": "小兒風溫束表證",
+      "category": "專科證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "qixuduzhi",
+      "name": "氣虛毒滯證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "taiyangxiexianpiqibuhe",
+      "name": "太陽邪陷脾氣不和證",
+      "category": "傷寒證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "shaoyangjianbiao",
+      "name": "少陽兼表證",
+      "category": "傷寒證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "ganhuofanfei",
+      "name": "肝火犯肺證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "shenyangxu",
+      "name": "腎陽虛證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "zangjie",
+      "name": "臟結證",
+      "category": "傷寒證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "feiyinxu",
+      "name": "肺陰虛證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "yinxufeire",
+      "name": "陰虛肺熱證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "chongrenxushuai",
+      "name": "衝任虛衰證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xuexufengzao",
+      "name": "血虛風燥證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xiajiaohuatuo",
+      "name": "下焦滑脫證",
+      "category": "傷寒證候",
+      "severity": 4,
+      "is_critical": true
+    },
+    {
+      "id": "weiqiangpiruo",
+      "name": "胃強脾弱證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "yinxuneire",
+      "name": "陰虛內熱證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "shaoyinxuhanhuatuo",
+      "name": "少陰虛寒滑脫證",
+      "category": "傷寒證候",
+      "severity": 4,
+      "is_critical": true
+    },
+    {
+      "id": "shuilunshuishitingju",
+      "name": "水輪水濕停聚證",
+      "category": "專科證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "shenqibugu",
+      "name": "腎氣不固證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "zhengxuduxian",
+      "name": "正虛毒陷證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xiaoerneirechisheng",
+      "name": "小兒內熱熾盛證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "taiyangyangxuxinshenfuyue",
+      "name": "太陽陽虛心神浮越證",
+      "category": "傷寒證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "hanzhixinmai",
+      "name": "寒滯心脈證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "taiyangyangmingfanweishangni",
+      "name": "太陽陽明犯胃上逆證",
+      "category": "傷寒證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "qixu_xueyu",
+      "name": "氣虛血瘀證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "qingyangbusheng",
+      "name": "清陽不升證",
+      "category": "全身證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "xueredongfeng",
+      "name": "血熱動風證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "pixushire",
+      "name": "脾虛濕熱證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "taiyangrexiepofei",
+      "name": "太陽熱邪迫肺證",
+      "category": "傷寒證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "chongrenre",
+      "name": "衝任熱證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "shirezhengbi",
+      "name": "濕熱蒸鼻證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "tanyuzufei",
+      "name": "痰瘀阻肺證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "xiaoerganshenyinxu",
+      "name": "小兒肝腎陰虛證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "qizhishizu",
+      "name": "氣滯濕阻證",
+      "category": "全身證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "shuiyinneiting",
+      "name": "水飲內停證",
+      "category": "全身證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "xuere",
+      "name": "血熱證",
+      "category": "基礎證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xiaoerpiweixuruo",
+      "name": "小兒脾胃虛弱證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "taiyangbiaoxujingshubuli",
+      "name": "太陽表虛經輸不利證",
+      "category": "傷寒證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "tanreneirao",
+      "name": "痰熱內擾證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "weihan",
+      "name": "胃寒證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "fengxieredufaner",
+      "name": "風邪熱毒犯耳證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xueyu_qizhi",
+      "name": "血瘀氣滯證",
+      "category": "全身證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "shuiqilingxin",
+      "name": "水氣凌心證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "zao",
+      "name": "燥證",
+      "category": "基礎證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "shuiyintingjuxiongxie",
+      "name": "水飲停聚胸脅證",
+      "category": "傷寒證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "shenyangxushuifan",
+      "name": "腎陽虛水泛證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "rejieweichang",
+      "name": "熱結胃腸證",
+      "category": "溫病證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "hanxiefanweizhuoyinshangni",
+      "name": "寒邪犯胃濁陰上逆證",
+      "category": "傷寒證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "fenghuoredu",
+      "name": "風火熱毒證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xinshenyangxu",
+      "name": "心腎陽虛證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "fengreyidu",
+      "name": "風熱疫毒證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "taiyangyangxubiaoweibugu",
+      "name": "太陽陽虛表衛不固證",
+      "category": "傷寒證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xuehan",
+      "name": "血寒證",
+      "category": "基礎證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "wangyin",
+      "name": "亡陰證",
+      "category": "基礎證候",
+      "severity": 4,
+      "is_critical": true
+    },
+    {
+      "id": "pixutanshi",
+      "name": "脾虛痰濕證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "shuilunshire",
+      "name": "水輪實熱證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xinqiyinliangxu",
+      "name": "心氣陰兩虛證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "jifuyuzhi",
+      "name": "肌膚瘀滯證",
+      "category": "專科證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "ganweibuhe",
+      "name": "肝胃不和證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "rehaozhenyin",
+      "name": "熱耗真陰證",
+      "category": "溫病證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "qizhixueyu",
+      "name": "氣滯血瘀證",
+      "category": "全身證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "roulunqixu",
+      "name": "肉輪氣虛證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "fengretandu",
+      "name": "風熱痰毒證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "tanmixinqiao",
+      "name": "痰迷心竅證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "yangmingshirejianbiao",
+      "name": "陽明濕熱兼表證",
+      "category": "傷寒證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "ganfengneidong",
+      "name": "肝風內動證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "wenzao",
+      "name": "溫燥證",
+      "category": "全身證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "qizhi_tanning",
+      "name": "氣滯痰凝證",
+      "category": "全身證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "shireneiyun",
+      "name": "濕熱內蘊證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xuere_dongfeng",
+      "name": "血熱動風證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "chanhoubaixueshangchong",
+      "name": "產後敗血上衝證",
+      "category": "專科證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "feng",
+      "name": "風證",
+      "category": "基礎證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "binghouyureweijinlaofu",
+      "name": "病後餘熱未盡勞復證",
+      "category": "傷寒證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "yuxue_bizu",
+      "name": "瘀血痺阻證",
+      "category": "全身證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "piweiqixu",
+      "name": "脾胃氣虛證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "reraoxiongge",
+      "name": "熱擾胸膈證",
+      "category": "溫病證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "shitan",
+      "name": "濕痰證",
+      "category": "全身證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "xuexuhanning",
+      "name": "血虛寒凝證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xuexu_shengfeng",
+      "name": "血虛生風證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xieliuyinfen",
+      "name": "邪留陰分證",
+      "category": "溫病證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "xiaoerpixugankang",
+      "name": "小兒脾虛肝亢證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "pangguangshire",
+      "name": "膀胱濕熱證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xinyangxuxueyu",
+      "name": "心陽虛血瘀證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xuerexieshi",
+      "name": "血熱挾濕證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "shuilunyinxuhuowang",
+      "name": "水輪陰虛火旺證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "feiqishuaijue",
+      "name": "肺氣衰絕證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "taiyangzhongxuliji",
+      "name": "太陽中虛里急證",
+      "category": "傷寒證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "tanreneibi",
+      "name": "痰熱內閉證",
+      "category": "全身證候",
+      "severity": 4,
+      "is_critical": true
+    },
+    {
+      "id": "xinfeiyinxu",
+      "name": "心肺陰虛證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xiaoerrejishengfeng",
+      "name": "小兒熱極生風證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "shireyunjiejifu",
+      "name": "濕熱蘊結肌膚證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xuetuo",
+      "name": "血脫證",
+      "category": "基礎證候",
+      "severity": 4,
+      "is_critical": true
+    },
+    {
+      "id": "yangmingshuirehujie",
+      "name": "陽明水熱互結證",
+      "category": "傷寒證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "jueyinshangrexiahanyinxu",
+      "name": "厥陰上熱下寒陰虛證",
+      "category": "傷寒證候",
+      "severity": 4,
+      "is_critical": true
+    },
+    {
+      "id": "shuiluntanyuhujie",
+      "name": "水輪痰瘀互結證",
+      "category": "專科證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "tanyuhujie",
+      "name": "痰瘀互結證",
+      "category": "全身證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "qizhi_shizu",
+      "name": "氣滯濕阻證",
+      "category": "全身證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "qixu",
+      "name": "氣虛證",
+      "category": "基礎證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xuexu",
+      "name": "血虛證",
+      "category": "基礎證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "taiyangshuiqishangni",
+      "name": "太陽水氣上逆證",
+      "category": "傷寒證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "aizibingpiqixu",
+      "name": "艾滋病脾氣虛證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "fenglunshire",
+      "name": "風輪濕熱證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xuefen",
+      "name": "血分證",
+      "category": "基礎證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "jueyinxuexuhanyu",
+      "name": "厥陰血虛寒鬱證",
+      "category": "傷寒證候",
+      "severity": 4,
+      "is_critical": true
+    },
+    {
+      "id": "hanshiningzhijingu",
+      "name": "寒濕凝滯筋骨證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "yurexiangbo",
+      "name": "瘀熱相搏證",
+      "category": "溫病證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "dachangjiere",
+      "name": "大腸結熱證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "shaoyang",
+      "name": "少陽證",
+      "category": "基礎證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "shaoyinjianbiao",
+      "name": "少陰兼表證",
+      "category": "傷寒證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "xiaochangxuhan",
+      "name": "小腸虛寒證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "nongduyunjie",
+      "name": "膿毒蘊結證",
+      "category": "專科證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "fenglunredu",
+      "name": "風輪熱毒證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xiaoeryuanqixuruo",
+      "name": "小兒元氣虛弱證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "shenxusuikui",
+      "name": "腎虛髓虧證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "shenxuhantan",
+      "name": "腎虛寒痰證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "qixuxueyu",
+      "name": "氣虛血瘀證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "reduchisheng",
+      "name": "熱毒熾盛證",
+      "category": "溫病證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "taiyin",
+      "name": "太陰證",
+      "category": "基礎證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "dachangxuhan",
+      "name": "大腸虛寒證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "retan",
+      "name": "熱痰證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "qireshuojin",
+      "name": "氣熱爍津證",
+      "category": "溫病證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "fengshihuare",
+      "name": "風濕化熱證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xiaoerneibiwaituo",
+      "name": "小兒內閉外脫證",
+      "category": "專科證候",
+      "severity": 4,
+      "is_critical": true
+    },
+    {
+      "id": "feiyangxu",
+      "name": "肺陽虛證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "tanredongfeng",
+      "name": "痰熱動風證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "aizibingfeiqiyinliangxu",
+      "name": "艾滋病肺氣陰兩虛證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xiefumoyuan",
+      "name": "邪伏膜原證",
+      "category": "溫病證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "xiaoerfeiqixuruo",
+      "name": "小兒肺氣虛弱證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "taiyangyinshengxuyangshangrao",
+      "name": "太陽陰盛虛陽上擾證",
+      "category": "傷寒證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "hanshizuzhi",
+      "name": "寒濕阻滯證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "fengduyunfu",
+      "name": "風毒蘊膚證",
+      "category": "專科證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "shishangpiwei",
+      "name": "食傷脾胃證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "shuishifanlan",
+      "name": "水濕泛濫證",
+      "category": "全身證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "fenghanhuare",
+      "name": "風寒化熱證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "yuzufeiluo",
+      "name": "瘀阻肺絡證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "taiyangbiaoshi",
+      "name": "太陽表實證",
+      "category": "傷寒證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "shenyinxu",
+      "name": "腎陰虛證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "yinxuwaigan",
+      "name": "陰虛外感證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "ganyutanjie",
+      "name": "肝瘀痰結證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "hanshibizu",
+      "name": "寒濕痺阻證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xiereyujiejifu",
+      "name": "邪熱瘀結肌膚證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "chongdushirejiefu",
+      "name": "蟲毒濕熱結膚證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "baogongxuhan",
+      "name": "胞宮虛寒證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xiaoerxinqikuixu",
+      "name": "小兒心氣虧虛證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "fengshuifanfei",
+      "name": "風水犯肺證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "shenyinyangliangxu",
+      "name": "腎陰陽兩虛證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "shuredongfeng",
+      "name": "暑熱動風證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xinfeiqixu",
+      "name": "心肺氣虛證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "zhenhanjiare",
+      "name": "真寒假熱證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "weifen",
+      "name": "衛分證",
+      "category": "基礎證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "taiyangbiaoxufeiqibuli",
+      "name": "太陽表虛肺氣不利證",
+      "category": "傷寒證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "hanzhiganmai",
+      "name": "寒滯肝脈證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "yinxuxuere",
+      "name": "陰虛血熱證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xieduchisheng",
+      "name": "邪毒熾盛證",
+      "category": "基礎證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "hanyintingfei",
+      "name": "寒飲停肺證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xiaojiexiong",
+      "name": "小結胸證",
+      "category": "傷寒證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "jueyin",
+      "name": "厥陰證",
+      "category": "基礎證候",
+      "severity": 4,
+      "is_critical": true
+    },
+    {
+      "id": "shenyinxuhuowang",
+      "name": "腎陰虛火旺證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "yinxuyangkang",
+      "name": "陰虛陽亢證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "ganyinxu",
+      "name": "肝陰虛證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "redubifei",
+      "name": "熱毒閉肺證",
+      "category": "臟腑證候",
+      "severity": 4,
+      "is_critical": true
+    },
+    {
+      "id": "ganpiqixu",
+      "name": "肝脾氣虛證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "feirechisheng",
+      "name": "肺熱熾盛證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "hantanzufei",
+      "name": "寒痰阻肺證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "taiyangfengshixiangbo",
+      "name": "太陽風濕相搏證",
+      "category": "傷寒證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "han",
+      "name": "寒證",
+      "category": "基礎證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "taiyang",
+      "name": "太陽證",
+      "category": "基礎證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "ganshenyinxu",
+      "name": "肝腎陰虛證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "qilunyinxu",
+      "name": "氣輪陰虛證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "yangxushikun",
+      "name": "陽虛濕困證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xiedu_chisheng",
+      "name": "邪毒熾盛證",
+      "category": "基礎證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "xiaoerxinjingshire",
+      "name": "小兒心經實熱證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "weire",
+      "name": "胃熱證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "qibi",
+      "name": "氣閉證",
+      "category": "基礎證候",
+      "severity": 4,
+      "is_critical": true
+    },
+    {
+      "id": "qizhi_xueyu",
+      "name": "氣滯血瘀證",
+      "category": "全身證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "ganyangxu",
+      "name": "肝陽虛證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "biaohanfeire",
+      "name": "表寒肺熱證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "jingtuo",
+      "name": "精脫證",
+      "category": "基礎證候",
+      "severity": 4,
+      "is_critical": true
+    },
+    {
+      "id": "chongrenyuzu",
+      "name": "衝任瘀阻證",
+      "category": "專科證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "feiqixubise",
+      "name": "肺氣虛鼻塞證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "yangmingyuxue",
+      "name": "陽明瘀血證",
+      "category": "傷寒證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "fengreshangrao",
+      "name": "風熱上擾證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "shuiluntanshi",
+      "name": "水輪痰濕證",
+      "category": "專科證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "taiyangxiongyangbuzhen",
+      "name": "太陽胸陽不振證",
+      "category": "傷寒證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "yinxudusheng",
+      "name": "陰虛毒盛證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "taiyangxuxue",
+      "name": "太陽蓄血證",
+      "category": "傷寒證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "wangyang",
+      "name": "亡陽證",
+      "category": "基礎證候",
+      "severity": 4,
+      "is_critical": true
+    },
+    {
+      "id": "yangmingjing",
+      "name": "陽明經證",
+      "category": "傷寒證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "fengshifanbiao",
+      "name": "風濕犯表證",
+      "category": "全身證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "shureshangqi",
+      "name": "暑熱傷氣證",
+      "category": "溫病證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "pixushikun",
+      "name": "脾虛濕困證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "yinxufengdong",
+      "name": "陰虛風動證",
+      "category": "溫病證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "qilunredu",
+      "name": "氣輪熱毒證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "shuilunqixuxueyu",
+      "name": "水輪氣虛血瘀證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xinhuokangsheng",
+      "name": "心火亢盛證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "index",
+      "name": "",
+      "category": "",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "roulunredu",
+      "name": "肉輪熱毒證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "shuilunhuoxieshangluo",
+      "name": "水輪火邪傷络證",
+      "category": "專科證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "qizhishuiting",
+      "name": "氣滯水停證",
+      "category": "全身證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "qilunfengre",
+      "name": "氣輪風熱證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "chongduxifu",
+      "name": "蟲毒襲膚證",
+      "category": "專科證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "shaoyinjianyangming",
+      "name": "少陰兼陽明證",
+      "category": "傷寒證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "shaoyinyinxuhuowang",
+      "name": "少陰陰虛火旺證",
+      "category": "傷寒證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "shaoyangjianbiaojilixushicuoza",
+      "name": "少陽兼表及里虛實錯雜證",
+      "category": "傷寒證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "pangguangxuhan",
+      "name": "膀胱虛寒證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xiaoerpiweixuhan",
+      "name": "小兒脾胃虛寒證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "jingxuekuixu",
+      "name": "精血虧虛證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "dajiexiong",
+      "name": "大結胸證",
+      "category": "傷寒證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "taiyangxiexianpixuweishi",
+      "name": "太陽邪陷脾虛胃實證",
+      "category": "傷寒證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "reduneixian",
+      "name": "熱毒內陷證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xindanqixu",
+      "name": "心膽氣虛證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "shuilunluobijingkui",
+      "name": "水輪絡痹精虧證",
+      "category": "專科證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "xinyinxuxueyu",
+      "name": "心陰虛血瘀證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "qifen",
+      "name": "氣分證",
+      "category": "基礎證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "xiaoerchongji",
+      "name": "小兒蟲積證",
+      "category": "專科證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "zaoshangfeiwei",
+      "name": "燥傷肺胃證",
+      "category": "溫病證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "nichuanxinbao",
+      "name": "逆傳心包證",
+      "category": "溫病證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "reduyunjiejifu",
+      "name": "熱毒蘊結肌膚證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "aizibingshiduyunjiejifu",
+      "name": "艾滋病濕毒蘊結肌膚證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "hanningxueyu",
+      "name": "寒凝血瘀證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "yingfen",
+      "name": "營分證",
+      "category": "基礎證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "taiyangyangxuxinshenshishou",
+      "name": "太陽陽虛心神失守證",
+      "category": "傷寒證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xinqixueliangxu",
+      "name": "心氣血兩虛證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "taiyangweiqishangni",
+      "name": "太陽胃氣上逆證",
+      "category": "傷寒證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "shaoyinyangxushuifan",
+      "name": "少陰陽虛水泛證",
+      "category": "傷寒證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "feiqiyinliangxu",
+      "name": "肺氣陰兩虛證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "shuilunqixu",
+      "name": "水輪氣虛證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xiaoerweihuoshangyan",
+      "name": "小兒胃火上炎證",
+      "category": "專科證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "zaotan",
+      "name": "燥痰證",
+      "category": "全身證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "taiyangreduohanshao",
+      "name": "太陽熱多寒少證",
+      "category": "傷寒證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "shangjiaozaore",
+      "name": "上焦燥熱證",
+      "category": "溫病證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "fengrebiao",
+      "name": "風熱表證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "qixufare",
+      "name": "氣虛發熱證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "qiyu_huahuo",
+      "name": "氣鬱化火證",
+      "category": "全身證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "tanzuxiongge",
+      "name": "痰阻胸膈證",
+      "category": "傷寒證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "taihan",
+      "name": "胎寒證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "shenjinghanshi",
+      "name": "腎經寒濕證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "pixuganyu",
+      "name": "脾虛肝鬱證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "qituo",
+      "name": "氣脫證",
+      "category": "基礎證候",
+      "severity": 4,
+      "is_critical": true
+    },
+    {
+      "id": "shaoyangjianweire",
+      "name": "少陽兼胃熱證",
+      "category": "傷寒證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xinqixu",
+      "name": "心氣虛證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xuelunxure",
+      "name": "血輪虛熱證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "qijieyanhou",
+      "name": "氣結咽喉證",
+      "category": "專科證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "hanshikunpi",
+      "name": "寒濕困脾證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "ganxuexu",
+      "name": "肝血虛證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xinshenbujiao",
+      "name": "心腎不交證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "fenglunyinxu",
+      "name": "風輪陰虛證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "shaoyinyangxuyinsheng",
+      "name": "少陰陽虛陰盛證",
+      "category": "傷寒證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "shaoyangqijiweijie",
+      "name": "少陽氣機微結證",
+      "category": "傷寒證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "shushibiao",
+      "name": "暑濕表證",
+      "category": "全身證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "roulunxuexu",
+      "name": "肉輪血虛證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "yinxuyangfu",
+      "name": "陰虛陽浮證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "jueyinhange",
+      "name": "厥陰寒格證",
+      "category": "傷寒證候",
+      "severity": 4,
+      "is_critical": true
+    },
+    {
+      "id": "feishenyinxu",
+      "name": "肺腎陰虛證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "reduruying",
+      "name": "熱毒入營證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "yinxudongfeng",
+      "name": "陰虛動風證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "yangxushuifan",
+      "name": "陽虛水泛證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "tanzhuoyuzuyanhou",
+      "name": "痰濁瘀阻咽喉證",
+      "category": "專科證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "qilunrezuxueyu",
+      "name": "氣輪熱阻血瘀證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "yangxutanning",
+      "name": "陽虛痰凝證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "shaoyinyinxushuirehujie",
+      "name": "少陰陰虛水熱互結證",
+      "category": "傷寒證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "shuiluntoufengtanhuo",
+      "name": "水輪頭風痰火證",
+      "category": "專科證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "jueyinhuijue",
+      "name": "厥陰蛔厥證",
+      "category": "傷寒證候",
+      "severity": 4,
+      "is_critical": true
+    },
+    {
+      "id": "xuexujinkui",
+      "name": "血虛津虧證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "zaoxiefanfei",
+      "name": "燥邪犯肺證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "xiaoertaiduneiyun",
+      "name": "小兒胎毒内蘊證",
+      "category": "專科證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "xinyangbaotuo",
+      "name": "心陽暴脫證",
+      "category": "臟腑證候",
+      "severity": 4,
+      "is_critical": true
+    },
+    {
+      "id": "xuezao",
+      "name": "血燥證",
+      "category": "基礎證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "xinganxuexu",
+      "name": "心肝血虛證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "ganyangshangkang",
+      "name": "肝陽上亢證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "xuelunshire",
+      "name": "血輪實熱證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "weiyangbuzuyinting",
+      "name": "胃陽不足飲停證",
+      "category": "傷寒證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "shaoyin",
+      "name": "少陰證",
+      "category": "基礎證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "chongrenbugu",
+      "name": "衝任不固證",
+      "category": "專科證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "gandanshire",
+      "name": "肝膽濕熱證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xiaoertanremengbixinqiao",
+      "name": "小兒痰熱蒙閉心竅證",
+      "category": "專科證候",
+      "severity": 4,
+      "is_critical": true
+    },
+    {
+      "id": "xueredongxue",
+      "name": "血熱動血證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xueyuhuare",
+      "name": "血瘀化熱證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "qixu_fare",
+      "name": "氣虛發熱證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "baogonghanning",
+      "name": "胞宮寒凝證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "yinxujinkui",
+      "name": "陰虛津虧證",
+      "category": "基礎證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xinxueyuzu",
+      "name": "心血瘀阻證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "qizhi",
+      "name": "氣滯證",
+      "category": "基礎證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "rejishengfeng",
+      "name": "熱極生風證",
+      "category": "溫病證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "yeqianbianjie",
+      "name": "液乾便結證",
+      "category": "溫病證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "shenjingbuzu",
+      "name": "腎精不足證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "piweiyangxu",
+      "name": "脾胃陽虛證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "tanzhuoneimengxinbao",
+      "name": "痰濁內蒙心包證",
+      "category": "溫病證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "shierefu",
+      "name": "濕遏熱伏證",
+      "category": "溫病證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "qixian",
+      "name": "氣陷證",
+      "category": "基礎證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "hanningxuezhijifu",
+      "name": "寒凝血滯肌膚證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xuexu_waigan",
+      "name": "血虛外感證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "jifushiyang",
+      "name": "肌膚失養證",
+      "category": "專科證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "yangxuhanning",
+      "name": "陽虛寒凝證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "shi",
+      "name": "濕證",
+      "category": "基礎證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "reruxueshi",
+      "name": "熱入血室證",
+      "category": "傷寒證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "shishen",
+      "name": "失神證",
+      "category": "基礎證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "fenglunfengre",
+      "name": "風輪風熱證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "ganweiqizhi",
+      "name": "肝胃氣滯證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "pishenyinxu",
+      "name": "脾腎陰虛證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "shuiluntanhuo",
+      "name": "水輪痰火證",
+      "category": "專科證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "taiyangshaoyangxiepodachang",
+      "name": "太陽少陽邪迫大腸證",
+      "category": "傷寒證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "repi",
+      "name": "熱痞證",
+      "category": "傷寒證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "pishenqixu",
+      "name": "脾腎氣虛證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "shenxuhanning",
+      "name": "腎虛寒凝證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "feipishenyangxu",
+      "name": "肺脾腎陽虛證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "qixu_waigan",
+      "name": "氣虛外感證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "taiyangxinqiyinliangxu",
+      "name": "太陽心氣陰兩虛證",
+      "category": "傷寒證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "qizhi_shuiting",
+      "name": "氣滯水停證",
+      "category": "全身證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "xueyu_dongxue",
+      "name": "血瘀動血證",
+      "category": "全身證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "taiyangxinyangbuzu",
+      "name": "太陽心陽不足證",
+      "category": "傷寒證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "shaoyinyinshengdaiyang",
+      "name": "少陰陰盛戴陽證",
+      "category": "傷寒證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "shuilunyinkui",
+      "name": "水輪陰虧證",
+      "category": "專科證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "feiqixu",
+      "name": "肺氣虛證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xiaoerpiweishizhi",
+      "name": "小兒脾胃食滯證",
+      "category": "專科證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "roulunrezuxueyu",
+      "name": "肉輪熱阻血瘀證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "repijianbiaoyangxu",
+      "name": "熱痞兼表陽虛證",
+      "category": "傷寒證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "taiyangshaoyangfanweishangni",
+      "name": "太陽少陽犯胃上逆證",
+      "category": "傷寒證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "qizhitanning",
+      "name": "氣滯痰凝證",
+      "category": "全身證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "pishenyangxu",
+      "name": "脾腎陽虛證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "weiyinxu",
+      "name": "胃陰虛證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "qilunshire",
+      "name": "氣輪濕熱證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xuexu_hanning",
+      "name": "血虛寒凝證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "roulunyinxufengdong",
+      "name": "肉輪陰虛風動證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "shu",
+      "name": "暑證",
+      "category": "基礎證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "fenghanxihou",
+      "name": "風寒襲喉證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xiaoerpixushengfeng",
+      "name": "小兒脾虛生風證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "reshangqiyin",
+      "name": "熱傷氣陰證",
+      "category": "溫病證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "shaoyinyangxuhuatuo",
+      "name": "少陰陽虛滑脫證",
+      "category": "傷寒證候",
+      "severity": 4,
+      "is_critical": true
+    },
+    {
+      "id": "xuerehuazao",
+      "name": "血熱化燥證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "taiyangyuxueyingqibufu",
+      "name": "太陽瘀血營氣不敷證",
+      "category": "傷寒證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "zhuoyinbujiang",
+      "name": "濁陰不降證",
+      "category": "全身證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "xueyuerqiao",
+      "name": "血瘀耳竅證",
+      "category": "專科證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "taiyangyangxushuiqishangchong",
+      "name": "太陽陽虛水氣上衝證",
+      "category": "傷寒證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "roulunfengre",
+      "name": "肉輪風熱證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "ganjingshire",
+      "name": "肝經濕熱證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "rejue",
+      "name": "熱厥證",
+      "category": "傷寒證候",
+      "severity": 4,
+      "is_critical": true
+    },
+    {
+      "id": "xuyangfuyue",
+      "name": "虛陽浮越證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xueyushuiting",
+      "name": "血瘀水停證",
+      "category": "全身證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "hanshijiexiong",
+      "name": "寒實結胸證",
+      "category": "傷寒證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "shaoyintanhuojieyan",
+      "name": "少陰痰火結咽證",
+      "category": "傷寒證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "shaoyinkerefanyan",
+      "name": "少陰客熱犯咽證",
+      "category": "傷寒證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xiaoerjingkongjingxia",
+      "name": "小兒驚恐驚嚇證",
+      "category": "專科證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "yinyangliangxu",
+      "name": "陰陽兩虛證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "weiqipisai",
+      "name": "胃氣痞塞證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "sanyanghebing",
+      "name": "三陽合病證",
+      "category": "傷寒證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "tan",
+      "name": "痰證",
+      "category": "基礎證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "shenxuxueyu",
+      "name": "腎虛血瘀證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "fengrefanfeibixibuli",
+      "name": "風熱犯肺鼻息不利證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "fengrefanhou",
+      "name": "風熱犯喉證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "shushangxinshen",
+      "name": "暑傷心腎證",
+      "category": "溫病證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "tanreyongfei",
+      "name": "痰熱壅肺證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "taiyangreraoxionggezhongjiaoqizhi",
+      "name": "太陽熱擾胸膈中焦氣滯證",
+      "category": "傷寒證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "taire",
+      "name": "胎熱證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "taiyangyingshangjingmaishiyang",
+      "name": "太陽營傷經脈失養證",
+      "category": "傷寒證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "pifeiqixu",
+      "name": "脾肺氣虛證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "danre",
+      "name": "膽熱證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xuexu_fengzao",
+      "name": "血虛風燥證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "qixuwaigan",
+      "name": "氣虛外感證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "shuilunqixuxueshao",
+      "name": "水輪氣虛血少證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "feirechangjie",
+      "name": "肺熱腸結證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "fengreyongsheng",
+      "name": "風熱壅盛證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "feijingyurefanbi",
+      "name": "肺經鬱熱犯鼻證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xiaoershireneisheng(yun)",
+      "name": "小兒濕熱內盛(蘊)證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "yinxu_jinkui",
+      "name": "陰虛津虧證",
+      "category": "基礎證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "taiyangyangxushuiqiyuchong",
+      "name": "太陽陽虛水氣欲沖證",
+      "category": "傷寒證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "fengxiefanbiao",
+      "name": "風邪犯表證",
+      "category": "全身證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "shirexiazhu",
+      "name": "濕熱下注證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xinxuexu",
+      "name": "心血虛證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xueyudongxue",
+      "name": "血瘀動血證",
+      "category": "全身證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "qiyuhuahuo",
+      "name": "氣鬱化火證",
+      "category": "全身證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "yangmingshirelishi",
+      "name": "陽明濕熱里實證",
+      "category": "傷寒證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "shaoyangbanbiaobanli",
+      "name": "少陽半表半里證",
+      "category": "傷寒證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "qiyinliangxu",
+      "name": "氣陰兩虛證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "yangmingjinshangchangzao",
+      "name": "陽明津傷腸燥證",
+      "category": "傷寒證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "yuxuebizu",
+      "name": "瘀血痺阻證",
+      "category": "全身證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "yinxuerqiaoshiru",
+      "name": "陰虛耳竅失濡證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xuexushengfeng",
+      "name": "血虛生風證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "fengtan",
+      "name": "風痰證",
+      "category": "全身證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "xiaoerreruyingxue",
+      "name": "小兒熱入營血證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "shaoyinhanxiefanyan",
+      "name": "少陰寒邪犯咽證",
+      "category": "傷寒證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "ganyuhuahuo",
+      "name": "肝鬱化火證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "weiqishangni",
+      "name": "胃氣上逆證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "shenqixu",
+      "name": "腎氣虛證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "yinxuxuezao",
+      "name": "陰虛血燥證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "shirebizu",
+      "name": "濕熱痺阻證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xueyu",
+      "name": "血瘀證",
+      "category": "基礎證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "shujianhanshi",
+      "name": "暑兼寒濕證",
+      "category": "溫病證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "tanzuxinmai",
+      "name": "痰阻心脈證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "fengraofeixi",
+      "name": "風擾肺系證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "fenghanfanfei",
+      "name": "風寒犯肺證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "shizuqifen",
+      "name": "濕阻氣分證",
+      "category": "溫病證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "ganhuoshangyan",
+      "name": "肝火上炎證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "bingchashuitingyaoxia",
+      "name": "病差水停腰下證",
+      "category": "傷寒證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "xiaoerxinpiliangxu",
+      "name": "小兒心脾兩虛證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "qizhixueyubiqiao",
+      "name": "氣滯血瘀鼻竅證",
+      "category": "專科證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "xiaochangqizhi",
+      "name": "小腸氣滯證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "piweishire",
+      "name": "脾胃濕熱證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "yangmingfushi",
+      "name": "陽明腑實證",
+      "category": "傷寒證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "taiyangyangmingxiepodachang",
+      "name": "太陽陽明邪迫大腸證",
+      "category": "傷寒證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "weiqixu",
+      "name": "胃氣虛證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xinyinxu",
+      "name": "心陰虛證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "feiyushuiting",
+      "name": "肺鬱水停證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "rouluntanshi",
+      "name": "肉輪痰濕證",
+      "category": "專科證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "shangrexiahan",
+      "name": "上熱下寒證",
+      "category": "傷寒證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xinyangxu",
+      "name": "心陽虛證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "dachangshire",
+      "name": "大腸濕熱證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "yinxuhuowang",
+      "name": "陰虛火旺證",
+      "category": "溫病證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xuexuwaigan",
+      "name": "血虛外感證",
+      "category": "全身證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "xiaoershenqixuruo",
+      "name": "小兒腎氣虛弱證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "gandanshirefaner",
+      "name": "肝膽濕熱犯耳證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "ganxueyuzhi",
+      "name": "肝血瘀滯證",
+      "category": "臟腑證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "taiyinxuhan",
+      "name": "太陰虛寒證",
+      "category": "傷寒證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "taiyangpixuqizhi",
+      "name": "太陽脾虛氣滯證",
+      "category": "傷寒證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "chongrenhan",
+      "name": "衝任寒證",
+      "category": "專科證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "jueyinrepodachang",
+      "name": "厥陰熱迫大腸證",
+      "category": "傷寒證候",
+      "severity": 4,
+      "is_critical": true
+    },
+    {
+      "id": "shaoyangjianlishi",
+      "name": "少陽兼里實證",
+      "category": "傷寒證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "danqixu",
+      "name": "膽氣虛證",
+      "category": "臟腑證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "duyongshangjiao",
+      "name": "毒壅上焦證",
+      "category": "溫病證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "shushixiezhi",
+      "name": "暑濕挾滯證",
+      "category": "溫病證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "shaoyinyangxuhanning",
+      "name": "少陰陽虛寒凝證",
+      "category": "傷寒證候",
+      "severity": 2,
+      "is_critical": false
+    },
+    {
+      "id": "shuitingshizhipi",
+      "name": "水停食滯痞證",
+      "category": "傷寒證候",
+      "severity": 1,
+      "is_critical": false
+    },
+    {
+      "id": "taiyangbiaoshijingshubuli",
+      "name": "太陽表實經輸不利證",
+      "category": "傷寒證候",
+      "severity": 1,
+      "is_critical": false
+    }
+  ],
+  "edges": [
+    {
+      "from": "shen_qi_xu",
+      "to": "shen_qi_bu_gu",
+      "relation": "惡化",
+      "condition": "",
+      "description": "腎氣虛證演變為腎氣不固證"
+    },
+    {
+      "from": "zhong_qi_xia_xian",
+      "to": "shen_qi_bu_gu",
+      "relation": "發展",
+      "condition": "",
+      "description": "腎氣不固證可由氣陷證發展而來"
+    },
+    {
+      "from": "pi_qi_xu",
+      "to": "qingyang_busheng_zheng",
+      "relation": "發展",
+      "condition": "",
+      "description": "脾氣虛證演變為清陽不升證"
+    },
+    {
+      "from": "pi_qi_xu",
+      "to": "pi_qi_xian",
+      "relation": "發展",
+      "condition": "",
+      "description": "脾氣虛證演變為pi_qi_xian"
+    },
+    {
+      "from": "pi_qi_xu",
+      "to": "pi_bu_tong_xue",
+      "relation": "發展",
+      "condition": "",
+      "description": "脾氣虛證演變為pi_bu_tong_xue"
+    },
+    {
+      "from": "pi_qi_xu",
+      "to": "fei_pi_qi_xu",
+      "relation": "發展",
+      "condition": "",
+      "description": "脾氣虛證演變為fei_pi_qi_xu"
+    },
+    {
+      "from": "pi_qi_xu",
+      "to": "pi_shen_yang_xu",
+      "relation": "發展",
+      "condition": "",
+      "description": "脾氣虛證演變為pi_shen_yang_xu"
+    },
+    {
+      "from": "tai_yang_zheng",
+      "to": "shao_yang_zheng",
+      "relation": "發展",
+      "condition": "",
+      "description": "太陽證寒熱並見，少陽證往來寒熱"
+    },
+    {
+      "from": "tai_yang_zheng",
+      "to": "yang_ming_zheng",
+      "relation": "發展",
+      "condition": "",
+      "description": "太陽主表宜解表，陽明主里宜清里"
+    },
+    {
+      "from": "tai_yang_zheng",
+      "to": "tai_yin_zheng",
+      "relation": "發展",
+      "condition": "",
+      "description": "太陽證演變為太陰證"
+    },
+    {
+      "from": "tai_yang_zheng",
+      "to": "shao_yin_zheng",
+      "relation": "發展",
+      "condition": "",
+      "description": "太陽證演變為少陰證"
+    },
+    {
+      "from": "tai_yang_zheng",
+      "to": "jue_yin_zheng",
+      "relation": "發展",
+      "condition": "",
+      "description": "太陽證演變為jue_yin_zheng"
+    },
+    {
+      "from": "shao_yin_zheng",
+      "to": "jue_yin_zheng",
+      "relation": "發展",
+      "condition": "",
+      "description": "少陰證一派虛寒，厥陰證寒熱錯雜"
+    },
+    {
+      "from": "yang_ming_zheng",
+      "to": "shao_yin_zheng",
+      "relation": "發展",
+      "condition": "",
+      "description": "yang_ming_zheng演變為少陰證"
+    },
+    {
+      "from": "tai_yin_zheng",
+      "to": "shao_yin_zheng",
+      "relation": "發展",
+      "condition": "",
+      "description": "下利後口渴與不渴：太陰病多從寒濕化生，寒濕瀰漫故口不渴；少陰證下利，腎陽虛不能蒸化津液上達，故多口渴"
+    },
+    {
+      "from": "qi_xu",
+      "to": "qi_xu_bu_gu",
+      "relation": "惡化",
+      "condition": "",
+      "description": "qi_xu演變為氣不固攝證"
+    },
+    {
+      "from": "tai_yin_zheng",
+      "to": "yang_ming_zheng",
+      "relation": "發展",
+      "condition": "",
+      "description": "太陰里虛寒濕，陽明里實熱燥，性質截然不同"
+    },
+    {
+      "from": "fei_qi_xu",
+      "to": "fei_pi_qi_xu",
+      "relation": "發展",
+      "condition": "",
+      "description": "肺氣虛證演變為fei_pi_qi_xu"
+    },
+    {
+      "from": "fei_qi_xu",
+      "to": "qi_xu_tan_sou",
+      "relation": "發展",
+      "condition": "",
+      "description": "肺氣虛證演變為qi_xu_tan_sou"
+    },
+    {
+      "from": "fei_qi_xu",
+      "to": "biao_wei_bu_gu",
+      "relation": "發展",
+      "condition": "",
+      "description": "肺氣虛證演變為biao_wei_bu_gu"
+    },
+    {
+      "from": "shao_yang_zheng",
+      "to": "yang_ming_zheng",
+      "relation": "發展",
+      "condition": "",
+      "description": "少陽證往來寒熱，陽明證但熱不寒"
+    },
+    {
+      "from": "shao_yang_zheng",
+      "to": "tai_yin_zheng",
+      "relation": "發展",
+      "condition": "",
+      "description": "少陽證演變為太陰證"
+    },
+    {
+      "from": "qi_xu",
+      "to": "qi_xue_liang_xu",
+      "relation": "發展",
+      "condition": "",
+      "description": "qi_xu演變為氣血兩虛證"
+    },
+    {
+      "from": "xue_xu",
+      "to": "qi_xue_liang_xu",
+      "relation": "發展",
+      "condition": "",
+      "description": "xue_xu演變為氣血兩虛證"
+    },
+    {
+      "from": "wang_yin_zheng",
+      "to": "wang_yang_zheng",
+      "relation": "危變",
+      "condition": "",
+      "description": "亡陰證演變為亡陽證"
+    },
+    {
+      "from": "yin_xu_zheng",
+      "to": "wang_yin_zheng",
+      "relation": "危變",
+      "condition": "",
+      "description": "yin_xu_zheng演變為亡陰證"
+    },
+    {
+      "from": "xin_qi_xu",
+      "to": "xin_yang_xu",
+      "relation": "發展",
+      "condition": "",
+      "description": "心氣虛證演變為xin_yang_xu"
+    },
+    {
+      "from": "xin_qi_xu",
+      "to": "qi_xue_liang_xu",
+      "relation": "發展",
+      "condition": "",
+      "description": "心氣虛證演變為氣血兩虛證"
+    },
+    {
+      "from": "zhong_qi_xia_xian",
+      "to": "qi_tuo_zheng",
+      "relation": "惡化",
+      "condition": "",
+      "description": "中氣下陷證演變為氣脫證"
+    },
+    {
+      "from": "qi_xu_zheng",
+      "to": "zhong_qi_xia_xian",
+      "relation": "惡化",
+      "condition": "",
+      "description": "氣虛證演變為中氣下陷證"
+    },
+    {
+      "from": "pi_qi_xu",
+      "to": "zhong_qi_xia_xian",
+      "relation": "惡化",
+      "condition": "",
+      "description": "脾氣虛證演變為中氣下陷證"
+    },
+    {
+      "from": "qi_tuo_zheng",
+      "to": "wang_yin_zheng",
+      "relation": "危變",
+      "condition": "",
+      "description": "氣脫證可為亡陰證的前奏"
+    },
+    {
+      "from": "qi_tuo_zheng",
+      "to": "wang_yang_zheng",
+      "relation": "危變",
+      "condition": "",
+      "description": "氣脫證可為亡陽證的先驅證候"
+    },
+    {
+      "from": "qi_xu_zheng",
+      "to": "qi_tuo_zheng",
+      "relation": "惡化",
+      "condition": "",
+      "description": "氣虛證演變為氣脫證"
+    },
+    {
+      "from": "yang_xu_zheng",
+      "to": "wang_yang_zheng",
+      "relation": "危變",
+      "condition": "",
+      "description": "yang_xu_zheng演變為亡陽證"
+    },
+    {
+      "from": "qi_xu_zheng",
+      "to": "qi_xue_liang_xu",
+      "relation": "發展",
+      "condition": "",
+      "description": "氣虛證演變為氣血兩虛證"
+    },
+    {
+      "from": "shen_qi_xu",
+      "to": "shen_yang_xu",
+      "relation": "發展",
+      "condition": "",
+      "description": "腎氣虛證演變為shen_yang_xu"
+    },
+    {
+      "from": "shen_qi_xu",
+      "to": "shen_bu_na_qi",
+      "relation": "發展",
+      "condition": "",
+      "description": "腎氣虛證演變為shen_bu_na_qi"
+    }
+  ],
+  "evolution_chains": [
+    {
+      "id": "chain_tai_yang_zheng",
+      "name": "太陽證演變鏈",
+      "description": "從太陽證到少陰證的演變路徑",
+      "path": [
+        "tai_yang_zheng",
+        "shao_yang_zheng",
+        "tai_yin_zheng",
+        "shao_yin_zheng"
+      ],
+      "severity_progression": "輕 → 輕 → 輕 → 輕"
+    },
+    {
+      "id": "chain_xin_qi_xu",
+      "name": "心氣虛證演變鏈",
+      "description": "從心氣虛證到氣血兩虛證的演變路徑",
+      "path": [
+        "xin_qi_xu",
+        "qi_xue_liang_xu"
+      ],
+      "severity_progression": "輕 → 輕"
+    },
+    {
+      "id": "chain_qi_xu_zheng",
+      "name": "氣虛證演變鏈",
+      "description": "從氣虛證到亡陽證的演變路徑",
+      "path": [
+        "qi_xu_zheng",
+        "zhong_qi_xia_xian",
+        "qi_tuo_zheng",
+        "wang_yin_zheng",
+        "wang_yang_zheng"
+      ],
+      "severity_progression": "輕 → 中 → 重 → 危 → 危"
+    },
+    {
+      "id": "chain_pi_qi_xu",
+      "name": "脾氣虛證演變鏈",
+      "description": "從脾氣虛證到亡陽證的演變路徑",
+      "path": [
+        "pi_qi_xu",
+        "zhong_qi_xia_xian",
+        "qi_tuo_zheng",
+        "wang_yin_zheng",
+        "wang_yang_zheng"
+      ],
+      "severity_progression": "輕 → 中 → 重 → 危 → 危"
+    },
+    {
+      "id": "chain_shen_qi_xu",
+      "name": "腎氣虛證演變鏈",
+      "description": "從腎氣虛證到腎氣不固證的演變路徑",
+      "path": [
+        "shen_qi_xu",
+        "shen_qi_bu_gu"
+      ],
+      "severity_progression": "輕 → 中"
+    },
+    {
+      "id": "qi_disease_chain",
+      "name": "氣病演變鏈",
+      "description": "從氣虛到氣脫的完整演變路徑",
+      "path": [
+        "qi_xu_zheng",
+        "zhong_qi_xia_xian",
+        "qi_tuo_zheng"
+      ],
+      "severity_progression": "輕 → 中 → 重"
+    }
+  ],
+  "branch_points": [
+    {
+      "from": "shen_qi_xu",
+      "from_name": "腎氣虛證",
+      "branches": [
+        {
+          "to": "shen_qi_bu_gu",
+          "to_name": "腎氣不固證",
+          "description": ""
+        },
+        {
+          "to": "shen_yang_xu",
+          "to_name": "shen_yang_xu",
+          "description": ""
+        },
+        {
+          "to": "shen_bu_na_qi",
+          "to_name": "shen_bu_na_qi",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "from": "zhong_qi_xia_xian",
+      "from_name": "中氣下陷證",
+      "branches": [
+        {
+          "to": "shen_qi_bu_gu",
+          "to_name": "腎氣不固證",
+          "description": ""
+        },
+        {
+          "to": "qi_tuo_zheng",
+          "to_name": "氣脫證",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "from": "pi_qi_xu",
+      "from_name": "脾氣虛證",
+      "branches": [
+        {
+          "to": "qingyang_busheng_zheng",
+          "to_name": "清陽不升證",
+          "description": ""
+        },
+        {
+          "to": "pi_qi_xian",
+          "to_name": "pi_qi_xian",
+          "description": ""
+        },
+        {
+          "to": "pi_bu_tong_xue",
+          "to_name": "pi_bu_tong_xue",
+          "description": ""
+        },
+        {
+          "to": "fei_pi_qi_xu",
+          "to_name": "fei_pi_qi_xu",
+          "description": ""
+        },
+        {
+          "to": "pi_shen_yang_xu",
+          "to_name": "pi_shen_yang_xu",
+          "description": ""
+        },
+        {
+          "to": "zhong_qi_xia_xian",
+          "to_name": "中氣下陷證",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "from": "tai_yang_zheng",
+      "from_name": "太陽證",
+      "branches": [
+        {
+          "to": "shao_yang_zheng",
+          "to_name": "少陽證",
+          "description": ""
+        },
+        {
+          "to": "yang_ming_zheng",
+          "to_name": "yang_ming_zheng",
+          "description": ""
+        },
+        {
+          "to": "tai_yin_zheng",
+          "to_name": "太陰證",
+          "description": ""
+        },
+        {
+          "to": "shao_yin_zheng",
+          "to_name": "少陰證",
+          "description": ""
+        },
+        {
+          "to": "jue_yin_zheng",
+          "to_name": "jue_yin_zheng",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "from": "tai_yin_zheng",
+      "from_name": "太陰證",
+      "branches": [
+        {
+          "to": "shao_yin_zheng",
+          "to_name": "少陰證",
+          "description": ""
+        },
+        {
+          "to": "yang_ming_zheng",
+          "to_name": "yang_ming_zheng",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "from": "qi_xu",
+      "from_name": "qi_xu",
+      "branches": [
+        {
+          "to": "qi_xu_bu_gu",
+          "to_name": "氣不固攝證",
+          "description": ""
+        },
+        {
+          "to": "qi_xue_liang_xu",
+          "to_name": "氣血兩虛證",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "from": "fei_qi_xu",
+      "from_name": "肺氣虛證",
+      "branches": [
+        {
+          "to": "fei_pi_qi_xu",
+          "to_name": "fei_pi_qi_xu",
+          "description": ""
+        },
+        {
+          "to": "qi_xu_tan_sou",
+          "to_name": "qi_xu_tan_sou",
+          "description": ""
+        },
+        {
+          "to": "biao_wei_bu_gu",
+          "to_name": "biao_wei_bu_gu",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "from": "shao_yang_zheng",
+      "from_name": "少陽證",
+      "branches": [
+        {
+          "to": "yang_ming_zheng",
+          "to_name": "yang_ming_zheng",
+          "description": ""
+        },
+        {
+          "to": "tai_yin_zheng",
+          "to_name": "太陰證",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "from": "xin_qi_xu",
+      "from_name": "心氣虛證",
+      "branches": [
+        {
+          "to": "xin_yang_xu",
+          "to_name": "xin_yang_xu",
+          "description": ""
+        },
+        {
+          "to": "qi_xue_liang_xu",
+          "to_name": "氣血兩虛證",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "from": "qi_xu_zheng",
+      "from_name": "氣虛證",
+      "branches": [
+        {
+          "to": "zhong_qi_xia_xian",
+          "to_name": "中氣下陷證",
+          "description": ""
+        },
+        {
+          "to": "qi_tuo_zheng",
+          "to_name": "氣脫證",
+          "description": ""
+        },
+        {
+          "to": "qi_xue_liang_xu",
+          "to_name": "氣血兩虛證",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "from": "qi_tuo_zheng",
+      "from_name": "氣脫證",
+      "branches": [
+        {
+          "to": "wang_yin_zheng",
+          "to_name": "亡陰證",
+          "description": ""
+        },
+        {
+          "to": "wang_yang_zheng",
+          "to_name": "亡陽證",
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_nodes": 522,
+    "total_edges": 38,
+    "critical_nodes": 26,
+    "evolution_chains": 6
+  }
+}

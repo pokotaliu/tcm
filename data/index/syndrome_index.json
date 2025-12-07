@@ -1,0 +1,5743 @@
+{
+  "version": "2.0",
+  "generated_at": "2025-12-07",
+  "description": "證型分類索引（含子分類），支援首頁分類瀏覽",
+  "total": 503,
+  "categories": [
+    {
+      "id": "basic",
+      "name": "基礎證候",
+      "count": 39,
+      "subcategories": [
+        {
+          "name": "六經系列",
+          "count": 6,
+          "syndromes": [
+            {
+              "id": "taiyang",
+              "name": "太陽證",
+              "number": 28,
+              "location": [
+                "表"
+              ],
+              "nature": [
+                "風",
+                "寒"
+              ]
+            },
+            {
+              "id": "yangming",
+              "name": "陽明證",
+              "number": 29,
+              "location": [
+                "胃",
+                "大腸"
+              ],
+              "nature": [
+                "火"
+              ]
+            },
+            {
+              "id": "shaoyang",
+              "name": "少陽證",
+              "number": 30,
+              "location": [
+                "膽"
+              ],
+              "nature": [
+                "火"
+              ]
+            },
+            {
+              "id": "taiyin",
+              "name": "太陰證",
+              "number": 31,
+              "location": [
+                "脾"
+              ],
+              "nature": [
+                "陽虛",
+                "寒",
+                "濕"
+              ]
+            },
+            {
+              "id": "jueyin",
+              "name": "厥陰證",
+              "number": 32,
+              "location": [
+                "肝"
+              ],
+              "nature": [
+                "寒",
+                "火"
+              ]
+            },
+            {
+              "id": "shaoyin",
+              "name": "少陰證",
+              "number": 33,
+              "location": [
+                "腎",
+                "心"
+              ],
+              "nature": [
+                "陽虛"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "外邪系列",
+          "count": 8,
+          "syndromes": [
+            {
+              "id": "feng",
+              "name": "風證",
+              "number": 20,
+              "location": [],
+              "nature": [
+                "風"
+              ]
+            },
+            {
+              "id": "han",
+              "name": "寒證",
+              "number": 21,
+              "location": [],
+              "nature": [
+                "寒"
+              ]
+            },
+            {
+              "id": "shu",
+              "name": "暑證",
+              "number": 22,
+              "location": [],
+              "nature": [
+                "暑"
+              ]
+            },
+            {
+              "id": "shi",
+              "name": "濕證",
+              "number": 23,
+              "location": [],
+              "nature": [
+                "濕"
+              ]
+            },
+            {
+              "id": "zao",
+              "name": "燥證",
+              "number": 24,
+              "location": [],
+              "nature": [
+                "燥"
+              ]
+            },
+            {
+              "id": "huore",
+              "name": "火熱證",
+              "number": 25,
+              "location": [],
+              "nature": [
+                "火"
+              ]
+            },
+            {
+              "id": "xieduchisheng",
+              "name": "邪毒熾盛證",
+              "number": 27,
+              "location": [],
+              "nature": [
+                "毒",
+                "火"
+              ]
+            },
+            {
+              "id": "xiedu_chisheng",
+              "name": "邪毒熾盛證",
+              "number": 27,
+              "location": [],
+              "nature": [
+                "毒",
+                "火"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "氣病系列",
+          "count": 6,
+          "syndromes": [
+            {
+              "id": "qixu",
+              "name": "氣虛證",
+              "number": 1,
+              "location": [],
+              "nature": [
+                "氣虛"
+              ]
+            },
+            {
+              "id": "qixian",
+              "name": "氣陷證",
+              "number": 2,
+              "location": [
+                "脾"
+              ],
+              "nature": [
+                "氣虛",
+                "氣陷"
+              ]
+            },
+            {
+              "id": "qituo",
+              "name": "氣脫證",
+              "number": 3,
+              "location": [],
+              "nature": [
+                "氣脫"
+              ]
+            },
+            {
+              "id": "qizhi",
+              "name": "氣滯證",
+              "number": 4,
+              "location": [],
+              "nature": [
+                "氣滯"
+              ]
+            },
+            {
+              "id": "qini",
+              "name": "氣逆證",
+              "number": 5,
+              "location": [],
+              "nature": [
+                "氣逆"
+              ]
+            },
+            {
+              "id": "qibi",
+              "name": "氣閉證",
+              "number": 6,
+              "location": [],
+              "nature": [
+                "氣閉"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "精津系列",
+          "count": 1,
+          "syndromes": [
+            {
+              "id": "jingtuo",
+              "name": "精脫證",
+              "number": 13,
+              "location": [
+                "腎"
+              ],
+              "nature": [
+                "精虧",
+                "氣脫"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "血病系列",
+          "count": 6,
+          "syndromes": [
+            {
+              "id": "xuexu",
+              "name": "血虛證",
+              "number": 7,
+              "location": [],
+              "nature": [
+                "血虛"
+              ]
+            },
+            {
+              "id": "xuetuo",
+              "name": "血脫證",
+              "number": 8,
+              "location": [],
+              "nature": [
+                "動血",
+                "氣脫"
+              ]
+            },
+            {
+              "id": "xueyu",
+              "name": "血瘀證",
+              "number": 9,
+              "location": [],
+              "nature": [
+                "血瘀"
+              ]
+            },
+            {
+              "id": "xuere",
+              "name": "血熱證",
+              "number": 10,
+              "location": [],
+              "nature": [
+                "血熱"
+              ]
+            },
+            {
+              "id": "xuezao",
+              "name": "血燥證",
+              "number": 11,
+              "location": [],
+              "nature": [
+                "血虛",
+                "燥"
+              ]
+            },
+            {
+              "id": "xuehan",
+              "name": "血寒證",
+              "number": 12,
+              "location": [],
+              "nature": [
+                "血寒"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "衛氣營血系列",
+          "count": 5,
+          "syndromes": [
+            {
+              "id": "tan",
+              "name": "痰證",
+              "number": 26,
+              "location": [],
+              "nature": [
+                "痰"
+              ]
+            },
+            {
+              "id": "weifen",
+              "name": "衛分證",
+              "number": 34,
+              "location": [
+                "表",
+                "肺"
+              ],
+              "nature": [
+                "風",
+                "火"
+              ]
+            },
+            {
+              "id": "qifen",
+              "name": "氣分證",
+              "number": 35,
+              "location": [],
+              "nature": [
+                "火"
+              ]
+            },
+            {
+              "id": "yingfen",
+              "name": "營分證",
+              "number": 36,
+              "location": [
+                "心"
+              ],
+              "nature": [
+                "火"
+              ]
+            },
+            {
+              "id": "xuefen",
+              "name": "血分證",
+              "number": 37,
+              "location": [
+                "心"
+              ],
+              "nature": [
+                "火",
+                "動血"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "陰陽系列",
+          "count": 7,
+          "syndromes": [
+            {
+              "id": "yinxujinkui",
+              "name": "陰虛津虧證",
+              "number": 14,
+              "location": [],
+              "nature": [
+                "陰虛",
+                "津虧"
+              ]
+            },
+            {
+              "id": "yinxu_jinkui",
+              "name": "陰虛津虧證",
+              "number": 14,
+              "location": [],
+              "nature": [
+                "陰虛",
+                "津虧"
+              ]
+            },
+            {
+              "id": "yinxu",
+              "name": "陰虛證",
+              "number": 15,
+              "location": [],
+              "nature": [
+                "陰虛"
+              ]
+            },
+            {
+              "id": "yangxu",
+              "name": "陽虛證",
+              "number": 16,
+              "location": [],
+              "nature": [
+                "陽虛"
+              ]
+            },
+            {
+              "id": "wangyin",
+              "name": "亡陰證",
+              "number": 17,
+              "location": [],
+              "nature": [
+                "亡陰"
+              ]
+            },
+            {
+              "id": "wangyang",
+              "name": "亡陽證",
+              "number": 18,
+              "location": [],
+              "nature": [
+                "亡陽"
+              ]
+            },
+            {
+              "id": "shishen",
+              "name": "失神證",
+              "number": 19,
+              "location": [
+                "心"
+              ],
+              "nature": [
+                "氣虛"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "systemic",
+      "name": "全身證候",
+      "count": 97,
+      "subcategories": [
+        {
+          "name": "其他全身",
+          "count": 10,
+          "syndromes": [
+            {
+              "id": "xuyangfuyue",
+              "name": "虛陽浮越證",
+              "number": 68,
+              "location": [],
+              "nature": [
+                "陽虛",
+                "陽亢"
+              ]
+            },
+            {
+              "id": "qingyangbusheng",
+              "name": "清陽不升證",
+              "number": 69,
+              "location": [
+                "脾"
+              ],
+              "nature": [
+                "氣虛",
+                "氣陷"
+              ]
+            },
+            {
+              "id": "zhuoyinbujiang",
+              "name": "濁陰不降證",
+              "number": 70,
+              "location": [
+                "胃"
+              ],
+              "nature": [
+                "氣逆"
+              ]
+            },
+            {
+              "id": "yinyangliangxu",
+              "name": "陰陽兩虛證",
+              "number": 78,
+              "location": [],
+              "nature": [
+                "陰虛",
+                "陽虛"
+              ]
+            },
+            {
+              "id": "qixueliangxu",
+              "name": "氣血兩虛證",
+              "number": 79,
+              "location": [],
+              "nature": [
+                "氣虛",
+                "血虛"
+              ]
+            },
+            {
+              "id": "qiyinliangxu",
+              "name": "氣陰兩虛證",
+              "number": 80,
+              "location": [],
+              "nature": [
+                "氣虛",
+                "陰虛"
+              ]
+            },
+            {
+              "id": "fengxiefanbiao",
+              "name": "風邪犯表證",
+              "number": 81,
+              "location": [
+                "表"
+              ],
+              "nature": [
+                "風"
+              ]
+            },
+            {
+              "id": "shubiqiji",
+              "name": "暑閉氣機證",
+              "number": 97,
+              "location": [],
+              "nature": [
+                "氣閉",
+                "暑"
+              ]
+            },
+            {
+              "id": "shuiyinneiting",
+              "name": "水飲內停證",
+              "number": 101,
+              "location": [],
+              "nature": [
+                "水停"
+              ]
+            },
+            {
+              "id": "wenzao",
+              "name": "溫燥證",
+              "number": 104,
+              "location": [],
+              "nature": [
+                "燥",
+                "火"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "寒證類",
+          "count": 4,
+          "syndromes": [
+            {
+              "id": "fenghanbiao",
+              "name": "風寒表證",
+              "number": 82,
+              "location": [
+                "表"
+              ],
+              "nature": [
+                "風",
+                "寒"
+              ]
+            },
+            {
+              "id": "fenghanhuare",
+              "name": "風寒化熱證",
+              "number": 89,
+              "location": [],
+              "nature": [
+                "風",
+                "寒"
+              ]
+            },
+            {
+              "id": "zhenhanjiare",
+              "name": "真寒假熱證",
+              "number": 93,
+              "location": [],
+              "nature": [
+                "陽虛",
+                "寒"
+              ]
+            },
+            {
+              "id": "zhenrejiahan",
+              "name": "真熱假寒證",
+              "number": 94,
+              "location": [],
+              "nature": [
+                "火"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "氣滯類",
+          "count": 12,
+          "syndromes": [
+            {
+              "id": "qizhixueyu",
+              "name": "氣滯血瘀證",
+              "number": 41,
+              "location": [],
+              "nature": [
+                "氣滯",
+                "血瘀"
+              ]
+            },
+            {
+              "id": "qizhi_xueyu",
+              "name": "氣滯血瘀證",
+              "number": 41,
+              "location": [],
+              "nature": [
+                "氣滯",
+                "血瘀"
+              ]
+            },
+            {
+              "id": "qizhi_tanning",
+              "name": "氣滯痰凝證",
+              "number": 42,
+              "location": [],
+              "nature": [
+                "氣滯",
+                "痰"
+              ]
+            },
+            {
+              "id": "qizhitanning",
+              "name": "氣滯痰凝證",
+              "number": 42,
+              "location": [],
+              "nature": [
+                "氣滯",
+                "痰"
+              ]
+            },
+            {
+              "id": "qizhishizu",
+              "name": "氣滯濕阻證",
+              "number": 43,
+              "location": [],
+              "nature": [
+                "氣滯",
+                "濕"
+              ]
+            },
+            {
+              "id": "qizhi_shizu",
+              "name": "氣滯濕阻證",
+              "number": 43,
+              "location": [],
+              "nature": [
+                "氣滯",
+                "濕"
+              ]
+            },
+            {
+              "id": "qiyu_huahuo",
+              "name": "氣鬱化火證",
+              "number": 44,
+              "location": [],
+              "nature": [
+                "氣滯",
+                "火"
+              ]
+            },
+            {
+              "id": "qiyuhuahuo",
+              "name": "氣鬱化火證",
+              "number": 44,
+              "location": [],
+              "nature": [
+                "氣滯",
+                "火"
+              ]
+            },
+            {
+              "id": "qizhishuiting",
+              "name": "氣滯水停證",
+              "number": 45,
+              "location": [],
+              "nature": [
+                "氣滯",
+                "水停"
+              ]
+            },
+            {
+              "id": "qizhi_shuiting",
+              "name": "氣滯水停證",
+              "number": 45,
+              "location": [],
+              "nature": [
+                "氣滯",
+                "水停"
+              ]
+            },
+            {
+              "id": "xueyuqizhi",
+              "name": "血瘀氣滯證",
+              "number": 51,
+              "location": [],
+              "nature": [
+                "氣滯",
+                "血瘀"
+              ]
+            },
+            {
+              "id": "xueyu_qizhi",
+              "name": "血瘀氣滯證",
+              "number": 51,
+              "location": [],
+              "nature": [
+                "氣滯",
+                "血瘀"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "氣虛類",
+          "count": 6,
+          "syndromes": [
+            {
+              "id": "qixufare",
+              "name": "氣虛發熱證",
+              "number": 38,
+              "location": [],
+              "nature": [
+                "氣虛",
+                "火"
+              ]
+            },
+            {
+              "id": "qixu_fare",
+              "name": "氣虛發熱證",
+              "number": 38,
+              "location": [],
+              "nature": [
+                "氣虛",
+                "火"
+              ]
+            },
+            {
+              "id": "qixu_waigan",
+              "name": "氣虛外感證",
+              "number": 39,
+              "location": [],
+              "nature": [
+                "氣虛"
+              ]
+            },
+            {
+              "id": "qixuwaigan",
+              "name": "氣虛外感證",
+              "number": 39,
+              "location": [],
+              "nature": [
+                "氣虛"
+              ]
+            },
+            {
+              "id": "qixu_xueyu",
+              "name": "氣虛血瘀證",
+              "number": 40,
+              "location": [],
+              "nature": [
+                "氣虛",
+                "血瘀"
+              ]
+            },
+            {
+              "id": "qixuxueyu",
+              "name": "氣虛血瘀證",
+              "number": 40,
+              "location": [],
+              "nature": [
+                "氣虛",
+                "血瘀"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "濕證類",
+          "count": 11,
+          "syndromes": [
+            {
+              "id": "xuerexieshi",
+              "name": "血熱挾濕證",
+              "number": 59,
+              "location": [],
+              "nature": [
+                "血熱",
+                "濕",
+                "火"
+              ]
+            },
+            {
+              "id": "fengshifanbiao",
+              "name": "風濕犯表證",
+              "number": 83,
+              "location": [
+                "表"
+              ],
+              "nature": [
+                "風",
+                "濕"
+              ]
+            },
+            {
+              "id": "fengshihuare",
+              "name": "風濕化熱證",
+              "number": 88,
+              "location": [],
+              "nature": [
+                "風",
+                "濕"
+              ]
+            },
+            {
+              "id": "hanshizuzhi",
+              "name": "寒濕阻滯證",
+              "number": 90,
+              "location": [],
+              "nature": [
+                "寒",
+                "濕"
+              ]
+            },
+            {
+              "id": "hanshibizu",
+              "name": "寒濕痺阻證",
+              "number": 91,
+              "location": [],
+              "nature": [
+                "寒",
+                "濕"
+              ]
+            },
+            {
+              "id": "shushibiao",
+              "name": "暑濕表證",
+              "number": 95,
+              "location": [
+                "表"
+              ],
+              "nature": [
+                "暑",
+                "濕"
+              ]
+            },
+            {
+              "id": "shire",
+              "name": "濕熱證",
+              "number": 98,
+              "location": [],
+              "nature": [
+                "濕",
+                "火"
+              ]
+            },
+            {
+              "id": "shirebizu",
+              "name": "濕熱痺阻證",
+              "number": 99,
+              "location": [],
+              "nature": [
+                "濕",
+                "火"
+              ]
+            },
+            {
+              "id": "shuishifanlan",
+              "name": "水濕泛濫證",
+              "number": 100,
+              "location": [],
+              "nature": [
+                "濕",
+                "水停"
+              ]
+            },
+            {
+              "id": "shirexiazhu",
+              "name": "濕熱下注證",
+              "number": 102,
+              "location": [],
+              "nature": [
+                "濕",
+                "火"
+              ]
+            },
+            {
+              "id": "shireneiyun",
+              "name": "濕熱內蘊證",
+              "number": 103,
+              "location": [],
+              "nature": [
+                "濕",
+                "火"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "熱證類",
+          "count": 11,
+          "syndromes": [
+            {
+              "id": "xueredongfeng",
+              "name": "血熱動風證",
+              "number": 56,
+              "location": [],
+              "nature": [
+                "血熱",
+                "動風"
+              ]
+            },
+            {
+              "id": "xuere_dongfeng",
+              "name": "血熱動風證",
+              "number": 56,
+              "location": [],
+              "nature": [
+                "血熱",
+                "動風"
+              ]
+            },
+            {
+              "id": "xueredongxue",
+              "name": "血熱動血證",
+              "number": 57,
+              "location": [],
+              "nature": [
+                "血熱",
+                "動血"
+              ]
+            },
+            {
+              "id": "xuerehuazao",
+              "name": "血熱化燥證",
+              "number": 58,
+              "location": [],
+              "nature": [
+                "血熱",
+                "燥",
+                "火"
+              ]
+            },
+            {
+              "id": "fengrebiao",
+              "name": "風熱表證",
+              "number": 84,
+              "location": [
+                "表"
+              ],
+              "nature": [
+                "風",
+                "火"
+              ]
+            },
+            {
+              "id": "fengreyongsheng",
+              "name": "風熱壅盛證",
+              "number": 85,
+              "location": [],
+              "nature": [
+                "風",
+                "火"
+              ]
+            },
+            {
+              "id": "fengreshangrao",
+              "name": "風熱上擾證",
+              "number": 86,
+              "location": [],
+              "nature": [
+                "風",
+                "火"
+              ]
+            },
+            {
+              "id": "fengreyidu",
+              "name": "風熱疫毒證",
+              "number": 87,
+              "location": [],
+              "nature": [
+                "風",
+                "火"
+              ]
+            },
+            {
+              "id": "shuredongfeng",
+              "name": "暑熱動風證",
+              "number": 96,
+              "location": [],
+              "nature": [
+                "暑",
+                "火"
+              ]
+            },
+            {
+              "id": "reduruying",
+              "name": "熱毒入營證",
+              "number": 115,
+              "location": [],
+              "nature": [
+                "火",
+                "毒"
+              ]
+            },
+            {
+              "id": "reduneixian",
+              "name": "熱毒內陷證",
+              "number": 116,
+              "location": [],
+              "nature": [
+                "火",
+                "毒"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "痰證類",
+          "count": 9,
+          "syndromes": [
+            {
+              "id": "fengtan",
+              "name": "風痰證",
+              "number": 106,
+              "location": [],
+              "nature": [
+                "風",
+                "痰"
+              ]
+            },
+            {
+              "id": "hantan",
+              "name": "寒痰證",
+              "number": 107,
+              "location": [],
+              "nature": [
+                "寒",
+                "痰"
+              ]
+            },
+            {
+              "id": "retan",
+              "name": "熱痰證",
+              "number": 108,
+              "location": [],
+              "nature": [
+                "火",
+                "痰"
+              ]
+            },
+            {
+              "id": "zaotan",
+              "name": "燥痰證",
+              "number": 109,
+              "location": [],
+              "nature": [
+                "燥",
+                "痰"
+              ]
+            },
+            {
+              "id": "shitan",
+              "name": "濕痰證",
+              "number": 110,
+              "location": [],
+              "nature": [
+                "濕",
+                "痰"
+              ]
+            },
+            {
+              "id": "tanyuhujie",
+              "name": "痰瘀互結證",
+              "number": 111,
+              "location": [],
+              "nature": [
+                "痰",
+                "血瘀"
+              ]
+            },
+            {
+              "id": "tanreneirao",
+              "name": "痰熱內擾證",
+              "number": 112,
+              "location": [],
+              "nature": [
+                "痰",
+                "火"
+              ]
+            },
+            {
+              "id": "tanreneibi",
+              "name": "痰熱內閉證",
+              "number": 113,
+              "location": [],
+              "nature": [
+                "痰",
+                "火"
+              ]
+            },
+            {
+              "id": "tanredongfeng",
+              "name": "痰熱動風證",
+              "number": 114,
+              "location": [],
+              "nature": [
+                "痰",
+                "火"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "血瘀類",
+          "count": 9,
+          "syndromes": [
+            {
+              "id": "xueyu_huare",
+              "name": "血瘀化熱證",
+              "number": 52,
+              "location": [],
+              "nature": [
+                "血瘀",
+                "火"
+              ]
+            },
+            {
+              "id": "xueyuhuare",
+              "name": "血瘀化熱證",
+              "number": 52,
+              "location": [],
+              "nature": [
+                "血瘀",
+                "火"
+              ]
+            },
+            {
+              "id": "xueyu_shuiting",
+              "name": "血瘀水停證",
+              "number": 53,
+              "location": [],
+              "nature": [
+                "血瘀",
+                "水停"
+              ]
+            },
+            {
+              "id": "xueyushuiting",
+              "name": "血瘀水停證",
+              "number": 53,
+              "location": [],
+              "nature": [
+                "血瘀",
+                "水停"
+              ]
+            },
+            {
+              "id": "xueyu_dongxue",
+              "name": "血瘀動血證",
+              "number": 54,
+              "location": [],
+              "nature": [
+                "血瘀",
+                "動血"
+              ]
+            },
+            {
+              "id": "xueyudongxue",
+              "name": "血瘀動血證",
+              "number": 54,
+              "location": [],
+              "nature": [
+                "血瘀",
+                "動血"
+              ]
+            },
+            {
+              "id": "yuxue_bizu",
+              "name": "瘀血痺阻證",
+              "number": 55,
+              "location": [],
+              "nature": [
+                "血瘀"
+              ]
+            },
+            {
+              "id": "yuxuebizu",
+              "name": "瘀血痺阻證",
+              "number": 55,
+              "location": [],
+              "nature": [
+                "血瘀"
+              ]
+            },
+            {
+              "id": "hanningxueyu",
+              "name": "寒凝血瘀證",
+              "number": 92,
+              "location": [],
+              "nature": [
+                "寒",
+                "血瘀"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "血虛類",
+          "count": 10,
+          "syndromes": [
+            {
+              "id": "xuexu_shengfeng",
+              "name": "血虛生風證",
+              "number": 46,
+              "location": [],
+              "nature": [
+                "血虛",
+                "動風"
+              ]
+            },
+            {
+              "id": "xuexushengfeng",
+              "name": "血虛生風證",
+              "number": 46,
+              "location": [],
+              "nature": [
+                "血虛",
+                "動風"
+              ]
+            },
+            {
+              "id": "xuexufengzao",
+              "name": "血虛風燥證",
+              "number": 47,
+              "location": [],
+              "nature": [
+                "血虛",
+                "動風"
+              ]
+            },
+            {
+              "id": "xuexu_fengzao",
+              "name": "血虛風燥證",
+              "number": 47,
+              "location": [],
+              "nature": [
+                "血虛",
+                "動風"
+              ]
+            },
+            {
+              "id": "xuexu_jinkui",
+              "name": "血虛津虧證",
+              "number": 48,
+              "location": [],
+              "nature": [
+                "血虛",
+                "津虧"
+              ]
+            },
+            {
+              "id": "xuexujinkui",
+              "name": "血虛津虧證",
+              "number": 48,
+              "location": [],
+              "nature": [
+                "血虛",
+                "津虧"
+              ]
+            },
+            {
+              "id": "xuexuhanning",
+              "name": "血虛寒凝證",
+              "number": 49,
+              "location": [],
+              "nature": [
+                "寒",
+                "血瘀"
+              ]
+            },
+            {
+              "id": "xuexu_hanning",
+              "name": "血虛寒凝證",
+              "number": 49,
+              "location": [],
+              "nature": [
+                "寒",
+                "血瘀"
+              ]
+            },
+            {
+              "id": "xuexu_waigan",
+              "name": "血虛外感證",
+              "number": 50,
+              "location": [],
+              "nature": [
+                "血虛"
+              ]
+            },
+            {
+              "id": "xuexuwaigan",
+              "name": "血虛外感證",
+              "number": 50,
+              "location": [],
+              "nature": [
+                "血虛"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "陰虛類",
+          "count": 8,
+          "syndromes": [
+            {
+              "id": "yinxuneire",
+              "name": "陰虛內熱證",
+              "number": 60,
+              "location": [],
+              "nature": [
+                "陰虛",
+                "火"
+              ]
+            },
+            {
+              "id": "yinxuyangkang",
+              "name": "陰虛陽亢證",
+              "number": 61,
+              "location": [],
+              "nature": [
+                "陰虛",
+                "陽亢"
+              ]
+            },
+            {
+              "id": "yinxushire",
+              "name": "陰虛濕熱證",
+              "number": 62,
+              "location": [],
+              "nature": [
+                "濕",
+                "火"
+              ]
+            },
+            {
+              "id": "yinxuwaigan",
+              "name": "陰虛外感證",
+              "number": 63,
+              "location": [],
+              "nature": [
+                "陰虛"
+              ]
+            },
+            {
+              "id": "yinxuyangfu",
+              "name": "陰虛陽浮證",
+              "number": 64,
+              "location": [],
+              "nature": [
+                "陰虛",
+                "陽亢"
+              ]
+            },
+            {
+              "id": "yinxuxuezao",
+              "name": "陰虛血燥證",
+              "number": 65,
+              "location": [],
+              "nature": [
+                "陰虛",
+                "燥"
+              ]
+            },
+            {
+              "id": "yinxuxuere",
+              "name": "陰虛血熱證",
+              "number": 66,
+              "location": [],
+              "nature": [
+                "陰虛",
+                "血熱"
+              ]
+            },
+            {
+              "id": "yinxudongfeng",
+              "name": "陰虛動風證",
+              "number": 67,
+              "location": [],
+              "nature": [
+                "血熱",
+                "動風"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "陽虛類",
+          "count": 7,
+          "syndromes": [
+            {
+              "id": "yangxushuifan",
+              "name": "陽虛水泛證",
+              "number": 71,
+              "location": [],
+              "nature": [
+                "陽虛",
+                "水停"
+              ]
+            },
+            {
+              "id": "yangxuyinting",
+              "name": "陽虛飲停證",
+              "number": 72,
+              "location": [],
+              "nature": [
+                "陽虛",
+                "水停"
+              ]
+            },
+            {
+              "id": "yangxuxueyu",
+              "name": "陽虛血瘀證",
+              "number": 73,
+              "location": [],
+              "nature": [
+                "陽虛",
+                "血瘀"
+              ]
+            },
+            {
+              "id": "yangxushikun",
+              "name": "陽虛濕困證",
+              "number": 74,
+              "location": [],
+              "nature": [
+                "陽虛",
+                "濕"
+              ]
+            },
+            {
+              "id": "yangxuhanning",
+              "name": "陽虛寒凝證",
+              "number": 75,
+              "location": [],
+              "nature": [
+                "陽虛",
+                "寒"
+              ]
+            },
+            {
+              "id": "yangxutanning",
+              "name": "陽虛痰凝證",
+              "number": 76,
+              "location": [],
+              "nature": [
+                "陽虛",
+                "痰"
+              ]
+            },
+            {
+              "id": "yangxuwaigan",
+              "name": "陽虛外感證",
+              "number": 77,
+              "location": [],
+              "nature": [
+                "陽虛"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zangfu",
+      "name": "臟腑證候",
+      "count": 126,
+      "subcategories": [
+        {
+          "name": "其他臟腑",
+          "count": 16,
+          "syndromes": [
+            {
+              "id": "ganyutanjie",
+              "name": "肝瘀痰結證",
+              "number": 148,
+              "location": [
+                "肝"
+              ],
+              "nature": [
+                "血瘀",
+                "痰"
+              ]
+            },
+            {
+              "id": "pijingshire",
+              "name": "脾經濕熱證",
+              "number": 161,
+              "location": [
+                "脾"
+              ],
+              "nature": [
+                "濕",
+                "火"
+              ]
+            },
+            {
+              "id": "fengraofeixi",
+              "name": "風擾肺系證",
+              "number": 168,
+              "location": [
+                "肺"
+              ],
+              "nature": [
+                "風"
+              ]
+            },
+            {
+              "id": "fengrexifei",
+              "name": "風熱襲肺證",
+              "number": 170,
+              "location": [
+                "肺"
+              ],
+              "nature": [
+                "風",
+                "火"
+              ]
+            },
+            {
+              "id": "hantanzufei",
+              "name": "寒痰阻肺證",
+              "number": 172,
+              "location": [
+                "肺"
+              ],
+              "nature": [
+                "寒",
+                "痰"
+              ]
+            },
+            {
+              "id": "hanyintingfei",
+              "name": "寒飲停肺證",
+              "number": 174,
+              "location": [
+                "肺"
+              ],
+              "nature": [
+                "寒",
+                "水停"
+              ]
+            },
+            {
+              "id": "yinxufeizao",
+              "name": "陰虛肺燥證",
+              "number": 175,
+              "location": [
+                "肺"
+              ],
+              "nature": [
+                "陰虛",
+                "燥"
+              ]
+            },
+            {
+              "id": "shushangfeiluo",
+              "name": "暑傷肺絡證",
+              "number": 179,
+              "location": [
+                "肺"
+              ],
+              "nature": [
+                "暑"
+              ]
+            },
+            {
+              "id": "feiyushuiting",
+              "name": "肺鬱水停證",
+              "number": 180,
+              "location": [
+                "肺"
+              ],
+              "nature": [
+                "氣滯",
+                "水停"
+              ]
+            },
+            {
+              "id": "redubifei",
+              "name": "熱毒閉肺證",
+              "number": 182,
+              "location": [
+                "肺"
+              ],
+              "nature": [
+                "火",
+                "毒"
+              ]
+            },
+            {
+              "id": "tanyuzufei",
+              "name": "痰瘀阻肺證",
+              "number": 183,
+              "location": [
+                "肺"
+              ],
+              "nature": [
+                "痰",
+                "血瘀"
+              ]
+            },
+            {
+              "id": "yuzufeiluo",
+              "name": "瘀阻肺絡證",
+              "number": 184,
+              "location": [
+                "肺"
+              ],
+              "nature": [
+                "血瘀"
+              ]
+            },
+            {
+              "id": "fengshuifanfei",
+              "name": "風水犯肺證",
+              "number": 185,
+              "location": [
+                "肺"
+              ],
+              "nature": [
+                "風"
+              ]
+            },
+            {
+              "id": "shenjinghanshi",
+              "name": "腎經寒濕證",
+              "number": 196,
+              "location": [
+                "腎"
+              ],
+              "nature": [
+                "寒",
+                "濕"
+              ]
+            },
+            {
+              "id": "jingxuekuixu",
+              "name": "精血虧虛證",
+              "number": 199,
+              "location": [
+                "腎",
+                "肝"
+              ],
+              "nature": [
+                "精虧",
+                "血虛"
+              ]
+            },
+            {
+              "id": "aizibingshiduyunjiejifu",
+              "name": "艾滋病濕毒蘊結肌膚證",
+              "number": 241,
+              "location": [
+                "肌膚"
+              ],
+              "nature": [
+                "濕",
+                "毒"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "心系",
+          "count": 17,
+          "syndromes": [
+            {
+              "id": "xinqixu",
+              "name": "心氣虛證",
+              "number": 117,
+              "location": [
+                "心"
+              ],
+              "nature": [
+                "氣虛"
+              ]
+            },
+            {
+              "id": "xinxuexu",
+              "name": "心血虛證",
+              "number": 118,
+              "location": [
+                "心"
+              ],
+              "nature": [
+                "血虛"
+              ]
+            },
+            {
+              "id": "xinyinxu",
+              "name": "心陰虛證",
+              "number": 119,
+              "location": [
+                "心"
+              ],
+              "nature": [
+                "陰虛"
+              ]
+            },
+            {
+              "id": "xinyangxu",
+              "name": "心陽虛證",
+              "number": 120,
+              "location": [
+                "心"
+              ],
+              "nature": [
+                "陽虛"
+              ]
+            },
+            {
+              "id": "xinyangbaotuo",
+              "name": "心陽暴脫證",
+              "number": 121,
+              "location": [
+                "心"
+              ],
+              "nature": [
+                "陽虛",
+                "氣脫"
+              ]
+            },
+            {
+              "id": "xinqixueliangxu",
+              "name": "心氣血兩虛證",
+              "number": 122,
+              "location": [
+                "心"
+              ],
+              "nature": [
+                "氣虛",
+                "血虛"
+              ]
+            },
+            {
+              "id": "xinqiyinliangxu",
+              "name": "心氣陰兩虛證",
+              "number": 123,
+              "location": [
+                "心"
+              ],
+              "nature": [
+                "氣虛",
+                "陰虛"
+              ]
+            },
+            {
+              "id": "xinhuokangsheng",
+              "name": "心火亢盛證",
+              "number": 124,
+              "location": [
+                "心"
+              ],
+              "nature": [
+                "火"
+              ]
+            },
+            {
+              "id": "xinxueyuzu",
+              "name": "心血瘀阻證",
+              "number": 125,
+              "location": [
+                "心"
+              ],
+              "nature": [
+                "血瘀"
+              ]
+            },
+            {
+              "id": "tanhuoraoxin",
+              "name": "痰火擾心證",
+              "number": 126,
+              "location": [
+                "心"
+              ],
+              "nature": [
+                "火",
+                "痰"
+              ]
+            },
+            {
+              "id": "shuiqilingxin",
+              "name": "水氣凌心證",
+              "number": 127,
+              "location": [
+                "心"
+              ],
+              "nature": [
+                "陽虛",
+                "水停"
+              ]
+            },
+            {
+              "id": "xinqixuxueyu",
+              "name": "心氣虛血瘀證",
+              "number": 128,
+              "location": [
+                "心"
+              ],
+              "nature": [
+                "氣虛",
+                "血瘀"
+              ]
+            },
+            {
+              "id": "xinyangxuxueyu",
+              "name": "心陽虛血瘀證",
+              "number": 129,
+              "location": [
+                "心"
+              ],
+              "nature": [
+                "陽虛",
+                "血瘀"
+              ]
+            },
+            {
+              "id": "xinyinxuxueyu",
+              "name": "心陰虛血瘀證",
+              "number": 130,
+              "location": [
+                "心"
+              ],
+              "nature": [
+                "血瘀",
+                "陰虛"
+              ]
+            },
+            {
+              "id": "tanzuxinmai",
+              "name": "痰阻心脈證",
+              "number": 131,
+              "location": [
+                "心"
+              ],
+              "nature": [
+                "痰"
+              ]
+            },
+            {
+              "id": "hanzhixinmai",
+              "name": "寒滯心脈證",
+              "number": 132,
+              "location": [
+                "心"
+              ],
+              "nature": [
+                "寒"
+              ]
+            },
+            {
+              "id": "tanmixinqiao",
+              "name": "痰迷心竅證",
+              "number": 133,
+              "location": [
+                "心"
+              ],
+              "nature": [
+                "痰"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "肝系",
+          "count": 17,
+          "syndromes": [
+            {
+              "id": "ganxuexu",
+              "name": "肝血虛證",
+              "number": 134,
+              "location": [
+                "肝"
+              ],
+              "nature": [
+                "血虛"
+              ]
+            },
+            {
+              "id": "ganyinxu",
+              "name": "肝陰虛證",
+              "number": 135,
+              "location": [
+                "肝"
+              ],
+              "nature": [
+                "陰虛"
+              ]
+            },
+            {
+              "id": "ganyangxu",
+              "name": "肝陽虛證",
+              "number": 136,
+              "location": [
+                "肝"
+              ],
+              "nature": [
+                "陽虛"
+              ]
+            },
+            {
+              "id": "ganqiyujie",
+              "name": "肝氣鬱結證",
+              "number": 137,
+              "location": [
+                "肝"
+              ],
+              "nature": [
+                "氣滯"
+              ]
+            },
+            {
+              "id": "ganhuoshangyan",
+              "name": "肝火上炎證",
+              "number": 138,
+              "location": [
+                "肝"
+              ],
+              "nature": [
+                "火"
+              ]
+            },
+            {
+              "id": "ganyangshangkang",
+              "name": "肝陽上亢證",
+              "number": 139,
+              "location": [
+                "肝"
+              ],
+              "nature": [
+                "陰虛",
+                "陽亢"
+              ]
+            },
+            {
+              "id": "ganfengneidong",
+              "name": "肝風內動證",
+              "number": 140,
+              "location": [
+                "肝"
+              ],
+              "nature": [
+                "風"
+              ]
+            },
+            {
+              "id": "ganxueyuzhi",
+              "name": "肝血瘀滯證",
+              "number": 141,
+              "location": [
+                "肝"
+              ],
+              "nature": [
+                "血瘀"
+              ]
+            },
+            {
+              "id": "ganjingshire",
+              "name": "肝經濕熱證",
+              "number": 142,
+              "location": [
+                "肝"
+              ],
+              "nature": [
+                "濕",
+                "火"
+              ]
+            },
+            {
+              "id": "hanzhiganmai",
+              "name": "寒滯肝脈證",
+              "number": 143,
+              "location": [
+                "肝"
+              ],
+              "nature": [
+                "寒"
+              ]
+            },
+            {
+              "id": "ganyuxuexu",
+              "name": "肝鬱血虛證",
+              "number": 144,
+              "location": [
+                "肝"
+              ],
+              "nature": [
+                "氣滯",
+                "血虛"
+              ]
+            },
+            {
+              "id": "ganyuxueyu",
+              "name": "肝鬱血瘀證",
+              "number": 145,
+              "location": [
+                "肝"
+              ],
+              "nature": [
+                "氣滯",
+                "血瘀"
+              ]
+            },
+            {
+              "id": "ganyuyinxu",
+              "name": "肝鬱陰虛證",
+              "number": 146,
+              "location": [
+                "肝"
+              ],
+              "nature": [
+                "氣滯",
+                "陰虛"
+              ]
+            },
+            {
+              "id": "ganyuhuahuo",
+              "name": "肝鬱化火證",
+              "number": 147,
+              "location": [
+                "肝"
+              ],
+              "nature": [
+                "氣滯",
+                "火"
+              ]
+            },
+            {
+              "id": "pixuganyu",
+              "name": "脾虛肝鬱證",
+              "number": 151,
+              "location": [
+                "肝",
+                "脾"
+              ],
+              "nature": [
+                "氣滯"
+              ]
+            },
+            {
+              "id": "xinganxuexu",
+              "name": "心肝血虛證",
+              "number": 200,
+              "location": [
+                "心",
+                "肝"
+              ],
+              "nature": [
+                "血虛"
+              ]
+            },
+            {
+              "id": "ganhuofanfei",
+              "name": "肝火犯肺證",
+              "number": 207,
+              "location": [
+                "肺",
+                "肝"
+              ],
+              "nature": [
+                "火"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "肺系",
+          "count": 16,
+          "syndromes": [
+            {
+              "id": "feiqixu",
+              "name": "肺氣虛證",
+              "number": 163,
+              "location": [
+                "肺"
+              ],
+              "nature": [
+                "氣虛"
+              ]
+            },
+            {
+              "id": "feiyinxu",
+              "name": "肺陰虛證",
+              "number": 164,
+              "location": [
+                "肺"
+              ],
+              "nature": [
+                "陰虛"
+              ]
+            },
+            {
+              "id": "feiyangxu",
+              "name": "肺陽虛證",
+              "number": 165,
+              "location": [
+                "肺"
+              ],
+              "nature": [
+                "陽虛"
+              ]
+            },
+            {
+              "id": "feiqiyinliangxu",
+              "name": "肺氣陰兩虛證",
+              "number": 166,
+              "location": [
+                "肺"
+              ],
+              "nature": [
+                "氣虛",
+                "陰虛"
+              ]
+            },
+            {
+              "id": "feiqishuaijue",
+              "name": "肺氣衰絕證",
+              "number": 167,
+              "location": [
+                "肺"
+              ],
+              "nature": [
+                "氣虛",
+                "氣脫"
+              ]
+            },
+            {
+              "id": "fenghanfanfei",
+              "name": "風寒犯肺證",
+              "number": 169,
+              "location": [
+                "肺"
+              ],
+              "nature": [
+                "風",
+                "寒"
+              ]
+            },
+            {
+              "id": "zaoxiefanfei",
+              "name": "燥邪犯肺證",
+              "number": 171,
+              "location": [
+                "肺"
+              ],
+              "nature": [
+                "燥"
+              ]
+            },
+            {
+              "id": "tanreyongfei",
+              "name": "痰熱壅肺證",
+              "number": 173,
+              "location": [
+                "肺"
+              ],
+              "nature": [
+                "痰",
+                "火"
+              ]
+            },
+            {
+              "id": "yinxufeire",
+              "name": "陰虛肺熱證",
+              "number": 176,
+              "location": [
+                "肺"
+              ],
+              "nature": [
+                "陰虛",
+                "火"
+              ]
+            },
+            {
+              "id": "feirechisheng",
+              "name": "肺熱熾盛證",
+              "number": 177,
+              "location": [
+                "肺"
+              ],
+              "nature": [
+                "火"
+              ]
+            },
+            {
+              "id": "feirechangjie",
+              "name": "肺熱腸結證",
+              "number": 178,
+              "location": [
+                "肺"
+              ],
+              "nature": [
+                "火"
+              ]
+            },
+            {
+              "id": "biaohanfeire",
+              "name": "表寒肺熱證",
+              "number": 181,
+              "location": [
+                "肺",
+                "表"
+              ],
+              "nature": [
+                "寒",
+                "火"
+              ]
+            },
+            {
+              "id": "xinfeiqixu",
+              "name": "心肺氣虛證",
+              "number": 201,
+              "location": [
+                "心",
+                "肺"
+              ],
+              "nature": [
+                "氣虛"
+              ]
+            },
+            {
+              "id": "xinfeiyinxu",
+              "name": "心肺陰虛證",
+              "number": 202,
+              "location": [
+                "心",
+                "肺"
+              ],
+              "nature": [
+                "陰虛"
+              ]
+            },
+            {
+              "id": "pifeiqixu",
+              "name": "脾肺氣虛證",
+              "number": 209,
+              "location": [
+                "肺",
+                "脾"
+              ],
+              "nature": [
+                "氣虛"
+              ]
+            },
+            {
+              "id": "aizibingfeiqiyinliangxu",
+              "name": "艾滋病肺氣陰兩虛證",
+              "number": 243,
+              "location": [
+                "肺"
+              ],
+              "nature": [
+                "氣虛",
+                "陰虛"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "脾系",
+          "count": 14,
+          "syndromes": [
+            {
+              "id": "ganpiqixu",
+              "name": "肝脾氣虛證",
+              "number": 149,
+              "location": [
+                "肝",
+                "脾"
+              ],
+              "nature": [
+                "氣虛"
+              ]
+            },
+            {
+              "id": "pixushikun",
+              "name": "脾虛濕困證",
+              "number": 155,
+              "location": [
+                "脾"
+              ],
+              "nature": [
+                "濕"
+              ]
+            },
+            {
+              "id": "pixuqizhi",
+              "name": "脾虛氣滯證",
+              "number": 156,
+              "location": [
+                "脾"
+              ],
+              "nature": [
+                "氣滯"
+              ]
+            },
+            {
+              "id": "pixushuiting",
+              "name": "脾虛水停證",
+              "number": 157,
+              "location": [
+                "脾"
+              ],
+              "nature": [
+                "水停"
+              ]
+            },
+            {
+              "id": "pixushire",
+              "name": "脾虛濕熱證",
+              "number": 158,
+              "location": [
+                "脾"
+              ],
+              "nature": [
+                "濕",
+                "火"
+              ]
+            },
+            {
+              "id": "pixutanshi",
+              "name": "脾虛痰濕證",
+              "number": 159,
+              "location": [
+                "脾"
+              ],
+              "nature": [
+                "濕",
+                "痰"
+              ]
+            },
+            {
+              "id": "pixushiji",
+              "name": "脾虛食積證",
+              "number": 160,
+              "location": [
+                "脾"
+              ],
+              "nature": [
+                "食積"
+              ]
+            },
+            {
+              "id": "hanshikunpi",
+              "name": "寒濕困脾證",
+              "number": 162,
+              "location": [
+                "脾"
+              ],
+              "nature": [
+                "寒",
+                "濕"
+              ]
+            },
+            {
+              "id": "ganpibudiao",
+              "name": "肝脾不調證",
+              "number": 206,
+              "location": [
+                "肝",
+                "脾"
+              ],
+              "nature": [
+                "氣滯",
+                "氣虛"
+              ]
+            },
+            {
+              "id": "shishangpiwei",
+              "name": "食傷脾胃證",
+              "number": 236,
+              "location": [
+                "脾",
+                "胃"
+              ],
+              "nature": [
+                "食積"
+              ]
+            },
+            {
+              "id": "piweishire",
+              "name": "脾胃濕熱證",
+              "number": 237,
+              "location": [
+                "脾",
+                "胃"
+              ],
+              "nature": [
+                "濕",
+                "火"
+              ]
+            },
+            {
+              "id": "piweiyangxu",
+              "name": "脾胃陽虛證",
+              "number": 239,
+              "location": [
+                "脾",
+                "胃"
+              ],
+              "nature": [
+                "陽虛"
+              ]
+            },
+            {
+              "id": "piweiqixu",
+              "name": "脾胃氣虛證",
+              "number": 240,
+              "location": [
+                "脾",
+                "胃"
+              ],
+              "nature": [
+                "氣虛"
+              ]
+            },
+            {
+              "id": "aizibingpiqixu",
+              "name": "艾滋病脾氣虛證",
+              "number": 242,
+              "location": [
+                "脾"
+              ],
+              "nature": [
+                "氣虛"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "腎系",
+          "count": 20,
+          "syndromes": [
+            {
+              "id": "pishenqixu",
+              "name": "脾腎氣虛證",
+              "number": 152,
+              "location": [
+                "脾",
+                "腎"
+              ],
+              "nature": [
+                "氣虛"
+              ]
+            },
+            {
+              "id": "pishenyinxu",
+              "name": "脾腎陰虛證",
+              "number": 153,
+              "location": [
+                "脾",
+                "腎"
+              ],
+              "nature": [
+                "陰虛"
+              ]
+            },
+            {
+              "id": "shenyinxu",
+              "name": "腎陰虛證",
+              "number": 186,
+              "location": [
+                "腎"
+              ],
+              "nature": [
+                "陰虛"
+              ]
+            },
+            {
+              "id": "shenyangxu",
+              "name": "腎陽虛證",
+              "number": 187,
+              "location": [
+                "腎"
+              ],
+              "nature": [
+                "陽虛"
+              ]
+            },
+            {
+              "id": "shenyinyangliangxu",
+              "name": "腎陰陽兩虛證",
+              "number": 188,
+              "location": [
+                "腎"
+              ],
+              "nature": [
+                "陰虛",
+                "陽虛"
+              ]
+            },
+            {
+              "id": "shenqixu",
+              "name": "腎氣虛證",
+              "number": 189,
+              "location": [
+                "腎"
+              ],
+              "nature": [
+                "氣虛"
+              ]
+            },
+            {
+              "id": "shenqibugu",
+              "name": "腎氣不固證",
+              "number": 190,
+              "location": [
+                "腎"
+              ],
+              "nature": [
+                "不固"
+              ]
+            },
+            {
+              "id": "shenbunaqi",
+              "name": "腎不納氣證",
+              "number": 191,
+              "location": [
+                "腎",
+                "肺"
+              ],
+              "nature": [
+                "氣虛",
+                "不固"
+              ]
+            },
+            {
+              "id": "shenjingbuzu",
+              "name": "腎精不足證",
+              "number": 192,
+              "location": [
+                "腎"
+              ],
+              "nature": [
+                "精虧"
+              ]
+            },
+            {
+              "id": "shenyangxushuifan",
+              "name": "腎陽虛水泛證",
+              "number": 193,
+              "location": [
+                "腎"
+              ],
+              "nature": [
+                "陽虛",
+                "水停"
+              ]
+            },
+            {
+              "id": "shenyinxuhuowang",
+              "name": "腎陰虛火旺證",
+              "number": 194,
+              "location": [
+                "腎"
+              ],
+              "nature": [
+                "陰虛",
+                "火"
+              ]
+            },
+            {
+              "id": "shenxusuikui",
+              "name": "腎虛髓虧證",
+              "number": 195,
+              "location": [
+                "腎"
+              ],
+              "nature": [
+                "精虧"
+              ]
+            },
+            {
+              "id": "shenxuhanning",
+              "name": "腎虛寒凝證",
+              "number": 197,
+              "location": [
+                "腎"
+              ],
+              "nature": [
+                "寒"
+              ]
+            },
+            {
+              "id": "shenxuxueyu",
+              "name": "腎虛血瘀證",
+              "number": 198,
+              "location": [
+                "腎"
+              ],
+              "nature": [
+                "血瘀"
+              ]
+            },
+            {
+              "id": "xinshenyangxu",
+              "name": "心腎陽虛證",
+              "number": 204,
+              "location": [
+                "心",
+                "腎"
+              ],
+              "nature": [
+                "陽虛"
+              ]
+            },
+            {
+              "id": "xinshenbujiao",
+              "name": "心腎不交證",
+              "number": 205,
+              "location": [
+                "心",
+                "腎"
+              ],
+              "nature": [
+                "陰虛",
+                "火"
+              ]
+            },
+            {
+              "id": "ganshenyinxu",
+              "name": "肝腎陰虛證",
+              "number": 208,
+              "location": [
+                "肝",
+                "腎"
+              ],
+              "nature": [
+                "陰虛"
+              ]
+            },
+            {
+              "id": "pishenyangxu",
+              "name": "脾腎陽虛證",
+              "number": 210,
+              "location": [
+                "脾",
+                "腎"
+              ],
+              "nature": [
+                "陽虛"
+              ]
+            },
+            {
+              "id": "feipishenyangxu",
+              "name": "肺脾腎陽虛證",
+              "number": 211,
+              "location": [
+                "肺",
+                "脾",
+                "腎"
+              ],
+              "nature": [
+                "陽虛"
+              ]
+            },
+            {
+              "id": "feishenyinxu",
+              "name": "肺腎陰虛證",
+              "number": 212,
+              "location": [
+                "肺",
+                "腎"
+              ],
+              "nature": [
+                "陰虛"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "腑系",
+          "count": 25,
+          "syndromes": [
+            {
+              "id": "ganweiqizhi",
+              "name": "肝胃氣滯證",
+              "number": 150,
+              "location": [
+                "肝",
+                "胃"
+              ],
+              "nature": [
+                "氣滯"
+              ]
+            },
+            {
+              "id": "danqixu",
+              "name": "膽氣虛證",
+              "number": 213,
+              "location": [
+                "膽"
+              ],
+              "nature": [
+                "氣虛"
+              ]
+            },
+            {
+              "id": "danre",
+              "name": "膽熱證",
+              "number": 214,
+              "location": [
+                "膽"
+              ],
+              "nature": [
+                "火"
+              ]
+            },
+            {
+              "id": "danyutanrao",
+              "name": "膽鬱痰擾證",
+              "number": 215,
+              "location": [
+                "膽"
+              ],
+              "nature": [
+                "氣滯",
+                "痰"
+              ]
+            },
+            {
+              "id": "weiqixu",
+              "name": "胃氣虛證",
+              "number": 216,
+              "location": [
+                "胃"
+              ],
+              "nature": [
+                "氣虛"
+              ]
+            },
+            {
+              "id": "weiyinxu",
+              "name": "胃陰虛證",
+              "number": 217,
+              "location": [
+                "胃"
+              ],
+              "nature": [
+                "陰虛"
+              ]
+            },
+            {
+              "id": "weihan",
+              "name": "胃寒證",
+              "number": 218,
+              "location": [
+                "胃"
+              ],
+              "nature": [
+                "寒"
+              ]
+            },
+            {
+              "id": "weiqishangni",
+              "name": "胃氣上逆證",
+              "number": 219,
+              "location": [
+                "胃"
+              ],
+              "nature": [
+                "氣逆"
+              ]
+            },
+            {
+              "id": "weiqipisai",
+              "name": "胃氣痞塞證",
+              "number": 220,
+              "location": [
+                "胃"
+              ],
+              "nature": [
+                "氣滯"
+              ]
+            },
+            {
+              "id": "weire",
+              "name": "胃熱證",
+              "number": 221,
+              "location": [
+                "胃"
+              ],
+              "nature": [
+                "火"
+              ]
+            },
+            {
+              "id": "dachangshire",
+              "name": "大腸濕熱證",
+              "number": 222,
+              "location": [
+                "大腸"
+              ],
+              "nature": [
+                "濕",
+                "火"
+              ]
+            },
+            {
+              "id": "dachangjiere",
+              "name": "大腸結熱證",
+              "number": 223,
+              "location": [
+                "大腸"
+              ],
+              "nature": [
+                "火"
+              ]
+            },
+            {
+              "id": "dachangjinkui",
+              "name": "大腸津虧證",
+              "number": 224,
+              "location": [
+                "大腸"
+              ],
+              "nature": [
+                "津虧"
+              ]
+            },
+            {
+              "id": "dachangxuhan",
+              "name": "大腸虛寒證",
+              "number": 225,
+              "location": [
+                "大腸"
+              ],
+              "nature": [
+                "寒"
+              ]
+            },
+            {
+              "id": "dachangbugu",
+              "name": "大腸不固證",
+              "number": 226,
+              "location": [
+                "大腸"
+              ],
+              "nature": [
+                "不固"
+              ]
+            },
+            {
+              "id": "xiaochangxuhan",
+              "name": "小腸虛寒證",
+              "number": 227,
+              "location": [
+                "小腸"
+              ],
+              "nature": [
+                "寒"
+              ]
+            },
+            {
+              "id": "xiaochangqizhi",
+              "name": "小腸氣滯證",
+              "number": 228,
+              "location": [
+                "小腸"
+              ],
+              "nature": [
+                "氣滯"
+              ]
+            },
+            {
+              "id": "pangguangshire",
+              "name": "膀胱濕熱證",
+              "number": 229,
+              "location": [
+                "膀胱"
+              ],
+              "nature": [
+                "濕",
+                "火"
+              ]
+            },
+            {
+              "id": "pangguangxuhan",
+              "name": "膀胱虛寒證",
+              "number": 230,
+              "location": [
+                "膀胱"
+              ],
+              "nature": [
+                "寒"
+              ]
+            },
+            {
+              "id": "pangguangshiyue",
+              "name": "膀胱失約證",
+              "number": 231,
+              "location": [
+                "膀胱"
+              ],
+              "nature": [
+                "氣虛",
+                "不固"
+              ]
+            },
+            {
+              "id": "xinweihuosheng",
+              "name": "心胃火盛證",
+              "number": 232,
+              "location": [
+                "心",
+                "胃"
+              ],
+              "nature": [
+                "火"
+              ]
+            },
+            {
+              "id": "xindanqixu",
+              "name": "心膽氣虛證",
+              "number": 233,
+              "location": [
+                "心",
+                "膽"
+              ],
+              "nature": [
+                "氣虛"
+              ]
+            },
+            {
+              "id": "gandanshire",
+              "name": "肝膽濕熱證",
+              "number": 234,
+              "location": [
+                "肝",
+                "膽"
+              ],
+              "nature": [
+                "濕",
+                "火"
+              ]
+            },
+            {
+              "id": "ganweibuhe",
+              "name": "肝胃不和證",
+              "number": 235,
+              "location": [
+                "肝",
+                "胃"
+              ],
+              "nature": [
+                "氣滯"
+              ]
+            },
+            {
+              "id": "weiqiangpiruo",
+              "name": "胃強脾弱證",
+              "number": 238,
+              "location": [
+                "脾",
+                "胃"
+              ],
+              "nature": [
+                "火",
+                "氣虛"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "臟腑兼證",
+          "count": 1,
+          "syndromes": [
+            {
+              "id": "xinpiliangxu",
+              "name": "心脾兩虛證",
+              "number": 203,
+              "location": [
+                "心",
+                "脾"
+              ],
+              "nature": [
+                "氣虛",
+                "血虛"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shanghan",
+      "name": "傷寒證候",
+      "count": 100,
+      "subcategories": [
+        {
+          "name": "其他傷寒",
+          "count": 24,
+          "syndromes": [
+            {
+              "id": "reruxueshi",
+              "name": "熱入血室證",
+              "number": 287,
+              "location": [],
+              "nature": [
+                "火"
+              ]
+            },
+            {
+              "id": "hanxiefanweizhuoyinshangni",
+              "name": "寒邪犯胃濁陰上逆證",
+              "number": 309,
+              "location": [
+                "胃"
+              ],
+              "nature": [
+                "氣逆",
+                "寒"
+              ]
+            },
+            {
+              "id": "rejue",
+              "name": "熱厥證",
+              "number": 324,
+              "location": [],
+              "nature": [
+                "火"
+              ]
+            },
+            {
+              "id": "sanyanghebing",
+              "name": "三陽合病證",
+              "number": 327,
+              "location": [
+                "表",
+                "胃",
+                "膽"
+              ],
+              "nature": [
+                "火"
+              ]
+            },
+            {
+              "id": "shangrexiahan",
+              "name": "上熱下寒證",
+              "number": 333,
+              "location": [],
+              "nature": [
+                "寒",
+                "火"
+              ]
+            },
+            {
+              "id": "piyue",
+              "name": "脾約證",
+              "number": 335,
+              "location": [
+                "脾"
+              ],
+              "nature": [
+                "陰虛",
+                "燥"
+              ]
+            },
+            {
+              "id": "weiyangbuzuyinting",
+              "name": "胃陽不足飲停證",
+              "number": 343,
+              "location": [
+                "胃"
+              ],
+              "nature": [
+                "陽虛",
+                "水停"
+              ]
+            },
+            {
+              "id": "dajiexiong",
+              "name": "大結胸證",
+              "number": 354,
+              "location": [
+                "胸膈"
+              ],
+              "nature": [
+                "火",
+                "水停"
+              ]
+            },
+            {
+              "id": "xiaojiexiong",
+              "name": "小結胸證",
+              "number": 355,
+              "location": [
+                "胸膈"
+              ],
+              "nature": [
+                "痰",
+                "火"
+              ]
+            },
+            {
+              "id": "hanshijiexiong",
+              "name": "寒實結胸證",
+              "number": 356,
+              "location": [
+                "胸膈"
+              ],
+              "nature": [
+                "寒"
+              ]
+            },
+            {
+              "id": "zangjie",
+              "name": "臟結證",
+              "number": 357,
+              "location": [
+                "脾"
+              ],
+              "nature": [
+                "陽虛",
+                "血瘀"
+              ]
+            },
+            {
+              "id": "hanrecuozapi",
+              "name": "寒熱錯雜痞證",
+              "number": 359,
+              "location": [],
+              "nature": [
+                "寒",
+                "火"
+              ]
+            },
+            {
+              "id": "shuiyintingjuxiongxie",
+              "name": "水飲停聚胸脅證",
+              "number": 360,
+              "location": [
+                "胸膈"
+              ],
+              "nature": [
+                "水停"
+              ]
+            },
+            {
+              "id": "repi",
+              "name": "熱痞證",
+              "number": 361,
+              "location": [],
+              "nature": [
+                "火"
+              ]
+            },
+            {
+              "id": "repijianbiaoyangxu",
+              "name": "熱痞兼表陽虛證",
+              "number": 362,
+              "location": [
+                "表"
+              ],
+              "nature": [
+                "陽虛",
+                "火"
+              ]
+            },
+            {
+              "id": "shuitingshizhipi",
+              "name": "水停食滯痞證",
+              "number": 363,
+              "location": [],
+              "nature": [
+                "水停",
+                "食積"
+              ]
+            },
+            {
+              "id": "weixuqinipi",
+              "name": "胃虛氣逆痞證",
+              "number": 364,
+              "location": [
+                "胃"
+              ],
+              "nature": [
+                "氣逆"
+              ]
+            },
+            {
+              "id": "xiajiaohuatuo",
+              "name": "下焦滑脫證",
+              "number": 365,
+              "location": [
+                "腎",
+                "大腸"
+              ],
+              "nature": [
+                "陽虛",
+                "不固"
+              ]
+            },
+            {
+              "id": "xierexiali",
+              "name": "邪熱下利證",
+              "number": 367,
+              "location": [],
+              "nature": [
+                "火"
+              ]
+            },
+            {
+              "id": "biaorejianlihanxiapodachang",
+              "name": "表熱兼里寒下迫大腸證",
+              "number": 368,
+              "location": [
+                "大腸",
+                "表"
+              ],
+              "nature": [
+                "寒",
+                "火"
+              ]
+            },
+            {
+              "id": "tanzuxiongge",
+              "name": "痰阻胸膈證",
+              "number": 369,
+              "location": [
+                "胸膈"
+              ],
+              "nature": [
+                "痰"
+              ]
+            },
+            {
+              "id": "binghouyureweijinlaofu",
+              "name": "病後餘熱未盡勞復證",
+              "number": 372,
+              "location": [],
+              "nature": [
+                "火"
+              ]
+            },
+            {
+              "id": "bingchashuitingyaoxia",
+              "name": "病差水停腰下證",
+              "number": 373,
+              "location": [],
+              "nature": [
+                "水停"
+              ]
+            },
+            {
+              "id": "binghouxuleiqini",
+              "name": "病後虛羸氣逆證",
+              "number": 374,
+              "location": [],
+              "nature": [
+                "氣逆"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "厥陰病類",
+          "count": 5,
+          "syndromes": [
+            {
+              "id": "jueyinhuijue",
+              "name": "厥陰蛔厥證",
+              "number": 319,
+              "location": [
+                "肝"
+              ],
+              "nature": [
+                "寒",
+                "毒"
+              ]
+            },
+            {
+              "id": "jueyinxuexuhanyu",
+              "name": "厥陰血虛寒鬱證",
+              "number": 320,
+              "location": [],
+              "nature": [
+                "氣滯",
+                "血虛",
+                "寒"
+              ]
+            },
+            {
+              "id": "jueyinshangrexiahanyinxu",
+              "name": "厥陰上熱下寒陰虛證",
+              "number": 321,
+              "location": [],
+              "nature": [
+                "陰虛",
+                "寒",
+                "火"
+              ]
+            },
+            {
+              "id": "jueyinhange",
+              "name": "厥陰寒格證",
+              "number": 322,
+              "location": [],
+              "nature": [
+                "寒"
+              ]
+            },
+            {
+              "id": "jueyinrepodachang",
+              "name": "厥陰熱迫大腸證",
+              "number": 323,
+              "location": [
+                "大腸"
+              ],
+              "nature": [
+                "火"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "太陰病類",
+          "count": 2,
+          "syndromes": [
+            {
+              "id": "taiyinxuhan",
+              "name": "太陰虛寒證",
+              "number": 300,
+              "location": [],
+              "nature": [
+                "陰虛",
+                "寒"
+              ]
+            },
+            {
+              "id": "taiyinhanshiyujie",
+              "name": "太陰寒濕鬱結證",
+              "number": 301,
+              "location": [],
+              "nature": [
+                "寒",
+                "濕"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "太陽病類",
+          "count": 39,
+          "syndromes": [
+            {
+              "id": "taiyangbiaoxu",
+              "name": "太陽表虛證",
+              "number": 275,
+              "location": [
+                "表"
+              ],
+              "nature": [
+                "風",
+                "氣虛"
+              ]
+            },
+            {
+              "id": "taiyangbiaoshi",
+              "name": "太陽表實證",
+              "number": 276,
+              "location": [
+                "表"
+              ],
+              "nature": [
+                "寒"
+              ]
+            },
+            {
+              "id": "taiyangxushui",
+              "name": "太陽蓄水證",
+              "number": 277,
+              "location": [
+                "膀胱"
+              ],
+              "nature": [
+                "水停"
+              ]
+            },
+            {
+              "id": "taiyangxuxue",
+              "name": "太陽蓄血證",
+              "number": 278,
+              "location": [
+                "膀胱"
+              ],
+              "nature": [
+                "血瘀",
+                "火"
+              ]
+            },
+            {
+              "id": "taiyangbiaoxujingshubuli",
+              "name": "太陽表虛經輸不利證",
+              "number": 279,
+              "location": [
+                "表",
+                "經絡"
+              ],
+              "nature": [
+                "風",
+                "氣虛"
+              ]
+            },
+            {
+              "id": "taiyangbiaoshijingshubuli",
+              "name": "太陽表實經輸不利證",
+              "number": 280,
+              "location": [
+                "表",
+                "經絡"
+              ],
+              "nature": [
+                "寒",
+                "濕"
+              ]
+            },
+            {
+              "id": "taiyangbiaoxufeiqibuli",
+              "name": "太陽表虛肺氣不利證",
+              "number": 281,
+              "location": [
+                "肺",
+                "表"
+              ],
+              "nature": [
+                "風",
+                "氣虛"
+              ]
+            },
+            {
+              "id": "taiyangreduohanshao",
+              "name": "太陽熱多寒少證",
+              "number": 282,
+              "location": [],
+              "nature": [
+                "寒",
+                "火"
+              ]
+            },
+            {
+              "id": "taiyangxieyujibiao",
+              "name": "太陽邪鬱肌表證",
+              "number": 283,
+              "location": [
+                "表"
+              ],
+              "nature": [
+                "氣滯"
+              ]
+            },
+            {
+              "id": "taiyangbiaohanlire",
+              "name": "太陽表寒里熱證",
+              "number": 284,
+              "location": [
+                "表"
+              ],
+              "nature": [
+                "寒",
+                "火"
+              ]
+            },
+            {
+              "id": "taiyangbiaohanliyin",
+              "name": "太陽表寒里飲證",
+              "number": 285,
+              "location": [
+                "表"
+              ],
+              "nature": [
+                "寒"
+              ]
+            },
+            {
+              "id": "taiyangrexiepofei",
+              "name": "太陽熱邪迫肺證",
+              "number": 286,
+              "location": [
+                "肺"
+              ],
+              "nature": [
+                "火"
+              ]
+            },
+            {
+              "id": "taiyangyuxueyingqibufu",
+              "name": "太陽瘀血營氣不敷證",
+              "number": 288,
+              "location": [],
+              "nature": [
+                "血瘀"
+              ]
+            },
+            {
+              "id": "taiyangyangxubiaoweibugu",
+              "name": "太陽陽虛表衛不固證",
+              "number": 325,
+              "location": [
+                "表"
+              ],
+              "nature": [
+                "陽虛",
+                "不固"
+              ]
+            },
+            {
+              "id": "taiyangxiongyangbuzhen",
+              "name": "太陽胸陽不振證",
+              "number": 326,
+              "location": [
+                "胸膈",
+                "表"
+              ],
+              "nature": [
+                "陽虛"
+              ]
+            },
+            {
+              "id": "taiyangyangmingxiepodachang",
+              "name": "太陽陽明邪迫大腸證",
+              "number": 328,
+              "location": [
+                "大腸",
+                "表",
+                "胃"
+              ],
+              "nature": [
+                "火"
+              ]
+            },
+            {
+              "id": "taiyangyangmingfanweishangni",
+              "name": "太陽陽明犯胃上逆證",
+              "number": 329,
+              "location": [
+                "胃"
+              ],
+              "nature": [
+                "氣逆"
+              ]
+            },
+            {
+              "id": "taiyangshaoyangxiepodachang",
+              "name": "太陽少陽邪迫大腸證",
+              "number": 331,
+              "location": [
+                "大腸",
+                "表",
+                "膽"
+              ],
+              "nature": [
+                "火"
+              ]
+            },
+            {
+              "id": "taiyangshaoyangfanweishangni",
+              "name": "太陽少陽犯胃上逆證",
+              "number": 332,
+              "location": [
+                "胃"
+              ],
+              "nature": [
+                "氣逆"
+              ]
+            },
+            {
+              "id": "taiyangfengshixiangbo",
+              "name": "太陽風濕相搏證",
+              "number": 334,
+              "location": [],
+              "nature": [
+                "風",
+                "濕"
+              ]
+            },
+            {
+              "id": "taiyangyingshangjingmaishiyang",
+              "name": "太陽營傷經脈失養證",
+              "number": 336,
+              "location": [
+                "表",
+                "經絡"
+              ],
+              "nature": [
+                "血虛"
+              ]
+            },
+            {
+              "id": "taiyangxinyangbuzu",
+              "name": "太陽心陽不足證",
+              "number": 337,
+              "location": [
+                "心",
+                "表"
+              ],
+              "nature": [
+                "陽虛"
+              ]
+            },
+            {
+              "id": "taiyangyangxushuiqiyuchong",
+              "name": "太陽陽虛水氣欲沖證",
+              "number": 338,
+              "location": [],
+              "nature": [
+                "陽虛",
+                "水停"
+              ]
+            },
+            {
+              "id": "taiyangpixuqizhi",
+              "name": "太陽脾虛氣滯證",
+              "number": 339,
+              "location": [
+                "脾"
+              ],
+              "nature": [
+                "氣滯"
+              ]
+            },
+            {
+              "id": "taiyangshuiqishangni",
+              "name": "太陽水氣上逆證",
+              "number": 340,
+              "location": [],
+              "nature": [
+                "氣逆",
+                "水停"
+              ]
+            },
+            {
+              "id": "taiyangyinyangjuxu",
+              "name": "太陽陰陽俱虛證",
+              "number": 341,
+              "location": [
+                "表"
+              ],
+              "nature": [
+                "陰虛",
+                "陽虛"
+              ]
+            },
+            {
+              "id": "taiyangyinyangliangxuxuyangshangrao",
+              "name": "太陽陰陽兩虛虛陽上擾證",
+              "number": 342,
+              "location": [
+                "表"
+              ],
+              "nature": [
+                "陰虛",
+                "陽虛",
+                "陽亢"
+              ]
+            },
+            {
+              "id": "taiyangreraoxiongge",
+              "name": "太陽熱擾胸膈證",
+              "number": 344,
+              "location": [
+                "胸膈"
+              ],
+              "nature": [
+                "火"
+              ]
+            },
+            {
+              "id": "taiyangreraoxionggezhongjiaoqizhi",
+              "name": "太陽熱擾胸膈中焦氣滯證",
+              "number": 345,
+              "location": [
+                "胸膈"
+              ],
+              "nature": [
+                "氣滯",
+                "火"
+              ]
+            },
+            {
+              "id": "taiyangreraoxionggezhongjiaoxuhan",
+              "name": "太陽熱擾胸膈中焦虛寒證",
+              "number": 346,
+              "location": [
+                "胸膈"
+              ],
+              "nature": [
+                "寒",
+                "火"
+              ]
+            },
+            {
+              "id": "taiyangyinshengxuyangshangrao",
+              "name": "太陽陰盛虛陽上擾證",
+              "number": 347,
+              "location": [
+                "表"
+              ],
+              "nature": [
+                "陽虛",
+                "陽亢"
+              ]
+            },
+            {
+              "id": "taiyangzhongxuliji",
+              "name": "太陽中虛里急證",
+              "number": 348,
+              "location": [
+                "脾",
+                "表"
+              ],
+              "nature": [
+                "氣虛",
+                "寒"
+              ]
+            },
+            {
+              "id": "taiyangyangxuxinshenfuyue",
+              "name": "太陽陽虛心神浮越證",
+              "number": 350,
+              "location": [
+                "心"
+              ],
+              "nature": [
+                "陽虛"
+              ]
+            },
+            {
+              "id": "taiyangyangxushuiqishangchong",
+              "name": "太陽陽虛水氣上衝證",
+              "number": 351,
+              "location": [],
+              "nature": [
+                "氣逆",
+                "陽虛",
+                "水停"
+              ]
+            },
+            {
+              "id": "taiyangyangxuxinshenshishou",
+              "name": "太陽陽虛心神失守證",
+              "number": 352,
+              "location": [
+                "心"
+              ],
+              "nature": [
+                "陽虛"
+              ]
+            },
+            {
+              "id": "taiyangxinqiyinliangxu",
+              "name": "太陽心氣陰兩虛證",
+              "number": 353,
+              "location": [
+                "心",
+                "表"
+              ],
+              "nature": [
+                "氣虛",
+                "陰虛"
+              ]
+            },
+            {
+              "id": "taiyangweiqishangni",
+              "name": "太陽胃氣上逆證",
+              "number": 366,
+              "location": [
+                "胃"
+              ],
+              "nature": [
+                "氣逆"
+              ]
+            },
+            {
+              "id": "taiyangxiexianpiqibuhe",
+              "name": "太陽邪陷脾氣不和證",
+              "number": 370,
+              "location": [
+                "脾",
+                "表"
+              ],
+              "nature": [
+                "氣虛"
+              ]
+            },
+            {
+              "id": "taiyangxiexianpixuweishi",
+              "name": "太陽邪陷脾虛胃實證",
+              "number": 371,
+              "location": [
+                "脾",
+                "胃",
+                "表"
+              ],
+              "nature": [
+                "氣虛",
+                "火"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "少陰病類",
+          "count": 15,
+          "syndromes": [
+            {
+              "id": "shaoyinjianbiao",
+              "name": "少陰兼表證",
+              "number": 302,
+              "location": [
+                "腎",
+                "表"
+              ],
+              "nature": [
+                "陽虛",
+                "寒"
+              ]
+            },
+            {
+              "id": "shaoyinyinxuhuowang",
+              "name": "少陰陰虛火旺證",
+              "number": 303,
+              "location": [],
+              "nature": [
+                "陰虛",
+                "火"
+              ]
+            },
+            {
+              "id": "shaoyinyinxushuirehujie",
+              "name": "少陰陰虛水熱互結證",
+              "number": 304,
+              "location": [],
+              "nature": [
+                "陰虛",
+                "火"
+              ]
+            },
+            {
+              "id": "shaoyinyangxuyinsheng",
+              "name": "少陰陽虛陰盛證",
+              "number": 305,
+              "location": [],
+              "nature": [
+                "陰虛",
+                "陽虛"
+              ]
+            },
+            {
+              "id": "shaoyinyangxuhanning",
+              "name": "少陰陽虛寒凝證",
+              "number": 306,
+              "location": [],
+              "nature": [
+                "陽虛",
+                "寒"
+              ]
+            },
+            {
+              "id": "shaoyinyangxushuifan",
+              "name": "少陰陽虛水泛證",
+              "number": 307,
+              "location": [],
+              "nature": [
+                "陽虛",
+                "水停"
+              ]
+            },
+            {
+              "id": "shaoyinxuhanhuatuo",
+              "name": "少陰虛寒滑脫證",
+              "number": 308,
+              "location": [],
+              "nature": [
+                "氣陷",
+                "陰虛",
+                "寒"
+              ]
+            },
+            {
+              "id": "shaoyinxuhuofanyan",
+              "name": "少陰虛火犯咽證",
+              "number": 311,
+              "location": [],
+              "nature": [
+                "陰虛",
+                "火"
+              ]
+            },
+            {
+              "id": "shaoyinkerefanyan",
+              "name": "少陰客熱犯咽證",
+              "number": 312,
+              "location": [],
+              "nature": [
+                "火"
+              ]
+            },
+            {
+              "id": "shaoyintanhuojieyan",
+              "name": "少陰痰火結咽證",
+              "number": 313,
+              "location": [],
+              "nature": [
+                "火",
+                "痰"
+              ]
+            },
+            {
+              "id": "shaoyinhanxiefanyan",
+              "name": "少陰寒邪犯咽證",
+              "number": 314,
+              "location": [],
+              "nature": [
+                "寒"
+              ]
+            },
+            {
+              "id": "shaoyinyangxuhuatuo",
+              "name": "少陰陽虛滑脫證",
+              "number": 315,
+              "location": [],
+              "nature": [
+                "氣陷",
+                "陽虛"
+              ]
+            },
+            {
+              "id": "shaoyinyinshengdaiyang",
+              "name": "少陰陰盛戴陽證",
+              "number": 316,
+              "location": [
+                "腎"
+              ],
+              "nature": [
+                "陽虛",
+                "陽亢"
+              ]
+            },
+            {
+              "id": "shaoyinyinshenggeyang",
+              "name": "少陰陰盛格陽證",
+              "number": 317,
+              "location": [
+                "腎"
+              ],
+              "nature": [
+                "陽虛",
+                "陽亢"
+              ]
+            },
+            {
+              "id": "shaoyinyangyusini",
+              "name": "少陰陽鬱四逆證",
+              "number": 318,
+              "location": [],
+              "nature": [
+                "氣滯"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "少陽病類",
+          "count": 6,
+          "syndromes": [
+            {
+              "id": "shaoyangbanbiaobanli",
+              "name": "少陽半表半里證",
+              "number": 297,
+              "location": [
+                "膽"
+              ],
+              "nature": [
+                "火"
+              ]
+            },
+            {
+              "id": "shaoyangjianlishi",
+              "name": "少陽兼里實證",
+              "number": 298,
+              "location": [
+                "膽",
+                "胃"
+              ],
+              "nature": [
+                "火"
+              ]
+            },
+            {
+              "id": "shaoyangjianweire",
+              "name": "少陽兼胃熱證",
+              "number": 299,
+              "location": [
+                "胃"
+              ],
+              "nature": [
+                "火"
+              ]
+            },
+            {
+              "id": "shaoyangjianbiao",
+              "name": "少陽兼表證",
+              "number": 330,
+              "location": [
+                "膽",
+                "表"
+              ],
+              "nature": [
+                "火",
+                "風"
+              ]
+            },
+            {
+              "id": "shaoyangjianbiaojilixushicuoza",
+              "name": "少陽兼表及里虛實錯雜證",
+              "number": 349,
+              "location": [
+                "膽",
+                "表"
+              ],
+              "nature": [
+                "火",
+                "氣虛"
+              ]
+            },
+            {
+              "id": "shaoyangqijiweijie",
+              "name": "少陽氣機微結證",
+              "number": 358,
+              "location": [
+                "膽"
+              ],
+              "nature": [
+                "氣滯"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "陽明病類",
+          "count": 9,
+          "syndromes": [
+            {
+              "id": "yangmingjing",
+              "name": "陽明經證",
+              "number": 289,
+              "location": [
+                "胃"
+              ],
+              "nature": [
+                "火"
+              ]
+            },
+            {
+              "id": "yangmingfushi",
+              "name": "陽明腑實證",
+              "number": 290,
+              "location": [
+                "胃",
+                "大腸"
+              ],
+              "nature": [
+                "火",
+                "燥"
+              ]
+            },
+            {
+              "id": "yangmingshuirehujie",
+              "name": "陽明水熱互結證",
+              "number": 291,
+              "location": [],
+              "nature": [
+                "火"
+              ]
+            },
+            {
+              "id": "yangmingjinshangchangzao",
+              "name": "陽明津傷腸燥證",
+              "number": 292,
+              "location": [],
+              "nature": [
+                "燥"
+              ]
+            },
+            {
+              "id": "yangmingshirelishi",
+              "name": "陽明濕熱里實證",
+              "number": 293,
+              "location": [],
+              "nature": [
+                "濕",
+                "火"
+              ]
+            },
+            {
+              "id": "yangmingyuxue",
+              "name": "陽明瘀血證",
+              "number": 294,
+              "location": [],
+              "nature": [
+                "血瘀"
+              ]
+            },
+            {
+              "id": "yangmingshire",
+              "name": "陽明濕熱證",
+              "number": 295,
+              "location": [],
+              "nature": [
+                "濕",
+                "火"
+              ]
+            },
+            {
+              "id": "yangmingshirejianbiao",
+              "name": "陽明濕熱兼表證",
+              "number": 296,
+              "location": [
+                "表"
+              ],
+              "nature": [
+                "濕",
+                "火"
+              ]
+            },
+            {
+              "id": "shaoyinjianyangming",
+              "name": "少陰兼陽明證",
+              "number": 310,
+              "location": [
+                "腎",
+                "胃"
+              ],
+              "nature": [
+                "陽虛",
+                "火"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wenbing",
+      "name": "溫病證候",
+      "count": 31,
+      "subcategories": [
+        {
+          "name": "其他溫病",
+          "count": 28,
+          "syndromes": [
+            {
+              "id": "reraoxiongge",
+              "name": "熱擾胸膈證",
+              "number": 245,
+              "location": [
+                "胸膈"
+              ],
+              "nature": [
+                "火"
+              ]
+            },
+            {
+              "id": "qireshuojin",
+              "name": "氣熱爍津證",
+              "number": 246,
+              "location": [],
+              "nature": [
+                "火"
+              ]
+            },
+            {
+              "id": "duyongshangjiao",
+              "name": "毒壅上焦證",
+              "number": 247,
+              "location": [],
+              "nature": [
+                "毒"
+              ]
+            },
+            {
+              "id": "shangjiaozaore",
+              "name": "上焦燥熱證",
+              "number": 248,
+              "location": [],
+              "nature": [
+                "燥",
+                "火"
+              ]
+            },
+            {
+              "id": "zaoshangfeiwei",
+              "name": "燥傷肺胃證",
+              "number": 249,
+              "location": [
+                "肺",
+                "胃"
+              ],
+              "nature": [
+                "燥"
+              ]
+            },
+            {
+              "id": "shierefu",
+              "name": "濕遏熱伏證",
+              "number": 250,
+              "location": [],
+              "nature": [
+                "濕",
+                "火"
+              ]
+            },
+            {
+              "id": "shujianhanshi",
+              "name": "暑兼寒濕證",
+              "number": 251,
+              "location": [],
+              "nature": [
+                "寒",
+                "濕"
+              ]
+            },
+            {
+              "id": "nichuanxinbao",
+              "name": "逆傳心包證",
+              "number": 252,
+              "location": [
+                "心"
+              ],
+              "nature": [
+                "火"
+              ]
+            },
+            {
+              "id": "tanzhuoneimengxinbao",
+              "name": "痰濁內蒙心包證",
+              "number": 253,
+              "location": [
+                "心"
+              ],
+              "nature": [
+                "痰"
+              ]
+            },
+            {
+              "id": "rejieweichang",
+              "name": "熱結胃腸證",
+              "number": 254,
+              "location": [
+                "胃",
+                "大腸"
+              ],
+              "nature": [
+                "火"
+              ]
+            },
+            {
+              "id": "xiefumoyuan",
+              "name": "邪伏膜原證",
+              "number": 256,
+              "location": [],
+              "nature": [
+                "濕",
+                "火"
+              ]
+            },
+            {
+              "id": "shireyuyujingluo",
+              "name": "濕熱鬱於經絡證",
+              "number": 257,
+              "location": [
+                "經絡"
+              ],
+              "nature": [
+                "濕",
+                "火"
+              ]
+            },
+            {
+              "id": "shiremimansanjiao",
+              "name": "濕熱瀰漫三焦證",
+              "number": 258,
+              "location": [],
+              "nature": [
+                "濕",
+                "火"
+              ]
+            },
+            {
+              "id": "shirehuazao",
+              "name": "濕熱化燥證",
+              "number": 259,
+              "location": [],
+              "nature": [
+                "濕",
+                "火"
+              ]
+            },
+            {
+              "id": "shushikunzuzhongjiao",
+              "name": "暑濕困阻中焦證",
+              "number": 260,
+              "location": [],
+              "nature": [
+                "暑",
+                "濕"
+              ]
+            },
+            {
+              "id": "shushiyuzheng",
+              "name": "暑濕鬱蒸證",
+              "number": 261,
+              "location": [],
+              "nature": [
+                "暑",
+                "濕"
+              ]
+            },
+            {
+              "id": "shushixiezhi",
+              "name": "暑濕挾滯證",
+              "number": 262,
+              "location": [],
+              "nature": [
+                "暑",
+                "濕"
+              ]
+            },
+            {
+              "id": "shureshangqi",
+              "name": "暑熱傷氣證",
+              "number": 263,
+              "location": [],
+              "nature": [
+                "暑",
+                "火"
+              ]
+            },
+            {
+              "id": "reshangqiyin",
+              "name": "熱傷氣陰證",
+              "number": 264,
+              "location": [],
+              "nature": [
+                "火"
+              ]
+            },
+            {
+              "id": "yeqianbianjie",
+              "name": "液乾便結證",
+              "number": 265,
+              "location": [
+                "大腸"
+              ],
+              "nature": [
+                "陰虛",
+                "燥"
+              ]
+            },
+            {
+              "id": "reduchisheng",
+              "name": "熱毒熾盛證",
+              "number": 267,
+              "location": [],
+              "nature": [
+                "火",
+                "毒"
+              ]
+            },
+            {
+              "id": "yurexiangbo",
+              "name": "瘀熱相搏證",
+              "number": 268,
+              "location": [],
+              "nature": [
+                "血瘀",
+                "火"
+              ]
+            },
+            {
+              "id": "xieliuyinfen",
+              "name": "邪留陰分證",
+              "number": 269,
+              "location": [],
+              "nature": [
+                "陰虛",
+                "火"
+              ]
+            },
+            {
+              "id": "yinxuhuowang",
+              "name": "陰虛火旺證",
+              "number": 270,
+              "location": [],
+              "nature": [
+                "陰虛",
+                "火"
+              ]
+            },
+            {
+              "id": "shushangxinshen",
+              "name": "暑傷心腎證",
+              "number": 271,
+              "location": [
+                "心",
+                "腎"
+              ],
+              "nature": [
+                "暑"
+              ]
+            },
+            {
+              "id": "rehaozhenyin",
+              "name": "熱耗真陰證",
+              "number": 272,
+              "location": [],
+              "nature": [
+                "火"
+              ]
+            },
+            {
+              "id": "rejishengfeng",
+              "name": "熱極生風證",
+              "number": 273,
+              "location": [],
+              "nature": [
+                "血熱",
+                "動風"
+              ]
+            },
+            {
+              "id": "yinxufengdong",
+              "name": "陰虛風動證",
+              "number": 274,
+              "location": [],
+              "nature": [
+                "陰虛",
+                "風"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "氣分類",
+          "count": 2,
+          "syndromes": [
+            {
+              "id": "shizuqifen",
+              "name": "濕阻氣分證",
+              "number": 255,
+              "location": [],
+              "nature": [
+                "濕"
+              ]
+            },
+            {
+              "id": "qiyingliangfan",
+              "name": "氣營兩燔證",
+              "number": 266,
+              "location": [],
+              "nature": [
+                "火",
+                "血熱"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "衛分類",
+          "count": 1,
+          "syndromes": [
+            {
+              "id": "shieweiyang",
+              "name": "濕遏衛陽證",
+              "number": 244,
+              "location": [
+                "表"
+              ],
+              "nature": [
+                "濕"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "specialty",
+      "name": "專科證候",
+      "count": 109,
+      "subcategories": [
+        {
+          "name": "兒科",
+          "count": 24,
+          "syndromes": [
+            {
+              "id": "xiaoertaiduneiyun",
+              "name": "小兒胎毒内蘊證",
+              "number": 387,
+              "location": [],
+              "nature": [
+                "毒"
+              ]
+            },
+            {
+              "id": "xiaoeryuanqixuruo",
+              "name": "小兒元氣虛弱證",
+              "number": 388,
+              "location": [],
+              "nature": [
+                "氣虛"
+              ]
+            },
+            {
+              "id": "xiaoershenqixuruo",
+              "name": "小兒腎氣虛弱證",
+              "number": 389,
+              "location": [
+                "腎"
+              ],
+              "nature": [
+                "氣虛"
+              ]
+            },
+            {
+              "id": "xiaoerpiweixuruo",
+              "name": "小兒脾胃虛弱證",
+              "number": 390,
+              "location": [
+                "脾",
+                "胃"
+              ],
+              "nature": [
+                "氣虛"
+              ]
+            },
+            {
+              "id": "xiaoerpiweishizhi",
+              "name": "小兒脾胃食滯證",
+              "number": 391,
+              "location": [
+                "脾",
+                "胃"
+              ],
+              "nature": [
+                "食積"
+              ]
+            },
+            {
+              "id": "xiaoerpiweixuhan",
+              "name": "小兒脾胃虛寒證",
+              "number": 392,
+              "location": [
+                "脾",
+                "胃"
+              ],
+              "nature": [
+                "寒"
+              ]
+            },
+            {
+              "id": "xiaoerfenghanshubiao",
+              "name": "小兒風寒束表證",
+              "number": 393,
+              "location": [
+                "表"
+              ],
+              "nature": [
+                "風",
+                "寒"
+              ]
+            },
+            {
+              "id": "xiaoerfengwenshubiao",
+              "name": "小兒風溫束表證",
+              "number": 394,
+              "location": [
+                "表"
+              ],
+              "nature": [
+                "風",
+                "火"
+              ]
+            },
+            {
+              "id": "xiaoerneirechisheng",
+              "name": "小兒內熱熾盛證",
+              "number": 395,
+              "location": [],
+              "nature": [
+                "火"
+              ]
+            },
+            {
+              "id": "xiaoerfeirechisheng",
+              "name": "小兒肺熱熾盛證",
+              "number": 396,
+              "location": [
+                "肺"
+              ],
+              "nature": [
+                "火"
+              ]
+            },
+            {
+              "id": "xiaoerfeiqixuruo",
+              "name": "小兒肺氣虛弱證",
+              "number": 397,
+              "location": [
+                "肺"
+              ],
+              "nature": [
+                "氣虛"
+              ]
+            },
+            {
+              "id": "xiaoertanremengbixinqiao",
+              "name": "小兒痰熱蒙閉心竅證",
+              "number": 398,
+              "location": [
+                "心"
+              ],
+              "nature": [
+                "痰",
+                "火"
+              ]
+            },
+            {
+              "id": "xiaoerrejishengfeng",
+              "name": "小兒熱極生風證",
+              "number": 399,
+              "location": [],
+              "nature": [
+                "血熱",
+                "動風"
+              ]
+            },
+            {
+              "id": "xiaoerpixushengfeng",
+              "name": "小兒脾虛生風證",
+              "number": 400,
+              "location": [
+                "脾"
+              ],
+              "nature": [
+                "風",
+                "動風"
+              ]
+            },
+            {
+              "id": "xiaoerweihuoshangyan",
+              "name": "小兒胃火上炎證",
+              "number": 401,
+              "location": [
+                "胃"
+              ],
+              "nature": [
+                "火"
+              ]
+            },
+            {
+              "id": "xiaoerjingkongjingxia",
+              "name": "小兒驚恐驚嚇證",
+              "number": 403,
+              "location": [
+                "心"
+              ],
+              "nature": [
+                "動風"
+              ]
+            },
+            {
+              "id": "xiaoerreruyingxue",
+              "name": "小兒熱入營血證",
+              "number": 404,
+              "location": [],
+              "nature": [
+                "火"
+              ]
+            },
+            {
+              "id": "xiaoerganshenyinxu",
+              "name": "小兒肝腎陰虛證",
+              "number": 405,
+              "location": [
+                "肝",
+                "腎"
+              ],
+              "nature": [
+                "陰虛"
+              ]
+            },
+            {
+              "id": "xiaoershireneisheng(yun)",
+              "name": "小兒濕熱內盛(蘊)證",
+              "number": 406,
+              "location": [],
+              "nature": [
+                "濕",
+                "火"
+              ]
+            },
+            {
+              "id": "xiaoerneibiwaituo",
+              "name": "小兒內閉外脫證",
+              "number": 407,
+              "location": [],
+              "nature": [
+                "氣閉"
+              ]
+            },
+            {
+              "id": "xiaoerpixugankang",
+              "name": "小兒脾虛肝亢證",
+              "number": 408,
+              "location": [
+                "肝",
+                "脾"
+              ],
+              "nature": [
+                "氣虛",
+                "動風"
+              ]
+            },
+            {
+              "id": "xiaoerxinpiliangxu",
+              "name": "小兒心脾兩虛證",
+              "number": 409,
+              "location": [
+                "心",
+                "脾"
+              ],
+              "nature": [
+                "氣虛",
+                "血虛"
+              ]
+            },
+            {
+              "id": "xiaoerxinqikuixu",
+              "name": "小兒心氣虧虛證",
+              "number": 410,
+              "location": [
+                "心"
+              ],
+              "nature": [
+                "氣虛"
+              ]
+            },
+            {
+              "id": "xiaoerchongji",
+              "name": "小兒蟲積證",
+              "number": 411,
+              "location": [
+                "脾",
+                "胃"
+              ],
+              "nature": [
+                "毒"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "其他專科",
+          "count": 58,
+          "syndromes": [
+            {
+              "id": "tanshizubao",
+              "name": "痰濕阻胞證",
+              "number": 382,
+              "location": [],
+              "nature": [
+                "濕",
+                "痰"
+              ]
+            },
+            {
+              "id": "taire",
+              "name": "胎熱證",
+              "number": 384,
+              "location": [],
+              "nature": [
+                "火"
+              ]
+            },
+            {
+              "id": "taihan",
+              "name": "胎寒證",
+              "number": 385,
+              "location": [],
+              "nature": [
+                "寒"
+              ]
+            },
+            {
+              "id": "xiereyujiejifu",
+              "name": "邪熱瘀結肌膚證",
+              "number": 413,
+              "location": [
+                "肌膚"
+              ],
+              "nature": [
+                "血瘀",
+                "火"
+              ]
+            },
+            {
+              "id": "hanshiningzhijingu",
+              "name": "寒濕凝滯筋骨證",
+              "number": 414,
+              "location": [
+                "肝",
+                "腎",
+                "筋骨"
+              ],
+              "nature": [
+                "寒",
+                "濕"
+              ]
+            },
+            {
+              "id": "fenghuoredu",
+              "name": "風火熱毒證",
+              "number": 415,
+              "location": [],
+              "nature": [
+                "火",
+                "毒"
+              ]
+            },
+            {
+              "id": "shenxuhantan",
+              "name": "腎虛寒痰證",
+              "number": 416,
+              "location": [
+                "腎"
+              ],
+              "nature": [
+                "寒",
+                "痰"
+              ]
+            },
+            {
+              "id": "reduyunjiejifu",
+              "name": "熱毒蘊結肌膚證",
+              "number": 417,
+              "location": [
+                "肌膚"
+              ],
+              "nature": [
+                "火",
+                "毒"
+              ]
+            },
+            {
+              "id": "hanningxuezhijifu",
+              "name": "寒凝血滯肌膚證",
+              "number": 418,
+              "location": [
+                "肌膚"
+              ],
+              "nature": [
+                "寒"
+              ]
+            },
+            {
+              "id": "fengretandu",
+              "name": "風熱痰毒證",
+              "number": 419,
+              "location": [],
+              "nature": [
+                "風",
+                "火"
+              ]
+            },
+            {
+              "id": "reshengniangnong",
+              "name": "熱盛釀膿證",
+              "number": 420,
+              "location": [],
+              "nature": [
+                "火"
+              ]
+            },
+            {
+              "id": "nongduyunjie",
+              "name": "膿毒蘊結證",
+              "number": 421,
+              "location": [],
+              "nature": [
+                "毒"
+              ]
+            },
+            {
+              "id": "yinxutanzu",
+              "name": "陰虛痰阻證",
+              "number": 422,
+              "location": [],
+              "nature": [
+                "陰虛",
+                "痰"
+              ]
+            },
+            {
+              "id": "yinxudusheng",
+              "name": "陰虛毒盛證",
+              "number": 423,
+              "location": [],
+              "nature": [
+                "陰虛",
+                "毒"
+              ]
+            },
+            {
+              "id": "qixuduzhi",
+              "name": "氣虛毒滯證",
+              "number": 424,
+              "location": [],
+              "nature": [
+                "氣虛",
+                "毒"
+              ]
+            },
+            {
+              "id": "zhengxuduxian",
+              "name": "正虛毒陷證",
+              "number": 425,
+              "location": [],
+              "nature": [
+                "毒"
+              ]
+            },
+            {
+              "id": "shireyunjiejifu",
+              "name": "濕熱蘊結肌膚證",
+              "number": 426,
+              "location": [
+                "肌膚"
+              ],
+              "nature": [
+                "濕",
+                "火"
+              ]
+            },
+            {
+              "id": "fengreyuzhijifu",
+              "name": "風熱郁滯肌膚證",
+              "number": 427,
+              "location": [
+                "肌膚"
+              ],
+              "nature": [
+                "風",
+                "火"
+              ]
+            },
+            {
+              "id": "jifushiyang",
+              "name": "肌膚失養證",
+              "number": 428,
+              "location": [
+                "肌膚"
+              ],
+              "nature": [
+                "血虛",
+                "燥"
+              ]
+            },
+            {
+              "id": "fengshiyunfu",
+              "name": "風濕蘊膚證",
+              "number": 429,
+              "location": [],
+              "nature": [
+                "風",
+                "濕"
+              ]
+            },
+            {
+              "id": "fengduyunfu",
+              "name": "風毒蘊膚證",
+              "number": 430,
+              "location": [],
+              "nature": [
+                "風",
+                "毒"
+              ]
+            },
+            {
+              "id": "shiduyunjiejifu",
+              "name": "濕毒蘊結肌膚證",
+              "number": 431,
+              "location": [
+                "肌膚"
+              ],
+              "nature": [
+                "濕",
+                "毒"
+              ]
+            },
+            {
+              "id": "jifuyuzhi",
+              "name": "肌膚瘀滯證",
+              "number": 434,
+              "location": [
+                "肌膚"
+              ],
+              "nature": [
+                "血瘀"
+              ]
+            },
+            {
+              "id": "roulunshire",
+              "name": "肉輪濕熱證",
+              "number": 449,
+              "location": [],
+              "nature": [
+                "濕",
+                "火"
+              ]
+            },
+            {
+              "id": "roulunfengre",
+              "name": "肉輪風熱證",
+              "number": 450,
+              "location": [],
+              "nature": [
+                "風",
+                "火"
+              ]
+            },
+            {
+              "id": "roulunrezuxueyu",
+              "name": "肉輪熱阻血瘀證",
+              "number": 451,
+              "location": [],
+              "nature": [
+                "血瘀",
+                "火"
+              ]
+            },
+            {
+              "id": "roulunqixu",
+              "name": "肉輪氣虛證",
+              "number": 452,
+              "location": [],
+              "nature": [
+                "氣虛"
+              ]
+            },
+            {
+              "id": "roulunredu",
+              "name": "肉輪熱毒證",
+              "number": 453,
+              "location": [],
+              "nature": [
+                "火",
+                "毒"
+              ]
+            },
+            {
+              "id": "rouluntanshi",
+              "name": "肉輪痰濕證",
+              "number": 454,
+              "location": [],
+              "nature": [
+                "濕",
+                "痰"
+              ]
+            },
+            {
+              "id": "roulunxuexu",
+              "name": "肉輪血虛證",
+              "number": 455,
+              "location": [],
+              "nature": [
+                "血虛"
+              ]
+            },
+            {
+              "id": "roulunyinxufengdong",
+              "name": "肉輪陰虛風動證",
+              "number": 456,
+              "location": [],
+              "nature": [
+                "陰虛",
+                "風"
+              ]
+            },
+            {
+              "id": "qilunfengre",
+              "name": "氣輪風熱證",
+              "number": 457,
+              "location": [],
+              "nature": [
+                "風",
+                "火"
+              ]
+            },
+            {
+              "id": "qilunrezuxueyu",
+              "name": "氣輪熱阻血瘀證",
+              "number": 458,
+              "location": [],
+              "nature": [
+                "血瘀",
+                "火"
+              ]
+            },
+            {
+              "id": "qilunshire",
+              "name": "氣輪濕熱證",
+              "number": 459,
+              "location": [],
+              "nature": [
+                "濕",
+                "火"
+              ]
+            },
+            {
+              "id": "qilunredu",
+              "name": "氣輪熱毒證",
+              "number": 460,
+              "location": [],
+              "nature": [
+                "火",
+                "毒"
+              ]
+            },
+            {
+              "id": "qilunyinxu",
+              "name": "氣輪陰虛證",
+              "number": 461,
+              "location": [],
+              "nature": [
+                "陰虛"
+              ]
+            },
+            {
+              "id": "xuelunshire",
+              "name": "血輪實熱證",
+              "number": 462,
+              "location": [],
+              "nature": [
+                "火"
+              ]
+            },
+            {
+              "id": "xuelunxure",
+              "name": "血輪虛熱證",
+              "number": 463,
+              "location": [],
+              "nature": [
+                "火"
+              ]
+            },
+            {
+              "id": "fenglunshire",
+              "name": "風輪濕熱證",
+              "number": 464,
+              "location": [],
+              "nature": [
+                "濕",
+                "火"
+              ]
+            },
+            {
+              "id": "fenglunredu",
+              "name": "風輪熱毒證",
+              "number": 465,
+              "location": [],
+              "nature": [
+                "火",
+                "毒"
+              ]
+            },
+            {
+              "id": "fenglunfengre",
+              "name": "風輪風熱證",
+              "number": 466,
+              "location": [],
+              "nature": [
+                "風",
+                "火"
+              ]
+            },
+            {
+              "id": "fenglunyinxu",
+              "name": "風輪陰虛證",
+              "number": 467,
+              "location": [],
+              "nature": [
+                "陰虛",
+                "風"
+              ]
+            },
+            {
+              "id": "fenglunqixuxielian(liu)",
+              "name": "風輪氣虛邪戀(留)證",
+              "number": 468,
+              "location": [],
+              "nature": [
+                "氣虛",
+                "風"
+              ]
+            },
+            {
+              "id": "shuilunyinkui",
+              "name": "水輪陰虧證",
+              "number": 469,
+              "location": [
+                "腎"
+              ],
+              "nature": [
+                "陰虛"
+              ]
+            },
+            {
+              "id": "shuilunqixu",
+              "name": "水輪氣虛證",
+              "number": 470,
+              "location": [
+                "腎"
+              ],
+              "nature": [
+                "氣虛"
+              ]
+            },
+            {
+              "id": "shuilunqixuxueyu",
+              "name": "水輪氣虛血瘀證",
+              "number": 471,
+              "location": [
+                "腎"
+              ],
+              "nature": [
+                "氣虛",
+                "血瘀"
+              ]
+            },
+            {
+              "id": "shuilunqixuxueshao",
+              "name": "水輪氣虛血少證",
+              "number": 472,
+              "location": [
+                "腎"
+              ],
+              "nature": [
+                "氣虛",
+                "血虛"
+              ]
+            },
+            {
+              "id": "shuilunqizhixueyu",
+              "name": "水輪氣滯血瘀證",
+              "number": 473,
+              "location": [
+                "腎"
+              ],
+              "nature": [
+                "氣滯",
+                "血瘀"
+              ]
+            },
+            {
+              "id": "shuiluntanshi",
+              "name": "水輪痰濕證",
+              "number": 474,
+              "location": [
+                "腎"
+              ],
+              "nature": [
+                "濕",
+                "痰"
+              ]
+            },
+            {
+              "id": "shuiluntanhuo",
+              "name": "水輪痰火證",
+              "number": 475,
+              "location": [
+                "腎"
+              ],
+              "nature": [
+                "火",
+                "痰"
+              ]
+            },
+            {
+              "id": "shuilunshire",
+              "name": "水輪實熱證",
+              "number": 476,
+              "location": [
+                "腎"
+              ],
+              "nature": [
+                "火"
+              ]
+            },
+            {
+              "id": "shuilunshuishitingju",
+              "name": "水輪水濕停聚證",
+              "number": 477,
+              "location": [
+                "腎"
+              ],
+              "nature": [
+                "濕"
+              ]
+            },
+            {
+              "id": "shuiluntanyuhujie",
+              "name": "水輪痰瘀互結證",
+              "number": 478,
+              "location": [
+                "腎"
+              ],
+              "nature": [
+                "氣滯",
+                "痰",
+                "血瘀"
+              ]
+            },
+            {
+              "id": "shuilunhuoxieshangluo",
+              "name": "水輪火邪傷络證",
+              "number": 479,
+              "location": [
+                "腎"
+              ],
+              "nature": [
+                "火"
+              ]
+            },
+            {
+              "id": "shuilunxueluobizu",
+              "name": "水輪血络痹阻證",
+              "number": 480,
+              "location": [
+                "腎"
+              ],
+              "nature": [
+                "氣滯"
+              ]
+            },
+            {
+              "id": "shuilunluobijingkui",
+              "name": "水輪絡痹精虧證",
+              "number": 481,
+              "location": [
+                "腎"
+              ],
+              "nature": [
+                "精虧"
+              ]
+            },
+            {
+              "id": "shuilunyinxuhuowang",
+              "name": "水輪陰虛火旺證",
+              "number": 482,
+              "location": [
+                "腎"
+              ],
+              "nature": [
+                "火",
+                "陰虛"
+              ]
+            },
+            {
+              "id": "shuiluntoufengtanhuo",
+              "name": "水輪頭風痰火證",
+              "number": 483,
+              "location": [
+                "腎"
+              ],
+              "nature": [
+                "風",
+                "火",
+                "痰"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "咽喉科",
+          "count": 5,
+          "syndromes": [
+            {
+              "id": "fenghanxihou",
+              "name": "風寒襲喉證",
+              "number": 435,
+              "location": [],
+              "nature": [
+                "風",
+                "寒"
+              ]
+            },
+            {
+              "id": "fengrefanhou",
+              "name": "風熱犯喉證",
+              "number": 436,
+              "location": [],
+              "nature": [
+                "風",
+                "火"
+              ]
+            },
+            {
+              "id": "xuhuoshuohou",
+              "name": "虛火爍喉證",
+              "number": 437,
+              "location": [],
+              "nature": [
+                "火"
+              ]
+            },
+            {
+              "id": "tanzhuoyuzuyanhou",
+              "name": "痰濁瘀阻咽喉證",
+              "number": 438,
+              "location": [],
+              "nature": [
+                "血瘀",
+                "痰"
+              ]
+            },
+            {
+              "id": "qijieyanhou",
+              "name": "氣結咽喉證",
+              "number": 439,
+              "location": [],
+              "nature": [
+                "氣滯"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "外科",
+          "count": 2,
+          "syndromes": [
+            {
+              "id": "chongduxifu",
+              "name": "蟲毒襲膚證",
+              "number": 432,
+              "location": [],
+              "nature": [
+                "毒"
+              ]
+            },
+            {
+              "id": "chongdushirejiefu",
+              "name": "蟲毒濕熱結膚證",
+              "number": 433,
+              "location": [],
+              "nature": [
+                "濕",
+                "火"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "婦科",
+          "count": 11,
+          "syndromes": [
+            {
+              "id": "chongrenxushuai",
+              "name": "衝任虛衰證",
+              "number": 375,
+              "location": [
+                "胞宮"
+              ],
+              "nature": [
+                "氣虛",
+                "血虛"
+              ]
+            },
+            {
+              "id": "chongrenbugu",
+              "name": "衝任不固證",
+              "number": 376,
+              "location": [],
+              "nature": [
+                "不固"
+              ]
+            },
+            {
+              "id": "chongrenyuzu",
+              "name": "衝任瘀阻證",
+              "number": 377,
+              "location": [],
+              "nature": [
+                "血瘀"
+              ]
+            },
+            {
+              "id": "chongrentanshiningjie",
+              "name": "衝任痰濕凝結證",
+              "number": 378,
+              "location": [],
+              "nature": [
+                "濕",
+                "痰"
+              ]
+            },
+            {
+              "id": "chongrenre",
+              "name": "衝任熱證",
+              "number": 379,
+              "location": [],
+              "nature": [
+                "火"
+              ]
+            },
+            {
+              "id": "chongrenhan",
+              "name": "衝任寒證",
+              "number": 380,
+              "location": [],
+              "nature": [
+                "寒"
+              ]
+            },
+            {
+              "id": "baogongxuhan",
+              "name": "胞宮虛寒證",
+              "number": 381,
+              "location": [
+                "胞宮"
+              ],
+              "nature": [
+                "寒"
+              ]
+            },
+            {
+              "id": "baogonghanning",
+              "name": "胞宮寒凝證",
+              "number": 383,
+              "location": [
+                "胞宮"
+              ],
+              "nature": [
+                "寒"
+              ]
+            },
+            {
+              "id": "chanhoubaixueshangchong",
+              "name": "產後敗血上衝證",
+              "number": 386,
+              "location": [
+                "胞宮",
+                "心"
+              ],
+              "nature": [
+                "血瘀"
+              ]
+            },
+            {
+              "id": "xiaoerxinjingshire",
+              "name": "小兒心經實熱證",
+              "number": 402,
+              "location": [
+                "心"
+              ],
+              "nature": [
+                "火"
+              ]
+            },
+            {
+              "id": "feijingyurefanbi",
+              "name": "肺經鬱熱犯鼻證",
+              "number": 442,
+              "location": [
+                "肺"
+              ],
+              "nature": [
+                "氣滯",
+                "火"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "皮膚科",
+          "count": 1,
+          "syndromes": [
+            {
+              "id": "shitanliujupixia",
+              "name": "濕痰流聚皮下證",
+              "number": 412,
+              "location": [],
+              "nature": [
+                "濕",
+                "痰"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "耳科",
+          "count": 4,
+          "syndromes": [
+            {
+              "id": "fengxieredufaner",
+              "name": "風邪熱毒犯耳證",
+              "number": 443,
+              "location": [
+                "腎"
+              ],
+              "nature": [
+                "火",
+                "毒"
+              ]
+            },
+            {
+              "id": "gandanshirefaner",
+              "name": "肝膽濕熱犯耳證",
+              "number": 444,
+              "location": [
+                "肝",
+                "膽",
+                "腎"
+              ],
+              "nature": [
+                "濕",
+                "火"
+              ]
+            },
+            {
+              "id": "xueyuerqiao",
+              "name": "血瘀耳竅證",
+              "number": 447,
+              "location": [
+                "腎"
+              ],
+              "nature": [
+                "血瘀"
+              ]
+            },
+            {
+              "id": "yinxuerqiaoshiru",
+              "name": "陰虛耳竅失濡證",
+              "number": 448,
+              "location": [
+                "腎"
+              ],
+              "nature": [
+                "陰虛"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "鼻科",
+          "count": 4,
+          "syndromes": [
+            {
+              "id": "fengrefanfeibixibuli",
+              "name": "風熱犯肺鼻息不利證",
+              "number": 440,
+              "location": [
+                "肺"
+              ],
+              "nature": [
+                "風",
+                "火"
+              ]
+            },
+            {
+              "id": "feiqixubise",
+              "name": "肺氣虛鼻塞證",
+              "number": 441,
+              "location": [
+                "肺"
+              ],
+              "nature": [
+                "氣虛"
+              ]
+            },
+            {
+              "id": "qizhixueyubiqiao",
+              "name": "氣滯血瘀鼻竅證",
+              "number": 445,
+              "location": [
+                "肺"
+              ],
+              "nature": [
+                "氣滯",
+                "血瘀"
+              ]
+            },
+            {
+              "id": "shirezhengbi",
+              "name": "濕熱蒸鼻證",
+              "number": 446,
+              "location": [
+                "肺"
+              ],
+              "nature": [
+                "濕",
+                "火"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
